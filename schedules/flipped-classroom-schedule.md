@@ -1,119 +1,149 @@
-Note: anything that says "instructor can teach", the student can also just self study in class (as some of it has videos)
+#### Flipped classroom.
+
+"Flipped Classroom" means as much reading as possible for homework to still fill the days with exercises. This does not mean there are not lectures during the class, but fewer.
+
+This schedule groups lectures together (for homework reading) and exercises together.
+  - This means that instead of, for example, a JSX lecture, then a JSX exercise, then a DOM lecture, then a DOM exercise (as in the normal schedule), students would read the JSX and DOM lecture together at night, then do the JSX and DOM exercise together during the day.
+  - This might not be desirable if students are easily lost and need immediate practice.
+
+**Timing**: It is listed below as 3 days with one hour on day 0.
+  - Allot a fourth day for bleed over in case of many questions.
+  - If enough instructors tell me (Susi) timings are significantly off, I'll change it, so let me know.
+
+Only specific lessons with notes are called out below, but unless stated otherwise, do **every** lesson in order!
+  - Note: Anything that isn't specifically called out below can be self study (students sit quietly and read) or instructor led.
+
+-----------
+
+Begin: [Repo 1: react-intro](https://git.generalassemb.ly/education-product/react-intro). Repo 1 covers components, JSX, the virtual DOM, and props.
+
+1. **Day 0: The afternoon. ~1 hour before end of day.**
+  - Introduce the topic and walk them through the beginning at the end of another day (~1 hr) - as much as you get through before the day ends. You need to get through at least lesson 2.
+  - The goal is to be sure everyone has `create-react-app` up and running before sending them home.
 
 
-1. Beginning / Intro: Has options
+2. **Day 0: Homework. (<1.5 hrs of self work).**
+  - Through Lesson 9 - Multiple props passed from an object
 
 
-Students do this at home, at night day 0 before day 1 of class
-If you trust they can set up and begin self-work on their own.
-Introduce the topic and walk them through the beginning at the end of another day (~1 hr), then any remainder is self work at home.
-If they can self-work, but you want to make sure they can set it up
-Move this below, to in class day 1
-There is time on Day 1 to do this.
+3. **Day 1, class time.**
+
+  - Timing for rest of repo 1: ~1.5hrs. Repo 1 Quiz: 15min.
+  - Start on lesson 10.
+  - Specific notes to call out:
+    - Lesson 10: Props challenge.
+      - This is the first of the blog projects.
+      - The student does this individually.
+      - The solution code is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/projects/project-01-jsx). This is a public repo.
+    - Lesson 12: Nested Components challenge
+      - Is the second of the blog projects.
+      - This builds off the previous project. Students do not need starter code.
+      - The student does this individually.
+      - The starter code (for you or lost students) and solution code is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/projects/project-02-nested-components). This is a public repo.
+    - Lesson 14 (LoTR codealong):
+      - This can be an assigned exercise or a codealong. It builds a simple React app from scratch.
+      - The solution is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/exercises/lord-of-the-rings/src).
 
 
-The work is:
-The beginning (page 1) through "Props Challenge"
-(~1.5 hrs of self work).
+  - [Quiz 1 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-1-after-LoTR.md)
+    - **optional** at the end of the repo.
 
-2. In class, day 1:
-(or self work, day 0)
+**Still in day 1, class time**:
 
+Starting [Repo 2: react-state-exercises](https://git.generalassemb.ly/education-product/react-state-exercises), which covers state and has two recap exercises.
 
- Nested Components
-instructor can teach
-  Nested Components challenge
-students do.
-  Section recap
-instructor teaches
-  Mordor recap exercise
-a codealong for instructor to do with them.
-(~1.5 hrs of class to this point)
-  State
-instructor can teach
-  State exercise challenge
-students do.
-  State lifecycle
-instructor can teach
-(~1 hr this section, or 2.5 hrs of class total to this point)
-  Todo list
-a codealong for instructor to do with them.
-(~1.5 hrs this section = 3 hrs class time total to this point)
-  Recap
-instructor teaches
-  Calculator exercise
-students do
-(~1.5 hrs this section = 4.5 hours class time total to this point.)
+Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hours together. Quiz 2: 15min.
 
-Class time left to allow for questions or expansion.
-If there's neither, no reason not to start ahead on the night's work.
-Next is ES6, which they might already know, so if they do, maybe instructor gives a direction that they should still skim it for a recap.
+  - Lesson 1 - State
+    - has a video.
+    - has a quick exercise at the end. The solution is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/blob/master/exercises/state_wrap_10/App.js)
+  - Lesson 2 - State Project
+    - Is the third of the blog projects. This has a bonus activity as well.
+    - The student does this individually.
+    - This builds off the previous project. Students do not need starter code.
+    - Starter code (for you or lost students) and solution code is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/projects/project-03-state). This is a public repo.
+  - Lesson 4 - ToDo Exercise
+    - An exercise to build a todo list from scratch. Can be a codealong or a self exercise for students.
+    - Recommended as a codealong, where you go through it with students.
+    - No solution code - it continues in the next file.
+  - Lesson 5 - ToDo Exercise Continued
+    - Continues the above ToDo List.
+    - A solution is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/exercises/to-do-list)
+  - Lesson 6 - Recap
+    - Best practices up to this point. Has a video.
+  - Lesson 7 - Calculator Exercise
+    - Exercise for students to go through on their own.
+    - Has a bonus at bottom.
+    - Solution is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/exercises/calculator)
 
 
-Night 1, self-work:
-ES6, Functional Components
-(~1 hr)
-
-
-In class, day 2:
-Unidirectional flow, immutable data, section recap
-instructor can teach. This is here ratinstructor than in self-work 1) to fill the day and 2) because it’s a difficult topic and there may be questions.
-(~1 hr)
-React router intro, browser history mechanics, modern history mechanics, react router intro
-instructor can teach
-(~45 min section, or 1.5hrs class total to here)
-React Router dentist codealong (setup, preparing, adding in)
-Codealong with instructor and students
-(~1 hr section, or 2.5 hrs class total to here).
-React router exercise
-(students do)
-(~1 hr section, or 3.5 hrs class total to here)
-
-If time, can allow them to expand on their existing blog project if they want
-Don't let them change home.js or movie.js, as those are modded in the next project
-Also if time, can start the night work.
-
-
-Night 2, self-work:
-Intro to APIs, API response, fetch, fetch exercise
-(~1 hr)
-
-
-In class, day 3:
-Fetch project
-students do.
-(~2 hrs).
-Imperative vs Declarative
-instructor can teach
-(~½ hr, or 2.5 hrs to this point)
-Quiz
-instructor can teach as recap, group discussion, etc.
-Self exercise project.
-They are not capped at 3 hours, as it says, unless instructor wants them to be - just go to the end of the day.
-Important Note on self exercise project: It says to submit project as zip file in google drive; have the students have some otinstructor way to get them to instructor (sharing their git repo or whatever).  GDrive doesn't support big uploads, we've learned.
-
-Night 3, self-work:
-Heroku (~2 hrs).
-
-In class day 4:
-
-All self exercises.
-
-DONE.
-
---------
-
-Notes if you are going to change the schedule and still teaching flipped:
-Big exercises (so definitely in class) are:
-The LoTR exercise after Nested Components Blog project (also worth doing in class)
+- [Quiz 2 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-2-after-calculator.md)
+  - **optional** at the end of the repo.
 
 
 
+**Day 1, homework. ~2 hours.**:
+- In [Repo 3: react-es6-functional](https://git.generalassemb.ly/education-product/react-es6-functional), which covers ES6, functional components, and component lifecycle. All ES6 exercises are in linked CodePens.   
+  - Students do beginning of repo through and including lesson 8.5, functional components solution.
+  - If you've previously covered ES6, students can skip to lesson 6 (the ES6 recap and exercise)
 
- recap exercises (which works, because then the section reviews are also in class), the “todo list” codealong, “tic tac toe”, “ATM”, and “Self project”.
-Project exercises (as in, the blog exercise ‘you dos’ that should probably be in class) are:
-Props Challenge, Nested Components Challenge, State Exercise, Router Exercise, fetch project
-If interested, here is the sheet with the actual timings from online pilots. You care about the bright blue.
-Please request access from Susi Remondi if you can’t get to it
 
-So to backtrack, I think they should do:
+**Day 2: Class time.**
+- Timing: The rest of Repo 3 - ~1 hour; Quiz 3: 15min.
+- Finish repo 3 (start on lesson 9).
+- [Quiz 3 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-3-after-immutable-data.md).
+  - **Optionally**, can be given at end of lesson.
+
+Then, begin [Repo 4: react-router](https://git.generalassemb.ly/education-product/react-router).  
+- Specific timings for repo 4:  
+  - Lessons 1-4: ~30 min
+  - Lessons 5-7: Codealong. ~1hr.
+  - Lesson 8: ~1 hr.
+  - Quiz: 15min.
+
+Notes: Lesson 8:
+    - Lesson 8 is the fourth of the blog projects.
+    - Students do this on their own.
+    - The starter code (for you or lost students) and solution code is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/projects/project-04-router)
+
+
+- Then, [Quiz 4 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-4-after-router-exercise.md).
+  - **Optionally**, can be given at end of lesson.
+
+
+**NOW WE SKIP REPO 5 AND GO TO REPO 6:**
+
+Still in day 2, [Repo 6: ATMReact](https://github.com/susiremondi/ATMReact). Timing: 1 hour.
+  - This is a lab to assign to students. It's an existing ATM application that they will add a feature to. It's very simple; the goal is to introduce them to reading existing code.
+    - The repo readme has instructions on it, so you can point students to it and optionally run over the instructions with them.
+    - Note: Hosted on Susi's regular github. Eventual plan to clone over.
+
+Still in day 2, [Repo 7: tictacReact](https://github.com/susiremondi/tictacReact). Timing: 1 hour.
+  - This is a more complicated lab - an existing tic tac toe application. They add a feature to it. This is the same tic tac toe exercise in the Facebook tutorial, which segues to the next repo.
+    - The repo readme has instructions on it, so you can point students to it and optionally run over the instructions with them.
+    - Note: Hosted on Susi's regular github. Eventual plan to clone over.
+
+Still in day 2, [Repo 8: react-documentation](https://git.generalassemb.ly/education-product/react-documentation). Timing for repo: 1 hour.
+  - This explores the React documentation on Facebook in detail.
+  - Lesson 1 (~1/2 hr):
+    - Has an exercise at the button for students to walk through. The solution is linked below that in a CodePen.
+      - If enough instructors ask, I will move this solution from the CodePen into the solution repo so it isn't on the page.
+  - Lesson 2 (~1/2 hr):
+    - Is a group exercise for students to research in the documentation, then give a presentation.
+
+**Day 2, homework:**. ~2 hrs
+
+[Repo 5: react-apis-heroku-declarative](https://git.generalassemb.ly/education-product/react-apis-heroku-declarative). up through (not including) lesson 7 (Heroku). ~2 hrs. Let them know that the fetch project solution (lesson 5) will be given and gone over in class.
+
+**Day 3, classroom**:
+- Go over fetch project solution. It's the last of the blog projects.
+  - The starter code (for you or lost students) and solution code is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/projects/project-05-fetch)
+- Repo 5 Lesson 7: Heroku.
+- [Quiz 5 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-5-after-heroku.md).
+  - **Optionally**, can be given at end of repo. ~15min.
+
+**Rest of day 4:**
+
+[Repo 9: Self project.](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/blob/master/self-exercise/react-self-exercise.md) This continues till end of day 5.
+  - This is only a prompt which is a self project. This takes an entire day; students build their own website (or try to copy one like airBnB) from scratch. It includes researching a new topic on their own and adding that functionality.
+  - Note: This link is in the `React Exercise Solutions` repo, so if they're curious and poke around, they will find all previous exercise and project solutions from the class.
