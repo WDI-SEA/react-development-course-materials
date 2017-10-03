@@ -1,6 +1,7 @@
 # Instructors' Guide to teach the React Module
 
-Note: The term "React Module" refers to all 8 React repos taught sequentially.
+Note 1: The term "React Module" refers to all 8 React repos taught sequentially.
+
 Note 2: No links open in a new tab. I don't know why - embedding HTML didn't work. If you can fix it, let me know.
 
 ## Options on ways to teach the React Module
