@@ -15,7 +15,7 @@ Only specific lessons with notes are called out below, but unless stated otherwi
 
 -----------
 
-Begin: [Repo 1: react-intro](https://git.generalassemb.ly/education-product/react-intro). Repo 1 covers components, JSX, the virtual DOM, and props.
+Begin: [Repo 1: react-intro](../../../react-intro). Repo 1 covers components, JSX, the virtual DOM, and props.
 
 1. **Day 0: The afternoon. ~1 hour before end of day.**
   - Introduce the topic and walk them through the beginning at the end of another day (~1 hr) - as much as you get through before the day ends. You need to get through at least lesson 2.
@@ -34,47 +34,44 @@ Begin: [Repo 1: react-intro](https://git.generalassemb.ly/education-product/reac
     - Lesson 10: Props challenge.
       - This is the first of the blog projects.
       - The student does this individually.
-      - The solution code is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/projects/project-01-jsx). This is a public repo.
     - Lesson 12: Nested Components challenge
       - Is the second of the blog projects.
       - This builds off the previous project. Students do not need starter code.
       - The student does this individually.
-      - The starter code (for you or lost students) and solution code is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/projects/project-02-nested-components). This is a public repo.
     - Lesson 14 (LoTR codealong):
       - Work as a codealong as it comes before an exercise. It builds a simple React app from scratch.
-      - The solution is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/exercises/lord-of-the-rings/src).
+      - The solution is [here](../../../React-Exercise-Solutions/tree/master/exercises/lord-of-the-rings/src).
     - Lesson 15 (film exercise)
-      - This is an exercise. Have students work alone or in pairs. The solution is a branch in the repo [here]().
+      - This is the first film exercise. Have students work alone or in pairs.
 
 
-  - [Quiz 1 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-1-after-LoTR.md)
+  - [Quiz 1 is here](../quizzes/quiz-1-after-LoTR.md)
     - **optional** at the end of the repo.
 
 **Still in day 1, class time**:
 
-Starting [Repo 2: react-state-exercises](https://git.generalassemb.ly/education-product/react-state-exercises), which covers state and has two recap exercises.
+Starting [Repo 2: react-state-exercises](../../../react-state-exercises), which covers state and has two recap exercises.
 
 Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hours together. Quiz 2: 15min.
 
   - Lesson 1 - State
     - has a video.
-    - has a quick exercise at the end. The solution is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/blob/master/exercises/state_wrap_10/App.js)
+    - has a quick exercise at the end. The solution is [here](../../../React-Exercise-Solutions/blob/master/exercises/state_wrap_10/App.js)
   - Lesson 2 - State Project
     - Is the third of the blog projects. This has a bonus activity as well.
     - The student does this individually.
     - This builds off the previous project. Students do not need starter code.
-    - Starter code (for you or lost students) and solution code is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/projects/project-03-state). This is a public repo.
   - Lesson 4 - ToDo Exercise
     - An exercise to build a todo list from scratch. Can be a codealong or a self exercise for students.
     - Recommended as a codealong, where you go through it with students.
     - No solution code - it continues in the next file.
   - Lesson 5 - ToDo Exercise Continued
     - Continues the above ToDo List.
-    - A solution is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/exercises/to-do-list)
+    - A solution is [here](../../../React-Exercise-Solutions/tree/master/exercises/to-do-list)
   - Lesson 6 - Recap
     - Best practices up to this point. Has a video.
 
-- [Quiz 2 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-2-after-calculator.md)
+- [Quiz 2 is here](../quiz-2-after-calculator.md)
   - **optional** at the end of the repo.
 
 
@@ -85,11 +82,11 @@ Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hou
   - Lesson 7 - Calculator Exercise
     - Exercise for students to go through on their own.
     - Has a bonus at bottom.
-    - Solution is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/exercises/calculator)
+    - Solution is [here](../../../React-Exercise-Solutions/tree/master/exercises/calculator)
     - Lesson 8 - Film Exercise, Part 2: State.
         - The solution is a branch in the repo [here]().
 
-- In [Repo 3: react-es6-functional](https://git.generalassemb.ly/education-product/react-es6-functional), which covers ES6, functional components, and component lifecycle. All ES6 exercises are in linked CodePens.   
+- In [Repo 3: react-es6-functional](../../../react-es6-functional), which covers ES6, functional components, and component lifecycle. All ES6 exercises are in linked CodePens.   
   - Students do beginning of repo through and including lesson 8.5, functional components solution - **skipping 6.5, the third film project**.
   - If you've previously covered ES6, students can skip to lesson 6 (the ES6 recap and exercise)
 
@@ -97,10 +94,10 @@ Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hou
 **Day 3: Class time.**
 - Timing: The rest of Repo 3: ~1 hours; Quiz 3: 15min.
 - Finish repo 3 (start on lesson 9; run through lesson 12 - not lesson 13)
-- [Quiz 3 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-3-after-immutable-data.md).
+- [Quiz 3 is here](../quizzes/quiz-3-after-immutable-data.md).
   - **Optionally**, can be given at end of lesson.
 
-Then, begin [Repo 4: react-router](https://git.generalassemb.ly/education-product/react-router).  
+Then, begin [Repo 4: react-router](../../../react-router).  
 - Specific timings for repo 4:  
   - Lessons 1-4: ~30 min
   - Lessons 5-7: Codealong. ~1hr.
@@ -110,9 +107,8 @@ Then, begin [Repo 4: react-router](https://git.generalassemb.ly/education-produc
 Notes: Lesson 8:
     - Lesson 8 is the fourth of the blog projects.
     - Students do this on their own.
-    - The starter code (for you or lost students) and solution code is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/projects/project-04-router)
 
-- Then, [Quiz 4 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-4-after-router-exercise.md).
+- Then, [Quiz 4 is here](../quizzes/quiz-4-after-router-exercise.md).
   - **Optionally**, can be given at end of lesson.
 
 **Day 2 homework:**
@@ -123,14 +119,13 @@ Notes: Lesson 8:
 
 **Day 3: class**
 
-[Repo 5: react-apis-heroku-declarative](https://git.generalassemb.ly/education-product/react-apis-heroku-declarative). up through (not including) lesson 7 (Heroku). ~2 hrs.
+[Repo 5: react-apis-heroku-declarative](../../../react-apis-heroku-declarative). up through (not including) lesson 7 (Heroku). ~2 hrs.
 
 - Go over fetch project solution. It's the last of the blog projects.
-  - The starter code (for you or lost students) and solution code is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/projects/project-05-fetch)
 - Repo 5 Lesson 7 and 8 - Heroku and film exercise.
   - The last of the film exercises. Solution is in a branch [here]()
   - Students can work in pairs or by themselves.
-- [Quiz 5 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-5-after-heroku.md).
+- [Quiz 5 is here](../quizzes/quiz-5-after-heroku.md).
   - **Optionally**, can be given at end of repo. ~15min.
 
 
@@ -144,7 +139,7 @@ Notes: Lesson 8:
     - The repo readme has instructions on it, so you can point students to it and optionally run over the instructions with them.
     - Note: Hosted on Susi's regular github. Eventual plan to clone over.
 
-- [Repo 8: react-documentation](https://git.generalassemb.ly/education-product/react-documentation). Timing for repo: 1 hour.
+- [Repo 8: react-documentation](../../../react-documentation). Timing for repo: 1 hour.
   - This explores the React documentation on Facebook in detail.
   - Lesson 1 (~1/2 hr):
     - Has an exercise at the button for students to walk through. The solution is linked below that in a CodePen.
@@ -156,6 +151,6 @@ Notes: Lesson 8:
 
 **Homework day 3; all of day 4:**
 
-[Repo 9: Self project.](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/blob/master/self-exercise/react-self-exercise.md) This continues till end of day 5.
+[Repo 9: Self project.](../../../React-Exercise-Solutions/blob/master/self-exercise/react-self-exercise.md) This continues till end of day 5.
   - This is only a prompt which is a self project. This takes an entire day; students build their own website (or try to copy one like airBnB) from scratch. It includes researching a new topic on their own and adding that functionality.
   - Note: This link is in the `React Exercise Solutions` repo, so if they're curious and poke around, they will find all previous exercise and project solutions from the class.
