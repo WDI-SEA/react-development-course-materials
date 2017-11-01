@@ -71,7 +71,7 @@ Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hou
   - Lesson 6 - Recap
     - Best practices up to this point. Has a video.
 
-- [Quiz 2 is here](../quiz-2-after-calculator.md)
+- [Quiz 2 is here](../quizzes/quiz-2-after-calculator.md)
   - **optional** at the end of the repo.
 
 
