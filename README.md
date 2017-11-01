@@ -10,6 +10,12 @@ Note: See the `Readme.md` in the `schedules` folder for links to the repos and d
 2. Teach flipped classroom
   - This means assigning as much reading as possible for homework; all exercises and codealongs during the day.
   - For a schedule on teaching React flipped, follow the `flipped-classroom-schedule.md` in the `schedules` folder.
+3. Teaching ES6 first, before React.
+  - [ES6 is part of unit 3](/react-es6-functional/).
+  - If you'd like to teach ES6 before you start React, you will teach lessons 1-6 of unit 3 before starting back at unit 1 for the rest of the React module
+      - **Note**: `02-ES6-ConstLet.md` has a thought exercise near the end that refers to a blog students do in unit 2 and has JSX in it, so it might be confusing if you haven't started React first.
+  - If the students already know ES6, you can skim over these lessons - lesson 6 has a helpful recap you might want to do.
+  - **Note**: Units 1 and 2 do not use most standard ES6 (`const`, `let`, arrow functions) as it's not designed to be taught until unit 3, so you'll need to give your students a headsup that you went out of order (to avoid the question "Why is this all `var`?").
 
 ## Optional Quizzes and Review Guides
 1. There are optionally short, ten question quizzes after each repo. These are linked in the `normal-schedule.md` and `flipped-classroom-schedule.md`. The quiz questions and links are in the `quizzes` folder.
@@ -23,3 +29,10 @@ Note: See the `Readme.md` in the `schedules` folder for links to the repos and d
   - Please note: this is a public repo. You can point students to it.
 - This repo also contains the project prompts and starter code.
   - The projects build off one another, so the starter code is for your reference.
+
+## Important Notes on the Film Exercise
+- There is a film exercise that is built upon throughout the class.
+  - The solutions to the various prompts are in branches.
+  - Please note that this exercise has some advanced JavaScript and starts out using ES6 (`const`, `let`, and arrow functions) before ES6 is explained in Unit 3. It's recommended that you look through the solution branches and then make a decision on whether to include the film exercise throughout the course or whether to have it be an additional recap project near the end (all at once, after the Heroku lecture).
+  - Because it adds time to the class and is a bit complicated, it is generally recommended that each exercise is homework. However, dedicate time each morning to go over and explain the solution.
+  - The film exercises are not referenced anywhere else in the class and can safely be ignored if you so choose.

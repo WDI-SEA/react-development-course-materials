@@ -28,7 +28,7 @@ Begin: [Repo 1: react-intro](https://git.generalassemb.ly/education-product/reac
 
 3. **Day 1, class time.**
 
-  - Timing for rest of repo 1: ~1.5hrs. Repo 1 Quiz: 15min.
+  - Timing for rest of repo 1: ~2.5hrs. Repo 1 Quiz: 15min.
   - Start on lesson 10.
   - Specific notes to call out:
     - Lesson 10: Props challenge.
@@ -41,8 +41,10 @@ Begin: [Repo 1: react-intro](https://git.generalassemb.ly/education-product/reac
       - The student does this individually.
       - The starter code (for you or lost students) and solution code is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/projects/project-02-nested-components). This is a public repo.
     - Lesson 14 (LoTR codealong):
-      - This can be an assigned exercise or a codealong. It builds a simple React app from scratch.
+      - Work as a codealong as it comes before an exercise. It builds a simple React app from scratch.
       - The solution is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/exercises/lord-of-the-rings/src).
+    - Lesson 15 (film exercise)
+      - This is an exercise. Have students work alone or in pairs. The solution is a branch in the repo [here]().
 
 
   - [Quiz 1 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-1-after-LoTR.md)
@@ -71,11 +73,6 @@ Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hou
     - A solution is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/exercises/to-do-list)
   - Lesson 6 - Recap
     - Best practices up to this point. Has a video.
-  - Lesson 7 - Calculator Exercise
-    - Exercise for students to go through on their own.
-    - Has a bonus at bottom.
-    - Solution is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/exercises/calculator)
-
 
 - [Quiz 2 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-2-after-calculator.md)
   - **optional** at the end of the repo.
@@ -83,14 +80,23 @@ Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hou
 
 
 **Day 1, homework. ~2 hours.**:
+
+- From Repo 2:
+  - Lesson 7 - Calculator Exercise
+    - Exercise for students to go through on their own.
+    - Has a bonus at bottom.
+    - Solution is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/exercises/calculator)
+    - Lesson 8 - Film Exercise, Part 2: State.
+        - The solution is a branch in the repo [here]().
+
 - In [Repo 3: react-es6-functional](https://git.generalassemb.ly/education-product/react-es6-functional), which covers ES6, functional components, and component lifecycle. All ES6 exercises are in linked CodePens.   
-  - Students do beginning of repo through and including lesson 8.5, functional components solution.
+  - Students do beginning of repo through and including lesson 8.5, functional components solution - **skipping 6.5, the third film project**.
   - If you've previously covered ES6, students can skip to lesson 6 (the ES6 recap and exercise)
 
 
-**Day 2: Class time.**
-- Timing: The rest of Repo 3 - ~1 hour; Quiz 3: 15min.
-- Finish repo 3 (start on lesson 9).
+**Day 3: Class time.**
+- Timing: The rest of Repo 3: ~1 hours; Quiz 3: 15min.
+- Finish repo 3 (start on lesson 9; run through lesson 12 - not lesson 13)
 - [Quiz 3 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-3-after-immutable-data.md).
   - **Optionally**, can be given at end of lesson.
 
@@ -106,24 +112,39 @@ Notes: Lesson 8:
     - Students do this on their own.
     - The starter code (for you or lost students) and solution code is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/projects/project-04-router)
 
-
 - Then, [Quiz 4 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-4-after-router-exercise.md).
   - **Optionally**, can be given at end of lesson.
 
+**Day 2 homework:**
 
-**NOW WE SKIP REPO 5 AND GO TO REPO 6:**
+- Repo 3, Lesson 13 - Film Exercise, Part 3: Lifting State Up.
+  - The solution is a branch in the repo [here]().
 
-Still in day 2, [Repo 6: ATMReact](https://github.com/susiremondi/ATMReact). Timing: 1 hour.
+
+**Day 3: class**
+
+[Repo 5: react-apis-heroku-declarative](https://git.generalassemb.ly/education-product/react-apis-heroku-declarative). up through (not including) lesson 7 (Heroku). ~2 hrs.
+
+- Go over fetch project solution. It's the last of the blog projects.
+  - The starter code (for you or lost students) and solution code is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/projects/project-05-fetch)
+- Repo 5 Lesson 7 and 8 - Heroku and film exercise.
+  - The last of the film exercises. Solution is in a branch [here]()
+  - Students can work in pairs or by themselves.
+- [Quiz 5 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-5-after-heroku.md).
+  - **Optionally**, can be given at end of repo. ~15min.
+
+
+- [Repo 6: ATMReact](https://github.com/susiremondi/ATMReact). Timing: 1 hour.
   - This is a lab to assign to students. It's an existing ATM application that they will add a feature to. It's very simple; the goal is to introduce them to reading existing code.
     - The repo readme has instructions on it, so you can point students to it and optionally run over the instructions with them.
     - Note: Hosted on Susi's regular github. Eventual plan to clone over.
 
-Still in day 2, [Repo 7: tictacReact](https://github.com/susiremondi/tictacReact). Timing: 1 hour.
+- [Repo 7: tictacReact](https://github.com/susiremondi/tictacReact). Timing: 1 hour.
   - This is a more complicated lab - an existing tic tac toe application. They add a feature to it. This is the same tic tac toe exercise in the Facebook tutorial, which segues to the next repo.
     - The repo readme has instructions on it, so you can point students to it and optionally run over the instructions with them.
     - Note: Hosted on Susi's regular github. Eventual plan to clone over.
 
-Still in day 2, [Repo 8: react-documentation](https://git.generalassemb.ly/education-product/react-documentation). Timing for repo: 1 hour.
+- [Repo 8: react-documentation](https://git.generalassemb.ly/education-product/react-documentation). Timing for repo: 1 hour.
   - This explores the React documentation on Facebook in detail.
   - Lesson 1 (~1/2 hr):
     - Has an exercise at the button for students to walk through. The solution is linked below that in a CodePen.
@@ -131,18 +152,9 @@ Still in day 2, [Repo 8: react-documentation](https://git.generalassemb.ly/educa
   - Lesson 2 (~1/2 hr):
     - Is a group exercise for students to research in the documentation, then give a presentation.
 
-**Day 2, homework:**. ~2 hrs
 
-[Repo 5: react-apis-heroku-declarative](https://git.generalassemb.ly/education-product/react-apis-heroku-declarative). up through (not including) lesson 7 (Heroku). ~2 hrs. Let them know that the fetch project solution (lesson 5) will be given and gone over in class.
 
-**Day 3, classroom**:
-- Go over fetch project solution. It's the last of the blog projects.
-  - The starter code (for you or lost students) and solution code is [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/projects/project-05-fetch)
-- Repo 5 Lesson 7: Heroku.
-- [Quiz 5 is here](https://git.generalassemb.ly/education-product/react-instructor-notes/blob/master/quizzes/quiz-5-after-heroku.md).
-  - **Optionally**, can be given at end of repo. ~15min.
-
-**Rest of day 4:**
+**Homework day 3; all of day 4:**
 
 [Repo 9: Self project.](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/blob/master/self-exercise/react-self-exercise.md) This continues till end of day 5.
   - This is only a prompt which is a self project. This takes an entire day; students build their own website (or try to copy one like airBnB) from scratch. It includes researching a new topic on their own and adding that functionality.
