@@ -33,7 +33,7 @@ This is a total of 9 repos over 4 days. This has no homework. See below for brea
 
 ## Specific repo links, timings, and notes:
 
-#### [Repo 1: react-intro](../../../react-intro).
+#### [Repo 1: react-intro](../../../../react-intro).
 **Timing:** ~ 5 hours total ~2.5 hours through lesson 9; ~2.5 hrs through end of repo; ~15 min for quiz.
 **Topics:** This covers components, JSX, the virtual DOM, and props.
 
@@ -45,7 +45,7 @@ Run through the repo in order. Notes on particular lessons to call out:
   - a short exercise where students will need a piece of paper to draw out components
 - Lesson 5 has:
   - a video
-  - a very quick exercise (10 min) for students to try and figure out on their own. The solution is [here](h../../../../React-Exercise-Solutions/blob/master/exercises/jsx-hello-world/App.js).
+  - a very quick exercise (10 min) for students to try and figure out on their own. The solution is [here](../../../../React-Exercise-Solutions/blob/master/exercises/jsx-hello-world/App.js).
 - Lesson 6 has:
   - a video.
 - Lesson 7 has:
