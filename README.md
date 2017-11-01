@@ -15,7 +15,7 @@ Note: See the `Readme.md` in the `schedules` folder for links to the repos and d
   - This means assigning as much reading as possible for homework; all exercises and codealongs during the day.
   - For a schedule on teaching React flipped, follow the `flipped-classroom-schedule.md` in the `schedules` folder.
 3. Teaching ES6 first, before React.
-  - [ES6 is part of unit 3](/react-es6-functional/).
+  - [ES6 is part of unit 3](../../../react-es6-functional/) - the `react-es6-functional` repo.
   - If you'd like to teach ES6 before you start React, you will teach lessons 1-6 of unit 3 before starting back at unit 1 for the rest of the React module
       - **Note**: `02-ES6-ConstLet.md` has a thought exercise near the end that refers to a blog students do in unit 2 and has JSX in it, so it might be confusing if you haven't started React first.
   - If the students already know ES6, you can skim over these lessons - lesson 6 has a helpful recap you might want to do.
@@ -25,11 +25,11 @@ Note: See the `Readme.md` in the `schedules` folder for links to the repos and d
 1. There are optionally short, ten question quizzes after each repo. These are linked in the `normal-schedule.md` and `flipped-classroom-schedule.md`. The quiz questions and links are in the `quizzes` folder.
   - These are not referenced in anything student facing and can optionally be assigned at your discretion.
   - **Note:** The review guides are linked at the end of the quizzes.
-2. There are optionally review guides for a student to quickly reference in the future. These are located in [this repo](https://git.generalassemb.ly/education-product/react-review-guides/).
+2. There are optionally review guides for a student to quickly reference in the future. These are located in [the `react-review-guides` repo](../../../react-review-guides/).
   - These are not referenced in anything student facing and can optionally be shared at your discretion.
 
 ## Solution Locations
-- All solutions to exercises, codealongs, and projects are located in this [repo](https://git.generalassemb.ly/education-product/React-Exercise-Solutions).
+- All solutions to exercises, codealongs, and projects are located in the `React-Exercise-Solutions` [repo](../../../React-Exercise-Solutions).
   - Please note: this is a public repo. You can point students to it.
 - This repo also contains the project prompts and starter code.
   - The projects build off one another, so the starter code is for your reference.
