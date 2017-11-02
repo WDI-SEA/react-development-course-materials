@@ -20,7 +20,7 @@ Note: See the `Readme.md` in the `schedules` folder for links to the repos and d
   - **Note**: Units 1 and 2 do not use most standard ES6 (`const`, `let`, arrow functions) as it's not designed to be taught until unit 3, so you'll need to give your students a headsup that you went out of order (to avoid the question "Why is this all `var`?").
 
 ## Optional Quizzes and Review Guides
--**Quizzes**:. There are optionally short, ten question quizzes after each repo. These are linked in the `normal-schedule.md` and `flipped-classroom-schedule.md`. The quiz questions and links are in the `quizzes` folder.
+- **Quizzes**:. There are optionally short, ten question quizzes after each repo. These are linked in the `normal-schedule.md` and `flipped-classroom-schedule.md`. The quiz questions and links are in the `quizzes` folder.
   - These are not referenced in anything student facing and can optionally be assigned at your discretion.
   - **Note:** The review guides are linked at the end of the quizzes.
 - **Review Guides**: There are optionally review guides for a student to quickly reference in the future. These are located in [the `react-review-guides` repo](../../../react-review-guides/).
