@@ -4,6 +4,8 @@ Note 1: The term "React Module" refers to all 8 React repos taught sequentially.
 
 Note 2: No links open in a new tab. I don't know why - embedding HTML didn't work. If you can fix it, let me know.
 
+Note 3: List of all repos is the `list-of-repos.md` in this folder.
+
 ## Options on ways to teach the React Module
 Note: See the `Readme.md` in the `schedules` folder for links to the repos and definitions of activity types.
 - **Option 1**: Teach it like a normal class, entirely in classroom.

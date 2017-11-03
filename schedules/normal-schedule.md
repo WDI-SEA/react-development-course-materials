@@ -33,7 +33,7 @@ This is a total of 9 repos over 4 days. This has no homework. See below for brea
 
 ## Specific repo links, timings, and notes:
 
-#### [Repo 1: react-intro](../../../../react-intro).
+#### Repo 1: `react-intro`
 **Timing:** ~ 5 hours total ~2.5 hours through lesson 9; ~2.5 hrs through end of repo; ~15 min for quiz.
 **Topics:** This covers components, JSX, the virtual DOM, and props.
 
@@ -67,7 +67,7 @@ Run through the repo in order. Notes on particular lessons to call out:
 - [Quiz 1 is here](../quizzes/quiz-1-after-LoTR.md)
   - **is optional** at the end of this repo.
 
-#### [Repo 2: react-state-exercises](../../../../react-state-exercises).
+#### Repo 2: `react-state-exercises`
 
 **Timing:** ~5 hrs total. Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hours together. Quiz 2: 15 min.
 **Topics**: This covers state and has two recap exercises.
@@ -103,7 +103,7 @@ Run through the repo in order. Notes on particular lessons to call out:
   - **is optional** at the end of the repo (before lesson 8, if lesson 8 is homework).
 
 
-#### [Repo 3: react-es6-functional](../../../../react-es6-functional).
+#### Repo 3: `react-es6-functional`
 **Timing:** ~2.5 hours. ~1hr if skipping ES6. ~15min for quiz.
 **Topics:** This covers ES6, functional components, and component lifecycle. All ES6 exercises are in linked CodePens.
 
@@ -126,7 +126,7 @@ Run through the repo in order except:
 - [Quiz 3 is here](../quizzes/quiz-3-after-immutable-data.md).
   - **Optionally**, can be given at end of lesson (before lesson 13, if lesson 13 is homework).
 
-#### [Repo 4: react-router](../../../../react-router).
+#### Repo 4: `react-router`
 **Timing:** ~3hrs. ~1/2 hr for lessons 1-4; ~1 hr for lessons 5-7; ~1 hour for lesson 8; 10min for quiz.
 **Topics**: This covers single page applications, browser history mechanics, and React Router.
 
@@ -145,7 +145,7 @@ Run through the repo in order. Notes on particular lessons to call out:
   - **Optionally**, can be given at end of lesson.
 
 
-#### [Repo 5: react-apis-heroku-declarative](../../../../react-apis-heroku-declarative).
+#### Repo 5: `react-apis-heroku-declarative`
 **Timing:** 3 hours. Breakdown: 1 hr lessons 1-4; 1 hr lesson 5, 1 hr lesson 6 and 7. ~15min quiz.
 **Topics**: This covers APIs, `fetch()`, imperative and declarative programming, and Heroku.
 
@@ -164,17 +164,17 @@ Run through the repo in order. Notes on particular lessons to call out:
   - **Optionally**, can be given at end of repo.
 
 
-#### [Repo 6: ATMReact](https://github.com/susiremondi/ATMReact). Timing: 1 hour.
+#### Repo 6: `react-atm`. Timing: 1 hour.
 This is a lab to assign to students. It's an existing ATM application that they will add a feature to. It's very simple; the goal is to introduce them to reading existing code.
   - The repo readme has instructions on it, so you can point students to it and optionally run over the instructions with them.
   - Note: Hosted on Susi's regular github. Eventual plan to clone over.
 
-#### [Repo 7: tictacReact](https://github.com/susiremondi/tictacReact). Timing: 1 hour.
+#### Repo 7: `react-tictactoe`. Timing: 1 hour.
 This is a more complicated lab - an existing tic tac toe application. They add a feature to it. This is the same tic tac toe exercise in the Facebook tutorial, which segues to the next repo.
   - The repo readme has instructions on it, so you can point students to it and optionally run over the instructions with them.
   - Note: Hosted on Susi's regular github. Eventual plan to clone over.
 
-#### [Repo 8: react-documentation](../../../../react-documentation).
+#### Repo 8: `react-documentation`
 **Timing:** 1 hour. (1/2 hr per lesson)
 **Topics:** This explores the React documentation on Facebook in detail.
 - Lesson 1:
@@ -183,6 +183,6 @@ This is a more complicated lab - an existing tic tac toe application. They add a
 - Lesson 2:
   - Is a group exercise for students to research in the documentation, then give a presentation.
 
-#### [Repo 9: Self project.](../../../../react-self-project). Timing: 1 day.
+#### Repo 9: `react-self-project`. Timing: 1 day.
 
 This is only a prompt which is a self project. This takes an entire day; students build their own website (or try to copy one like airBnB) from scratch. It includes researching a new topic on their own and adding that functionality.

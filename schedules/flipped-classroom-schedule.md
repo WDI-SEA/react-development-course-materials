@@ -15,7 +15,8 @@ Only specific lessons with notes are called out below, but unless stated otherwi
 
 -----------
 
-Begin: [Repo 1: react-intro](../../../../react-intro). Repo 1 covers components, JSX, the virtual DOM, and props.
+#### Begin: Repo 1: `react-intro`
+Repo 1 covers components, JSX, the virtual DOM, and props.
 
 1. **Day 0: The afternoon. ~1 hour before end of day.**
   - Introduce the topic and walk them through the beginning at the end of another day (~1 hr) - as much as you get through before the day ends. You need to get through at least lesson 2.
@@ -47,9 +48,9 @@ Begin: [Repo 1: react-intro](../../../../react-intro). Repo 1 covers components,
   - [Quiz 1 is here](../quizzes/quiz-1-after-LoTR.md)
     - **optional** at the end of the repo.
 
-**Still in day 1, class time**:
+#### Still in day 1, class time
 
-Starting [Repo 2: react-state-exercises](../../../../react-state-exercises), which covers state and has two recap exercises.
+Starting Repo 2: `react-state-exercises`, which covers state and has two recap exercises.
 
 Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hours together. Quiz 2: 15min.
 
@@ -75,7 +76,7 @@ Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hou
 
 
 
-**Day 1, homework. ~2 hours.**:
+#### Day 1, homework. ~2 hours
 
 - From Repo 2:
   - Lesson 7 - Calculator Exercise
@@ -84,18 +85,18 @@ Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hou
     - Solution is in a branch.
   - Lesson 8 - Film Exercise, Part 2: State
 
-- In [Repo 3: react-es6-functional](../../../../react-es6-functional), which covers ES6, functional components, and component lifecycle. All ES6 exercises are in linked CodePens.   
+- In Repo 3: `react-es6-functional`, which covers ES6, functional components, and component lifecycle. All ES6 exercises are in linked CodePens.   
   - Students do beginning of repo through and including lesson 8.5, functional components solution - **skipping 6.5, the third film project**.
   - If you've previously covered ES6, students can skip to lesson 6 (the ES6 recap and exercise)
 
 
-**Day 3: Class time.**
+#### Day 3: Class time
 - Timing: The rest of Repo 3: ~1 hours; Quiz 3: 15min.
 - Finish repo 3 (start on lesson 9; run through lesson 12 - not lesson 13)
 - [Quiz 3 is here](../quizzes/quiz-3-after-immutable-data.md).
   - **Optionally**, can be given at end of lesson.
 
-Then, begin [Repo 4: react-router](../../../../react-router).  
+Then, begin Repo 4: `react-router`  
 - Specific timings for repo 4:  
   - Lessons 1-4: ~30 min
   - Lessons 5-7: Codealong. ~1hr.
@@ -109,14 +110,14 @@ Notes: Lesson 8:
 - Then, [Quiz 4 is here](../quizzes/quiz-4-after-router-exercise.md).
   - **Optionally**, can be given at end of lesson.
 
-**Day 2 homework:**
+#### Day 2 homework
 
 - Repo 3, Lesson 13 - Film Exercise, Part 3: Lifting State Up.
 
 
-**Day 3: class**
+#### Day 3: class
 
-[Repo 5: react-apis-heroku-declarative](../../../../react-apis-heroku-declarative). up through (not including) lesson 7 (Heroku). ~2 hrs.
+Repo 5: `react-apis-heroku-declarative` up through (not including) lesson 7 (Heroku). ~2 hrs.
 
 - Go over fetch project solution. It's the last of the blog projects.
 - Repo 5 Lesson 7 and 8 - Heroku and film exercise.
@@ -126,17 +127,17 @@ Notes: Lesson 8:
   - **Optionally**, can be given at end of repo. ~15min.
 
 
-- [Repo 6: ATMReact](https://github.com/susiremondi/ATMReact). Timing: 1 hour.
+- Repo 6: `react-ATM`. Timing: 1 hour.
   - This is a lab to assign to students. It's an existing ATM application that they will add a feature to. It's very simple; the goal is to introduce them to reading existing code.
     - The repo readme has instructions on it, so you can point students to it and optionally run over the instructions with them.
     - Note: Hosted on Susi's regular github. Eventual plan to clone over.
 
-- [Repo 7: tictacReact](https://github.com/susiremondi/tictacReact). Timing: 1 hour.
+- Repo 7: `react-tictactoe`. Timing: 1 hour.
   - This is a more complicated lab - an existing tic tac toe application. They add a feature to it. This is the same tic tac toe exercise in the Facebook tutorial, which segues to the next repo.
     - The repo readme has instructions on it, so you can point students to it and optionally run over the instructions with them.
     - Note: Hosted on Susi's regular github. Eventual plan to clone over.
 
-- [Repo 8: react-documentation](../../../../react-documentation). Timing for repo: 1 hour.
+- Repo 8: `react-documentation`. Timing for repo: 1 hour.
   - This explores the React documentation on Facebook in detail.
   - Lesson 1 (~1/2 hr):
     - Has an exercise at the button for students to walk through. The solution is linked below that in a CodePen.
@@ -146,7 +147,7 @@ Notes: Lesson 8:
 
 
 
-**Homework day 3; all of day 4:**
+#### Homework day 3; all of day 4:
 
-[Repo 9: Self project.](../../../../react-self-project) This continues till end of day 5.
+Repo 9: `react-self-project` This continues till end of day 4.
   - This is only a prompt which is a self project. This takes an entire day; students build their own website (or try to copy one like airBnB) from scratch. It includes researching a new topic on their own and adding that functionality.
