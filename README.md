@@ -4,17 +4,15 @@ Note 1: The term "React Module" refers to all 8 React repos taught sequentially.
 
 Note 2: No links open in a new tab. I don't know why - embedding HTML didn't work. If you can fix it, let me know.
 
-Note 3: You can see the overall Trello board [here](https://trello.com/invite/b/Ypm9Tsho/06c64ffa2be14b85a662e71ff10ac3e8/bitmaker-react-project) for a quick visual of the class. (The last column, redux, is still in development and not part of this).
-
 ## Options on ways to teach the React Module
 Note: See the `Readme.md` in the `schedules` folder for links to the repos and definitions of activity types.
-1. Teach it like a normal class, entirely in classroom.
+- **Option 1**: Teach it like a normal class, entirely in classroom.
   - 5 days.
   - See `normal-schedule.md` in the `schedules` folder for an outline with timings.
-2. Teach flipped classroom
+- **Option 2**: Teach flipped classroom
   - This means assigning as much reading as possible for homework; all exercises and codealongs during the day.
   - For a schedule on teaching React flipped, follow the `flipped-classroom-schedule.md` in the `schedules` folder.
-3. Teaching ES6 first, before React.
+- **Option 3**: Teaching ES6 first, before React.
   - [ES6 is part of unit 3](../../../react-es6-functional/) - the `react-es6-functional` repo.
   - If you'd like to teach ES6 before you start React, you will teach lessons 1-6 of unit 3 before starting back at unit 1 for the rest of the React module
       - **Note**: `02-ES6-ConstLet.md` has a thought exercise near the end that refers to a blog students do in unit 2 and has JSX in it, so it might be confusing if you haven't started React first.
@@ -22,10 +20,10 @@ Note: See the `Readme.md` in the `schedules` folder for links to the repos and d
   - **Note**: Units 1 and 2 do not use most standard ES6 (`const`, `let`, arrow functions) as it's not designed to be taught until unit 3, so you'll need to give your students a headsup that you went out of order (to avoid the question "Why is this all `var`?").
 
 ## Optional Quizzes and Review Guides
-1. There are optionally short, ten question quizzes after each repo. These are linked in the `normal-schedule.md` and `flipped-classroom-schedule.md`. The quiz questions and links are in the `quizzes` folder.
+- **Quizzes**:. There are optionally short, ten question quizzes after each repo. These are linked in the `normal-schedule.md` and `flipped-classroom-schedule.md`. The quiz questions and links are in the `quizzes` folder.
   - These are not referenced in anything student facing and can optionally be assigned at your discretion.
   - **Note:** The review guides are linked at the end of the quizzes.
-2. There are optionally review guides for a student to quickly reference in the future. These are located in [the `react-review-guides` repo](../../../react-review-guides/).
+- **Review Guides**: There are optionally review guides for a student to quickly reference in the future. These are located in [the `react-review-guides` repo](../../../react-review-guides/).
   - These are not referenced in anything student facing and can optionally be shared at your discretion.
 
 ## Solution Locations

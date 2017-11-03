@@ -33,7 +33,7 @@ This is a total of 9 repos over 4 days. This has no homework. See below for brea
 
 ## Specific repo links, timings, and notes:
 
-#### [Repo 1: react-intro](../../../react-intro).
+#### [Repo 1: react-intro](../../../../react-intro).
 **Timing:** ~ 5 hours total ~2.5 hours through lesson 9; ~2.5 hrs through end of repo; ~15 min for quiz.
 **Topics:** This covers components, JSX, the virtual DOM, and props.
 
@@ -186,4 +186,3 @@ This is a more complicated lab - an existing tic tac toe application. They add a
 #### [Repo 9: Self project.](../../../../react-self-project). Timing: 1 day.
 
 This is only a prompt which is a self project. This takes an entire day; students build their own website (or try to copy one like airBnB) from scratch. It includes researching a new topic on their own and adding that functionality.
-  - Note: This link is in the `React Exercise Solutions` repo, so if they're curious and poke around, they will find all previous exercise and project solutions from the class.
