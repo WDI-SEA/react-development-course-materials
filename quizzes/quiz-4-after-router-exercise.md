@@ -4,7 +4,7 @@
 **Notes**:
 - [The link to quiz 4 is here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-4/unit4-quiz.json). This is the link you give to students.
 
-- At the end of the quiz, there is a link to [this review guide](../../../../react-review-guides/blob/master/unit-4-react-review-guide.md). Students will see this in the quiz slides; you don't need to share the link.
+- At the end of the quiz, you can share [this review guide](../../../../react-review-guides/blob/master/unit-4-react-review-guide.md).
 
 ### Questions:
 - Answers with an asterisk are correct.

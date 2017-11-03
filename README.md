@@ -29,7 +29,7 @@ Note: See the `Readme.md` in the `schedules` folder for links to the repos and d
   - These are not referenced in anything student facing and can optionally be shared at your discretion.
 
 ## Solution Locations
-- All solutions to exercises, codealongs, and projects are located in the `React-Exercise-Solutions` [repo](../../../React-Exercise-Solutions).
+- Solutions to exercises are on branches within their respective repos.
 - Solutions to the blog project that's built throughout the class are in branches in the [`react-blog-project` repo](../../../react-blog-project).
 - Solutions to the film project that's built throughout the class are in branches in the [`react-film` repo](../../../react-film).
 

@@ -39,8 +39,7 @@ Begin: [Repo 1: react-intro](../../../../react-intro). Repo 1 covers components,
       - This builds off the previous project. Students do not need starter code.
       - The student does this individually.
     - Lesson 14 (LoTR codealong):
-      - Work as a codealong as it comes before an exercise. It builds a simple React app from scratch.
-      - The solution is [here](../../../../React-Exercise-Solutions/tree/master/exercises/lord-of-the-rings/src).
+      - Work as a codealong as it comes before an exercise. It builds a simple React app from scratch. Solution in branch.
     - Lesson 15 (film exercise)
       - This is the first film exercise. Have students work alone or in pairs.
 
@@ -56,7 +55,7 @@ Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hou
 
   - Lesson 1 - State
     - has a video.
-    - has a quick exercise at the end. The solution is [here](../../../../React-Exercise-Solutions/blob/master/exercises/state_wrap_10/App.js)
+    - has a quick exercise at the end. Solution is in a branch.
   - Lesson 2 - State Project
     - Is the third of the blog projects. This has a bonus activity as well.
     - The student does this individually.
@@ -67,7 +66,7 @@ Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hou
     - No solution code - it continues in the next file.
   - Lesson 5 - ToDo Exercise Continued
     - Continues the above ToDo List.
-    - A solution is [here](../../../../React-Exercise-Solutions/tree/master/exercises/to-do-list)
+    - Solution is in a branch.
   - Lesson 6 - Recap
     - Best practices up to this point. Has a video.
 
@@ -82,9 +81,8 @@ Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hou
   - Lesson 7 - Calculator Exercise
     - Exercise for students to go through on their own.
     - Has a bonus at bottom.
-    - Solution is [here](../../../../React-Exercise-Solutions/tree/master/exercises/calculator)
-    - Lesson 8 - Film Exercise, Part 2: State.
-        - The solution is a branch in the repo [here]().
+    - Solution is in a branch.
+  - Lesson 8 - Film Exercise, Part 2: State
 
 - In [Repo 3: react-es6-functional](../../../../react-es6-functional), which covers ES6, functional components, and component lifecycle. All ES6 exercises are in linked CodePens.   
   - Students do beginning of repo through and including lesson 8.5, functional components solution - **skipping 6.5, the third film project**.
@@ -114,7 +112,6 @@ Notes: Lesson 8:
 **Day 2 homework:**
 
 - Repo 3, Lesson 13 - Film Exercise, Part 3: Lifting State Up.
-  - The solution is a branch in the repo [here]().
 
 
 **Day 3: class**
@@ -123,7 +120,7 @@ Notes: Lesson 8:
 
 - Go over fetch project solution. It's the last of the blog projects.
 - Repo 5 Lesson 7 and 8 - Heroku and film exercise.
-  - The last of the film exercises. Solution is in a branch [here]()
+  - The last of the film exercises.
   - Students can work in pairs or by themselves.
 - [Quiz 5 is here](../quizzes/quiz-5-after-heroku.md).
   - **Optionally**, can be given at end of repo. ~15min.
@@ -151,6 +148,6 @@ Notes: Lesson 8:
 
 **Homework day 3; all of day 4:**
 
-[Repo 9: Self project.](../../../../React-Exercise-Solutions/blob/master/self-exercise/react-self-exercise.md) This continues till end of day 5.
+[Repo 9: Self project.](../../../../react-self-project) This continues till end of day 5.
   - This is only a prompt which is a self project. This takes an entire day; students build their own website (or try to copy one like airBnB) from scratch. It includes researching a new topic on their own and adding that functionality.
   - Note: This link is in the `React Exercise Solutions` repo, so if they're curious and poke around, they will find all previous exercise and project solutions from the class.

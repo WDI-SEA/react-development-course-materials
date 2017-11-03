@@ -45,7 +45,7 @@ Run through the repo in order. Notes on particular lessons to call out:
   - a short exercise where students will need a piece of paper to draw out components
 - Lesson 5 has:
   - a video
-  - a very quick exercise (10 min) for students to try and figure out on their own. The solution is [here](h../../../../React-Exercise-Solutions/blob/master/exercises/jsx-hello-world/App.js).
+  - a very quick exercise (10 min) for students to try and figure out on their own. The solution is in a branch.
 - Lesson 6 has:
   - a video.
 - Lesson 7 has:
@@ -59,10 +59,9 @@ Run through the repo in order. Notes on particular lessons to call out:
   - The student does this individually.
 - Lesson 14 (LoTR codealong):
   - This is before an exercises - teach it as a codealong. It builds a simple React app from scratch.
-  - The solution is [here](../../../../React-Exercise-Solutions/tree/master/exercises/lord-of-the-rings/src).
+  - Solution is in a branch.
 - Lesson 15 (Film exercise, part 1 - components)
   - Students can optionally work in pairs.
-  - The solution is a branch in the repo [here]().
 
 
 - [Quiz 1 is here](../quizzes/quiz-1-after-LoTR.md)
@@ -77,7 +76,7 @@ Run through the repo in order. Notes on particular lessons to call out:
 
 - Lesson 1 - State
   - has a video.
-  - has a quick exercise at the end. The solution is [here](../../../../React-Exercise-Solutions/blob/master/exercises/state_wrap_10/App.js)
+  - has a quick exercise at the end. Solution is in a branch.
 - Lesson 2 - State Project
   - Is the third of the blog projects. This has a bonus activity as well.
   - The student does this individually.
@@ -88,13 +87,13 @@ Run through the repo in order. Notes on particular lessons to call out:
   - No solution code - it continues in the next file.
 - Lesson 5 - ToDo Exercise Continued
   - Continues the above ToDo List.
-  - A solution is [here](../../../../React-Exercise-Solutions/tree/master/exercises/to-do-list)
+  - Solution is in a branch.
 - Lesson 6 - Recap
   - Best practices up to this point. Has a video.
 - Lesson 7 - Calculator Exercise
   - Exercise for students to go through on their own.
   - Has a bonus at bottom.
-  - Solution is [here](../../../../React-Exercise-Solutions/tree/master/exercises/calculator)
+  - Solution is in a branch.
 - Lesson 8 - Film Exercise, Part 2: State.
   - Students can optionally work in pairs.
   - It is recommended to make this homework, as students will have just completed an exercise.
@@ -122,7 +121,6 @@ Run through the repo in order except:
     - Solution codepen with explanation is immediately after.
 - Lesson 13 - Film Exercise, Part 3: Lifting State Up.
   - It's recommended to do this for homework.
-  - The solution is a branch in the repo [here]().
 
 
 - [Quiz 3 is here](../quizzes/quiz-3-after-immutable-data.md).
@@ -161,7 +159,6 @@ Run through the repo in order. Notes on particular lessons to call out:
 - Lesson 8 - Film Exercise, Part 4: APIs.
   - Students can optionally work in pairs.
   - It is recommended to make this homework, as students will jump into many exercises after this.
-  - The solution is a branch in the repo [here]().
 
 - [Quiz 5 is here](../quizzes/quiz-5-after-heroku.md).
   - **Optionally**, can be given at end of repo.
@@ -186,7 +183,7 @@ This is a more complicated lab - an existing tic tac toe application. They add a
 - Lesson 2:
   - Is a group exercise for students to research in the documentation, then give a presentation.
 
-#### [Repo 9: Self project.](../../../../React-Exercise-Solutions/blob/master/self-exercise/react-self-exercise.md). Timing: 1 day.
+#### [Repo 9: Self project.](../../../../react-self-project). Timing: 1 day.
 
 This is only a prompt which is a self project. This takes an entire day; students build their own website (or try to copy one like airBnB) from scratch. It includes researching a new topic on their own and adding that functionality.
   - Note: This link is in the `React Exercise Solutions` repo, so if they're curious and poke around, they will find all previous exercise and project solutions from the class.
