@@ -13,9 +13,9 @@ Note 3: List of all repos is the `list-of-repos.md` in this folder.
   - Intro to React through state
 - **Day 2:** Rest of repo 2, Repos 3 and 4
   - ES6, functional components, component lifecycle, Router
-**Day 3**: Repos 5 - 8.
+- **Day 3**: Repos 5 - 8.
   - APIs, imperative vs declarative programming, Heroku, two exercises where students clone existing repos, and documentation.
-**Day 4:** Repo 9
+- **Day 4:** Repo 9
   - Entirely a self project.
 
 ## Optional Quizzes and Review Guides
