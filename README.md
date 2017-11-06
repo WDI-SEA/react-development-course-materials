@@ -6,6 +6,8 @@ Note 2: No links open in a new tab. I don't know why - embedding HTML didn't wor
 
 Note 3: List of all repos is the `list-of-repos.md` in this folder.
 
+[Here is a quick overview of the course](https://trello.com/invite/b/Ypm9Tsho/06c64ffa2be14b85a662e71ff10ac3e8/bitmaker-react-project) concepts and timings - not necessarily each file.
+
 ## Options on ways to teach the React Module
 Note: See the `Readme.md` in the `schedules` folder for links to the repos and definitions of activity types.
 - **Option 1**: Teach it like a normal class, entirely in classroom.
