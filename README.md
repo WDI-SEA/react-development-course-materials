@@ -1,4 +1,4 @@
-# Instructors' Guide to teach the React Module
+# Instructors' Guide to the React Module
 
 Note 1: The term "React Module" refers to all 8 React repos taught sequentially.
 
@@ -6,22 +6,17 @@ Note 2: No links open in a new tab. I don't know why - embedding HTML didn't wor
 
 Note 3: List of all repos is the `list-of-repos.md` in this folder.
 
-[Here is a quick overview of the course](https://trello.com/invite/b/Ypm9Tsho/06c64ffa2be14b85a662e71ff10ac3e8/bitmaker-react-project) concepts and timings - not necessarily each file.
+**[Here is a quick overview of the course](https://trello.com/invite/b/Ypm9Tsho/06c64ffa2be14b85a662e71ff10ac3e8/bitmaker-react-project) concepts and timings** - not each file.
 
-## Options on ways to teach the React Module
-Note: See the `Readme.md` in the `schedules` folder for links to the repos and definitions of activity types.
-- **Option 1**: Teach it like a normal class, entirely in classroom.
-  - 5 days.
-  - See `normal-schedule.md` in the `schedules` folder for an outline with timings.
-- **Option 2**: Teach flipped classroom
-  - This means assigning as much reading as possible for homework; all exercises and codealongs during the day.
-  - For a schedule on teaching React flipped, follow the `flipped-classroom-schedule.md` in the `schedules` folder.
-- **Option 3**: Teaching ES6 first, before React.
-  - [ES6 is part of unit 3](../../../react-es6-functional/) - the `react-es6-functional` repo.
-  - If you'd like to teach ES6 before you start React, you will teach lessons 1-6 of unit 3 before starting back at unit 1 for the rest of the React module
-      - **Note**: `02-ES6-ConstLet.md` has a thought exercise near the end that refers to a blog students do in unit 2 and has JSX in it, so it might be confusing if you haven't started React first.
-  - If the students already know ES6, you can skim over these lessons - lesson 6 has a helpful recap you might want to do.
-  - **Note**: Units 1 and 2 do not use most standard ES6 (`const`, `let`, arrow functions) as it's not designed to be taught until unit 3, so you'll need to give your students a headsup that you went out of order (to avoid the question "Why is this all `var`?").
+**Here are likely daily timings** - but do see the schedule. If enough instructors tell me (Susi) this is off, I'll change it, so let me know. The same applies to specific timings below. *This does not include adding the Film project*.
+- **Day 1**: Repos 1, and Repo 2 through lesson 5.
+  - Intro to React through state
+- **Day 2:** Rest of repo 2, Repos 3 and 4
+  - ES6, functional components, component lifecycle, Router
+**Day 3**: Repos 5 - 8.
+  - APIs, imperative vs declarative programming, Heroku, two exercises where students clone existing repos, and documentation.
+**Day 4:** Repo 9
+  - Entirely a self project.
 
 ## Optional Quizzes and Review Guides
 - **Quizzes**:. There are optionally short, ten question quizzes after each repo. These are linked in the `normal-schedule.md` and `flipped-classroom-schedule.md`. The quiz questions and links are in the `quizzes` folder.
@@ -41,3 +36,19 @@ Note: See the `Readme.md` in the `schedules` folder for links to the repos and d
   - Please note that this exercise has some advanced JavaScript and starts out using ES6 (`const`, `let`, and arrow functions) before ES6 is explained in Unit 3. It's recommended that you look through the solution branches and then make a decision on whether to include the film exercise throughout the course or whether to have it be an additional recap project near the end (all at once, after the Heroku lecture).
   - Because it adds time to the class and is a bit complicated, it is generally recommended that each exercise is homework. However, dedicate time each morning to go over and explain the solution.
   - The film exercises are not referenced anywhere else in the class and can safely be ignored if you so choose.
+  
+
+## Options on ways to teach the React Module
+Note: See the `Readme.md` in the `schedules` folder for links to the repos and definitions of activity types.
+- **Option 1**: Teach it like a normal class, entirely in classroom.
+  - 5 days.
+  - See `normal-schedule.md` in the `schedules` folder for an outline with timings.
+- **Option 2**: Teach flipped classroom
+  - This means assigning as much reading as possible for homework; all exercises and codealongs during the day.
+  - For a schedule on teaching React flipped, follow the `flipped-classroom-schedule.md` in the `schedules` folder.
+- **Option 3**: Teaching ES6 first, before React.
+  - [ES6 is part of unit 3](../../../react-es6-functional/) - the `react-es6-functional` repo.
+  - If you'd like to teach ES6 before you start React, you will teach lessons 1-6 of unit 3 before starting back at unit 1 for the rest of the React module
+      - **Note**: `02-ES6-ConstLet.md` has a thought exercise near the end that refers to a blog students do in unit 2 and has JSX in it, so it might be confusing if you haven't started React first.
+  - If the students already know ES6, you can skim over these lessons - lesson 6 has a helpful recap you might want to do.
+  - **Note**: Units 1 and 2 do not use most standard ES6 (`const`, `let`, arrow functions) as it's not designed to be taught until unit 3, so you'll need to give your students a headsup that you went out of order (to avoid the question "Why is this all `var`?").
