@@ -7,10 +7,10 @@ Links to the repos with specific notes are in the associated schedules.
 - **Codealong**:
   - Students do this in class with you. You do it on the screen, and they follow along on their laptops.
   - All codealongs can be instead assigned to the students to follow the instructions on their own.
-  - Codealong solutions are in the solutions repo referenced below.
+  - Codealong solutions are in the [exercise solutions repo](../../../../React-Exercise-Solutions)
 - **Exercises**:
   - Exercises with follow along instructions for students to do on their own.
-  - Exercise solutions are in the solutions repo referenced below.
+  - Exercise solutions are in the [exercise solutions repo](../../../../React-Exercise-Solutions)
   - Exercises can be run as codealongs.
 - **Projects**:
   - There is a blog project that students build upon throughout the week - **the repos build on each other**. For example, at the end of the first repo (`react-intro`), they'll have a basic blog page with nested components. At the beginning of the second repo, (`react-state-and-intro-exercises`), they build on this basic blog page.
