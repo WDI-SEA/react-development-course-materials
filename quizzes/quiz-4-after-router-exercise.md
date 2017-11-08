@@ -10,22 +10,22 @@
 - Answers with an asterisk are correct.
 
 
-_Prompt*_: Can you create a single page application in React without using React Router?
+_Prompt_: Can you create a single page application in React without using React Router?
 
 
-_Choices:*_
+_Choices_:
 
 1. Yes *
 2. No
 
 
-_Explanation*_:  React Router is a third party library which handles the browser history mechanics for you, greatly simplifying your life, but you don't need to use it if you program all of that yourself. That said, just about everyone uses it!
+_Explanation_:  React Router is a third party library which handles the browser history mechanics for you, greatly simplifying your life, but you don't need to use it if you program all of that yourself. That said, just about everyone uses it!
 
 ----------------------------------
 
-_Prompt*_: Which React component creates a nav bar?
+_Prompt_: Which React component creates a nav bar?
 
-_Choices:*_
+_Choices_:
 
 1. Component
 2. Link *
@@ -33,13 +33,13 @@ _Choices:*_
 4. Exact
 
 
-_Explanation*_: `<Link>` creates `<a>` tags for you, navigating to the path you specify.
+_Explanation_: `<Link>` creates `<a>` tags for you, navigating to the path you specify.
 
 -----------------------------------
 
-_Prompt*_: What does the `exact` keyword in React Router do?
+_Prompt_: What does the `exact` keyword in React Router do?
 
-_Choices:*_
+_Choices_:
 
 1. All routes need this to define which component to render
 2. It renders the new component with the exact state of the previous one
@@ -47,12 +47,12 @@ _Choices:*_
 4. The component associated with the route will only be shown if users are at exactly that URL path *
 
 
-_Explanation*_: `<Link>` creates `<a>` tags for you, navigating to the path you specify.
+_Explanation_: `<Link>` creates `<a>` tags for you, navigating to the path you specify.
 
 
 -----------------------------------
 
-_Prompt*_:  What's wrong with this code? Choose all that apply.
+_Prompt_:  What's wrong with this code? Choose all that apply.
 
 ```js
 class App extends Component {
@@ -69,12 +69,12 @@ class App extends Component {
 ```
 
 
-_Correct Response*_: Right! We need `exact` to make sure multiple components don't display at once, and the `<div>` needs to be wrapped by a `<Router>` component - so it'd be `return ( <Router> <div> ....`
+_Correct Response_: Right! We need `exact` to make sure multiple components don't display at once, and the `<div>` needs to be wrapped by a `<Router>` component - so it'd be `return ( <Router> <div> ....`
 
-_Incorrect Response*_: We need `exact` to make sure multiple components don't display at once, and the `<div>` needs to be wrapped by a `<Router>` component - so it'd be `return ( <Router> <div> ....`
+_Incorrect Response_: We need `exact` to make sure multiple components don't display at once, and the `<div>` needs to be wrapped by a `<Router>` component - so it'd be `return ( <Router> <div> ....`
 
 
-_Choices:*_
+_Choices_:
 
 1. The root path needs the `exact` keyword. *
 2. The `<Route>` components need to be wrapped by a `<Router>` component inside of the `<div>`
@@ -93,12 +93,12 @@ What's wrong with this code? Choose all that apply.
 ```
 
 
-_Correct Response*_: Right! The `nav` keyword doesn't belong here - the `<Link>`s would instead be wrapped by a `<nav>` element.
+_Correct Response_: Right! The `nav` keyword doesn't belong here - the `<Link>`s would instead be wrapped by a `<nav>` element.
 
-_Incorrect Response*_: Not quite. The `nav` keyword doesn't belong here - the `<Link>`s would instead be wrapped by a `<nav>` element.
+_Incorrect Response_: Not quite. The `nav` keyword doesn't belong here - the `<Link>`s would instead be wrapped by a `<nav>` element.
 
 
-_Choices:*_
+_Choices_:
 
 1. The root path needs the `exact` keyword.
 2. The `nav` keyword doesn't belong here - the `<Link>`s would instead be wrapped by a `<nav>` element. *
@@ -108,20 +108,20 @@ _Choices:*_
 
 -----------------------------------
 
-_Prompt*_: Where do the `<Link>` components go in a file?
+_Prompt_: Where do the `<Link>` components go in a file?
 
-_Choices:*_
+_Choices_:
 
 1. Above the component class declaration
 2. Inside the component class declaration, above the `render()` method
 3. Inside the component class `render` method, above the `return()` method
 4. Inside the component class declaration, inside the `<Router>` component *
 
-_Explanation*_: The `<Link>` components are part of `<Router>` and rendered on the screen, and therefore they go inside the component class declaration, inside the `<Router>` component.
+_Explanation_: The `<Link>` components are part of `<Router>` and rendered on the screen, and therefore they go inside the component class declaration, inside the `<Router>` component.
 
 ----------------------------------
 
-_Prompt*_: Is this how you can pass props to a component within `<Route>`?
+_Prompt_: Is this how you can pass props to a component within `<Route>`?
 
 ```html
 <Route path="/games" component={
@@ -130,33 +130,33 @@ _Prompt*_: Is this how you can pass props to a component within `<Route>`?
 )}/>
 ```
 
-_Choices:*_
+_Choices_:
 
 1. Yes *
 2. No, you cannot pass props to a component within `<Route>`
 3. No, you cannot use arrow functions within `<Route>`
 4. No, there are not angle brackets around the component within `<Route>`
 
-_Explanation*_:  This code is correct!
+_Explanation_:  This code is correct!
 
 -----------------------------------
 
-_Prompt*_: If you're going to put your website online and not keep it locally, you still need to import `BrowserRouter` and `Route`, but you don't need to install Router.
+_Prompt_: If you're going to put your website online and not keep it locally, you still need to import `BrowserRouter` and `Route`, but you don't need to install Router.
 
 
 
-_Choices:*_
+_Choices_:
 
 1. True
 2. False *
 
 
-_Explanation*_:  False! Because React Router is a third-party library, we'll need to download React Router and save it to our `package.json` file as a dependency.
+_Explanation_:  False! Because React Router is a third-party library, we'll need to download React Router and save it to our `package.json` file as a dependency.
 
 
 ----------------------------------
 
-_Prompt*_: As long as you have your `<Link>` components written correctly, you can have either the below code **or** `<Route>` declarations - you don't need both for the nav bar to work.
+_Prompt_: As long as you have your `<Link>` components written correctly, you can have either the below code **or** `<Route>` declarations - you don't need both for the nav bar to work.
 
 ```html
 <div>
@@ -166,24 +166,24 @@ _Prompt*_: As long as you have your `<Link>` components written correctly, you c
 </div>
 ```
 
-_Choices:*_
+_Choices_:
 
 1. True
 2. False *
 
-_Explanation*_: False! The `<Link>` component only takes a path, so you need `<Route>` elements to connect the paths to components.
+_Explanation_: False! The `<Link>` component only takes a path, so you need `<Route>` elements to connect the paths to components.
 
 ----------------------------------
 
-_Prompt*_: What defines a single page application? Choose all that apply.
+_Prompt_: What defines a single page application? Choose all that apply.
 
 
-_Correct Response*_: Right! Many frameworks enable you to write single page applications! These are websites that serve only one web page and then change the content of that page dynamically, without refreshing or sending the user to a separate page.
+_Correct Response_: Right! Many frameworks enable you to write single page applications! These are websites that serve only one web page and then change the content of that page dynamically, without refreshing or sending the user to a separate page.
 
-_Incorrect Response*_: Many frameworks enable you to write single page applications! These are websites that serve only one web page and then change the content of that page dynamically, without refreshing or sending the user to a separate page.
+_Incorrect Response_: Many frameworks enable you to write single page applications! These are websites that serve only one web page and then change the content of that page dynamically, without refreshing or sending the user to a separate page.
 
 
-_Choices:*_
+_Choices_:
 
 1. Only applications using React can be single page applications.
 2. If content dynamically changes on the page without a page reload. *
