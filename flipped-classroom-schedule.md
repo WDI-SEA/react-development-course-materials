@@ -45,7 +45,7 @@ Repo 1 covers components, JSX, the virtual DOM, and props.
       - This is the first film exercise. Have students work alone or in pairs.
 
 
-  - [Quiz 1 is here](../quizzes/quiz-1-after-LoTR.md)
+  - Quiz 1
     - **optional** at the end of the repo.
 
 #### Still in day 1, class time
@@ -71,7 +71,7 @@ Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hou
   - Lesson 6 - Recap
     - Best practices up to this point. Has a video.
 
-- [Quiz 2 is here](../quizzes/quiz-2-after-calculator.md)
+- Quiz 2
   - **optional** at the end of the repo.
 
 
@@ -93,7 +93,7 @@ Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hou
 #### Day 3: Class time
 - Timing: The rest of Repo 3: ~1 hours; Quiz 3: 15min.
 - Finish repo 3 (start on lesson 9; run through lesson 12 - not lesson 13)
-- [Quiz 3 is here](../quizzes/quiz-3-after-immutable-data.md).
+- Quiz 3
   - **Optionally**, can be given at end of lesson.
 
 Then, begin Repo 4: `react-router`  
@@ -107,7 +107,7 @@ Notes: Lesson 8:
     - Lesson 8 is the fourth of the blog projects.
     - Students do this on their own.
 
-- Then, [Quiz 4 is here](../quizzes/quiz-4-after-router-exercise.md).
+- Then, Quiz 4
   - **Optionally**, can be given at end of lesson.
 
 #### Day 2 homework
@@ -123,7 +123,7 @@ Repo 5: `react-apis-heroku-declarative` up through (not including) lesson 7 (Her
 - Repo 5 Lesson 7 and 8 - Heroku and film exercise.
   - The last of the film exercises.
   - Students can work in pairs or by themselves.
-- [Quiz 5 is here](../quizzes/quiz-5-after-heroku.md).
+- Quiz 5
   - **Optionally**, can be given at end of repo. ~15min.
 
 
