@@ -24,24 +24,22 @@ Repo 1 covers components, JSX, the virtual DOM, and props.
 
 
 2. **Day 0: Homework. (<1.5 hrs of self work).**
-  - Through Lesson 9 - Multiple props passed from an object
+  - Through Lesson 6 - Multiple props
 
 
 3. **Day 1, class time.**
 
   - Timing for rest of repo 1: ~2.5hrs. Repo 1 Quiz: 15min.
-  - Start on lesson 10.
   - Specific notes to call out:
-    - Lesson 10: Props challenge.
+    - Lesson 7: Props challenge.
       - This is the first of the blog projects.
       - The student does this individually.
-    - Lesson 12: Nested Components challenge
+    - Lesson 9: Nested Components challenge
       - Is the second of the blog projects.
       - This builds off the previous project. Students do not need starter code.
-      - The student does this individually.
-    - Lesson 14 (LoTR codealong):
-      - Work as a codealong as it comes before an exercise. It builds a simple React app from scratch. Solution in branch.
-    - Lesson 15 (film exercise)
+    - Lesson 11 (LoTR codealong):
+      - Made to be an exercise, but work as a codealong as it comes before an exercise. It builds a simple React app from scratch. Solution in branch.
+    - Lesson 12 (film exercise)
       - This is the first film exercise. Have students work alone or in pairs.
 
 
@@ -59,20 +57,16 @@ Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hou
     - has a quick exercise at the end. Solution is in a branch.
   - Lesson 2 - State Project
     - Is the third of the blog projects. This has a bonus activity as well.
-    - The student does this individually.
-    - This builds off the previous project. Students do not need starter code.
   - Lesson 4 - ToDo Exercise
     - An exercise to build a todo list from scratch. Can be a codealong or a self exercise for students.
     - Recommended as a codealong, where you go through it with students.
-    - No solution code - it continues in the next file.
-  - Lesson 5 - ToDo Exercise Continued
-    - Continues the above ToDo List.
-    - Solution is in a branch.
+    - No solution code - it continues in lesson 5.
+    - Total solution in a branch
   - Lesson 6 - Recap
     - Best practices up to this point. Has a video.
 
 - Quiz 2
-  - **optional** at the end of the repo.
+  - **optional** here.
 
 
 
@@ -86,62 +80,54 @@ Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hou
   - Lesson 8 - Film Exercise, Part 2: State
 
 - In Repo 3: `react-es6-functional`, which covers ES6, functional components, and component lifecycle. All ES6 exercises are in linked CodePens.   
-  - Students do beginning of repo through and including lesson 8.5, functional components solution - **skipping 6.5, the third film project**.
-  - If you've previously covered ES6, students can skip to lesson 6 (the ES6 recap and exercise)
+  - Students do beginning of repo through and including lesson 6.5, functional components solution.
+  - If you've previously covered ES6, students can skip to lesson 5 (the ES6 recap and exercise).
 
 
 #### Day 2: Class time
 - Timing: The rest of Repo 3: ~1 hours; Quiz 3: 15min.
-- Finish repo 3 (start on lesson 9; run through lesson 12 - not lesson 13)
+- Finish repo 3 (start on lesson 6; run through lesson 10 - not lesson 11 (film exercise))
 - Quiz 3
-  - **Optionally**, can be given at end of lesson.
+  - **Optionally**, can be given at end of lesson 10.
 
 Then, begin Repo 4: `react-router`  
 - Specific timings for repo 4:  
-  - Lessons 1-4: ~30 min
-  - Lessons 5-7: Codealong. ~1hr.
-  - Lesson 8: ~1 hr.
+  - Lessons 1: ~30 min
+  - Lessons 2-4: Codealong. ~1hr.
+  - Lesson 5: ~1 hr.
   - Quiz: 15min.
 
-Notes: Lesson 8:
+Notes: Lesson 5:
     - Lesson 8 is the fourth of the blog projects.
     - Students do this on their own.
 
 - Then, Quiz 4
-  - **Optionally**, can be given at end of lesson.
+  - **Optionally**, can be given at end of lesson 5.
 
 #### Day 2 homework
 
-- Repo 3, Lesson 13 - Film Exercise, Part 3: Lifting State Up.
+- Repo 3, Lesson 11 - Film Exercise, Part 3: Unidirectional Flow
 
 
 #### Day 3: class
 
-Repo 5: `react-apis-heroku-declarative` up through (not including) lesson 7 (Heroku). ~2 hrs.
-
-- Go over fetch project solution. It's the last of the blog projects.
-- Repo 5 Lesson 7 and 8 - Heroku and film exercise.
-  - The last of the film exercises.
-  - Students can work in pairs or by themselves.
+- All of Repo 5: `react-apis-heroku-declarative`
 - Quiz 5
   - **Optionally**, can be given at end of repo. ~15min.
 
-
-- Repo 6: `react-ATM`. Timing: 1 hour.
+- Repo 6: `react-atm`. Timing: 1 hour.
   - This is a lab to assign to students. It's an existing ATM application that they will add a feature to. It's very simple; the goal is to introduce them to reading existing code.
     - The repo readme has instructions on it, so you can point students to it and optionally run over the instructions with them.
-    - Note: Hosted on Susi's regular github. Eventual plan to clone over.
 
 - Repo 7: `react-tictactoe`. Timing: 1 hour.
   - This is a more complicated lab - an existing tic tac toe application. They add a feature to it. This is the same tic tac toe exercise in the Facebook tutorial, which segues to the next repo.
     - The repo readme has instructions on it, so you can point students to it and optionally run over the instructions with them.
-    - Note: Hosted on Susi's regular github. Eventual plan to clone over.
 
 - Repo 8: `react-documentation`. Timing for repo: 1 hour.
   - This explores the React documentation on Facebook in detail.
   - Lesson 1 (~1/2 hr):
     - Has an exercise at the button for students to walk through. The solution is linked below that in a CodePen.
-      - If enough instructors ask, I will move this solution from the CodePen into the solution repo so it isn't on the page.
+      - If enough instructors ask, we will move this solution from the CodePen into the solution repo so it isn't on the page.
   - Lesson 2 (~1/2 hr):
     - Is a group exercise for students to research in the documentation, then give a presentation.
 
