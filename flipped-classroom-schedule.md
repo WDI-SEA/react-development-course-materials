@@ -90,7 +90,7 @@ Timing: Lessons 1-3; 1.5 hours. lessons 4 - 5: 1.5 hours. Lessons 6 - 7: 1.5 hou
   - If you've previously covered ES6, students can skip to lesson 6 (the ES6 recap and exercise)
 
 
-#### Day 3: Class time
+#### Day 2: Class time
 - Timing: The rest of Repo 3: ~1 hours; Quiz 3: 15min.
 - Finish repo 3 (start on lesson 9; run through lesson 12 - not lesson 13)
 - Quiz 3
