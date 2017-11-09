@@ -1,3 +1,5 @@
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) The GA React Module
+
 A quick list of all the repos:
 
 - [Repo 1: react-intro](../../../react-intro).
