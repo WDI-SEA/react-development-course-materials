@@ -3,7 +3,7 @@
 A quick list of all the repos:
 
 - This one! `react-instructor-notes`
-- [Repo 1: react-intro](../../../react-intro).
+- [Repo 1: react-intro](../../../react-intro)
 - [Repo 2: react-state-exercises](../../../react-state-exercises)
 - [Repo 3: react-es6-functional](../../../react-es6-functional)
 - [Repo 4: react-router](../../../react-router)
@@ -11,7 +11,7 @@ A quick list of all the repos:
 - [Repo 6: react-ATM](../../../react-atm)
 - [Repo 7: react-tictactoe](../../../react-tictactoe)
 - [Repo 8: react-documentation](../../../react-documentation)
-- [Repo 9: Self project.](../../../react-self-project).
+- [Repo 9: Self project](../../../react-self-project)
 
 
 Also:
