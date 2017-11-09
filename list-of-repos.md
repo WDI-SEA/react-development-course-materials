@@ -2,6 +2,7 @@
 
 A quick list of all the repos:
 
+- This one! `react-instructor-notes`
 - [Repo 1: react-intro](../../../react-intro).
 - [Repo 2: react-state-exercises](../../../react-state-exercises)
 - [Repo 3: react-es6-functional](../../../react-es6-functional)
