@@ -11,7 +11,7 @@ Note 3: List and link to all repos is the `list-of-repos.md` in this folder.
 
 |                                                                **Day 1**                                                                	|                                                     **Day 2**                                                     	|                                        **Day 3**                                        	|                                         **Day 4**                                        	|
 |:---------------------------------------------------------------------------------------------------------------------------------------:	|:-----------------------------------------------------------------------------------------------------------------:	|:---------------------------------------------------------------------------------------:	|-----------------------------------------------	|
-| [:25] Introduction1<sup>1</sup>; and Initial Setup. -- *Repo: `react-intro`*                                                                        	|  [:30] ES6; ES6 Const/Let; ES6 Arrow Functions; ES6 Literals; and ES6 Exercise. -- *Repo: `react-es6-functional`* 	| [:20] Declarative vs Imperative Programming. -- *Repo: `react-apis-heroku-declarative`* 	| Self Project. -- *Repo: `react-self-project`* 	|
+| [:25] Introduction<sup>1</sup>; and Initial Setup. -- *Repo: `react-intro`*                                                                        	|  [:30] ES6; ES6 Const/Let; ES6 Arrow Functions; ES6 Literals; and ES6 Exercise. -- *Repo: `react-es6-functional`* 	| [:20] Declarative vs Imperative Programming. -- *Repo: `react-apis-heroku-declarative`* 	| Self Project. -- *Repo: `react-self-project`* 	|
 | [:25] Components; and Component Setup. -- *Repo: `react-intro`*                                                                         	|         [:15] Functional Components<sup>1</sup>; and Functional Components Exercise. -- *Repo: `react-es6-functional`*        	|                                [:30] Heroku. -- *Repo: `react-apis-heroku-declarative`* 	|                                               	|
 | [:25] JSX<sup>1</sup>; and Virtual DOM<sup>1</sup> -- *Repo: `react-intro`*                                                                                     	|                            [:30] Component Lifecycle. -- *Repo: `react-es6-functional`*                           	|                                       [:15] *Optional*: Quiz 5. -- *Repo: `react-instructor-notes`* 	|                                               	|
 | [:30] Props<sup>1</sup>; Multiple Props; and Multiple Props with Objects. -- *Repo: `react-intro`*                                                  	| [:10] Unidirectional Flow<sup>1</sup>. -- *Repo: `react-es6-functional`*                                                      	| [:30] Film Exercise 4 - APIs. -- *Repo: `react-apis-heroku-declarative`*     	|                                               	|
@@ -29,9 +29,11 @@ Note 3: List and link to all repos is the `list-of-repos.md` in this folder.
 | [Homework *Day 2 if calc is hw*]. *Optional* Film Exercise - State. *Repo: `react-state-exercises`*. Note: Uses ES6.                    	|                                                                                                                   	|                                                                                         	|                                               	|
 
 ## Optional Quizzes and Review Guides
+
 - **Quizzes**:. There are optionally short, ten question quizzes after each repo. The quiz questions and links are in the `quizzes` folder.
   - These are not referenced in anything student facing and can optionally be assigned at your discretion.
-  - **Note:** The review guides are linked at the end of the quizzes.
+  - **Note:** The review guides are linked at the end of the quizzes, but the link is incorrect (as this is in staging on myGA, it's not an easy fix). You can choose instead to share the review guide from the review guide repo.
+  
 - **Review Guides**: There are optionally review guides for a student to quickly reference in the future. These are located in [the `react-review-guides` repo](../../../react-review-guides/).
   - These are not referenced in anything student facing and can optionally be shared at your discretion.
 
@@ -48,13 +50,14 @@ Note 3: List and link to all repos is the `list-of-repos.md` in this folder.
   - The film exercises are not referenced anywhere else in the class and can safely be ignored if you so choose.
 
 ## Options on ways to teach the React Module
-Note: See the `Readme.md` in the `schedules` folder for links to the repos and definitions of activity types.
+
 - **Option 1**: Teach it like a normal class, entirely in classroom.
   - Follow the schedule above.
 
 - **Option 2**: Teach flipped classroom
   - This means assigning as much reading as possible for homework; all exercises and codealongs during the day.
-  - For a schedule on teaching React flipped, follow the `flipped-classroom-schedule.md` in the `schedules` folder.
+  - For a schedule on teaching React flipped, follow the `flipped-classroom-schedule.md`.
+  
 - **Option 3**: Teaching ES6 first, before React.
   - [ES6 is part of unit 3](../../../react-es6-functional/) - the `react-es6-functional` repo.
   - If you'd like to teach ES6 before you start React, you will teach lessons 1-6 of unit 3 before starting back at unit 1 for the rest of the React module
