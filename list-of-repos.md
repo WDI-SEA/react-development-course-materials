@@ -5,14 +5,10 @@ A quick list of all the repos:
 - This one! `react-instructor-notes`
 - [Repo 1: react-intro](../../../react-intro)
 - [Repo 2: react-state-exercises](../../../react-state-exercises)
-- [Repo 3: react-es6-functional](../../../react-es6-functional)
-- [Repo 4: react-router](../../../react-router)
-- [Repo 5: react-apis-heroku-declarative](../../../react-apis-heroku-declarative)
-- [Repo 6: react-ATM](../../../react-atm)
-- [Repo 7: react-tictactoe](../../../react-tictactoe)
-- [Repo 8: react-documentation](../../../react-documentation)
-- [Repo 9: Self project](../../../react-self-project)
-
+- [Repo 3: react-underlying-concepts](../../../react-underlying-concepts)
+- [Repo 4: react-apis-heroku](../../../react-apis-heroku)
+- [Repo 5: react-router](../../../react-router)
+- [Repo 6: react-tictactoe](../../../react-tictactoe)
 
 Also:
 - [react-review-guides](../../../react-review-guides)
