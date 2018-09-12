@@ -8,7 +8,7 @@ A quick list of all the repos:
 - [Repo 3: react-underlying-concepts](../../../react-underlying-concepts)
 - [Repo 4: react-apis-heroku](../../../react-apis-heroku)
 - [Repo 5: react-router](../../../react-router)
-- [Repo 6: react-applied-practice](../../../react-applied-practice)
+- [Repo 6: react-applied-practice](../../../react-tictactoe)
 
 Also:
 - [react-review-guides](../../../react-review-guides)
