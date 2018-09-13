@@ -11,11 +11,11 @@
 
 Students engage in hands-on, project-based learning. React Development students will:
 
-• Explore new concepts and tools through expert-led lectures and discussions.
-• Complete coding exercises to reinforce newly learned skills.
-• Dive deeper into topics and techniques via programming labs.
-• Receive individualized feedback and support from the instructional team.
-• Apply what they've learned to build a custom React application.
+- Explore new concepts and tools through expert-led lectures and discussions.
+- Complete coding exercises to reinforce newly learned skills.
+- Dive deeper into topics and techniques via programming labs.
+- Receive individualized feedback and support from the instructional team.
+- Apply what they've learned to build a custom React application.
 
 ## Quick Links
 - [About This Guide](#about-this-guide)
@@ -97,8 +97,8 @@ The schedules below are provided as examples only. Feel free to create the right
 
 #### 1 Week Pacing
 
-| Day 1: React Intro                                                         | Day 2: React State                                                                            | Day 3: Underlying Concepts, APIs, and Heroku                                                                                  | Day 4d (*Data Track)*: Pandas                                                       | Day 4w (*Web Dev Track)*: Flask                                          | Day 5: Review and Project                       |
-|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Day 1: React Intro                                                         | Day 2: React State                                                                            | Day 3: Underlying Concepts, APIs, and Heroku                                                                                  | Day 4: React Router and Applied Practice, Part 1                                                       | Day 5: Applied Practice, Part 2 and Final Project                                                                |
+|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | [1:00] [Welcome](unit-1-variables/instructor-resources/01-welcome)      | [:30] Review Homework                                                                           | [:30] Review Homework                                                                                       | [:30] Review Homework                                                               | [:30] Review Homework                                                    | [:30] Review Homework                                           |
 | [1:00] [Variables](unit-1-variables/instructor-resources/02-variables)             | [:45] [Advanced Function Arguments](unit-2-control-flow/instructor-resources/09-args)           | [:30] [Intermediate Variables](unit-4-troubleshooting/instructor-resources/17-intermediate-variables)       | [1:00] [Introduction to Data Science](unit-6-pandas/instructor-resources/01-ds-intro)                    | [:30] [Introduction to Web Dev](unit-6-flask/instructor-resources/01-web-dev-intro)                                           | [:30] Overall Review and Q&A *([Data Track link](unit-7-data-wrap-up/instructor-resources/01-review))* // *([Web Dev Track link](unit-7-web-dev-wrap-up/instructor-resources/01-review))* |
 | [:30] [Installing Python3](unit-1-variables/instructor-resources/03-local-python)  | [1:35] [Unit Lab 2: Control Flow](unit-2-control-flow/instructor-resources/10-unit-lab-2)       | [:40] [Debugging Principles and Techniques](unit-4-troubleshooting/instructor-resources/18-debugging)       | [1:00] [Pandas I](unit-6-pandas/instructor-resources/02-pandas-i)                                        | [:30] [Flask Introduction](unit-6-flask/instructor-resources/02-flask)                                                 | [5:00] Project *([Data Track link](unit-7-data-wrap-up/instructor-resources/02-project))*  // *([Web Dev Track link](unit-7-web-dev-wrap-up/instructor-resources/02-project))*             |
