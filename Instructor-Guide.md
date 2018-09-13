@@ -74,30 +74,30 @@ In order to graduate and earn a course completion certificate, every student mus
 ### Learning Objectives
 The high-level learning objectives for this course are:
 
-- Create a basic Python app, using control flow, classes, and try/catch statements.
-- Incorporate APIs, modules, and user input into a Python app.
-- Use Pandas to create a visualization of a dataset **or** use Flask to create and run a Python application (depending on the special topic track).
+- Explore the essentials of programming with React, including components, JSX, props, and state.
+- Build multipage web applications using the popular React Router package.
+- Create a custom, functioning web application.
+- Embed an application programming interface (API) in a React application.
+- Host a React application on Heroku to share with the world.
 
 Students cannot graduate unless they demonstrate mastery of the above learning objectives before the end of the course. Mastery is measured through assessment: homeworks, in-class activities and final projects.
 
-The official course syllabus, available [here](https://drive.google.com/file/d/1G5MxiLnVah4YAoJTzdIYK-8guTYC-Q7u/view), outlines what must be covered in the course.
+The official course syllabus, available PLACEHOLDER-ADD LINK outlines what must be covered in the course.
 
 Optional topics you may consider adding on to extend learning (provided your students are ready) include:
-- More intermediate programming, such as decorators, logging, and unit tests.
-- More interesting or specialized libraries, such as PyGame, NumPy, or Django.
+- PLACEHOLDER
+- PLACEHOLDER
 
 ### Course Format
 This course may be taught online or in-person, in a [10-week](#10-week-pacing) or [1-week format](#1-week-pacing).
 
 
 ## Suggested Pacing Guide
-The schedules below are provided as examples only. Feel free to create the right pace of lessons and activities for your students in order to ensure the required learning objectives are met. **Note:** These links will be live when the markdown files are available on Sept. 7
+The schedules below are provided as examples only. Feel free to create the right pace of lessons and activities for your students in order to ensure the required learning objectives are met. 
 
 #### 1 Week Pacing
 
-You can also view this in a Trello board [here](https://trello.com/invite/b/U7Exj4XJ/cb991c85cedbaa30789098d6d6697470/python-programming-5-day-schedule).
-
-| Day 1: Python Fundamentals                                                         | Day 2: Mostly OOP                                                                               | Day 3: Intermediate Python                                                                                  | Day 4d (*Data Track)*: Pandas                                                       | Day 4w (*Web Dev Track)*: Flask                                          | Day 5: Review and Project                       |
+| Day 1: React Intro                                                         | Day 2: React State                                                                            | Day 3: Underlying Concepts, APIs, and Heroku                                                                                  | Day 4d (*Data Track)*: Pandas                                                       | Day 4w (*Web Dev Track)*: Flask                                          | Day 5: Review and Project                       |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|-----------------------------------------------------------------|
 | [1:00] [Welcome](unit-1-variables/instructor-resources/01-welcome)      | [:30] Review Homework                                                                           | [:30] Review Homework                                                                                       | [:30] Review Homework                                                               | [:30] Review Homework                                                    | [:30] Review Homework                                           |
 | [1:00] [Variables](unit-1-variables/instructor-resources/02-variables)             | [:45] [Advanced Function Arguments](unit-2-control-flow/instructor-resources/09-args)           | [:30] [Intermediate Variables](unit-4-troubleshooting/instructor-resources/17-intermediate-variables)       | [1:00] [Introduction to Data Science](unit-6-pandas/instructor-resources/01-ds-intro)                    | [:30] [Introduction to Web Dev](unit-6-flask/instructor-resources/01-web-dev-intro)                                           | [:30] Overall Review and Q&A *([Data Track link](unit-7-data-wrap-up/instructor-resources/01-review))* // *([Web Dev Track link](unit-7-web-dev-wrap-up/instructor-resources/01-review))* |
