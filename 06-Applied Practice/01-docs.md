@@ -49,7 +49,7 @@ Open the [React homepage](https://facebook.github.io/react/)
 
 ### The React community
 
-Within "Community", 
+There are many recomended places to ask for help within "Community".
 
 ![](assets/facebook-community.png)
 
@@ -65,21 +65,34 @@ That said, looking through questions that have been asked previously is a great 
 </aside>
 
 
-
-
+----
 
 ### The React documentation
 
-- Now, let's dive in. Click "Docs".
+
 
 ![](assets/facebook-rendering.png)
 
-In the left sidebar is a nav bar containing a quick start guide, advanced guides, and references (as well as how to contribute, which you could do some day!).
+Click "Docs"
 
+Nav Bar: 
+- Quick start guide
+- Advanced guides 
+- References 
+- Rendering Elements
+
+<aside class="notes">
+
+**Talking Points** 
+
+- Now, let's dive in. Click "Docs".
+- In the left sidebar is a nav bar containing a quick start guide, advanced guides, and references (as well as how to contribute, which you could do some day!).
 - In the left sidebar, click "Rendering Elements." Read through the page, paying attention to the examples. Hopefully, this is all review and relatively straightforward.
+- Congratulations! You've read a page of React.js documentation.
 
-Congratulations! You've read a page of React.js documentation.
+</aside>
 
+---- 
 
 ### Documentation Exercise: Conditional Rendering
 
@@ -87,17 +100,37 @@ Now, let's apply something new. In the search bar at the top, look for "Conditio
 
 ![](assets/facebook-conditional.png)
 
-- Read through the page.
 
-- Now, look at [this CodePen](https://codepen.io/SuperTernary/pen/wrooQP). It's the fruit filter from before; currently, it only lists the matching fruits (however, it has the functions to make the list for the unmatching ones).
+Step 1: In the search bar at the top, look for "Conditional Rendering" and read through the page. 
 
-- **Task:** Referring to the Conditional Rendering documentation, finish this application so there's only a single list displayed at any time, with a corresponding button changes between "Show matching fruits" and "Show unmatching fruits".
+Step 2: Referring to the Conditional Rendering documentation, finish this [this CodePen application](https://codepen.io/SuperTernary/pen/wrooQP) so there's only a single list displayed at any time, with a corresponding button changes between "Show matching fruits" and "Show unmatching fruits".
   - The two functions creating the buttons have been made for you, below the class declaration.
-  - The `return` method in the `render` methodis accurate; as well as the `handleFilterChange()` method - no modifications are needed in either `handleFilterChange()` or the `return`.
+  - The `return` method in the `render` methodis accurate; as well as the `handleFilterChange()` method - no modifications are needed in either `handleFilterChange()` or the `return`.[this CodePen](https://codepen.io/SuperTernary/pen/wrooQP)
+  
 
 Here are screenshots of the two different states of the app:
 ![](assets/fruit-final.png)
 
-**For a hint**: There is a comment everywhere you need to make a modification in [this CodePen](https://codepen.io/SuperTernary/pen/qPqqQE?editors=0010).
 
-**When you have it, check your solution against** [this CodePen](https://codepen.io/SuperTernary/pen/XeNNEG?editors=0010).
+When you have it, check your solution against** [this CodePen](https://codepen.io/SuperTernary/pen/XeNNEG?editors=0010)
+
+<aside class="notes">
+
+**Talking Points** 
+- Now, let's apply something new. In the search bar at the top, look for "Conditional Rendering".
+- Read through the page.
+- Then, look at [this CodePen](https://codepen.io/SuperTernary/pen/wrooQP). It's the fruit filter from before; currently, it only lists the matching fruits (however, it has the functions to make the list for the unmatching ones).
+- Referring to the Conditional Rendering documentation, finish this application so there's only a single list displayed at any time, with a corresponding button changes between "Show matching fruits" and "Show unmatching fruits".
+  - The two functions creating the buttons have been made for you, below the class declaration.
+  - The `return` method in the `render` methodis accurate; as well as the `handleFilterChange()` method - no modifications are needed in either `handleFilterChange()` or the `return`.
+  
+- Teaching tip: provide this this CodePen](https://codepen.io/SuperTernary/pen/qPqqQE?editors=0010)for students who need support (There is a comment everywhere they. need to make a modification)
+
+  
+</aside>
+
+
+
+
+
+**.
