@@ -6,7 +6,7 @@ It's time to build something you'll be proud to call your own.
 
 This is an open-ended project; there is no set solution that we can provide, but of course we are here to help. 
 
-* You're going to be making your own site. This can be a site that you imagine, but feel free to pick an existing website and try to mimic it. Some websites that use React that you can model yours after are:
+You're going to be making your own site. This can be a site that you imagine, but feel free to pick an existing website and try to mimic it. Some websites that use React that you can model yours after are:
   - https://www.airbnb.com/
   - https://citymapper.com/boston
   - https://reddit.com
@@ -15,7 +15,7 @@ This is an open-ended project; there is no set solution that we can provide, but
 
 Once you have a website with basic functionality that you're satisfied with, look at the "Further Directions" section and choose at least one of the options to implement.
 
-### Requirements
+*Requirements*
 
 * Utilize both nested components and `state`.
 * Use React Router and include a nav bar.
