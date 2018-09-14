@@ -1,4 +1,4 @@
-# React Module Breakdown
+# React Development: Types of Activities
 Note: The term "React Module" refers to all 8 React repos taught sequentially.
 
 ### Types of Activities in the React Module:
