@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Final Project
 
-### Project Overview
+## Project Overview
 
 It's time to build something you'll be proud to call your own.
 
@@ -39,7 +39,7 @@ Once you have a website with basic functionality that you're satisfied with, cho
 * **Option 2:** Learn about and implement React animations and apply them to the blog or the project you built in the last exercise.
 * **Option 3:** In addition to animations, incorporate Flow — a static type checker — into your application.
 
-### Deliverables
+**Deliverables**
 
 When you're satisfied with your web application and have implemented at least one of the further options, host your app on Heroku. Share the link as well as your repository with your instructor.
 
