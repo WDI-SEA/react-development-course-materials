@@ -13,6 +13,8 @@ This is an open-ended project; there is no set solution that we can provide, but
   - https://www.instagram.com/
   - https://www.nytimes.com/
 
+Once you have a website with basic functionality that you're satisfied with, look at the "Further Directions" section and choose at least one of the options to implement.
+
 ### Requirements
 
 * Utilize both nested components and `state`.
