@@ -3,34 +3,69 @@
 
 ### Learning Objectives
 *After this lesson, you will be able to:*
-- Read through the React documentation
+- Comprehend React documentation
 - Apply concepts in the React documentation
 
 
 ## Documentation
 
-When you don't know how to do something in programming, a great place to check is the documentation. Some frameworks have documentation that's very dense and difficult to parse, but others are much more straightforward. Luckily, React.js is one of the more well written ones!
+When you don't know how to do something in programming, a great place to check is the documentation. 
 
-You're going to be looking at the React documentation to practice learning on your own. This lesson doesn't have a lot of answers in it, because the hope is that you'll be able to find them yourself! We'll be here to point you in the right direction.
+That's what we'll be doing this lesson - finding the answers in documentation.
+
+<aside class="notes">
+
+
+**Talking Points**
+
+- Some frameworks have documentation that's very dense and difficult to parse, but others are much more straightforward. Luckily, React.js is one of the more well written ones!
+
+- You're going to be looking at the React documentation to practice learning on your own. This lesson doesn't have a lot of answers in it, because the hope is that you'll be able to find them yourself! We'll be here to point you in the right direction.
+
+
+</aside>
+
+----
 
 ## Looking at the React Website
 
-First, open the [React homepage](https://facebook.github.io/react/). Since React was created by Facebook, it has a large community with a lot of information.
+Since React was created by Facebook, it has a large community with a lot of information.
 
-- First, click "Tutorial" at the top. This is a tutorial created by Facebook to walk you through learning React - it's the tic tac toe game from the last lesson!
-  - If that last exercise was a little confusing, it might be worth pausing this lesson to run through the Facebook tutorial and reinforce what we've learned so far.
-
+Open the [React homepage](https://facebook.github.io/react/)
+  - 
 ![](assets/facebook-tutorial.png)
+
+
+<aside class="notes">
+
+**Talking Points**
+
+- "Since React was created by Facebook, it has a large community with a lot of information." **Teaching tip:** Direct students to open the [React homepage](https://facebook.github.io/react/). 
+
+- "Click "Tutorial" at the top. This is a tutorial created by Facebook to walk you through learning React - it's the tic tac toe game from the last lesson! **Teaching tip:** If that last exercise was a little confusing, it might be worth pausing this lesson to run through the Facebook tutorial and reinforce what we've learned so far.
+
+</aside>  
+
 
 ### The React community
 
-- Click "Community".
+Within "Community", 
 
 ![](assets/facebook-community.png)
+
+<aside class="notes">
+
+**Talking Points**
 
 Here are many recommended places to ask for help. However, make sure that you try your best to find the answer first! Many frameworks don't have such a large community, so being able to find the answer on your own is crucial. As well, while a problem might seem dire, the solution might be a single command or short explanation found in the documentation.
 
 That said, looking through questions that have been asked previously is a great place for research. If you're having a problem, chances are high that someone else once had that same problem.
+
+
+</aside>
+
+
+
 
 
 ### The React documentation
