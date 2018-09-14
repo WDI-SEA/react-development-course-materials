@@ -85,8 +85,8 @@ Students cannot graduate unless they demonstrate mastery of the above learning o
 The official course syllabus, available PLACEHOLDER-ADD LINK outlines what must be covered in the course.
 
 Optional topics you may consider adding on to extend learning (provided your students are ready) include:
-- [React Native] (https://facebook.github.io/react-native/)
-- [Redux] (https://redux.js.org/basics/usagewithreact)
+- [React Native](https://facebook.github.io/react-native/)
+- [Redux](https://redux.js.org/basics/usagewithreact)
 
 # React Development: Types of Activities
 Note: The term "React Module" refers to all 8 React repos taught sequentially.
