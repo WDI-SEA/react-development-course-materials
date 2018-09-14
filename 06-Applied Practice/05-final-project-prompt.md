@@ -13,25 +13,20 @@ This is an open-ended project; there is no set solution that we can provide, but
   - https://www.instagram.com/
   - https://www.nytimes.com/
 
-* Once you have a website with basic functionality that you're satisfied with, look at the "Further Directions" section and choose at least one of the options to implement.
-
-* Then, host your app on Heroku.
-
 ### Requirements
 
 * Utilize both nested components and `state`.
 * Use React Router and include a nav bar.
 * Use ES6 syntax; don't forget about functional components!
 
-Note: We don't have a database set up, so if you need data, feel free to hard-code a little (just enough to get the idea) or use `fetch` to call an API.
 
 ### Suggestions and Hints
 
 - Don't worry about styling at first! Focus on getting the functionality working.
 - Remember that `state` and `props` are **not** the same!
-  - Remember that `state` represents the _state_ of your user interface component.
+  - `state` represents the _state_ of your user interface component.
   - `state` can trigger changes in `props`, or `props` can come from parent components.
-- Stick to functional programming techniques whenever possible. By this, we mean use built-in methods such as `.forEach()` and `.map()` if available.
+- Stick to functional programming techniques whenever possible (e.g. use built-in methods such as `.forEach()` and `.map()` if available).
 - If you are rendering a list of child components (such as a _ul_ -> _li_ list), each individual child component needs a unique `id` for React to work with it. This is so React can identify each element uniquely, if necessary.
 
 ### Further Directions
@@ -48,3 +43,12 @@ When you're satisfied with your web application and have implemented at least on
 
 
 Enjoy the Challenge!
+
+
+<aside class="notes">
+
+**Talking Points**
+- Note: We don't have a database set up, so if you need data, feel free to hard-code a little (just enough to get the idea) or use `fetch` to call an API.
+
+
+</aside>
