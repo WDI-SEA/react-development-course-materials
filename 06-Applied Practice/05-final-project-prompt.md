@@ -20,7 +20,7 @@ This is an open-ended project; there is no set solution that we can provide, but
 * Use ES6 syntax; don't forget about functional components!
 
 
-### Suggestions and Hints
+**Suggestions and Hints**
 
 - Don't worry about styling at first! Focus on getting the functionality working.
 - Remember that `state` and `props` are **not** the same!
