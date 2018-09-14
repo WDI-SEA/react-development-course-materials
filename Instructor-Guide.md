@@ -94,12 +94,12 @@ Note: The term "React Module" refers to all 8 React repos taught sequentially.
 ### Types of Activities in the React Module:
 - **Code-along**:
   - Students do this in class with you. You do it on the screen, and they follow along on their laptops.
-  - All codealongs can be instead assigned as exercises to the students to follow the instructions on their own.
+  - All code-alongs can be instead assigned as exercises to the students to follow the instructions on their own.
 - **Exercises**:
   - Exercises with instructions for students to do on their own.
   - Exercises can be run as code-alongs, with the exception of the blog and film projects.
 - **Projects**:
-  - Blog Project: There is a blog project that students build upon throughout the week. Each exercise builds on the last until students have a functioning project by the end of the week. 
+  - Blog Project: There is a blog project that students build upon throughout the week. It starts in the Props pre-work lesson. Each exercise builds on the last until students have a functioning project by the end of the week. 
     - Each solution is a branch in the `react-blog-project` repo. (Each exercise's starter code is also in the repo, though students won't need that as the exercise is built throughout the class).
   - Film project: There is also a film project that students build upon throughout the week. Each exercise builds on the last until students have a functioning project by the end of the week. 
     - Each solution is a branch in the `react-film` repo. (Each exercise's starter code is also in the repo, though students won't need that as the exercise is built throughout the class).
