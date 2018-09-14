@@ -2,6 +2,6 @@
 
 --------
 
-Direct Students to the README file in this Repository:
+Direct Students to the README file in this [Repository] (/03-tic-tac-toe-lab.md)
 
-Repository: https://github.com/susiremondi/ATMReact
+
