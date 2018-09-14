@@ -15,7 +15,7 @@ You're going to be making your own site. This can be a site that you imagine, bu
 
 Once you have a website with basic functionality that you're satisfied with, look at the "Further Directions" section and choose at least one of the options to implement.
 
-*Requirements*
+**Requirements**
 
 * Utilize both nested components and `state`.
 * Use React Router and include a nav bar.
@@ -31,7 +31,7 @@ Once you have a website with basic functionality that you're satisfied with, loo
 - Stick to functional programming techniques whenever possible (e.g. use built-in methods such as `.forEach()` and `.map()` if available).
 - If you are rendering a list of child components (such as a _ul_ -> _li_ list), each individual child component needs a unique `id` for React to work with it. This is so React can identify each element uniquely, if necessary.
 
-### Further Directions
+## Further Directions
 
 Once you have a website with basic functionality that you're satisfied with, choose at least one of the below options to implement.
 
