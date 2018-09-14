@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Final Project
 
-### Project Overview*
+### Project Overview
 
 It's time to build something you'll be proud to call your own.
 
