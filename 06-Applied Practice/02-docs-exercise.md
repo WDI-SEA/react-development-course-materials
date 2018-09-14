@@ -8,7 +8,7 @@ In small groups, choose one of the following questions to research in the Facebo
 Create a compelling presentation to present that:
 - Answers the question.
 - Provides examples via learning materials, diagrams, etc to the audience.
-- Bonus: be interactive!
+- Bonus: is interactive!
 
 ### Overview
 - 15 min to research the question.
@@ -35,3 +35,16 @@ Create a compelling presentation to present that:
 - Compare and contrast stateful, stateless, and functional components in React. List the pros and cons of each. When would we use one over the other?
 
 - Is there a lifecycle method to prevent the initial rendering of a React component? Explain why or why not.
+
+
+<aside class="notes">
+**Teaching tip**
+
+- try to make sure each group chooses a different question to answer so there are no repeats.
+- circulate while the groups are developing their presentation.
+- be sure to time presentations so the activity moves along (each should be no longer than 5 minutes). 
+
+
+</aside>
+
+
