@@ -12,7 +12,7 @@
 
 **Talking Points**:
 
-We've learned a lot about the modern tooling and practicing around the React ecosystem over the past couple of days.  A lot of modern JavaScript is focused on knowing the right tools for the job.  Today we will be pulling in everything we've learned about Node and React to build a full stack application using the MERN stack.
+A lot of modern JavaScript is focused on knowing the right tools for the job.  Today we will be pulling in everything we've learned about Node and React to build a full stack application using the MERN stack.
 
 </aside>
 
@@ -22,10 +22,10 @@ We've learned a lot about the modern tooling and practicing around the React eco
 
 MERN stack -  shorthand way of saying that an application is a full-stack Java Script app. 
 
-MongoDB
-Express
-React
-Node
+**M**ongoDB
+**E**xpress
+**R**eact
+**N**ode
 
 
 
