@@ -2,15 +2,7 @@
 
 ![Calculator Icon](images/calculator.png)
 
-Q: What did the calculator say to the student?
-
-<details>
-    <summary>A:</summary>
-    You can count on me. 
-  </details>
-</details>
-
-
+Let's Build A Calculator!
 
 <aside class="notes">
 
