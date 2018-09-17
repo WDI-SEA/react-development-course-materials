@@ -9,7 +9,12 @@ to practice creating components and passing information into them.
 We'll build a simple website that shows title and runtime information about the
 original Lord of the Rings Trilogy.
 
-Specifically, at the end of this lesson, your solution will look like what you see here (show the .png file to students).
+Specifically, at the end of this lesson, your solution will look like what you see here 
+
+
+**Teaching Tip**
+
+Show the .png file to the class so they can see the end result.
 
 
 ---
