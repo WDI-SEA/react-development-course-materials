@@ -23,8 +23,11 @@ A lot of modern JavaScript is focused on knowing the right tools for the job.  T
 MERN stack -  shorthand way of saying that an application is a full-stack Java Script app. 
 
 **M**ongoDB
+
 **E**xpress
+
 **R**eact
+
 **N**ode
 
 
