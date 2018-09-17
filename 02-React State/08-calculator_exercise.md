@@ -25,22 +25,12 @@ calculator with React, and only minimal instructions have been provided for you 
 
 ---
 
-### Set Up
+
+### Set Up and Step 1
 
 `create-react-app`
 
 <aside class="notes">
-
-**Talking Points**:
-
-- Use `create-react-app` to make a new project.
-
-</aside>
-
----
-
-### Step 1
-
 
 ```html
 <div className="container">
@@ -60,7 +50,9 @@ calculator with React, and only minimal instructions have been provided for you 
 
 **Talking Points**:
 
-- Start by creating a single component file in the `src` directory, and name it `Calculator.js`. In this file, create your `Calculator` class. Use the `App.js` as an example of how to create a basic component. Add the following JSX to your Calculator's `render()` function.
+- Use `create-react-app` to make a new project.
+
+- Then, create a single component file in the `src` directory, and name it `Calculator.js`. In this file, create your `Calculator` class. Use the `App.js` as an example of how to create a basic component. Add the following JSX to your Calculator's `render()` function.
 
 </aside>
 
@@ -142,7 +134,7 @@ input text.
 
 </aside>
 
-### Step 5
+### Step 4
 
 Time to create a new method.
 
@@ -166,7 +158,7 @@ your form, add them together, and set part of the state to the new `sum`.
 
 ---
 
-### Step 6
+### Step 5
 
 Et voilà!
 
