@@ -86,13 +86,13 @@ room.forEach((person) => {
   console.log("Declarative way: " + person);
 });
 ```
-> Run it! It still lists the people in the room. Consider how much less code it took.
 
-What happened? 
 
 <aside class="notes">
 
 **Talking Points**:
+
+- Run it! It still lists the people in the room. Consider how much less code it took.
 
 - What happened? Well, Javascript has a built-in method that loops over arrays for you. `.forEach()` does the same thing that `for` loop you wrote above - except you had to write a lot less.
 
