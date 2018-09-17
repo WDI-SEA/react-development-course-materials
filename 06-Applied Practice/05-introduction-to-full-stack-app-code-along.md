@@ -69,10 +69,10 @@ Here's a GIF representation of the how this may look, though we will also add th
 
 ## You Do: Data Model Brainstrom 
 
-Work with students around you to: 
-- write out a few user stories 
-- sketch two wireframes 
-- illustrate what our data model might look like. Think about the API routes that we will need. What components do you think we will need? What routes do we need to make available to the React app?
+Work with classmates around you to: 
+- Write out three user stories 
+- Sketch two wireframes 
+- Illustrate what our data model might look like. Think about the API routes that we will need. What components do you think we will need? What routes do we need to make available to the React app?
 
 
 <aside class="notes">
