@@ -114,12 +114,12 @@ Note: The term "React Module" refers to all 8 React repos taught sequentially.
   - The last repo is a self-project prompt. This is designed for a student to build their own website over the course of an entire day.
 
 
-### Course Format
-This course may be taught online or in-person, in a [10-week](#10-week-pacing) or [1-week format](#1-week-pacing).
-
-
 ## Suggested Pacing Guide
-The schedules below are provided as examples only. Feel free to create the right pace of lessons and activities for your students in order to ensure the required learning objectives are met. 
+
+### Course Format
+This course may be taught online or in-person, in a 10-week or 1-week format.
+
+The schedules for each (linked below) are provided as examples only. Feel free to create the right pace of lessons and activities for your students in order to ensure the required learning objectives are met. 
 
 [Pacing Guide](https://docs.google.com/document/d/1VogHvxIbx784mAeS83yI7GNECLYv6WNCGGUe2C5A6W8/edit#)
 
