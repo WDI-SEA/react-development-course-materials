@@ -25,7 +25,7 @@ Students engage in hands-on, project-based learning. React Development students 
 - [Appendix: Materials and Resources](#appendix-materials-and-resources)
 - [Notes for Teaching This Course](python-specific-course.md)
 - [Instructions on Slide Delivery](presenting-and-creating-materials)
-- Note: All of the decks or this course can be found [here](https://nagale.com/ga-python/). Markdown files will be available September 7.
+
 
 ## About This Guide
 
