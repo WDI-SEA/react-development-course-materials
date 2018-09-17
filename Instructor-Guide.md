@@ -135,7 +135,7 @@ The schedules for each (linked below) are provided as examples only. Feel free t
   - [Getting Started With React](https://admin.generalassemb.ly/create/lessons/653/versions)
   - [Props](https://admin.generalassemb.ly/create/lessons/654/versions)
 
-- All quizzes (delivered via myGA) can be found [here](./Additional Resources/Quizzes)
+- All quizzes (delivered via myGA) can be found [here](Additional Resources/Quizzes)
 - Tips and templates for instructors are available on the [GA Instructor Blog](http://assemblyrequired.ga.co).
 - For help and support, join the GA Instructors Slack Community and post your questions in #SLACKCHANNEL.
 
