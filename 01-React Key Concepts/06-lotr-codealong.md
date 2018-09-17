@@ -2,18 +2,15 @@
 
 ![Lord of the Rings movie info](images/lord-of-the-rings-final.png)
 
-<aside class="notes">
 
-**Talking Points**:
-- Let's build something small to reinforce what you've learned so far. We're going
+Let's build something small to reinforce what you've learned so far. We're going
 to practice creating components and passing information into them.
 
-- We'll build a simple website that shows title and runtime information about the
+We'll build a simple website that shows title and runtime information about the
 original Lord of the Rings Trilogy.
 
-- Specifically, at the end of this lesson, your solution will look like what you see here.
+Specifically, at the end of this lesson, your solution will look like what you see here (show the .png file to students).
 
-</aside>
 
 ---
 
@@ -41,11 +38,11 @@ Make sure eveyone gives a 👍 in Slack when that are able to start the server.
 
 ---
 
-
 ### Create A Simple Movie Component
 Open up your `./src` directory in your favorite text editor.
 
 Inside of `./src` folder, create a new React Component file called `Movie.js`.  Syntax is important here and conveys that the file is a React component so make sure it begins with a capital letter, in this case **'M'**. 
+
 
 **src/Movie.js**
 
@@ -63,18 +60,16 @@ class Movie extends Component {
 export default Movie
 ```
 
-**Talking Points:**
-
 Let's add some JSX to the render function so this component will be visible in
-our application. Let's keep the JSX simple for now as our first step is to confirm it's working.  
+our application. Let's keep the JSX simple for now, and we'll make it more
+complex once we're sure it works.
 
-The goal is to display the movie title and untime information so let's add one `<h1>` for the movie title, and a `<p>` for the runtime. 
+Remember, our goal is to display the movie title and
+runtime information.
 
-One thing to always keep in mind is that the JSX of each component in React must return one parent element which in itself can contain as much HTML or additional nested components required by this coponent so be sure to wrap the `<h1>` and `<p>` in a parent element which in this case will be a generic `<div>`.
-
----
-
-
+Let's add one `<h1>` for the movie title, and a `<p>` for the runtime. Remember,
+the JSX of each component in React ultimately must descend from just one parent
+element. Wrap the `<h1>` and `<p>` in a `<div>`.
 
 The JSX will look like this:
 
@@ -85,24 +80,6 @@ The JSX will look like this:
 </div>
 ```
 
-<aside class="notes">
-
-**Talking Points:**
-
-- Let's add some JSX to the render function so this component will be visible in
-our application. Let's keep the JSX simple for now, and we'll make it more
-complex once we're sure it works.
-
-- Remember, our goal is to display the movie title and
-runtime information.
-
-- Let's add one `<h1>` for the movie title, and a `<p>` for the runtime. Remember,
-the JSX of each component in React ultimately must descend from just one parent
-element. Wrap the `<h1>` and `<p>` in a `<div>`.
-
-</aside>
-
----
 
 Add this JSX to the component so that it's returned from the `render()` method.
 
@@ -125,9 +102,12 @@ class Movie extends Component {
 export default Movie
 ```
 
----
-
 ### Viewing the Component
+
+Let's make this component appear on the page. One great thing about using
+`create-react-app` is it tells us exactly what we need to do to start editing
+our application. The homepage says, "To get started, edit `src/App.js` and save to
+reload." Let's do that!
 
 
 Open `src/App.js`.
@@ -137,17 +117,6 @@ app and see if it appears.
 
 <aside class="notes">
 
-**Talking Points:**
-
-- Let's make this component appear on the page. One great thing about using
-`create-react-app` is it tells us exactly what we need to do to start editing
-our application. The homepage says, "To get started, edit `src/App.js` and save to
-reload." Let's do that!
-
-</aside>
-
----
-
 ### Dealing with Errors
 
 ```
@@ -156,11 +125,7 @@ Failed to compile
   Line 16:  'Movie' is not defined  react/jsx-no-undef
 ```
 
-<aside class="notes">
-
-**Talking Points:**
-
-- Uh oh. There's an error.
+Uh oh. There's an error.
 
 
 **Teaching Tip**
@@ -169,27 +134,16 @@ Use this as an opporutnity to ask the class what is going on, if they have seen 
 
 One does not simply refer to components in React. In our `src/App.js`, we're saying "Display what's returned from the `Movie` component." However - we haven't told `src/Apps.js` where to find the `Movie` component! We must import a component before using it.
 
-
-</aside>
-
----
-
+Add this import statement with the other imports at the top of
+the `src/App.js` file.
 
 ```
 import Movie from './Movie.js';
 ```
+Now you should see the page without the error message, and it should have the
+JSX from the Movie component.
 
-<aside class="notes">
-
-**Talking Points:**
-
-- Add this import statement with the other imports at the top of
-the `src/App.js` file.
-
-</aside>
-
----
-
+The entire `App.js` should look like this.
 
 **src/App.js**
 
@@ -219,18 +173,6 @@ class App extends Component {
 export default App
 ```
 
-<aside class="notes">
-
-**Talking Points:**
-
-- Now you should see the page without the error message, and it should have the
-JSX from the Movie component.
-
-The entire `App.js` should look like this.
-
-</aside>
-
----
 
 ### Passing Information via Properties
 
@@ -250,32 +192,14 @@ React gathers all of the props we added to the `<Movie>` component and makes the
 In JSX we use curly braces `{ }` to enumerate the value of something.
 
 
-
-
-<aside class="notes">
-
-**Talking Points:**
-
-- We need to make our Movie component accept information so we can use it to
-display different titles and runtimes. In the `src/App.js` file, add `title`, `hours`, and `minutes`
-props to the `<Movie>` tag. 
-
-- We'll be able to read the value of these props from inside the component. You can name props pretty much
-anything you want - but it's good practice to be descriptive!
-
-- React gathers all of the props we added to the call to `<Movie>` and makes them each available
-through the `this.props` object. This means that inside the `Movie` component, we can now access the values of props through
-`this.props.title`, `this.props.hours` and `this.props.minutes`. Remember, we use curly braces `{ }` to display the value of something.
-
-
 - In `src/Movie.js`, change the `<h1>` to display the value of
 the `title` prop by writing `{this.props.title}`.
 
-- There was also the `hours` and `minutes` props. Update the JSX to access and display the value of each prop we created.
+There was also the `hours` and `minutes` props. Update the JSX to access and display the value of each prop we created.
 
-</aside>
+The `render()` function ends up looking like this.
 
----
+
 
 
 **src/Movie.js**
@@ -297,17 +221,8 @@ class Movie extends Component {
 export default Movie
 ```
 
-<aside class="notes">
+Refresh the page and make sure everything works correctly.
 
-**Talking Points:**
-
-- The `render()` function ends up looking like this.
-
-- Refresh the page and make sure everything works correctly.
-
-</aside>
-
----
 
 ### Reusing the Component
 
@@ -321,9 +236,6 @@ In `src/App.js`, call the `<Movie>` component again with different values for th
 <Movie title="The Two Towers" hours="2" minutes="59"></Movie>
 <Movie title="The Return of the King" hours="3" minutes="21"></Movie>
 ```
-
-
-**Instructor Notes**
 
 Point out that in the previous Blog Post examples/code alongs an array was used to store the names of Authors.  We then used .map() to loop over the array and create an Author component thereby creating more efficient code and keeping in mind that the number of authors may change over time.  That being said pose to the class what basic data type could we use to store multiple key:value pairs that could also then be stored in array and looped over.  
 
@@ -417,37 +329,17 @@ With `allMovies` now containing an array of JSX elements we can simply replace a
   }
 ```
 
-<aside class="notes">
+Once you've got props working for one component, then write two more!
 
-**Talking Points:**
-
-- Once you've got props working for one component, then write two more!
-
-- In `src/App.js`, call
-the `<Movie>` component again with different values for the `title`, `hours` and `minutes`
+In `src/App.js`, call the `<Movie>` component again with different values for the `title`, `hours` and `minutes`
 properties. Display information for the complete trilogy! (If you don't know everything about Lord of the Rings off the top of your head, here it is).
 
-</aside>
-
----
 
 
 # Solution
 
 
 ### Reflecting on Reusability
-
-- Components allow us to compartmentalize code and easily reuse parts we create.
-
-- In this build we also took the opportunity to refactor for efficiency (e.g. `<Movie>` component, runtime format)
-
-- React's reusable component structure and becomes especially powerful the more complex the application becomes. Imagine building a component for video search results on YouTube.
-
-<aside class="notes">
-
-**Talking Points:**
-
-- Finished? Great. Let's reflect.
 
 - Components are great because they allow us to compartmentalize code and easily
 reuse parts we create. We simply set the value of props and the component defines how everything should be displayed.
@@ -469,9 +361,6 @@ Building and reusing components becomes especially powerful the more complex com
 
 Building multiple components may take more time but will allow you to separate concerns and reuse them more efficiently. Let alone testing one small component is much easier then an all encompasing one. 
 
-</aside>
-
----
 
 ### Internet Dive Point
 In case you want to nerd out, here are handy links to the IMDB page for each
