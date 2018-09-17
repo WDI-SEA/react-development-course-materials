@@ -127,14 +127,14 @@ The schedules for each (linked below) are provided as examples only. Feel free t
 ---
 
 ## Appendix: Materials and Resources
-- Please read through the [specific course details](python-specific-course.md) for information on the structure of the repos, how to run the unit labs, the projects, and more.
-- See the [presenting and creating materials](presenting-and-creating-materials/README.md) directory for instructions on presenting the materials on GA Brand or creating your own.
-- All lesson materials, homeworks and projects outlined on the Suggested Pacing Guide are in this repo.
+- All lesson materials, homeworks and projects outlined in the Suggested Pacing Guide are in this repo.
 - Standard GA-produced pre-work materials can be accessed on myGA. The pre-work lessons are:
-  - **Welcome to Python Programming:** A short lesson giving them an overview of the course.
-  - **Introduction to Programming:** Teaches "programming language", "programmatic thinking", and "pseudocode".
-  - **Introduction to Python:** Teaches, "open source", `#` comments, and `print` statements in Python3.
-  - **Key Concept Review:** Reviews keywords above.
+  - [Welcome to React Development](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/welcome-to-react-development-3124.json)
+  - [ES6: Variables and Imports](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/es6-variables-and-imports-3146.json) 
+  - [ES6: Arrow Functions and Object and Template Literals](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/es6-arrow-functions-and-object-and-template-literals-3140.json)
+  - [Getting Started With React](https://admin.generalassemb.ly/create/lessons/653/versions)
+  - [Props](https://admin.generalassemb.ly/create/lessons/654/versions)
+
 - Tips and templates for instructors are available on the [GA Instructor Blog](http://assemblyrequired.ga.co).
 - For help and support, join the GA Instructors Slack Community and post your questions in #SLACKCHANNEL.
 
