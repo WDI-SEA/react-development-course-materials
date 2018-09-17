@@ -8,8 +8,8 @@ Let's Build A Calculator!
 
 **Talking Points**:
 
-- Now, it's time for you to check back on everything! You will be building a
-calculator with React, and only minimal instructions have been provided for you to really think about what's happening.
+- Now, it's time for you to check back on everything. You will be building a
+calculator with React. I'll only be providing minimal instructions — the heavy thinking is on you!
 
 - At first, your calculator will just add 2 numbers together when they are typed in. For the bonus, you might decide to get more creative.
 
