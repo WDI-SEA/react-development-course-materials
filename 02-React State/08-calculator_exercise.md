@@ -18,11 +18,11 @@ calculator with React. I'll only be providing minimal instructions — the heav
 ---
 
 
-### Set Up and Step 1
+### Set Up
 
 `create-react-app`
 
-<aside class="notes">
+### Step 1
 
 ```html
 <div className="container">
