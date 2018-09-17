@@ -57,9 +57,9 @@ Here's a GIF representation of the how this may look, though we will also add th
 
 **Talking Points**:
 
-- Today we are going to be taking advantage of the data persistance of an API and the single page polish that React brings!  Our app is an idea tracker where a user can write out different ideas and save them to a database.  Kinda like leaving post-it notes in the browser!
+- Today we are going to be taking advantage of the data persistance of an API and the single page polish that React brings!  Our app is an idea tracker where a user can write out different ideas and save them to a database.  Kind of like leaving post-it notes in the browser!
 
-- This app will have 2 models- Users and Ideas (which will live inside of users)
+- This app will have 2 models - Users and Ideas (which will live inside of users)
 
 - Here's a GIF representation of the how this may look, though we will also add the ability for a user to 'log in'
 
