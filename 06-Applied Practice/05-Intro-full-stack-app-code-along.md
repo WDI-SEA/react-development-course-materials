@@ -10,7 +10,7 @@
 
 <aside class="notes">
 
-*Talking Points*:
+**Talking Points**:
 
 We've learned a lot about the modern tooling and practicing around the React ecosystem over the past couple of days.  A lot of modern JavaScript is focused on knowing the right tools for the job.  Today we will be pulling in everything we've learned about Node and React to build a full stack application using the MERN stack.
 
@@ -31,7 +31,7 @@ Node
 
 <aside class="notes">
 
-*Talking Points*
+**Talking Points**:
 
 When you see MERN stack, this is typically just a shorthand way of saying that the application is a full-stack JavaScript app.  The tools that we use for MERN apps are: Mongo (MongoDB), Express, React, and Node.  
 While there are some boilerplate tools to build out a full MERN stack app, we are going to build our own using `create-react-app` and the Express and Mongo patterns we've used in the past.  This allows us to fully understand our application and prevents introducing a bunch of code that we haven't written and understand.
@@ -52,7 +52,7 @@ Here's a GIF representation of the how this may look, though we will also add th
 
 <aside class="notes">
 
-*Talking Points* 
+**Talking Points**:
 
 - Today we are going to be taking advantage of the data persistance of an API and the single page polish that React brings!  Our app is an idea tracker where a user can write out different ideas and save them to a database.  Kinda like leaving post-it notes in the browser!
 
@@ -74,11 +74,11 @@ Work with students around you to:
 
 <aside class="notes">
 
-*Teaching Tips* 
+**Teaching Tips**:
 - read through activity directions
 - set students off in their groups
 - walk around and observe, help out, answer questions, provide input
 
-NOTE: You will now transition from sharing the intro slides to sharing your text editor for the codealong. Refer to the readme titled: 06-full-stack-app-code-along.md for those notes.
+**Note**: You will now transition from sharing the intro slides to sharing your text editor for the codealong. Refer to the readme titled: 06-full-stack-app-code-along.md for those notes.
 
 </aside>
