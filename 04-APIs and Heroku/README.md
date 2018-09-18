@@ -2,19 +2,21 @@
 
 This is Unit 4 of the complete React Development Course. It includes the following:
 
-1) **Introduction to APIs**: Interactive Lecture
+1) **Review of Film Project, Part 3**: Discussion
 
-2) **Data Types**: Interactive Lecture
+2) **Introduction to APIs**: Interactive Lecture
 
-3) `fetch`: Interactive Lecture 
+3) **Data Types**: Interactive Lecture
 
-4) **Displaying the Weather**: Exercise (continues with blog from pre-work)
+4) `fetch`: Interactive Lecture 
 
-5) **Heroku**: Interactive Lecture
+5) **Displaying the Weather**: Exercise (continues with blog from pre-work)
 
-6) **APIs, Heroku and Imperative and Declarative Programming Quiz**: Online Quiz
+6) **Heroku**: Interactive Lecture
 
-7) **Film Project, Part 4**: Classwork + Homework
+7) **APIs, Heroku and Imperative and Declarative Programming Quiz**: Online Quiz
+
+8) **Film Project, Part 4**: Classwork + Homework
 
 Notes:
 
