@@ -2,6 +2,6 @@
 
 --------
 
-Direct Students to the README file in this [Repository](Additional Resources/03-tic-tac-toe-lab.md)
+Direct Students to the README file in this [Repository](https://git.generalassemb.ly/react-development/react-development-course-materials/tree/master/Additional%20Resources/TicTacToe%20Lab)
 
 
