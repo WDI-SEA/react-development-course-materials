@@ -83,7 +83,7 @@ class Hello extends Component {
 
 **Teaching Tip**
 
-One fun activity to do as part of the review is a [Kahoot](https://create.kahoot.it/details/react-1-17/dc18ba75-295e-4aee-a989-7e4c945ca66a).  It takes about 2 min to have everyone join and 10 questions @ 20sec will only take about 5 min to go through.  Once the review is complete you will be able provide additional clarity on any lingering concepts. 
+One fun activity to do as part of the review is a [Kahoot](https://create.kahoot.it/details/react-1-17/dc18ba75-295e-4aee-a989-7e4c945ca66a).  It takes about 2 min to have everyone join and 10 questions @ 20 sec will only take about 5 min to go through.  Once the review is complete you will be able provide additional clarity on any lingering concepts. And the activity is guaranteed to be a resounding crowd pleaser!
 
 <aside class="notes">
 
