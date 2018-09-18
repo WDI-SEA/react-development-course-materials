@@ -1,10 +1,13 @@
-### This is Quiz 2. It comes after the Calculator exercise.
-- It covers state, `constructor()`, and `map`.
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Quiz: React State #
 
 **Notes**:
-- [The link to quiz 2 is here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-2/unit2-quiz.json). This is the link you give to students.
+- [The link to the React State Quiz is here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-2/unit2-quiz.json). This is the link you give to students.
 
-- At the end of the quiz, you can share [this review guide](../../../../react-review-guides/blob/master/unit-2-react-review-guide.md).
+- Approximate Time To Complete Quiz: 20 min
+
+- Approximate Time To Discuss/Review Quiz: 20 min
+
+- At the end of the quiz, you can share [this review guide](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/Review%20Guides/react-state-review-guide.md). It is also linked for students on the myGA platform at the end of quiz.
 
 ### Questions:
 - Answers with an asterisk are correct.
@@ -195,3 +198,6 @@ _Choices_:
 2. False *
 
 _Explanation_:  Right, this is false - if the state `pineapple` is initialized in `Tropical`'s constructor, then in `Recipes.js`, the state `pineapple` does not exist. Here, `pineapple` would be passed in as a prop which happens to have the same name as the state initialized in `Tropical.js`. They could each be accessed, respectively, by `this.state.pineapple` and `this.props.pineapple`
+
+
+
