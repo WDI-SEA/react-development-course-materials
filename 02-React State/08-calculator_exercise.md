@@ -1,4 +1,4 @@
-# ![GA Cog Calendar](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) You Do: React Calculator
+# ![GA Cog Calendar](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Exercise: Build a Calculator
 
 ![Calculator Icon](images/calculator.png)
 
