@@ -39,7 +39,7 @@ npm start
 
 **Teaching Tip**
 
-Make sure eveyone gives a 👍 in Slack when that are able to start the server.
+Make sure eveyone gives a 👍 in Slack when they are able to start the server.
 
 ---
 
