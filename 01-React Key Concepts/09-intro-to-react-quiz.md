@@ -1,13 +1,12 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Quiz: Intro to React.js #
 
 
-Approximate Time To Complete Quiz: 20 min
-
-Approximate Time To Discuss/Review Quiz: 20 min
-
-
 **Notes**:
 - [The link to quiz 1 is here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json). This is the link you give to students.
+
+- Approximate Time To Complete Quiz: 20 min
+
+- Approximate Time To Discuss/Review Quiz: 20 min
 
 - At the end of the quiz, you can share [this review guide](../../../../react-review-guides/blob/master/unit-1-react-review-guide.md).
 
