@@ -5,9 +5,11 @@ These are instructor notes to help guide a review discussion of [Film Project, P
 **As you review, remember to ask students, "What questions do you have?" and not "Do you have any questions?"**
 
 
-**Talking Points**:
+Notes to Cover in Homework Review
 
-- Events - are all of the click events firing and changing the ui? Have they stopped propagation?
-- State - have they successfully added state and does the state change and update the ui when needed?
-- Do students understand binding? Are all of their _this_ calls working accordingly?
-- Talk through any sticking points. Were there any common "stuck" places?
+- The previous film project assignment focuses heavily on lifting state up.  Make sure that students properly switch state to props where necessary.
+
+- Review Step 8 where students set up a conditional for adding or removing films from `faves`.
+
+- Remind students that functions can also be passed down the component tree and used in props.
+
