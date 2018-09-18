@@ -1,5 +1,4 @@
-### This is Quiz 1. It comes after the LoTR exercise.
-- It covers Components, JSX, Virtual DOM, Props, and Nested Components.
+### This is Quiz 1. It covers Components, JSX, Virtual DOM, Props, and Nested Components.
 
 **Notes**:
 - [The link to quiz 1 is here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json). This is the link you give to students.
