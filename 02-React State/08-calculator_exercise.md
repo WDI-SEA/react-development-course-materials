@@ -2,7 +2,7 @@
 
 ![Calculator Icon](images/calculator.png)
 
-Let's Build A Calculator!
+Let's Build a Calculator. Because we can!
 
 <aside class="notes">
 
