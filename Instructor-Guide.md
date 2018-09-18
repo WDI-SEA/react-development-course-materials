@@ -49,14 +49,14 @@ When in doubt, discuss any planned changes to the curriculum you’d like to mak
 
 ## Contributors
 General Assembly’s course materials are developed in close collaboration with our global expert network. This guide could not have been possible without the contributions of the following current and former instructors, students and community members:
-- Joe Keohan
-- Courtney Hoskins
-- Jamie King
-- Mike Dang
-- Susi Remondi
-- Zoe Lubitz
-- Emily Logan
-- Eric Newman
+- [Joe Keohan](https://generalassemb.ly/instructors/joe-keohan/7866)
+- [Courtney Hoskins](https://generalassemb.ly/instructors/courtney-hoskins/15044)
+- [Jamie King](https://generalassemb.ly/instructors/jamie-king/11753)
+- [Mike Dang](https://generalassemb.ly/instructors/mike-dang/5451)
+- [Susi Remondi](https://www.linkedin.com/in/susi-remondi-254415b/)
+- [Zoe Lubitz](https://www.linkedin.com/in/zoelubitz/)
+- [Emily Logan](https://generalassemb.ly/instructors/emily-logan/10453)e
+- [Eric Newman](https://www.linkedin.com/in/eric-newman-5895a146/)
 
 
 ## Course Details
