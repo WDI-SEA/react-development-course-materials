@@ -19,4 +19,4 @@ This is Unit 5 of the complete React Development Course. It includes the followi
 Notes:
 
 - The recap for this lesson includes an exercise.
-- The quiz is hosted on myGA. The file in this repo provides a url to slack to your students. The quiz is just for practice; the students do not need to log in; they platform will not record their scores.
+- The quiz is hosted on myGA. The file in this repo provides a url to slack to your students. The quiz is just for practice.  Students do not need to log in; the platform will not record their scores.
