@@ -14,4 +14,4 @@ This is Unit 3 of the complete React Development Course. It includes the followi
 
 6) **Section Recap**: Discussion
 
-Note that the Films Project, Part 3 can be done fully in class (depending on timing and needs).
+Note that the Film Project, Part 3 can be done fully in class (depending on timing and needs).
