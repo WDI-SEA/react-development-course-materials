@@ -107,12 +107,10 @@ Note: The term "React Module" refers to all 8 React repos taught sequentially.
   - Blog Project: There is a blog project that students build upon throughout the week. It starts in the Props pre-work lesson. Each exercise builds on the last until students have a functioning project by the end of the week. 
     - Each solution is a branch in the `react-blog-project` repo. (Each exercise's starter code is also in the repo, though students won't need that as the exercise is built throughout the class).
   - Film project: There is also a film project that students build upon throughout the week. Each exercise builds on the last until students have a functioning project. 
+  - Final Project: This is designed for a student to build their own website over the course of an entire day (1-week delivery) or a week (10-week delivery).
   
 - **Labs**:
   - There are two labs (ATM and TicTacToe) where students fork a repo with existing code and add features to it.
-- **Self Project**:
-
-  - This is designed for a student to build their own website over the course of an entire day (1-week delivery) or a week (10-week delivery).
 
 
 ## Suggested Pacing Guide
