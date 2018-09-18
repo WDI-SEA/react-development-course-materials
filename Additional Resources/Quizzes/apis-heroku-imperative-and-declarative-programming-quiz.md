@@ -1,10 +1,13 @@
-### This is Quiz 5. It comes after the Heroku lecture.
-- It covers Imperative and Declarative Programming, and Heroku.
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Quiz: APIs, Heroku, and Imperative and Declarative Programming #
 
 **Notes**:
-- [The link to quiz 5 is here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-5/U5L5.json). This is the link you give to students.
+- [The link to the APIs, Heroku, and Imperative and Declarative Programming Quiz is here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-5/U5L5.json). This is the link you give to students.
 
-- At the end of the quiz, you can share [this review guide](../../../../react-review-guides/blob/master/unit-5-react-review-guide.md).
+- Approximate Time To Complete Quiz: 20 min
+
+- Approximate Time To Discuss/Review Quiz: 20 min
+
+- At the end of the quiz, you can share [this review guide](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/Review%20Guides/react-key-concepts-review-guide.md). It is also linked for students on the myGA platform at the end of quiz.
 
 ### Questions:
 - Answers with an asterisk are correct.
