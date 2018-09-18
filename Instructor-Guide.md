@@ -110,7 +110,7 @@ Note: The term "React Module" refers to all 8 React repos taught sequentially.
   - Final Project: This is designed for a student to build their own website over the course of an entire day (1-week delivery) or a week (10-week delivery).
   
 - **Labs**:
-  - There are two labs (ATM and TicTacToe) where students fork a repo with existing code and add features to it.
+  - There are two labs (ATM and TicTacToe), in which students fork a repo with existing code and add features to it.
 
 
 ## Suggested Pacing Guide
