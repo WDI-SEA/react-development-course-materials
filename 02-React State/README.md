@@ -20,6 +20,14 @@ This is Unit 1 of the complete React Development Course. It includes the followi
 
 9) **Section Recap 2**: Discussion
 
+10)**React State Quiz**: Online Quiz
+
 9) **Film Project, Part 2**: Classwork + Homework
 
-Note that the Films Project is homework (but you can begin it in class). The full script of that lesson is student-facing (rather than embedded in the instructor Teaching Tips of Talking Points).
+Notes:
+
+- The Films Project is homework (but you can begin it in class). The full script of that lesson is student-facing (rather than embedded in the instructor Teaching Tips of Talking Points).
+
+- The quiz is hosted on myGA. The file in this repo provides a url to slack to your students. The quiz is just for practice; the students do not need to log in; they platform will not record their scores.
+
+
