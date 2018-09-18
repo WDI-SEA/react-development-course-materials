@@ -12,7 +12,9 @@
 
 **Talking Points**:
 
-A lot of modern JavaScript is focused on knowing the right tools for the job.  Today we will be pulling in everything we've learned about Node and React to build a full stack application using the MERN stack.
+- This code-along guides you in building a Full Stack Application with what we call MERN stack. We'll define that in just a moment.
+
+- A lot of modern JavaScript is focused on knowing the right tools for the job.  Today we will be pulling in everything we've learned about Node and React to build a full stack application using the MERN stack.
 
 </aside>
 
