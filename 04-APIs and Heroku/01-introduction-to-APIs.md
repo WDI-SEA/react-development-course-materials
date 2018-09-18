@@ -7,17 +7,6 @@
 - Describe what an API is and why we might use one
 - Identify common APIs on the web
 
-<aside class="notes">
-
-**Teaching Tips**:
-
-Notes to Cover in Homework Review
-
-- The previous film project assignment focuses heavily on lifting state up.  Make sure that students properly switch state to props where necessary.
-- Review Step 8 where students set up a conditional for adding or removing films from `faves`
-- Remind students that functions can also be passed down the component tree and used in props.
-
-</aside>
 
 ### What Does API stand for?
 
