@@ -2,7 +2,7 @@
 
 Slack the quiz URL to students:
 
-https://my.generalassemb.ly/preview?lessonURL=https://create-api.generalassemb.ly/lessons/662/versions/806/preview
+https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-2/unit2-quiz.json
 
 Approximate Time To Complete Quiz: 20 min
 
