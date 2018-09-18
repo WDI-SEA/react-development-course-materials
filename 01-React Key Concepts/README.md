@@ -1,8 +1,6 @@
 # React Key Concepts
 
-This is Unit 1 of the complete React Development Course.
-
-This covers the following:
+This is Unit 1 of the complete React Development Course. It includes the following:
 
 1) **Welcome to the Course**: Interactive Lecture
 
