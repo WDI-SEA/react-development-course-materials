@@ -6,9 +6,9 @@ This is Unit 1 of the complete React Development Course. It includes the followi
 
 2) **Review of the Pre-work**: Discussion 
 
-3) **Nested Components**:Interactive Lecture 
+3) **Nested Components**: Interactive Lecture 
 
-4) **Nested Components**: Exercise
+4) **Nested Components**: Exercise (continues with blog from pre-work)
 
 5) **Section Recap**: Discussion
 
