@@ -4,17 +4,17 @@ This is Unit 5 of the complete React Development Course. It includes the followi
 
 1) **Review of Film Project, Part 3**: Discussion
 
-1) **Browser History Mechanics and Single Page Applications**: Interactive Lecture
+2) **Browser History Mechanics and Single Page Applications**: Interactive Lecture
 
-2) **Introduction to React Router**: Interactive Lecture 
+3) **Introduction to React Router**: Interactive Lecture 
 
-3) **Build a Dentist Website, Part 1**: Exercise
+4) **Build a Dentist Website, Part 1**: Exercise
 
-4) **Build a Dentist Website, Part 2**: Exercise
+5) **Build a Dentist Website, Part 2**: Exercise
 
-5) **Section Recap and Exercise**: Discussion and Exercise
+6) **Section Recap and Exercise**: Discussion and Exercise
 
-6) **React Router Quiz**: Online Quiz
+7) **React Router Quiz**: Online Quiz
 
 
 
