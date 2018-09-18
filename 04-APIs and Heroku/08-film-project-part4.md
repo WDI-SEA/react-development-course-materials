@@ -199,15 +199,5 @@ return (
 ```
 
 
-## Taking it further
+## Done! (For now)
 
-Here are some optional things you can do to deepen your knowledge and take this app further:
-
-- Refactor `Fave` into a functional component.
-- Move the filters into a `FilmListingFilter` component.
-- Implement client-side routing to show multiple pages of films.
-- Go through the CSS and see how the app is styled (it uses both flexbox and CSS Grid).
-- Add a textarea for a review to each film detail and save that on the film object.
-- Show an icon in `FilmListing` for all films with reviews.
-- Show the `fave` state of a film on `FilmDetails`.
-- Add any other features you can think of!
