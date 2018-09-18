@@ -2,4 +2,4 @@
 
 ### React Development Review Guides
 
-Review guides are an additional resource for students. Find them [here](https://git.generalassemb.ly/ed-product-library/react-review-guides/edit/master/README.md).
+Review guides are an additional resource for students. Find them [here](https://git.generalassemb.ly/ed-product-library/react-review-guides/blob/master/README.md).
