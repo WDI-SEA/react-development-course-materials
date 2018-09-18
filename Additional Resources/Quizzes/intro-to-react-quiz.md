@@ -1,9 +1,14 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Quiz: Intro To React.js #
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Quiz: Intro to React.js #
+
 
 **Notes**:
-- [The link to quiz 1 is here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json). This is the link you give to students.
+- [The link to the Intro to React.js Quiz is here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json). This is the link you give to students.
 
-- At the end of the quiz, you can share [this review guide](../../../../react-review-guides/blob/master/unit-1-react-review-guide.md).
+- Approximate Time To Complete Quiz: 20 min
+
+- Approximate Time To Discuss/Review Quiz: 20 min
+
+- At the end of the quiz, you can share [this review guide](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/Review%20Guides/react-key-concepts-review-guide.md). It is also linked for students on the myGA platform at the end of quiz.
 
 ### Questions:
 - Answers with an asterisk are correct.
