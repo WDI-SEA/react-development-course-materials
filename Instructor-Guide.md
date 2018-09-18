@@ -93,7 +93,7 @@ Note: The term "React Module" refers to all 8 React repos taught sequentially.
 
 ### Types of Activities in the React Development Course:
 
--**Interactive Lectures**: 
+- **Interactive Lectures**: 
   - These are lectures that you present to the students. Some have mini code-alongs or exercises baked in. You will also find assets such as videos, charts, and discussion prompts in these lesson decks. Talking Points and Teaching Tips can be found in the presentation notes. Note that if a student downloads a PDF of these decks, they will not get the presentation notes. Students should be encouraged to take their own notes.
   
 - **Code-alongs**:
@@ -107,9 +107,11 @@ Note: The term "React Module" refers to all 8 React repos taught sequentially.
   - Blog Project: There is a blog project that students build upon throughout the week. It starts in the Props pre-work lesson. Each exercise builds on the last until students have a functioning project by the end of the week. 
     - Each solution is a branch in the `react-blog-project` repo. (Each exercise's starter code is also in the repo, though students won't need that as the exercise is built throughout the class).
   - Film project: There is also a film project that students build upon throughout the week. Each exercise builds on the last until students have a functioning project. 
+  
 - **Labs**:
   - There are two labs (ATM and TicTacToe) where students fork a repo with existing code and add features to it.
 - **Self Project**:
+
   - This is designed for a student to build their own website over the course of an entire day (1-week delivery) or a week (10-week delivery).
 
 
