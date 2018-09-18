@@ -2,6 +2,8 @@
 
 This is Unit 5 of the complete React Development Course. It includes the following:
 
+1) **Review of Film Project, Part 3**: Discussion
+
 1) **Browser History Mechanics and Single Page Applications**: Interactive Lecture
 
 2) **Introduction to React Router**: Interactive Lecture 
