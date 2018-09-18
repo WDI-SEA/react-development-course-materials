@@ -18,7 +18,7 @@ competencies: Full-Stack Applications
 - Connect API to React via `axios`
 - Deploy the full stack application to Heroku
 
-**This readme serves as the instructor notes/prep for the MERN stack idea board app**
+**This readme serves as the instructor notes/prep for the MERN stack idea board app. This is not a student-facing document.**
 
 ## Getting Started
 
