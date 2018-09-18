@@ -91,27 +91,26 @@ Optional topics you may consider adding on to extend learning (provided your stu
 # React Development: Types of Activities
 Note: The term "React Module" refers to all 8 React repos taught sequentially.
 
-### Types of Activities in the React Module:
-- **Code-along**:
-  - Students do this in class with you. You do it on the screen, and they follow along on their laptops.
-  - All code-alongs can be instead assigned as exercises to the students to follow the instructions on their own.
+### Types of Activities in the React Development Course:
+
+-**Interactive Lectures**: 
+  - These are lectures that you present to the students. Some have mini code-alongs or exercises baked in. You will also find assets such as videos, charts, and discussion prompts in these lesson decks. Talking Points and Teaching Tips can be found in the presentation notes. Note that if a student downloads a PDF of these decks, they will not get the presentation notes. Students should be encouraged to take their own notes.
+  
+- **Code-alongs**:
+  - Students do this in class with you. You do it on the screen, and they follow along on their laptops. The slide decks with the code-along activities provide you with a few slides to project and introduce the topic (the rest of the deck is a run-through of the code-along, for instructor reference only). 
+  
 - **Exercises**:
-  - Exercises with instructions for students to do on their own.
+  - Exercises with instructions for students to do on their own. There are also hints and some suggested talking points in the presenter notes. Read these over carefully and decide how much info you will provide to the students prior to their starting the exercise.
   - Exercises can be run as code-alongs, with the exception of the blog and film projects.
+  
 - **Projects**:
   - Blog Project: There is a blog project that students build upon throughout the week. It starts in the Props pre-work lesson. Each exercise builds on the last until students have a functioning project by the end of the week. 
     - Each solution is a branch in the `react-blog-project` repo. (Each exercise's starter code is also in the repo, though students won't need that as the exercise is built throughout the class).
-  - Film project: There is also a film project that students build upon throughout the week. Each exercise builds on the last until students have a functioning project by the end of the week. 
-    - Each solution is a branch in the `react-film` repo. (Each exercise's starter code is also in the repo, though students won't need that as the exercise is built throughout the class).
-    - A strong suggestion is to make each section of the project homework, but save time in class for questions.
-    - This uses ES6 before it's introduced. Another option is to assign the first two film exercises together after the 6th ES6 lesson.
-    - The film exercises are not referenced anywhere else in the class and can safely be ignored if you so choose.
-- **Videos**:
-  - Short (<3 min) videos explaining a topic.
-- **Existing Repo Labs**:
+  - Film project: There is also a film project that students build upon throughout the week. Each exercise builds on the last until students have a functioning project. 
+- **Labs**:
   - There are two labs (ATM and TicTacToe) where students fork a repo with existing code and add features to it.
 - **Self Project**:
-  - The last repo is a self-project prompt. This is designed for a student to build their own website over the course of an entire day.
+  - This is designed for a student to build their own website over the course of an entire day (1-week delivery) or a week (10-week delivery).
 
 
 ## Suggested Pacing Guide
