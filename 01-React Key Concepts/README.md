@@ -26,4 +26,4 @@ Notes:
 
 - The quiz is on my GA. The quiz file in this repo is a readme with instructions on how to administer the quiz, as well as a question-by-question walkthrough for ease of reviewing with students.
 
-- The Films Project is homework (but you can begin it in class). The full script of that lesson is student-facing (rather than embedded in the instructor Teaching Tips of Talking Points).
+- The Films Project is homework (but you can begin it in class). The full script of that lesson is student-facing (rather than embedded in the non-student facing presenter notes as with other activities).
