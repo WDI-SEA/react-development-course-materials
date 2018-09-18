@@ -8,3 +8,4 @@ Approximate Time To Complete Quiz: 20 min
 
 Approximate Time To Discuss/Review Quiz: 20 min
 
+Note that this quiz also covers imperative and declarative programming; if you have not covered that, don't assign this quiz.
