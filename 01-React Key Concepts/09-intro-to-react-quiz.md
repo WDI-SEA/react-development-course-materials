@@ -8,7 +8,7 @@
 
 - Approximate Time To Discuss/Review Quiz: 20 min
 
-- At the end of the quiz, you can share [this review guide](../../../../react-review-guides/blob/master/unit-1-react-review-guide.md).
+- At the end of the quiz, you can share [this review guide](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/Review%20Guides/react-key-concepts-review-guide.md). It is also linked for students at the end of quiz.
 
 ### Questions:
 - Answers with an asterisk are correct.
