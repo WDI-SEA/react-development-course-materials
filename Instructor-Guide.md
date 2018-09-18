@@ -55,7 +55,7 @@ General Assembly’s course materials are developed in close collaboration with 
 - [Mike Dang](https://generalassemb.ly/instructors/mike-dang/5451)
 - [Susi Remondi](https://www.linkedin.com/in/susi-remondi-254415b/)
 - [Zoe Lubitz](https://www.linkedin.com/in/zoelubitz/)
-- [Emily Logan](https://generalassemb.ly/instructors/emily-logan/10453)e
+- [Emily Logan](https://generalassemb.ly/instructors/emily-logan/10453)
 - [Eric Newman](https://www.linkedin.com/in/eric-newman-5895a146/)
 
 
