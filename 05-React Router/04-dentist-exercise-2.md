@@ -1,4 +1,6 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  Dentist Website Exercise Part 2: Displaying Pages Individually
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Exercise: Build a Dentist Website, Part 2
+
+In this exercise we will work on displaying pages individually.
 
 
 Try this: Delete two of the three components so only one component is left
