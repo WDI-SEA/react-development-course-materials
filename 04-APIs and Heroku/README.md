@@ -6,18 +6,12 @@ This is Unit 4 of the complete React Development Course. It includes the followi
 
 2) **Data Types**: Interactive Lecture
 
-3) `fetch()`: Interactive Lecture 
+3) `fetch`: Interactive Lecture 
 
-4) **Nested Components**: Exercise (continues with blog from pre-work)
+4) **Displaying the Weather**: Exercise (continues with blog from pre-work)
 
-5) **Section Recap**: Discussion
+5) **Heroku**: Interactive Lecture
 
-6) **Lord of The Rings**: Code-Along
-
-7) **Creating a Newsfeed Component**: Exercise
-
-8) **Creating a WeatherIcons Component**: Exercise
-
-9) **Film Project, Part 1**: Classwork + Homework
+6) **Film Project, Part 4**: Classwork + Homework
 
 Note that the Films Project is homework (but you can begin it in class). The full script of that lesson is student-facing (rather than embedded in the instructor Teaching Tips of Talking Points).
