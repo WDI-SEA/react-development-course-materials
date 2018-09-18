@@ -23,8 +23,6 @@ Students engage in hands-on, project-based learning. React Development students 
 - [Course Details](#course-details)
 - [Suggested Pacing Guide](#suggested-pacing-guide)
 - [Appendix: Materials and Resources](#appendix-materials-and-resources)
-- [Notes for Teaching This Course](python-specific-course.md)
-- [Instructions on Slide Delivery](presenting-and-creating-materials)
 
 
 ## About This Guide
