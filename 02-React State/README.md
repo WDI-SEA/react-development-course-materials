@@ -2,7 +2,7 @@
 
 This is Unit 1 of the complete React Development Course. It includes the following:
 
-0) ****Review of Film Project, Part 1**: Discussion
+0) **Review of Film Project, Part 1**: Discussion
 
 1) **State**: Interactive Lecture
 
