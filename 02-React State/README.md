@@ -20,9 +20,9 @@ This is Unit 1 of the complete React Development Course. It includes the followi
 
 9) **Section Recap 2**: Discussion
 
-10)**React State Quiz**: Online Quiz
+10) **React State Quiz**: Online Quiz
 
-9) **Film Project, Part 2**: Classwork + Homework
+11) **Film Project, Part 2**: Classwork + Homework
 
 Notes:
 
