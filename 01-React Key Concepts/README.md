@@ -2,7 +2,7 @@
 
 This is Unit 1 of the complete React Development Course. It includes the following:
 
-1) **Welcome to the Course**: Interactive Lecture
+1) **Welcome to the React**: Interactive Lecture
 
 2) **Review of the Pre-work**: Discussion 
 
