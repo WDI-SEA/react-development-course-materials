@@ -12,6 +12,12 @@ This is Unit 4 of the complete React Development Course. It includes the followi
 
 5) **Heroku**: Interactive Lecture
 
-6) **Film Project, Part 4**: Classwork + Homework
+6) **APIs, Heroku and Imperative and Declarative Programming Quiz**: Online Quiz
 
-Note that the Films Project is homework (but you can begin it in class). The full script of that lesson is student-facing (rather than embedded in the instructor Teaching Tips of Talking Points).
+7) **Film Project, Part 4**: Classwork + Homework
+
+Notes:
+
+- The Films Project is homework (but you can begin it in class). The full script of that lesson is student-facing (rather than embedded in the instructor Teaching Tips of Talking Points).
+
+- The Quiz covers Imperative and Declarative Programming in addition to APIs and Heroku. If you have not covered all this material, do not assign the quiz.
