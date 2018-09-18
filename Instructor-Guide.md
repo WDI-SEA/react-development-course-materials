@@ -132,7 +132,7 @@ The schedules for each (linked below) are provided as examples only. Feel free t
   - [Getting Started With React](https://admin.generalassemb.ly/create/lessons/653/versions)
   - [Props](https://admin.generalassemb.ly/create/lessons/654/versions)
 
-- Labs (which students will fork) are in the Additional Resources folder in this repo.
+- Labs (in which students fork a repo with existing code and add features to it) are in the Additional Resources folder in this repo.
 - Tips and templates for instructors are available on the [GA Instructor Blog](http://assemblyrequired.ga.co).
 - For help and support, join the GA Instructors Slack Community and post your questions in #SLACKCHANNEL.
 
