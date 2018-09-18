@@ -135,7 +135,7 @@ Uh oh. There's an error.
 
 **Teaching Tip**
 
-Use this as an opporutnity to ask the class what is going on, if they have seen that error before and how to resolve it.  Point out that the same error would appear in normal JS if you tried calling a function or variable that wasn't defined.
+Use this as an opportunity to ask the class what is going on, if they have seen that error before and how to resolve it.  Point out that the same error would appear in normal JS if you tried calling a function or variable that wasn't defined.
 
 One does not simply refer to components in React. In our `src/App.js`, we're saying "Display what's returned from the `Movie` component." However - we haven't told `src/Apps.js` where to find the `Movie` component! We must import a component before using it.
 
