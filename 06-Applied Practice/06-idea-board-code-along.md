@@ -8,7 +8,7 @@ creator:
 competencies: Full-Stack Applications
 ---
  
- # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Idea Board Code-Along: Building a Full Stack Application with the MERN stack
+ # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Code-Along: Idea Board 
 
 
 ### Objectives
@@ -21,6 +21,8 @@ competencies: Full-Stack Applications
 **This readme serves as the instructor notes/prep for the MERN stack idea board app**
 
 ## Getting Started
+
+This code-along guides students to building a full-stack application with the MERN stack.
 
 We will start our project in github instead of locally just to show an alternative way of getting your project up and running.
 
