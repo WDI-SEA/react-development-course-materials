@@ -1,11 +1,11 @@
 <!--
-title: Welcome to React Programming!
+title: Welcome to React Development
 type: lesson
 duration: "01:00"
 creator: Brandi Butler
 -->
 
-<h1>Welcome to React</h1>
+<h1>Welcome to React Development</h1>
 
 ![react logo](images/react-logo.png)
 
