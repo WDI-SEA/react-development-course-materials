@@ -5,4 +5,5 @@ Slack the quiz URL to students:
 https://my.generalassemb.ly/preview?lessonURL=https://create-api.generalassemb.ly/lessons/662/versions/806/preview
 
 Approximate Time To Complete Quiz: 20 min
+
 Approximate Time To Discuss/Review Quiz: 20 min
