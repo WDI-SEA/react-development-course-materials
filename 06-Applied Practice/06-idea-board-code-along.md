@@ -22,7 +22,7 @@ competencies: Full-Stack Applications
 
 ## Getting Started
 
-This code-along guides students to building a full-stack application with the MERN stack.
+This code-along guides students to building a full-stack application with the MERN stack. Estimated class time to complete the code-along is 6 hours.
 
 We will start our project in github instead of locally just to show an alternative way of getting your project up and running.
 
