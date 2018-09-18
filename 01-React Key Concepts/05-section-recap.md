@@ -1,8 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React Key Concepts: Section Recap
 
 
-## Catch your breath!
-
 ### Learning Objectives that we've covered so far
 
 * **React** is?
@@ -85,7 +83,7 @@ class Hello extends Component {
 
 **Teaching Tip**
 
-One fun activity to do as part of the review is a [Kahoot](https://create.kahoot.it/details/react-1-17/dc18ba75-295e-4aee-a989-7e4c945ca66a).  It takes about 2min to have everyone join and 10 questions @ 20sec will only take about 5 min to go through.  Once the review is complete you will be able provide additional clarity on any lingering concepts. 
+One fun activity to do as part of the review is a [Kahoot](https://create.kahoot.it/details/react-1-17/dc18ba75-295e-4aee-a989-7e4c945ca66a).  It takes about 2 min to have everyone join and 10 questions @ 20sec will only take about 5 min to go through.  Once the review is complete you will be able provide additional clarity on any lingering concepts. 
 
 <aside class="notes">
 
