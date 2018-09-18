@@ -1,8 +1,8 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Introductiom to React Router
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Introduction to React Router
 
 
 ### Learning Objectives
-*After this code-along section, you will be able to:*
+*After this lesson, you will be able to:*
 * Describe React Router's main features: routing, components, history
 * Use React Router to map URLs to components
 * Use React Router to create links to different pages
