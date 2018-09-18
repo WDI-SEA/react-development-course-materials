@@ -2,29 +2,29 @@
 
 This is Unit 1 of the complete React Development Course. It includes the following:
 
-0) **Review of Film Project, Part 1**: Discussion
+1) **Review of Film Project, Part 1**: Discussion
 
-1) **State**: Interactive Lecture
+2) **State**: Interactive Lecture
 
-2) **Implement State**: Exercise (continues with blog)
+3) **Implement State**: Exercise (continues with blog)
 
-3) **Section Recap 1**: Discussion
+4) **Section Recap 1**: Discussion
 
-4) **To-Do List, Part 1**: Exercise 
+5) **To-Do List, Part 1**: Exercise 
 
-5) **Functional Components**: Interactive Lecture
+6) **Functional Components**: Interactive Lecture
 
-6)  **To-Do List, Part 2**: Exercise 
+7)  **To-Do List, Part 2**: Exercise 
 
-7) **Immutable Data Types**: Interactive Lecture
+8) **Immutable Data Types**: Interactive Lecture
 
-8) **Build a Calculator**: Exercise
+9) **Build a Calculator**: Exercise
 
-9) **Section Recap 2**: Discussion
+10) **Section Recap 2**: Discussion
 
-10) **React State Quiz**: Online Quiz
+11) **React State Quiz**: Online Quiz
 
-11) **Film Project, Part 2**: Classwork + Homework
+12) **Film Project, Part 2**: Classwork + Homework
 
 Notes:
 
