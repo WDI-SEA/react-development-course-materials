@@ -1,4 +1,4 @@
-# Exercise: Creating A Newsfeed Component
+# Exercise: Creating a Newsfeed Component
 
 ## Instructions
 
