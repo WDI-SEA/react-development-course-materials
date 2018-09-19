@@ -9,9 +9,9 @@
 
 ---
 
-## We Do: Nested Components
+## In Your Blog...
 
-In your blog, a section of your `App.js` `render` function currently looks like this:
+...a section of your `App.js` `render` function currently looks like this:
 ```html
 <h3>Comments:</h3>
 <p>{this.props.comments[0]}</p>
