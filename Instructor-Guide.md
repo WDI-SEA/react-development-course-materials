@@ -97,9 +97,10 @@ Optional topics you may consider adding on to extend learning (provided your stu
   
   
 - **Exercises**:
+ 
+  - Exercises are coding challenges with student-facing instructions. There are hints and some suggested talking points in the presenter notes (not student facing). Read these over carefully and decide how much info you will provide to the students prior to their starting the exercise.
   - The most flexible of the activity types! Use them as solo work, partner work, or group work. Do them in class or assign them as homework. Also note, with the exception of the blog and film projects, exercises can also be run as code-alongs.
 
-  - What are they? Exercises are coding challenges with student-facing instructions. There are hints and some suggested talking points in the presenter notes (not student facing). Read these over carefully and decide how much info you will provide to the students prior to their starting the exercise.
   - [Exercise Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/04-nested-components-exercise.md)
 
   
