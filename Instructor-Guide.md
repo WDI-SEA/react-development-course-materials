@@ -79,7 +79,7 @@ The high-level learning objectives for this course are:
 - Embed an application programming interface (API) in a React application.
 - Host a React application on Heroku to share with the world.
 
-Students cannot graduate unless they demonstrate mastery of the above learning objectives before the end of the course. Mastery is measured through assessment: homeworks, in-class activities and final projects.
+Students cannot graduate unless they demonstrate mastery of the above learning objectives before the end of the course. Mastery is measured through assessment: homeworks, in-class activities, and final projects.
 
 The official course syllabus, available PLACEHOLDER-ADD LINK outlines what must be covered in the course.
 
