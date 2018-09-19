@@ -97,8 +97,10 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - Students do this in class with you. You do it on the screen, and they follow along on their laptops. The slide decks with the code-along activities provide you with a few slides to project and introduce the topic (the rest of the deck is a run-through of the code-along, for instructor reference only). 
   
 - **Exercises**:
-  - Exercises with instructions for students to do on their own. There are also hints and some suggested talking points in the presenter notes. Read these over carefully and decide how much info you will provide to the students prior to their starting the exercise.
-  - Exercises can be run as code-alongs, with the exception of the blog and film projects.
+  - The most flexible of the activity types! Use them as solo-work, partner-work, or groupwork. Conduct them as classwork or assign them as homework. And, with the exception of the blog and film projects, exercises can also be run as code-alongs.
+
+  - What are they? Exercises are coding challenges with instructions that enable students to do the work on their own or with a partner or group. There are hints and some suggested talking points in the presenter notes (not student facing). Read these over carefully and decide how much info you will provide to the students prior to their starting the exercise.
+
   
 - **Projects**:
   - Blog Project: There is a blog project that students build upon throughout the week. It starts in the Props pre-work lesson. Each exercise builds on the last until students have a functioning project by the end of the week. 
