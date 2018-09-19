@@ -99,14 +99,14 @@ Optional topics you may consider adding on to extend learning (provided your stu
  
   - Exercises are coding challenges with student-facing instructions. There are hints and some suggested talking points in the presenter notes (not student facing). Read these over carefully and decide how much info you will provide to the students prior to their starting the exercise.
   - Exercises generally take about 30 minutes to complete.
-  - Exercises are the most flexible of the activity types! Use them as solo work, partner work, or group work. Do them in class or assign them as homework. Also note, with the exception of the blog and film projects, exercises can also be run as code-alongs.
+  - Exercises are the most flexible of the activity types! Use them as solo work, partner work, or group work. Do them in class or assign them as homework. You can even do them as a code-along. 
 
   - [Exercise Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/07-creating-newsfeed-component-exercise.md)
 
   
   
 - **Code-alongs**:
-  - Students do this in class with you. You do it on the screen, and they follow along on their laptops. The slide decks with the code-along activities provide you with a few slides to project and introduce the topic (the rest of the deck is a run-through of the code-along, for instructor reference only). 
+  - These are coding challeneges that students do in class with you. You do it on your laptop and project it on the screen; students follow along on their laptops. The slide decks with the code-along activities provide you with a few slides to project on screen and introduce the topic — like a mini lecture. The rest of the code-along deck is a run-through of the code-along; it's for instructor reference only. 
   - There are two designated code-alongs in this course: The Lord of the Rings Code-Along in Unit 1 (approximate time to complete is 30 minutes), and the Idea Board code-along in Unit 6 (approximate time to complete is 60 minutes).
   - [Code-Along Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/06-lotr-code-along.md)
   
@@ -114,7 +114,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
 - **Labs**:
   - There are two labs (ATM and TicTacToe), in which students fork a repo with existing code and add features to it.
   - Labs take approximately 90 minutes to complete.
-  - They come at the end of course and assume that the primary course learning objectives have already been covered. They do not have much in the way of textual guidance - students will really be on their own.
+  - They come at the end of course and assume that the primary course learning objectives have already been covered. They do not have much in the way of textual guidance - students will be very much on their own.
   - You can have students work on these individually or in groups. As they work, you should circulate around the room, providing hints and guidance as needed. Be sure to do a thorough review of the solution when finished.
   - [Lab Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/ATM%20Lab/README.md)
 
