@@ -36,9 +36,9 @@ Adaptations we encourage you to make:
 - **Moving faster or slower as needed through the lessons based on the needs of your class.**
 
 
-Adaptations we encourage you not to make without speaking with your manager first, especially during your first cohort:
-- **Skipping over or cutting learning objectives.** Our curriculum is designed specifically to prepare students to a career in your industry. We’ve made a promise to them to get them job ready; when you skip content you’re putting their job readiness at risk.
-- **Changing the scope of the course.** Try not to add new topics that distract from the core learning.
+Adaptations you should NOT make:
+- **Skipping over or cutting learning objectives.** Our curriculum is designed specifically to prepare students for a career in your industry. We’ve made a promise to them to get them job ready; when you skip content you’re putting their job readiness at risk.
+- **Changing the scope of the course.** Do not to add new topics that distract from the core learning.
 - **Radically altering the sequence of the course.** It’s okay to skip around sometimes, but try to follow the order of the units suggesting, especially during your first cohort.
 
 >NOTE: If you haven’t already done so, be sure to complete the Instructor Course on myGA. The self-paced course provides a basic background in key concepts necessary for success leading a GA class.
