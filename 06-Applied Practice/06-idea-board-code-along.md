@@ -24,7 +24,7 @@ competencies: Full-Stack Applications
 
 This code-along guides students to building a full-stack application with the MERN stack. Estimated class time to complete the code-along is 6 hours.
 
-We will start our project in github instead of locally just to show an alternative way of getting your project up and running.
+You can have students start the project in github instead of locally just to show an alternative way of getting a project up and running. If so, you can start out the code-along like so:
 
 Go ahead and create a repo on github called `idea-board`. Make sure to include the `.gitignore` for Node apps and a `README`.
 
