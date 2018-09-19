@@ -6,7 +6,7 @@
 
 ----
 
-> This course introduces students to the basics of the React JavaScript library. 
+This course introduces students to the basics of the React JavaScript library. 
 ## Overview
 
 Students engage in hands-on, project-based learning. React Development students will:
