@@ -111,16 +111,16 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - There are two designated code-alongs in this course: The Lord of the Rings Code-Along in Unit 1 (approximate time to complete is 30 minutes), and the Idea Board code-along in Unit 6 (approximate time to complete is 60 minutes).
   - [Code-Along Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/06-lotr-code-along.md)
   
+  
+- **Labs**:
+  - There are two labs (ATM and TicTacToe), in which students fork a repo with existing code and add features to it.
+  - Labs take approximately 90 minutes to complete.
+  - [Lab Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/ATM%20Lab/README.md)
 
 - **Projects**:
   - Blog Project: There is a blog project that students build upon throughout the week. It starts in the Props pre-work lesson. Each exercise builds on the last until students have a functioning project by the end of the week. 
   - Film project: There is also a film project that students build upon throughout the week (5-day delivery) or first few weeks (10-week delivery). Each exercise builds on the last until students have a functioning project. 
   - Final Project: This is designed for a student to build their own website over the course of an entire day (1-week delivery) or a week (10-week delivery).
-  
-- **Labs**:
-  - There are two labs (ATM and TicTacToe), in which students fork a repo with existing code and add features to it.
-  - [Lab Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/ATM%20Lab/README.md)
-  - Labs take approximately 90 minutes to complete.
   
 ## Suggested Pacing Guide
 
