@@ -1,9 +1,10 @@
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-### Instructor Guide
-# React Development
+# Instructor Guide
+## React Development
 
+> This document is the source of all knowledge for the course. 
 ----
 
 This course introduces students to the basics of the React JavaScript library. 
