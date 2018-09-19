@@ -99,7 +99,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
  
   - Exercises are coding challenges with student-facing instructions. There are hints and some suggested talking points in the presenter notes (not student facing). Read these over carefully and decide how much info you will provide to the students prior to their starting the exercise.
   - Exercises generally take about 30 minutes to complete.
-  - The most flexible of the activity types! Use them as solo work, partner work, or group work. Do them in class or assign them as homework. Also note, with the exception of the blog and film projects, exercises can also be run as code-alongs.
+  - Exercises are the most flexible of the activity types! Use them as solo work, partner work, or group work. Do them in class or assign them as homework. Also note, with the exception of the blog and film projects, exercises can also be run as code-alongs.
 
   - [Exercise Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/07-creating-newsfeed-component-exercise.md)
 
