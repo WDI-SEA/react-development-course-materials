@@ -122,10 +122,10 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - These are website-building challenges that are done in phases over a number of lessons. Each phase builds upon the next until a final product is assembled.
   - Individual project prompts (to build out one phase or feature of a given project) can be delivered like an exercise. In some cases, it is suggested that they be assigned as homework.
   - There are three projects in this course:
-   - Blog Project: This project starts in the [Props pre-work lesson](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/props-3145.json) and continues through Unit 4. The final prompt asks the students to add a weather display on the About page of their blog.
-   - Film project: This one works well as homework. Though we suggest that you at least introduce and begin each phase in class. Let students finish each part at home. Be sure to review the solution for each phase at the next class meeting.
-   - Final Project: For this project students build their own website over the course of an entire day (1-week delivery) or a week (10-week delivery). It is very open-ended. Encourage students to start thinking about a topic and focus early on in the course.
-     - [Final Project Prompt and Rubric](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/06-Applied%20Practice/07-final-project-prompt.md)
+    - Blog Project: This project starts in the [Props pre-work lesson](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/props-3145.json) and continues through Unit 4. The final prompt asks the students to add a weather display on the About page of their blog.
+    - Film project: This one works well as homework. Though we suggest that you at least introduce and begin each phase in class. Let students finish each part at home. Be sure to review the solution for each phase at the next class meeting.
+    - Final Project: For this project students build their own website over the course of an entire day (1-week delivery) or a week (10-week delivery). It is very open-ended. Encourage students to start thinking about a topic and focus early on in the course.
+       - [Final Project Prompt and Rubric](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/06-Applied%20Practice/07-final-project-prompt.md)
   
 ## Suggested Pacing Guide
 
