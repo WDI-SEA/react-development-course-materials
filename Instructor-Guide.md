@@ -58,7 +58,7 @@ General Assembly’s course materials are developed in close collaboration with 
 
 
 ## Course Details
-React Development is a 40-hour course, delivered in either 5 day full-time or 10 week part time (two 2-hour sessions a week) format. Incoming students should have a familiarity with HTML and the Document Object Model (DOM), along with a working knowledge of JavaScript programming and functions, objects, arrays, and classes.
+React Development is a 40-hour course, delivered in either a 5 day full-time or a 10 week part time (two 2-hour sessions a week) format. Incoming students should have a familiarity with HTML and the Document Object Model (DOM), along with a working knowledge of JavaScript programming and functions, objects, arrays, and classes.
 
 
 Once enrolled, students complete approximately 4 hours of pre-work on the myGA platform.
