@@ -54,3 +54,38 @@ Enjoy the Challenge!
 
 
 </aside>
+
+## Evaluation
+
+Your project will be evaluated based on the rubric below.
+
+### Rubric
+
+| Score | Expectations |
+| ----- | ---------------------------------------------------- |
+| 0 | Incomplete. |
+| 1 | Does not meet expectations. |
+<<<<<<< HEAD
+| 2 | Meets expectations — good job! |
+| 3 | Exceeds expectations — fantastic! |
+
+
+Here's an example of how the criteria works. Let's say your assignment was to cook a pizza:
+
+Criteria | **0** (Incomplete.) | **1** (Does not meet expectations.) | **2** (Meets expectations.) | **3** (Exceeds expectations.) |
+:--- | :--- | :--- | :--- | :---
+Crust | No crust present. Submission is just cheese and sauce on a plate. | Pizza has a crust, but it is raw. | Crust is cooked thoroughly.| Crust is golden brown and the perfect thickness.
+Cheese | No cheese present. | A small sprinkle of unmelted cheese in the middle of the pie. | Cheese covers the pizza from edge to edge but is not fully melted. | Cheese is delicious, plentiful, and melted to perfection.
+=======
+| 2 | Meets expectations, good job! |
+| 3 | Exceeds expectations, you wonderful creature, you! |
+
+
+A zero-to-three grade scale may not intuitively make sense, so here is an example using the criteria as if your assignment were to cook a pizza:
+
+Criteria | **0** Incomplete. | **1** Does not meet expectations. | **2** Meets expectations. | **3**  Exceeds expectations. |
+:--- | :--- | :--- | :--- | :---
+Crust | No crust present. Submission is just cheese and sauce on a plate. | Pizza has a crust, but it is raw. | Crust is cooked thoroughly.| Crust is golden brown and just thin enough without being too thick.
+Cheese | No cheese present. | Cheese is made of soy. | Cheese covers the pizza from edge to edge. | Cheese is delicious, plentiful, and melted to perfection.
+>>>>>>> d9e07521396a5152463e2c874e58336b6beb1702
+
