@@ -1,10 +1,5 @@
  # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Idea Board Introduction 
 
-<aside class="notes">
-
-**Note: This is a brief interactive lecture that introduces the 6-hour Idea Board Code-Along.**
-
-</aside>
 
 ### Objectives
 *After this lesson, you will be able to:*
@@ -14,6 +9,8 @@
 - Deploy the full stack application to Heroku
 
 <aside class="notes">
+
+**Teaching Tip**: This is a brief interactive lecture that introduces the 6-hour Idea Board Code-Along.
 
 **Talking Points**:
 
