@@ -96,9 +96,6 @@ Optional topics you may consider adding on to extend learning (provided your stu
   
   - [Interactive Lecture Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/03-nested-components.md)
   
-- **Code-alongs**:
-  - Students do this in class with you. You do it on the screen, and they follow along on their laptops. The slide decks with the code-along activities provide you with a few slides to project and introduce the topic (the rest of the deck is a run-through of the code-along, for instructor reference only). 
-  - [Code-Along Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/06-lotr-code-along.md)
   
 - **Exercises**:
   - The most flexible of the activity types! Use them as solo work, partner work, or group work. Do them in class or assign them as homework. Also note, with the exception of the blog and film projects, exercises can also be run as code-alongs.
@@ -108,6 +105,12 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - [Exercise Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/04-nested-components-exercise.md)
 
   
+  
+- **Code-alongs**:
+  - Students do this in class with you. You do it on the screen, and they follow along on their laptops. The slide decks with the code-along activities provide you with a few slides to project and introduce the topic (the rest of the deck is a run-through of the code-along, for instructor reference only). 
+  - [Code-Along Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/06-lotr-code-along.md)
+  
+
 - **Projects**:
   - Blog Project: There is a blog project that students build upon throughout the week. It starts in the Props pre-work lesson. Each exercise builds on the last until students have a functioning project by the end of the week. 
     - Each solution is a branch in the `react-blog-project` repo. (Each exercise's starter code is also in the repo, though students won't need that as the exercise is built throughout the class).
