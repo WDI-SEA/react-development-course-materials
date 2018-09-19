@@ -101,7 +101,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - Exercises generally take about 30 minutes to complete.
   - The most flexible of the activity types! Use them as solo work, partner work, or group work. Do them in class or assign them as homework. Also note, with the exception of the blog and film projects, exercises can also be run as code-alongs.
 
-  - [Exercise Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/04-nested-components-exercise.md)
+  - [Exercise Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/07-creating-newsfeed-component-exercise.md)
 
   
   
@@ -114,12 +114,17 @@ Optional topics you may consider adding on to extend learning (provided your stu
 - **Labs**:
   - There are two labs (ATM and TicTacToe), in which students fork a repo with existing code and add features to it.
   - Labs take approximately 90 minutes to complete.
+  - They come at the end of course and assume that the primary course learning objectives have already been covered. They do not have much in the way of textual guidance - students will really be on their own.
+  - You can have students work on these individually or in groups. As they work, you should circulate around the room, providing hints and guidance as needed. Be sure to do a thorough review of the solution when finished.
   - [Lab Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/ATM%20Lab/README.md)
 
 - **Projects**:
-  - Blog Project: This is a blog project that students build upon throughout the week. It starts in the [Props pre-work lesson](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/props-3145.json). Each phase of the project builds on the last until students have a functioning project. 
-  - Film project: There is also a film project that students build upon throughout the week (5-day delivery) or first few weeks (10-week delivery). Each exercise builds on the last until students have a functioning project. 
-  - Final Project: This is designed for a student to build their own website over the course of an entire day (1-week delivery) or a week (10-week delivery).
+- These are website-building challenges that are done in phases over a number of lessons. Each phase builds upon the next until a final product is assembled.
+- Individual project prompts (to build out one phase or feature of a given project) can be delivered like an exercise. In some cases, it is suggested that they be assigned as homework.
+- There are three projects in this course:
+  - Blog Project: This project starts in the [Props pre-work lesson](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/props-3145.json) and continues through Unit 4. The final prompt asks the students to add a weather display on the About page of their blog.
+  - Film project: This one works well as homework. Though we suggest that you at least introduce and begin each phase in class. Let students finish each part at home. Be sure to review the solution for each phase at the next class meeting.
+  - Final Project: For this project students build their own website over the course of an entire day (1-week delivery) or a week (10-week delivery). It is very open-ended. Encourage students to start thinking about a topic and focus early on in the course.
     - [Final Project Prompt and Rubric](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/06-Applied%20Practice/07-final-project-prompt.md)
   
 ## Suggested Pacing Guide
