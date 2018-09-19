@@ -65,7 +65,6 @@ Your project will be evaluated based on the rubric below.
 | ----- | ---------------------------------------------------- |
 | 0 | Incomplete. |
 | 1 | Does not meet expectations. |
-<<<<<<< HEAD
 | 2 | Meets expectations — good job! |
 | 3 | Exceeds expectations — fantastic! |
 
