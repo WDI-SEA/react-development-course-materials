@@ -75,7 +75,6 @@ Criteria | **0** (Incomplete.) | **1** (Does not meet expectations.) | **2** (Me
 :--- | :--- | :--- | :--- | :---
 Crust | No crust present. Submission is just cheese and sauce on a plate. | Pizza has a crust, but it is raw. | Crust is cooked thoroughly.| Crust is golden brown and the perfect thickness.
 Cheese | No cheese present. | A small sprinkle of unmelted cheese in the middle of the pie. | Cheese covers the pizza from edge to edge but is not fully melted. | Cheese is delicious, plentiful, and melted to perfection.
-=======
 | 2 | Meets expectations, good job! |
 | 3 | Exceeds expectations, you wonderful creature, you! |
 
