@@ -118,9 +118,10 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - [Lab Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/ATM%20Lab/README.md)
 
 - **Projects**:
-  - Blog Project: There is a blog project that students build upon throughout the week. It starts in the Props pre-work lesson. Each exercise builds on the last until students have a functioning project by the end of the week. 
+  - Blog Project: This is a blog project that students build upon throughout the week. It starts in the [Props pre-work lesson](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/props-3145.json). Each phase of the project builds on the last until students have a functioning project. 
   - Film project: There is also a film project that students build upon throughout the week (5-day delivery) or first few weeks (10-week delivery). Each exercise builds on the last until students have a functioning project. 
   - Final Project: This is designed for a student to build their own website over the course of an entire day (1-week delivery) or a week (10-week delivery).
+    - [Final Project Prompt and Rubric](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/06-Applied%20Practice/07-final-project-prompt.md)
   
 ## Suggested Pacing Guide
 
