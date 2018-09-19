@@ -87,7 +87,6 @@ Optional topics you may consider adding on to extend learning (provided your stu
 - [Redux](https://redux.js.org/basics/usagewithreact)
 
 # React Development: Types of Activities
-Note: The term "React Module" refers to all 8 React repos taught sequentially.
 
 ### Types of Activities in the React Development Course:
 
