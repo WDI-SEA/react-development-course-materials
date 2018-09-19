@@ -93,7 +93,6 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - These are lectures that you present to the students. Some have mini code-alongs or exercises baked in. You will also find assets such as videos, charts, and discussion prompts in these lesson decks. **Talking Points** and **Teaching Tips** can be found in the presenter notes (not student-facing). Note that if a student downloads a PDF of these decks, they will not get the presenter notes. Students should be encouraged to take their own notes as they participate in the lecture.
   
   - Also note that slide content is sparse - each slide displays just a code snippet, an image, a chart, a bulletpoint list. You get to explain the content and expand upon it. There are plenty of notes in the presenter-note field to guide you.
-  
   - [Interactive Lecture Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/03-nested-components.md)
   
   
@@ -101,7 +100,6 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - The most flexible of the activity types! Use them as solo work, partner work, or group work. Do them in class or assign them as homework. Also note, with the exception of the blog and film projects, exercises can also be run as code-alongs.
 
   - What are they? Exercises are coding challenges with student-facing instructions. There are hints and some suggested talking points in the presenter notes (not student facing). Read these over carefully and decide how much info you will provide to the students prior to their starting the exercise.
-  
   - [Exercise Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/04-nested-components-exercise.md)
 
   
