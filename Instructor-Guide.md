@@ -60,7 +60,8 @@ General Assembly’s course materials are developed in close collaboration with 
 |   |   |   |   |
 |---|---|---|---|
 | [Joe Keohan](https://generalassemb.ly/instructors/joe-keohan/7866) ![Joe](images/joe.jpg)  | [Jamie King](https://generalassemb.ly/instructors/jamie-king/11753) ![Jamie](images/jamie.jpg)   | [Susi Remondi](https://www.linkedin.com/in/susi-remondi-254415b/) ![Susi](images/susi.jpeg)   |  [Zoe Lubitz](https://www.linkedin.com/in/zoelubitz/) ![Zoe](images/zoe.jpeg)  |
-| [Courtney Hoskins](https://generalassemb.ly/instructors/courtney-hoskins/15044)  |[Mike Dang](https://generalassemb.ly/instructors/mike-dang/5451) ![Mike](images/mike.JPG)   |[Emily Logan](https://generalassemb.ly/instructors/emily-logan/10453) ![Emily](images/emily.jpg)    | [Eric Newman](https://www.linkedin.com/in/eric-newman-5895a146/) ![Eric](images/eric.png)   |
+|---|---|---|---|
+| [Courtney Hoskins](https://generalassemb.ly/instructors/courtney-hoskins/15044) ![Courtney](images/courtney.jpg) |[Mike Dang](https://generalassemb.ly/instructors/mike-dang/5451) ![Mike](images/mike.JPG)   |[Emily Logan](https://generalassemb.ly/instructors/emily-logan/10453) ![Emily](images/emily.jpg)    | [Eric Newman](https://www.linkedin.com/in/eric-newman-5895a146/) ![Eric](images/eric.png)   |
 
 
 
