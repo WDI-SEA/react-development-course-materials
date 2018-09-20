@@ -11,7 +11,7 @@
 
 ## What is Immutable?
 
-![Immutable Meme](images/oops-tattoo-2.png)
+![Immutable Meme](images/oops-tattoo.jpeg)
 
 <aside class="notes">
 
