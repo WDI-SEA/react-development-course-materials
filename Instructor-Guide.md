@@ -113,7 +113,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - [Exercise Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/07-creating-newsfeed-component-exercise.md)
 
 
-![quiz icon](images/exercise-icon.png) **Quizzes**:
+![quiz icon](images/quiz-icon.png) **Quizzes**:
  
  
   - These are sets of auto-graded questions delivered on the myGA platform. 
