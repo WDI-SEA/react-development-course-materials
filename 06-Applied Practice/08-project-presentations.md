@@ -1,7 +1,7 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project Presentations
 
 ## Overview
-There are no slides associated with this lesson.
+There are no slides associated with this lesson. This document is an instructor resource. It provides a suggested agenda for the project-presentation lesson.
 
 ## Learning Objectives
 In this lesson, students will:
