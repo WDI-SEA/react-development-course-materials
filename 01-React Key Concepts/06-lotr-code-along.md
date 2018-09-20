@@ -9,7 +9,7 @@ to practice creating components and passing information into them.
 We'll build a simple website that shows title and runtime information about the
 original Lord of the Rings Trilogy.
 
-Specifically, at the end of this lesson, your solution will look like what you see here 
+Specifically, at the end of this lesson, your solution will look like what you see here. 
 
 
 **Teaching Tip**
@@ -42,6 +42,8 @@ npm start
 Make sure eveyone gives a 👍 in Slack when they are able to start the server.
 
 ---
+
+![Gollum](images/gollum-meme.jpg)
 
 ### Create A Simple Movie Component
 Open up your `./src` directory in your favorite text editor.
