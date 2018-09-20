@@ -167,7 +167,7 @@ By the end of this lesson, you'll be able to:
 
 ---
 
-![pre-work screen shot](./images/questions.jpg)
+![pre-work screen shot](./images/question-elephant.jpg)
 
 
 <aside class="notes">
