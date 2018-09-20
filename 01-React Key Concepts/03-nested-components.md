@@ -168,7 +168,7 @@ Check if everyone if everyone is following. Remember to ask "What questions do y
 </aside>
 
 ---
-### Optional Codealong 
+### Optional Code-Along 
 
 
 ```js
