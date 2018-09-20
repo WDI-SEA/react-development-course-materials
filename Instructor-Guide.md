@@ -89,6 +89,10 @@ Optional topics you may consider adding on to extend learning (provided your stu
 ### Types of Activities in the React Development Course:
 
 - **Interactive Lectures**: 
+
+![react logo](images/lecture-icon.png)
+
+
   - These are lectures that you present to the students. Some have mini code-alongs or exercises baked in. You will also find assets such as videos, charts, and discussion prompts in these lesson decks. **Talking Points** and **Teaching Tips** can be found in the presenter notes (not student-facing). Note that if a student downloads a PDF of these decks, they will not get the presenter notes. Students should be encouraged to take their own notes as they participate in the lecture.
   
   - Also note that slide content is sparse - each slide displays just a code snippet, an image, a chart, a bulletpoint list. You get to explain the content and expand upon it. There are plenty of notes in the presenter-note field to guide you.
