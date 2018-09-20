@@ -4,6 +4,8 @@
 
 It's time to build something you'll be proud to call your own.
 
+![pre-work screen shot](./images/the-final-project.jpg)
+
 This is an open-ended project; there is no set solution that we can provide, but of course we are here to help. 
 
 You're going to be making your own site. This can be a site that you imagine, but feel free to pick an existing website and try to mimic it. Some websites that use React that you can model yours after are:
