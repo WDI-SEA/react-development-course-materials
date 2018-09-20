@@ -157,6 +157,8 @@ Check if everyone if everyone is following. Remember to ask "What questions do y
 
 ##### What else we can do?
 
+![nested components meme](./images/nested-components-we-need-to-go-deeper.jpg)
+
 <aside class="notes">
 
 **Talking Points:**
