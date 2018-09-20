@@ -106,11 +106,28 @@ Optional topics you may consider adding on to extend learning (provided your stu
 ![exercise icon](images/exercise-icon.png) **Exercises**:
  
  
-  - Exercises are coding challenges with student-facing instructions. There are hints and some suggested talking points in the presenter notes (not student facing). Read these over carefully and decide how much info you will provide to the students prior to their starting the exercise.
+  - These are brief coding challenges with student-facing instructions. There are hints and some suggested talking points in the presenter notes (not student facing). Read these over carefully and decide how much info you will provide to the students prior to their starting the exercise.
   - Exercises generally take about 30 minutes to complete.
   - Exercises are the most flexible of the activity types! Use them as solo work, partner work, or group work. Do them in class or assign them as homework. You can even do them as a code-along. 
 
   - [Exercise Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/07-creating-newsfeed-component-exercise.md)
+
+
+![quiz icon](images/exercise-icon.png) **Quizzes**:
+ 
+ 
+  - These are sets of auto-graded questions delivered on the myGA platform. 
+  - Quizzes generally take about 20 minutes to complete and another 10-20 to review.
+  - Note that quizzes are NOT a part of the pre-work. Students do not have to log in to their myGA account to take a quiz. You simply slack them the URL. 
+  - Feedback is provided after each question. 
+  - Scores are not recorded. The quizzes are just for review and practice.
+  - Students may retake a quiz simply by refreshing or by navigating back to the URL at any time.
+
+  - [Quiz Example](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json)
+
+
+
+
 
   
   
