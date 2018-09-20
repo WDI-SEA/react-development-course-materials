@@ -1,4 +1,4 @@
-# Exercise: Creating a Newsfeed Component
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  Exercise: Creating a Newsfeed Component
 
 This exercise is meant to provide additional practice creating reusable React Components.
 
