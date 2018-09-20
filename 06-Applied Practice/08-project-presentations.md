@@ -29,7 +29,7 @@ In this lesson, students will:
 - Send students the link to the presentation slides.
 
 ## Differentiation and Extensions
-- After each presentation, have all students Slack 1 thing they loved about the presentation and 1 suggestion or thought about how to improve the project or take it to the next level.
+- After each presentation, have all students Slack one thing they loved about the presentation and one suggestion or thought about how to improve the project or take it to the next level.
 
 
 **Teaching Tips:**
