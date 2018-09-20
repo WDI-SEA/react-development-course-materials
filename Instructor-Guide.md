@@ -32,13 +32,14 @@ This guide contains links to a standard set of high quality resources for your u
 Think of this guide as a cookbook. You, as the chef, will use the guidelines provided to craft an amazing meal for your students. But of course, you’ll want to think ahead about the various “dietary restrictions” and preferences of your “diners” as well as the type of “ambience” best suited to the type of experience you want to create.
 
 
+![cookbook](images/cookbook-notes.png)
+
 
 Adaptations we encourage you to make:
 - **Swapping out our generic examples for real-life examples from your industry experience.** The more you can speak to your own experience, the more the content will resonate with students.
 - **Adapting suggested projects and activities to better challenge your students,** based on their level of prior knowledge and their interests.
 - **Moving faster or slower as needed through the lessons based on the needs of your class.**
 
-![cookbook](images/cookbook-notes.png)
 
 Adaptations you should NOT make:
 - **Skipping over or cutting learning objectives.** Our curriculum is designed specifically to prepare students for a career in your industry. We’ve made a promise to them to get them job ready; when you skip content you’re putting their job readiness at risk.
