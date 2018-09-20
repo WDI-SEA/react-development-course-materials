@@ -10,7 +10,7 @@ This is Unit 4 of the complete React Development Course. It includes the followi
 
 4) `fetch`: Interactive Lecture 
 
-5) **Displaying the Weather**: Blog Project (continues with blog from pre-work)
+5) **Displaying the Weather**: Continuation of Blog Project
 
 6) **Heroku**: Interactive Lecture
 
