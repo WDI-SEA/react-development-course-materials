@@ -19,10 +19,10 @@ In this lesson, students will:
 
 | Time | Activity | Purpose |
 | --- | --- | --- |
-| 0:00 - 0:02 | [Welcome](#activity-welcome-2-min) | Introduce the lesson’s objectives and agenda. |
-| 0:02 - 0:42 | [Presenting Projects](#activity-presenting-projects-40-min) | Encourage students to present what they've been working on. |
-| 0:42 - 0:58 | [Continued Learning](#activity-continued-learning-16-min) | Discuss the steps students can take to continue on their React Development journey. |
-| 0:58 - 0:60 | [Summary](#activity-summary-2-min) | Wrap up the learning and share next steps.|
+| 0:00 - 0:05 | Welcome | Introduce the lesson’s objectives and agenda. |
+| 0:05 - 0:45 | Presenting Projects | Encourage students to present what they've been working on. |
+| 0:45 - 1:00 | Continued Learning  | Discuss the steps students can take to continue on their React Development journey. |
+| 1:00 - ? | Tearful Farewells | Distrubute tissues as needed.|
 
 
 
