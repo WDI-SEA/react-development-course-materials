@@ -16,9 +16,9 @@
 
 **Talking Points**:
 
-- Time to show off! You're going to display the weather on your About page.
+- Time to show off! You're going to display the weather on your "Dinosaurs are awesome" blog (because reptiles are rather finnicky about the weather).
 
-- You will use the [OpenWeather API](http://openweathermap.org/current) to fetch the weather from a certain zip code and update the home page to reflect the current weather.
+- You will use the [OpenWeather API](http://openweathermap.org/current) to fetch the weather from a certain zip code and update the blog to display the current weather.
 
 - Here is the [documentation for the weather API](http://openweathermap.org/current).
 
@@ -28,7 +28,7 @@
 
 ---
 
-![Solution for Project](assets/fetchSolution.png)
+![Solution for Project](assets/dino-blog-weather.png)
 
 <aside class="notes">
 
