@@ -9,7 +9,7 @@
 
 ## React Router
 
-![logo](assets/react-router-logo.png)
+![logo](assets/small-react-router-logo.png)
 
 
 <aside class="notes">
