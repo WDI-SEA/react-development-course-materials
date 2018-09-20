@@ -19,6 +19,11 @@ Show the .png file to the class so they can see the end result.
 
 ---
 
+
+![Gollum](images/gollum-meme.jpg)
+
+---
+
 ### Setup
 Open your terminal and use `create-react-app` to spin up another React
 app. Call the application `lord-of-the-rings`:
@@ -42,8 +47,6 @@ npm start
 Make sure eveyone gives a 👍 in Slack when they are able to start the server.
 
 ---
-
-![Gollum](images/gollum-meme.jpg)
 
 ### Create A Simple Movie Component
 Open up your `./src` directory in your favorite text editor.
