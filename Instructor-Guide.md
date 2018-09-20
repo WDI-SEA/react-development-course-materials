@@ -91,13 +91,16 @@ Optional topics you may consider adding on to extend learning (provided your stu
 ![lecture icon](images/lecture-icon.png) **Interactive Lectures**: 
 
 
+
   - These are lectures that you present to the students. Some have mini code-alongs or exercises baked in. You will also find assets such as videos, charts, and discussion prompts in these lesson decks. **Talking Points** and **Teaching Tips** can be found in the presenter notes (not student-facing). Note that if a student downloads a PDF of these decks, they will not get the presenter notes. Students should be encouraged to take their own notes as they participate in the lecture.
   
   - Also note that slide content is sparse - each slide displays just a code snippet, an image, a chart, a bulletpoint list. You get to explain the content and expand upon it. There are plenty of notes in the presenter-note field to guide you.
   - [Interactive Lecture Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/03-nested-components.md)
   
   
-![exercise icon](images/exercise-icon) **Exercises**:
+  
+![exercise icon](images/exercise-icon.png) **Exercises**:
+ 
  
   - Exercises are coding challenges with student-facing instructions. There are hints and some suggested talking points in the presenter notes (not student facing). Read these over carefully and decide how much info you will provide to the students prior to their starting the exercise.
   - Exercises generally take about 30 minutes to complete.
@@ -107,20 +110,27 @@ Optional topics you may consider adding on to extend learning (provided your stu
 
   
   
-- **Code-alongs**:
+  
+![code-along icon](images/code-along-icon.png) **Code-alongs**:
+
   - These are coding challeneges that students do in class with you. You do it on your laptop and project it on the screen; students follow along on their laptops. The slide decks with the code-along activities provide you with a few slides to project on screen and introduce the topic — like a mini lecture. The rest of the code-along deck is a run-through of the code-along; it's for instructor reference only. 
   - There are two designated code-alongs in this course: The Lord of the Rings Code-Along in Unit 1 (approximate time to complete is 30 minutes), and the Idea Board code-along in Unit 6 (approximate time to complete is 60 minutes).
   - [Code-Along Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/06-lotr-code-along.md)
   
   
+  
 ![lab icon](images/lab-icon.png) **Labs**:
+
   - There are two labs (ATM and TicTacToe), in which students fork a repo with existing code and add features to it.
   - Labs take approximately 90 minutes to complete.
   - They come at the end of course and assume that the primary course learning objectives have already been covered. They do not have much in the way of textual guidance - students will be very much on their own.
   - You can have students work on these individually or in groups. As they work, you should circulate around the room, providing hints and guidance as needed. Be sure to do a thorough review of the solution when finished.
   - [Lab Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/ATM%20Lab/README.md)
 
+
+
 ![project icon](images/react-project-icon.png) **Projects**:
+
   - These are website-building challenges that are done in phases over two or more lessons. Each phase builds upon the next until a final product is assembled.
   - Individual project prompts (to build out one phase or feature of a given project) can be delivered like an exercise. In some cases, it is suggested that they be assigned as homework.
   - There are three projects in this course:
