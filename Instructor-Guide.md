@@ -4,6 +4,8 @@
 # Instructor Guide
 ## React Development
 
+![react](images/react-course.png)
+
 > This document is the source of all knowledge for the course. 
 ----
 
