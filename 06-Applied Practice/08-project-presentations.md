@@ -21,7 +21,7 @@ In this lesson, students will:
 | 0:00 - 0:05 | Welcome | Introduce the lesson’s objectives and agenda. |
 | 0:05 - 0:45 | Presenting Projects | Encourage students to present what they've been working on. |
 | 0:45 - 1:00 | Continued Learning  | Discuss the steps students can take to continue on their React Development journey. |
-| 1:00 - ? | Tearful Farewells | Distrubute tissues as needed.|
+| 1:00 - ? | Tearful Farewells | Distribute tissues as needed.|
 
 
 
