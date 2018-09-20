@@ -2,7 +2,7 @@
 
 ---
 
-![pre-work screen shot](./images/react-pre-work-screen-shot.png)
+![pre-work screen shot](./images/new-react-pre-work-screen-shot.png)
 
 <aside class="notes">
 
