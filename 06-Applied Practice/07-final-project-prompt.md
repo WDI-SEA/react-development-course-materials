@@ -1,10 +1,10 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Final Project
 
+![final project meme](./assets/meme-final-project.jpg)
+
 ## Project Overview
 
 It's time to build something you'll be proud to call your own.
-
-![final project meme](./assets/meme-final-project.jpg)
 
 This is an open-ended project; there is no set solution that we can provide, but of course we are here to help. 
 
