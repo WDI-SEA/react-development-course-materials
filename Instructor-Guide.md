@@ -38,7 +38,7 @@ Adaptations we encourage you to make:
 - **Adapting suggested projects and activities to better challenge your students,** based on their level of prior knowledge and their interests.
 - **Moving faster or slower as needed through the lessons based on the needs of your class.**
 
-![cookbook](images/cookbook.png)
+![cookbook](images/cookbook-notes.png)
 
 Adaptations you should NOT make:
 - **Skipping over or cutting learning objectives.** Our curriculum is designed specifically to prepare students for a career in your industry. We’ve made a promise to them to get them job ready; when you skip content you’re putting their job readiness at risk.
