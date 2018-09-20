@@ -3,7 +3,7 @@
 
 ## Learning Objectives
 
-*After this code-along section, you will be able to:*
+*After this recap, you will be able to:*
 
 * Describe the flow of methods in a component
 * Identify the triggers for re-rendering of a component
