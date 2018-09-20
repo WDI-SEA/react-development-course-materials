@@ -4,7 +4,8 @@
 # Instructor Guide
 ## React Development
 
-> This document is the source of all knowledge for the course. 
+> This document is the source of all knowledge for the course. <br>
+![react-meme](images/react-meme.jpg)
 ----
 
 ## Overview
