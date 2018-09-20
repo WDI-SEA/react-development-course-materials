@@ -88,9 +88,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
 
 ### Types of Activities in the React Development Course:
 
-- **Interactive Lectures**: 
-
-![react logo](images/lecture-icon.png)
+![lecture icon](images/lecture-icon.png) **Interactive Lectures**: 
 
 
   - These are lectures that you present to the students. Some have mini code-alongs or exercises baked in. You will also find assets such as videos, charts, and discussion prompts in these lesson decks. **Talking Points** and **Teaching Tips** can be found in the presenter notes (not student-facing). Note that if a student downloads a PDF of these decks, they will not get the presenter notes. Students should be encouraged to take their own notes as they participate in the lecture.
@@ -99,7 +97,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - [Interactive Lecture Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/03-nested-components.md)
   
   
-- **Exercises**:
+![exercise icon](images/exercise-icon) **Exercises**:
  
   - Exercises are coding challenges with student-facing instructions. There are hints and some suggested talking points in the presenter notes (not student facing). Read these over carefully and decide how much info you will provide to the students prior to their starting the exercise.
   - Exercises generally take about 30 minutes to complete.
@@ -115,14 +113,14 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - [Code-Along Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/06-lotr-code-along.md)
   
   
-- **Labs**:
+![lab icon](images/lab-icon.png) **Labs**:
   - There are two labs (ATM and TicTacToe), in which students fork a repo with existing code and add features to it.
   - Labs take approximately 90 minutes to complete.
   - They come at the end of course and assume that the primary course learning objectives have already been covered. They do not have much in the way of textual guidance - students will be very much on their own.
   - You can have students work on these individually or in groups. As they work, you should circulate around the room, providing hints and guidance as needed. Be sure to do a thorough review of the solution when finished.
   - [Lab Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/ATM%20Lab/README.md)
 
-- **Projects**:
+![project icon](images/react-project-icon.png) **Projects**:
   - These are website-building challenges that are done in phases over two or more lessons. Each phase builds upon the next until a final product is assembled.
   - Individual project prompts (to build out one phase or feature of a given project) can be delivered like an exercise. In some cases, it is suggested that they be assigned as homework.
   - There are three projects in this course:
