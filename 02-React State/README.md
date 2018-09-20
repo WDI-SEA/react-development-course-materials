@@ -6,7 +6,7 @@ This is Unit 1 of the complete React Development Course. It includes the followi
 
 2) **State**: Interactive Lecture
 
-3) **Implement State**: Exercise (continues with blog)
+3) **Implement State**: Blog Project
 
 4) **Section Recap 1**: Discussion
 
