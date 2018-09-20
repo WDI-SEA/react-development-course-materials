@@ -60,7 +60,7 @@ General Assembly’s course materials are developed in close collaboration with 
 |---|---|---|---|
 | [Joe Keohan](https://generalassemb.ly/instructors/joe-keohan/7866) <br> ![joe](images/joe.jpg)  | [Courtney Hoskins](https://generalassemb.ly/instructors/courtney-hoskins/15044) <br> ![courtney](images/courtney.jpg)  | [Jamie King](https://generalassemb.ly/instructors/jamie-king/11753) <br> ![jamie](images/jamie.jpg)  | [Mike Dang](https://generalassemb.ly/instructors/mike-dang/5451) <br> ![mike](images/mike.JPG)  |
 | [Susi Remondi](https://www.linkedin.com/in/susi-remondi-254415b/) <br> ![susi](images/susi.jpeg)  |[Zoe Lubitz](https://www.linkedin.com/in/zoelubitz/) <br>![zoe](images/zoe.jpeg)    |  [Emily Logan](https://generalassemb.ly/instructors/emily-logan/10453) <br> ![emily](images/emily.jpg) | [Eric Newman](https://www.linkedin.com/in/eric-newman-5895a146/) <br> ![eric](images/eric.png) |
-| [Claire Oliver](https://www.linkedin.com/mynetwork/heathrow-redirect/?isSendInvite=true) <br> ![claire](images/claire.jpeg) | [Jeff Boykin](https://www.linkedin.com/in/jeffboykin/) <br> ![jeff](images/jeff.jpeg) |
+| [Claire Oliver](https://www.linkedin.com/in/claireoliver/) <br> ![claire](images/claire.jpeg) | [Jeff Boykin](https://www.linkedin.com/in/jeffboykin/) <br> ![jeff](images/jeff.jpeg) |
 
 ## Course Details
 React Development is a 40-hour course, delivered in either a 5-day full-time or a 10-week part-time (two 2-hour sessions per week) format. Incoming students should have a familiarity with HTML and the Document Object Model (DOM), along with a working knowledge of JavaScript programming and functions, objects, arrays, and classes.
