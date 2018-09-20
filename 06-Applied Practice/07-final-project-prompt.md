@@ -4,7 +4,7 @@
 
 It's time to build something you'll be proud to call your own.
 
-![final project meme](./images/the-final-project.jpg)
+![final project meme](./assets/meme-final-project.jpg)
 
 This is an open-ended project; there is no set solution that we can provide, but of course we are here to help. 
 
