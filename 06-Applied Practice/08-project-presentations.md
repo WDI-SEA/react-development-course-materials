@@ -12,7 +12,6 @@ In this lesson, students will:
 ## Duration
 60 minutes
 
----
 
 ## Suggested Agenda
 <!--- Provide a breakdown of what will happen in this lesson. --->
@@ -32,37 +31,14 @@ In this lesson, students will:
 ## Differentiation and Extensions
 - After each presentation, have all students Slack 1 thing they loved about the presentation and 1 suggestion or thought about how to improve the project or take it to the next level.
 
----
----
 
-## Lesson Procedure
+**Teaching Tips:**
+- Allow students three minutes each to present; less for a larger class.
+- Some students might not want to present and that's absolutely fine! This is just their chance to show off what they've done.
+- Compliment their projects! They've worked hard.
+- After presentations, ask students what they're plans are. Give tips, offer suggestions.
+- Encourage class to keep in touch and use each other as a resouce and to network.
+- Enourage class to stay active in the large GA alumni community.
 
-### Activity: Welcome (2 minutes)
-> Introduce the lesson’s objectives and agenda.
 
----
 
-### Activity: Presenting Projects (40 minutes)
-> Encourage students to present what they've been working on.
-
-> **Teaching Tips:**
-> - Only allow students three minutes each; less for a larger class.
-> - Some students might not want to present and that's absolutely fine! This is just their chance to show off what they've done.
-> - Compliment their projects! They've worked hard.
-
----
-
-### Activity: Continued Learning (16 minutes)
-> Discuss the steps students can take to continue on their programming journey.
-
-> **Teaching Tips:**
-> - Ask students what they're plans are. Give tips, offer suggestions.
-> - Encourage class to keep in touch and use each other as a resouce and to network.
-> - Enourage class to stay active in the large GA alumni community.
----
-
-### Activity: Summary (2 minutes)
-> Wrap up the learning and share next steps.
-
-> **Teaching Tips:**
-> - They made it through the class! This is the time to celebrate.
