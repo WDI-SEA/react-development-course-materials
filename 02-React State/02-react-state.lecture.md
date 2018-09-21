@@ -75,7 +75,7 @@ How do we access `state`?
 
 - Like props, which we access through the `this.props` object, we can access state using `this.state`
 
-- Since `state` has the ability to be changed, it is not quite as straightforward as props. However, once you get the hang of it... You'll be able to build really interactive apps!
+- Since `state` has the ability to be changed, it is not quite as straightforward as props. However, once you get the hang of it, you'll be able to build really interactive apps!
 
 ---
 
