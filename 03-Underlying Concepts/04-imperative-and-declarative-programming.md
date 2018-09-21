@@ -108,7 +108,7 @@ room.forEach((person) => {
 
 ## Practice: Applying a Discount to Items in a Shopping Cart
 
-![tv show](./assets/saved-by-the-bell.jpeg)
+![tv show](./assets/saved-by-the-bell.jpg)
 
 How was your discount coded? What would be the steps of an **imperative approach**?
 
@@ -119,6 +119,7 @@ How was your discount coded? What would be the steps of an **imperative approach
 - Here's a scenario for you: You notice that your favorite vintage television series has just been released for purchase. After adding it to your shopping cart up, you scour the internet for a discount coupon. Finally, you found one! You enter `TREATYOSELF2020` into your cart's coupon code input box, and instantaneously your cart reflects the discounted prices. Success!
 
 </aside>
+
 ---
 
 ## Practice: Applying a Discount to Items in a Shopping Cart (Continued)
