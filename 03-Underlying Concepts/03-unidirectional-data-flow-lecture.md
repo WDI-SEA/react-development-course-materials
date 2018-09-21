@@ -20,6 +20,7 @@
 
 Let's start with [a video explaining this concept](https://generalassembly.wistia.com/medias/v2uenqkgwk).
 
+![video](./assets/video-screen-shot.png)
 
 <aside class="notes">
 
