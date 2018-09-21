@@ -13,6 +13,7 @@
 ## Deploying a React App
 
 ![logo](assets/heroku-meme.jpg)
+<sup>Image source: http://cloudless.studio/articles/29-is-phoenix-deployment-really-that-hard</sup>
 
 <aside class="notes">
 
