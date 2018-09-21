@@ -31,7 +31,7 @@ for every person in the line
 
 ---
 
-So to step through this the imperative way of thinking, let's open this CodePen: https://codepen.io/SuperTernary/pen/eEVVvg?editors=0010
+To explore this the imperative way of thinking, let's open this CodePen: https://codepen.io/SuperTernary/pen/eEVVvg?editors=0010
 
 - We could write that out in Javascript by creating an array of those people.
 
