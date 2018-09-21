@@ -54,16 +54,22 @@ _By the end of this lesson, you will be able to:_
 
 ---
 
-### What's state?
+### So Many Questions! 
 
+What's is `state`  anyway?
 
+What's the difference between `state` and `props`?
 
+How do we access `state`?
+
+> What's the difference between a state and a nation?
+(Check with your poli-sci professor on that one.)
 
 <aside class="notes">
 
 **Talking Points**:
 
-- Values stored in a component's `state` are **mutable** or changable attributes.
+- Values stored in a component's `state` are **mutable** or changeable attributes.
 
 - `state` may appear similar to `props`, but there are quite a few important differences
 
