@@ -26,18 +26,6 @@ In this lesson, students will:
 ## Duration
 60 minutes
 
-## Suggested Agenda
-
-| Time | Activity |
-| --- | --- |
-| 0:00 - 0:10 | Welcome |
-| 0:10 - 0:12 | About General Assembly |
-| 0:12 - 0:14 | The Road to Success |
-| 0:14 - 0:16 | Course Structure |
-| 0:16 - 0:18 | Your Final Project |
-| 0:18 - 0:20 | Tools We'll Use |
-| 0:20 - 0:50 | [Pre-Work Recap](#activity-prework-recap-30-min) | Review the pre-work and level set. |
-| 0:50 - 1:00 | Q&A + Close |
 
 ## Before Class: Preparation
 - Update the slides that follow with specific information about you, your class, your city and your local support team.
@@ -91,7 +79,7 @@ In this lesson, students will:
 - {Insert key facts about yourself and your career:
 - Current role.
 - Cool companies/brands you’ve worked with.
-- One fun fact (Keep it classy!).}
+- One fun fact (Keep it classy!).
 
 <aside class="notes">
 
