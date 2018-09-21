@@ -464,7 +464,6 @@ Homework:
 
 Other programming languages exist - React isn't great for everything! Avoid using React with:
 
-- High performance needs.
 - Devices with limited hardware capabilities.
 - Web page widgets such as botsplash chat that are installed on 3rd party websites.
 
