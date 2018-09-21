@@ -73,13 +73,13 @@ In this lesson, students will:
 ## Meet Your Instructor
 
 
-**{Insert your name.}**
+**{Insert your name}**
 
-- [{Insert email address.}](link)
-- {Insert key facts about yourself and your career:
-- Current role.
-- Cool companies/brands you’ve worked with.
-- One fun fact (Keep it classy!).
+- {Insert your email address}
+- {Insert key facts about yourself and your career}
+- {Insert your current role}
+- {Insert cool companies/brands you’ve worked with}
+- {Insert one fun fact about you}
 
 <aside class="notes">
 
@@ -92,13 +92,12 @@ In this lesson, students will:
 
 ## Meet Your Support Team
 
-**{Insert IA's name.}**
+**{Insert IA's name}**
 
-- [{Insert email address.}](link)
-- {Insert key facts about yourself and your career:
-- Current role.
-- Cool companies/brands you’ve worked with.
-- One fun fact (Keep it classy!).}
+- {Insert IA's email address}
+- {Insert key facts about IA and IA's career}
+- {Insert cool companies/brands IA hopes to work with}
+- {Insert one fun fact about IA}
 
 <aside class="notes">
 **Teaching Tips**
@@ -172,23 +171,35 @@ Please share:
 
 - Your name.
 - Why you’re taking this course.
-- Your favorite comfort food.
-
+- Your favorite website or app.
+- Three things that were on your bedroom wall when you were a teenager.
 
 <aside class="notes">
 
 **Teaching Tips**:
 
-- Feel free to swap these out for your preferred ice breaker questions or activities.
+- Feel free to swap these out for your preferred ice breaker questions. Following is an icebreaker activity. You could do that instead. 
 
 </aside>
 
 ---
 
-## Icebreakers
+## Icebreaker
 
-{Insert some fun icebreakers here!}
+Create Your Own Web Warrior
 
+- You have 5 minutes to create your coder alter ego: https://www.marvelhq.com/create-your-own-super-hero.
+
+- When you are finished, share your avatar with a partner. Why did you make the choices that you did? What is your superpower when it comes to web development? What is your Kryptonite?
+
+
+<aside class="notes">
+
+**Teaching Tip**:
+
+- Feel free to swap this out for your preferred ice breaker activity. Or do the icebreaker questions on the previous slide instead.
+
+</aside>
 
 ---
 
