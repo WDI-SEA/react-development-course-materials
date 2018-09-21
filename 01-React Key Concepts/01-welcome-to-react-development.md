@@ -188,6 +188,8 @@ Please share:
 
 Create Your Own Web Warrior
 
+![pre-work screen shot](./images/web-warrior.png)
+
 - You have 5 minutes to create your coder alter ego: https://www.marvelhq.com/create-your-own-super-hero.
 
 - When you are finished, share your avatar with a partner. Why did you make the choices that you did? What is your superpower when it comes to web development? What is your Kryptonite?
