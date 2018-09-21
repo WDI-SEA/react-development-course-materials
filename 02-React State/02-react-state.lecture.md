@@ -9,19 +9,6 @@ _By the end of this lesson, you will be able to:_
 - Create an initial state in a component
 - Change the state of a component
 
-<aside class="notes">
-
-**Teaching Tips**:
-
-Notes to cover in Homework Review
-
-- Make sure students are using proper naming conventions when building `FilmListing` and `FilmDetails` components.
-- Make sure each component is in it's own file.
-- Review the `import` keyword and importing the film details.
-- Make sure students properly used the getFullYear() method for the `release_date`
-
-</aside>
-
 
 --- 
 
