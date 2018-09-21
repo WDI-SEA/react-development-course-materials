@@ -231,7 +231,6 @@ Create Your Own Web Warrior
 
 <aside class="notes">
 
-1 MINUTE
 
 **Teaching Tips**:
 
