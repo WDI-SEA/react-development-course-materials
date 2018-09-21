@@ -7,20 +7,6 @@
 - List the three categories of the React component lifecycle
 - Define the main methods in each lifecycle category
 
-
-<aside class="notes">
-
-**Talking Points**:
-
-- What questions do you have about the agenda for this lesson?
-- Homework review: events- are all of the click events firing and changing the ui? Have they stopped propagation?
-- Homework review: state- have they successfully added state and does the state change and update the ui when needed?
-- Homework review: this- do they understand binding? Are all of their _this_ calls working accordingly?
-- Talk through any sticking points. Were there any common "stuck" places?
-
-
-</aside>
-
 ---
 
 ## React Component Lifecycle
