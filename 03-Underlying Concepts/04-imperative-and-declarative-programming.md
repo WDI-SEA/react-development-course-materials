@@ -116,7 +116,7 @@ How was your discount coded? What would be the steps of an **imperative approach
 
 **Talking Points**:
 
-- Here's a scenario for you: You notice that your favorite vintage television series has just been released for purchase. After adding it to your shopping cart up, you scour the internet for a discount coupon. Finally, you found one! You enter `TREATYOSELF2020` into your cart's coupon code input box, and instantaneously your cart reflects the discounted prices. Success!
+- Here's a scenario for you: To your utter delight, your favorite vintage television series has just been released for purchase. After adding it to your shopping cart up, you scour the internet for a discount code. Finally, you found one! You enter `TREATYOSELF2020` into your cart's coupon code input box, and instantaneously your cart reflects the discounted price. Success!
 
 </aside>
 
