@@ -122,7 +122,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - Feedback is provided after each question. 
   - Scores are not recorded. The quizzes are just for review and practice.
   - Students may retake a quiz simply by refreshing or by navigating back to the URL at any time.
-  - Students will likely figure out that they can access the JSON file with all the quiz answers by removing the quiz URL from the file path. For example, they could change https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json **to** https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json. Because the quizzes are just practice, this shouldn't be a big issue. Just encourage students to take to answer the questions as a self-check. If they want to reference the answers later, that's fine.
+  - Students will likely figure out that they can access the JSON file with all the quiz answers by removing the quiz URL from the file path. For example, they could change https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json **to** https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json. Because the quizzes are just practice, this shouldn't be a big issue. Encourage students to challenege themselves and try to answer all questions without first referencing the answers.
 
   - [Quiz Example](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json)
 
