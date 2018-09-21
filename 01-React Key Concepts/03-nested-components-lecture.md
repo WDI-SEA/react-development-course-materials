@@ -214,7 +214,7 @@ We could call then call this object inside our `return` JSX with `{allComments}`
  **Talking Point**: 
 
 
-- We briefly discussed earlier that repetitive patterns in JS provide an opportunity for refactor code for efficiency.  A clear pattern that is emerging is the need to create three <Comment> components that each contain the same structure but differ only in thier content. The idea of manually creating these elements also doesn't take into consideration that in the future there might be hundreds of comments to create.  Does anyone have any suggestions on how we could improve the code and refacotor for more efficiency?  
+- We briefly discussed earlier that repetitive patterns in JS provide an opportunity for refactor code for efficiency.  A clear pattern that is emerging is the need to create three <Comment> components that each contain the same structure but differ only in thier content. The idea of manually creating these elements also doesn't take into consideration that in the future there might be hundreds of comments to create.  Does anyone have any suggestions on how we could improve the code and refactor for more efficiency?  
 
 </aside>
 
