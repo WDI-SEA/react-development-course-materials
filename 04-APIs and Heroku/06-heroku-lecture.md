@@ -296,9 +296,9 @@ heroku config:set API_URL="https://api.example.com"
 
 ---
 
-## Exercise
+## Try It!
 
-Deploy your blog project live to Heroku. Do so by:
+Deploy your dinosaur blog project live to Heroku. Do so by:
 
 1. Initializing a Heroku app in your project's directory.
 2. Use Git to add and commit your changes.
