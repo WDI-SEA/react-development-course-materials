@@ -12,7 +12,7 @@
 
 ## Deploying a React App
 
-![logo](assets/heroku-logo.png)
+![logo](assets/heroku-meme.jpg)
 
 <aside class="notes">
 
