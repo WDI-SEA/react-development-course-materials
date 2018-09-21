@@ -160,6 +160,8 @@
 
 ### APIs In The Wild
 
+![Planet of the APIs](./assets/planet-of-the-APIs.jpg)
+
 #### Can you think of any websites you go to that pull information from other places (and so probably use an API)?
 
 <aside class="notes">
