@@ -13,14 +13,12 @@
 ![meme](assets/documentation-meme.jpg)<br>
 <sup>Image source: https://www.scottturman.com/<sup>
 
-When you don't know how to do something in programming, a great place to check is the documentation. 
-
-That's what we'll be doing this lesson - finding the answers in documentation.
-
 <aside class="notes">
 
 
 **Talking Points**
+
+- When you don't know how to do something in programming, a great place to check is the documentation. That's what we'll be doing this lesson - finding the answers in documentation.
 
 - Some frameworks have documentation that's very dense and difficult to parse, but others are much more straightforward. Luckily, React.js is one of the more well written ones!
 
