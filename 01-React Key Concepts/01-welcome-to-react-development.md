@@ -181,7 +181,7 @@ Please share:
 
 **Teaching Tips**:
 
-- Feel free to swap these out for your preferred ice breaker questions. Following is an icebreaker activity. You could do that instead. 
+- Feel free to swap these out for your preferred ice breaker questions. Following is an icebreaker activity. You could do that instead or in addition. 
 
 </aside>
 
@@ -202,7 +202,7 @@ Create Your Own Web Warrior
 
 **Teaching Tip**:
 
-- Feel free to swap this out for your preferred ice breaker activity. Or do the icebreaker questions on the previous slide instead.
+- Feel free to swap this out for your preferred ice breaker activity. You can do the icebreaker questions on the previous slide instead or in addition.
 
 - Alternate icebreaker: Have students make their own meme (https://imgflip.com/memegenerator) that captures how they feel about taking this class. Then have them share and present their memes.
 
