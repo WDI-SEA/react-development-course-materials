@@ -204,6 +204,8 @@ Create Your Own Web Warrior
 
 - Feel free to swap this out for your preferred ice breaker activity. Or do the icebreaker questions on the previous slide instead.
 
+- Alternate icebreaker: Have students make their own meme (https://imgflip.com/memegenerator) that captures how they feel about taking this class. Then have them share and present their memes.
+
 </aside>
 
 ---
