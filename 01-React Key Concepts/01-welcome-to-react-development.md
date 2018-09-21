@@ -86,6 +86,7 @@ In this lesson, students will:
 **Talking Points**:
 
 - Talk about the instructor’s role as the instructional team “lead.”
+
 </aside>
 
 ---
@@ -100,9 +101,11 @@ In this lesson, students will:
 - {Insert one fun fact about IA}
 
 <aside class="notes">
+
 **Teaching Tips**
 
 - Duplicate this slide for each IA or classroom member you want to introduce.
+
 </aside>
 
 
