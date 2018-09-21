@@ -108,7 +108,20 @@ room.forEach((person) => {
 
 ## Practice: Applying a Discount to Items in a Shopping Cart
 
-How is your discount coded?
+![tv show](./assets/saved-by-the-bell.jpeg)
+
+How was your discount coded? What would be the steps of an **imperative approach**?
+
+<aside class="notes">
+
+**Talking Points**:
+
+- Here's a scenario for you: You notice that your favorite vintage television series has just been released for purchase. After adding it to your shopping cart up, you scour the internet for a discount coupon. Finally, you found one! You enter `TREATYOSELF2020` into your cart's coupon code input box, and instantaneously your cart reflects the discounted prices. Success!
+
+</aside>
+---
+
+## Practice: Applying a Discount to Items in a Shopping Cart (Continued)
 
 An **imperative** approach might:
 1. Declare an object consisting of the items in the cart with the original prices.
@@ -149,8 +162,6 @@ for (let i = 0; i < items.length; i++) {
 <aside class="notes">
 
 **Talking Points**:
-
-- Here's a scenario for you: You notice that your favorite television series is on sale this month. You've been holding off, but today is the day! You're going to pick it up and treat yourself. After filling your shopping cart up, you peruse the internet for a discount coupon. Finally, you found one! You furiously enter `TREATYOSELF2020` into your cart's coupon code input box, and instantaneously your cart reflects the discounted prices. Success!
 
 - The imperative approach to writing code gives us full control of *how* we add the updated price into the new array. In this case:
 1. _When_ we create the object, we set the initial attributes.
