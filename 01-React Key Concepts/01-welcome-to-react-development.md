@@ -302,7 +302,6 @@ Let's talk about the course.
 
 <aside class="notes">
 
-1 MINUTE
 
 **Teaching Tips**:
 
@@ -377,22 +376,14 @@ Help us help you!
 
 ## Course Materials
 
-{Instructor note: This is your call! Choose ONE of the below}.
-
-- Lessons for the day will be linked at the beginning of the day.
-or
-- Lessons for the course will can be viewed here - don't go too far ahead!
-or
-- Each lesson will be shared before the lesson.
-
-The lessons are interactive to give as much programming practice as possible, so be sure you get the links and follow along!
+Lecture decks and activity prompts can be downloaded as PDFs. However, you are encouraged to take your own notes throughout the course.
 
 <aside class="notes">
 
 **Teaching Tips**:
 
-- Choose one of the above. Then, take this time to give out the links if necessary.
-- If you're using Heroku, you should have a landing page with all slide links! You can share that.
+- Modify slide as needed to suit your preferences for material sharing.
+- If you're using Heroku, you can set up a landing page with links to materials that you will share out.
 
 </aside>
 
@@ -424,7 +415,7 @@ Homework:
 - At the end of {Day 5 or the 10th week}, you’ll demo your project for the class.
 
 <aside class="notes">
-2 MINUTES
+
 
 **Teaching Tips**:
 
@@ -439,7 +430,6 @@ Homework:
 - Virtual DOM: A virtual copy of the original DOM. Manipulating it (over the original DOM) speeds things up.
 - Event Handling: No need to worry about incompatible event names and fields.
 - JSX: Markup syntax you'll use for generating strings of HTML that are almost identical to the HTML you'll insert into the web page.
-- React Native: A custom renderer for React.
 - Component-Based: In React everything on the web page is divided into small components to create a view (or UIs). 
 <aside class="notes">
 
