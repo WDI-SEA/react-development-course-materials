@@ -38,7 +38,7 @@ Let's start with [a video explaining this concept](https://generalassembly.wisti
 
 ---
 
-## I do: Build a Fruit Filter
+## Let's Build a Fruit Filter
 
 ![Fruit filter app](./assets/filter-example.png)
 
@@ -83,7 +83,7 @@ This app needs to keep track of changes in two items:
 
 ---
 
-## Component hierarchy
+## Component Hierarchy
 
 ![basic data flow needed](./assets/fruit-filter-data.png)
 
@@ -109,7 +109,7 @@ This app needs to keep track of changes in two items:
 
  ---
 
-## Child components
+## Child Components
 
 ```javascript
 const FruitList = props => (
@@ -140,7 +140,7 @@ const FruitFilter = props => (
 
 ---
 
-## Container component
+## Container Component
 
 
 ```javascript
@@ -261,7 +261,7 @@ it to the child components.
 
 ---
 
-## You do: Also display the fruits that do _not_ match the filter
+## Try It: Also display the fruits that do _not_ match the filter
 
 The full code for the fruit filter is
 available at this CodePen: https://codepen.io/SuperTernary/pen/qjQVZM
