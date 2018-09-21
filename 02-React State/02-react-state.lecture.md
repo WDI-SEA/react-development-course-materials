@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 
-_After this code-along section, you will be able to:_
+_By the end of this lesson, you will be able to:_
 
 - Define what "state" means in relation to React components
 - Differentiate between this.state and this.props
