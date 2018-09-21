@@ -297,7 +297,7 @@ Let's go back to `arc/App.js` and refactor to loop over `this.props.movies` and 
 
 ```js
   render() {
-    let allMovies = this.props.movies.map( movie, index => 
+    let allMovies = this.props.movies.map( (movie, index) => 
         <Movie 
         	title={movie.title} 
         	hours={movie.hours} 
