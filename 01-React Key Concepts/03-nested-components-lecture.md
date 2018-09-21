@@ -168,7 +168,7 @@ Check if everyone if everyone is following. Remember to ask "What questions do y
 </aside>
 
 ---
-### Optional Code-Along 
+### Mini Code-Along 
 
 
 ```js
@@ -186,7 +186,7 @@ class Post extends Component {
 <aside class="notes">
 
 **Talking Points:**
-- Following along here is optional! This is to demonstrate a shorthand way of writing what your code already does.
+- This is to demonstrate a shorthand way of writing what your code already does.
 - Why is this variable declared in the `render` method? Because this calls the `Comment` component, which will render UI within it. The `render` method is where all UI goes!
 
 - Since the `render()` method is where all the UI elements our component will render it makes sense to initially place it here.
