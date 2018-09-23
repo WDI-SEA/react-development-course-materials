@@ -1,7 +1,7 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Blog Project: Add Nested Component To Blog
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Blog Project: Add Nested Component to Blog
 
 
-### Steps
+### Steps:
 
 * From the `index.js`, modify the `render` method to pass the `Post` component a prop called `allAuthors`, which will be the `authors` array.
 
@@ -9,7 +9,7 @@
 
 * Amend your `Post` component's `render` method first and create a variable, `authors`, which is equal to the return value of generating multiple `<Author />` elements.
 
-> Hint: This variable will contain three calls to the `Author` component.  Take into account that the number of authors might change per book but that **this.props.allAuthors** will always be an array even if it contains only one author. 
+> Hint: This variable will contain three calls to the `Author` component. Take into account that the number of authors might change per book, but that **this.props.allAuthors** will always be an array even if it contains only one author. 
 
 * Make sure to pass in the `allAuthors` body as an argument to each `Author` component.
 
@@ -24,13 +24,13 @@
 This blog is great so far! Now, our stegosaurus is actually collaborating more on the blog, so each post has multiple authors. Let's set that up. Besides Stealthy Stegosaurus, we have authors named Tiny T-Rex and Ivory Iguanodon.
 
 
-> Hint: Remember that whenever you write Javascript expressions inside of JSX, you need to surround them with single brackets (`{}`). Refer to the advanced note on the previous page...
+> Hint: Remember that, whenever you write JavaScript expressions inside of JSX, you need to surround them with single brackets (`{}`). Refer to the advanced note on the previous page...
 
 </aside>
 
 ---
 
-<i><strong>Advanced challenge:</strong> If you'd like, you can use JavaScript's array `map` method in `Post`'s `render` method to avoid having to hard-code all your `Author`s. 
+<i><strong>Advanced Challenge:</strong> If you like, you can use JavaScript's array `map` method in `Post`'s `render` method to avoid having to hard-code all your `Author`s. 
 
 <aside class="notes">
 
