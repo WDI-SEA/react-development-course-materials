@@ -1,11 +1,11 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Nested Components
 
 
-### Learning Objectives
+### Learning Objectives:
 *After this lesson, you will be able to:*
-- Diagram nested components
-- Render components within another component
-- Pass props to a nested component
+- Diagram nested components.
+- Render components within another component.
+- Pass props to a nested component.
 
 ---
 
@@ -25,7 +25,7 @@ Discussion: While you can certainly display more comments with `<p>{this.props.c
 
 - Elicit answers before discussing the following talking points.
 
-- Spend a minute and try to get a concensus that there is a clear pattern forming here and how repetitive patterns in JS provide some indication that the code can be refactored for reusablity.
+- Spend a minute and try to get a consensus that there is a clear pattern forming here, and how repetitive patterns in JS provide some indication that the code can be refactored for reusability.
 
 - It would be a pain to have to explicitly define every comment when rendering `<Post />`, especially if each comment had multiple properties.
 
@@ -117,10 +117,10 @@ import Comment from './Comment.js';
 
 ---
 
-### What just happened?!
+### What Just Happened?!
 <aside class="notes">
 
-**Teaching Tips**: See if students can explain it before you move to talking points.
+**Teaching Tips**: See if students can explain it before you move to the talking points.
 
 **Talking Points**:
 - Let's reflect on what just happened. We rendered a component _inside another component_. 
@@ -134,14 +134,14 @@ import Comment from './Comment.js';
 
 <aside class="notes">
 
-**Teaching Tips:**
+**Teaching Tips**:
 
-Check if everyone if everyone is following. Remember to ask "What questions do you have?" instead of "Do you have any questions?"
+Check to see that everyone is following. Remember to ask, "What questions do you have?" instead of, "Do you have any questions?"
 
-**Talking Points:**
+**Talking Points**:
 
 - That's nested components! 
-- What we're about to look into is just the idea of calling an object during the `render` `return` method - and that object can have component calls in it.
+- What we're about to look into is just the idea of calling an object during the `render` `return` method -- and that object can have component calls in it.
 
 </aside>
 
@@ -151,17 +151,17 @@ Check if everyone if everyone is following. Remember to ask "What questions do y
 ### Recap
 
 
-##### What we did:
+##### What We Did:
 
-`<Comment body={this.props.comments[0]} />` passed just the first object in the `comments` array
+`<Comment body={this.props.comments[0]} />` passed just the first object in the `comments` array.
 
-##### What else we can do?
+##### What Else Can We Do?
 
 ![nested components meme](./images/nested-components-we-need-to-go-deeper.jpg)
 
 <aside class="notes">
 
-**Talking Points:**
+**Talking Points**:
 - We can also simply pass a variable as a parameter. For example, we could pass the whole `comments` array with `<Comment body={comments} />`. 
 - We can also just write a JavaScript expression if we put it inside brackets. For example, if I had an object inside my `App.js`, each row of the object could individually call the `Comment` component.
 
@@ -185,18 +185,18 @@ class Post extends Component {
 ```
 <aside class="notes">
 
-**Talking Points:**
+**Talking Points**:
 - This is to demonstrate a shorthand way of writing what your code already does.
 - Why is this variable declared in the `render` method? Because this calls the `Comment` component, which will render UI within it. The `render` method is where all UI goes!
 
-- Since the `render()` method is where all the UI elements our component will render it makes sense to initially place it here.
+- Since the `render()` method is where our component will render all UI elements, it makes sense to initially place it here.
 
 </aside>
 
 ---
 
 
-We could call then call this object inside our `return` JSX with `{allComments}`, which would then call all three of those <`Comment />` statements:
+We could then call this object inside our `return` JSX with `{allComments}`, which would then call all three of those <`Comment />` statements:
 
 ```html
 <div>
@@ -214,7 +214,7 @@ We could call then call this object inside our `return` JSX with `{allComments}`
  **Talking Point**: 
 
 
-- We briefly discussed earlier that repetitive patterns in JS provide an opportunity for refactor code for efficiency.  A clear pattern that is emerging is the need to create three <Comment> components that each contain the same structure but differ only in thier content. The idea of manually creating these elements also doesn't take into consideration that in the future there might be hundreds of comments to create.  Does anyone have any suggestions on how we could improve the code and refactor for more efficiency?  
+- Earlier, we briefly discussed that repetitive patterns in JS provide an opportunity for refactoring code for efficiency. A clear pattern that is emerging is the need to create three <Comment> components, each containing the same structure but differing in content. The idea of manually creating these elements also doesn't take into consideration that, in the future, there might be hundreds of comments to create. Does anyone have any suggestions on how we could improve the code and refactor for more efficiency?  
 
 </aside>
 
@@ -233,18 +233,18 @@ class Post extends Component {
 
 <aside class="notes">
 
-**Teaching Tip**
+**Teaching Tip**:
 
-- Since the students will be proficient in JS it's assumed that one of the recommendations is to implement a loop.  Being that **this.props.comments** is an array it makes sense that **.map()** would be the best option here. 
+- Since the students will be proficient in JS, it's assumed that one of the recommendations is to implement a loop. Since **this.props.comments** is an array, it makes sense that **.map()** would be the best option here. 
 
 
 **Talking Points**:
 
 - So let's take a minute to refactor our code to incorporate a **.map()**.
 
-- Since React is responsible to manage our elements it also needs a way to uniquely identify repeating elements such as the <Comment> components.  React does so using a **key** property which in this case is the item's index position in the array as this will guarantee that it's unique. 
+- Since React is responsible for managing our elements, it also needs a way to uniquely identify repeating elements such as the <Comment> components. React does so using a **key** property, which in this case is the item's index position in the array, as this will guarantee that it is unique. 
 
-- Note: We could have put all of our code in one file, but it's a good practice to break components out into different files to help practice separation of concerns. The only downside is that we have to be extra conscious of remembering to **export / import** each component to the file where it's rendered.
+- Note: We could have put all of our code in one file, but it's a good practice to break components out into different files to help practice separation of concerns. The only downside is that we have to be extra conscious of remembering to **export/import** each component to the file where it's rendered.
 
  </aside>
 
