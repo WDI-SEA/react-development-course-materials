@@ -20,7 +20,7 @@ The [Dad Jokes API](https://icanhazdadjoke.com/api) includes an endpoint for [ge
 1.  Fulfill the listed requirements.
 1.  Make a pull request to submit your work.
 
-The starter code provided here is based on Create React App. Make a pull request by the end of the lab block for your assignment to be considered complete.
+The starter code provided here is based on Create React App. 
 
 ## Requirements
 
