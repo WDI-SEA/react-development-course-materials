@@ -28,8 +28,8 @@
 
 ### Web APIs
 
-![what is an api?](./assets/What-is-an-API.png)
-> Photo Credit: [Signity Solutions](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/)
+![what is an api?](./assets/What-is-an-API.png)<br>
+<sup> Photo Credit: [Signity Solutions](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
 
 <aside class="notes">
 
