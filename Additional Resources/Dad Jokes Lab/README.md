@@ -3,6 +3,8 @@
 
 The [Dad Jokes API](https://icanhazdadjoke.com/api) includes an endpoint for [getting a random dad joke](https://icanhazdadjoke.com/api#fetch-a-random-dad-joke). Your task is to build an app using React that displays a random dad joke from the API with the push of a button!
 
+![Dad wearing Groucho glasses](./assets/dad-joke.png)
+
 ## Prerequisites
 
 -   React and React Components
