@@ -38,11 +38,12 @@ Create a compelling presentation to present that:
 
 
 <aside class="notes">
-**Teaching tip**
 
-- try to make sure each group chooses a different question to answer so there are no repeats.
-- circulate while the groups are developing their presentation.
-- be sure to time presentations so the activity moves along (each should be no longer than 5 minutes). 
+**Teaching Tips**
+
+- Have each group choose a different question to answer so there are no repeats.
+- Circulate while the groups are developing their presentation.
+- Time the presentations so the activity moves along (each should be no longer than 5 minutes). 
 
 
 </aside>
