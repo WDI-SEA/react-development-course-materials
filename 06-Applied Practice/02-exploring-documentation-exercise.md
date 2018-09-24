@@ -17,7 +17,7 @@ Create a compelling presentation to present that:
   - **Note:** all group members must participate in the presentation!
 
 
-### Questions to choose from!
+### Question Bank
 - What is a controlled component in React? How is this different from regular HTML forms?
 
 - What is an uncontrolled component in React? Why would we use it instead of a controlled one?
