@@ -12,7 +12,7 @@ React class components have lifecycle methods that are invoked at certain stages
 
   - `constructor()`: Initializes state, binds methods.
   - `componentDidMount()`: Makes AJAX requests, gets DOM refs, binds event listeners, sets `state` if necessary.
-  - `componentWillUnmount()`: Unbinds event listeners, performs other clean up.
+  - `componentWillUnmount()`: Unbinds event listeners, performs other clean-up.
   - `componentDidUpdate()`: Updates `state` based on changes in components.
   - `render()`: Returns markup/UI.
 
@@ -24,7 +24,7 @@ In React, data flows from the top down. Keep your data higher in your component 
 
 ---
 
-## Declarative Vs Imperative Programming
+## Declarative vs. Imperative Programming
 
-  - Imperative Programming is a more classical 'line-by-line' approach to programming
-  - Declarative Programming expresses the logic of a computation without describing its control flow.
+  - Imperative programming is a more classical 'line-by-line' approach to programming.
+  - Declarative programming expresses the logic of a computation without describing its control flow.
