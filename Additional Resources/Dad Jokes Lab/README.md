@@ -3,7 +3,21 @@
 
 The [Dad Jokes API](https://icanhazdadjoke.com/api) includes an endpoint for [getting a random dad joke](https://icanhazdadjoke.com/api#fetch-a-random-dad-joke). Your task is to build an app using React that displays a random dad joke from the API with the push of a button!
 
-![Dad wearing Groucho glasses](./assets/dad-joke.png)
+![Dad wearing Groucho glasses](./assets/dad-joke.png)<br>
+<sup> Image Credit: Spencer Wilson for the Washington Post <sup>
+
+
+<aside class="notes">
+
+**Teaching Tip**:
+
+This lab is NOT PART OF THE CORE CURRICULUM. It is an optional lab for practicing working APIs and the component lifecycle methods in React. 
+
+Assign it to individuals who are caught up with their work and are looking for further challenges. Or do it with the whole class if time permits and you feel the students would benefit from it.
+
+</aside>
+
+---
 
 ## Prerequisites
 
