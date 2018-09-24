@@ -39,7 +39,7 @@ Open a new tab and navigate here: https://en.wikipedia.org/wiki/Café__Allegro
 Holding down the back button to look at your browser history should show
 something like this:
 
-![Cafe Allegro to General Assembly](assets/allegro_to_GA.png)
+![Cafe Allegro to General Assembly](assets/small-allegro_to_GA.png)
 
 
 **Talking Points**:
