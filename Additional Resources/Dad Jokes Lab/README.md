@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Lab: Dad Jokes Lab
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Optional Lab: Dad Jokes 
 
 
 The [Dad Jokes API](https://icanhazdadjoke.com/api) includes an endpoint for [getting a random dad joke](https://icanhazdadjoke.com/api#fetch-a-random-dad-joke). Your task is to build an app using React that displays a random dad joke from the API with the push of a button!
