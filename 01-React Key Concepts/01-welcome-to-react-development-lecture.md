@@ -481,8 +481,6 @@ Other programming languages exist - React isn't great for everything! Avoid usin
 
 What other questions do you have?
 
-Ready to plug in?
-
 
 
 <aside class="notes">
