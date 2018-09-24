@@ -176,6 +176,6 @@ By the end of this lesson, you'll be able to:
 
 **Teaching Tips**:
 
-- Be sure all students seem ready and eager to move on, before you wrap up the pre-work review. Consider prompting them as follows: "The pre-work was loaded with information. What further questions do you have? What can I clarify? There are no silly questions. Chances are the guy or gal sitting next to you has the same question, so fire away!"
+- Be sure all students seem ready and eager to move on, before you wrap up the pre-work review. Consider prompting them as follows: "The pre-work was loaded with information. What further questions do you have? What can I clarify? There are no silly questions. Chances are your classmate beside you has the same question, so fire away!"
 
 </aside>
