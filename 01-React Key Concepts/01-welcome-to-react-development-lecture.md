@@ -479,9 +479,11 @@ Other programming languages exist - React isn't great for everything! Avoid usin
 
 ## Q&A and Summary
 
-Any other questions?
+What other questions do you have?
 
-Let's rock!
+Ready to plug in?
+
+
 
 <aside class="notes">
 
