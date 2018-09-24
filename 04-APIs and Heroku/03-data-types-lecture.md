@@ -11,7 +11,7 @@
 
 ## Return Format
 
-![slow to load](./assets/waiting.png)<br>
+![slow to load](./assets/waiting.jpg)<br>
 <sup>Image Credit: [All Things Clipart](http://www.allthingsclipart.com/09/waiting.clipart.htm)<sup>
 
 <aside class="notes">
