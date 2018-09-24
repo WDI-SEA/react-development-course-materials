@@ -180,7 +180,8 @@ Suggested Examples:
 
 ## Describe How an API Fits in With SPAs
 
-![](./assets/traditional-page-lifecycle.png)
+![](./assets/traditional-page-lifecycle.png)<br>
+<sup>Image Source: [Zanon.io](https://zanon.io/posts/angularjs-how-to-create-a-spa-crawlable-and-seo-friendly)<sup>
 
 <aside class="notes">
 
