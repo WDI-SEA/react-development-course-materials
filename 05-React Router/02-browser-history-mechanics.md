@@ -164,7 +164,7 @@ Take three minutes now to find an example of a single page application.
 
 **Teaching tips**: 
 * Give students 3 minutes to find an example of an SPA (give them hints if they need it, but this activity should demonstrate that they're more common than we may be making it seem). 
-* Elicit responses before moving on. Correct examples that are not SPAs
+* Elicit responses before moving on. Correct examples that are not SPAs.
 
 </aside>
 
