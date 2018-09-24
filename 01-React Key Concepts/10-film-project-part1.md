@@ -1,10 +1,10 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Film Project, Part 1
 
-## Your Mission (If You Choose to Accept it...)
+## Your Mission (If You Choose to Accept It...)
 
-...is to build a film app that will have a list of all the recent popular movies; a user can scroll through them, click one for more details, and save it to their favorites. 
+...is to build a film app that will feature a list of all the recent popular movies; a user can scroll through the titles, click one for more details, and save it to their favorites. 
 
-Note, this is just the first phase — the app won't be completed until a future lesson. For today the plan is to identify the app components, create the overall structure, then split that structure into individual components. You'll pass films as props to each component and ultimately use iteration to render one component for each film. At the end of this exercise, you will have the app as seen here.
+Note, this is just the first phase; the app won't be completed until a future lesson. For today, the plan is to identify the app components, create the overall structure, and then split that structure into individual components. You'll pass films as props to each component, and ultimately use iteration to render one component for each film. At the end of this exercise, you will have the app as seen here:
 
 
 
@@ -21,11 +21,11 @@ OK. Start by forking and cloning the `react-film` repo.
 Don't forget any <code>import</code> statements as you add more files.
 
 
-#### Step 1: Create baseline layout
+#### Step 1: Create Baseline Layout
 
 First, create the layout. You'll have a Films column and a Details column.
 
-Make the provided `App` component render the code seen here.
+Make the provided `App` component render the code seen here:
 
 ```html
 <div className="film-library">
@@ -39,30 +39,30 @@ Make the provided `App` component render the code seen here.
 </div>
 ```
 
-#### Step 2: Create new components
+#### Step 2: Create New Components
 
 `FilmListing` and `FilmDetails`
 
-Move the `film-list` and `film-details` into their own separate components (in separate files), `FilmListing` and `FilmDetails`, respectively.
+Move the `film-list` and `film-details` into their own separate components (in separate files), `FilmListing` and `FilmDetails` (respectively).
 
 Make sure you now call these components in `App.js`. Check your app in the browser. If you've done it right, nothing will have changed, and the application will look the same.
 
 
-#### Step 3: Pass props to the new components
+#### Step 3: Pass Props to the New Components
 
 Pass the films (stored in `TMDB.films`) to each of your new components as props.
 
-If you check your file, it still shouldn't look differently. We're sending the props to the components, but we are not using the props yet.
+If you check your file, it still shouldn't look different. We're sending the props to the components, but we are not using the props yet.
 
 <details>
   <summary>Hint</summary>
-  For now, this step is just changing the <code>App.js</code> file to be sure it imports the film file and passes props.
+  For now, this step is just changing the <code>App.js</code> file to make sure it imports the film file and passes props.
 </details>
 
 
-#### Step 4: Render a film
+#### Step 4: Render a Film
 
-In the `FilmListing` component, render the title of just 1 film as an `<h1>`, below the `section-title`.
+In the `FilmListing` component, render the title of just one film as an `<h1>`, below the `section-title`.
 
 Does "It" appear on the left side of your browser?
 
@@ -73,7 +73,7 @@ Does "It" appear on the left side of your browser?
 </details>
 
 
-#### Step 5: Create and render an array of film title elements
+#### Step 5: Create and Render an Array of Film Title Elements
 
 Use `.map()` inside of the `FilmListing` to iterate over the collection of films and create an element for each one. (Here is the [map documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map).
 
@@ -89,13 +89,13 @@ You should have a list of all the films appear in the left column.
     Then, you'll just need to call <code>{allFilms}</code> in your JSX where you want the titles to appear.
 </details>
 
-#### Step 6: Move the film rows to their own component
+#### Step 6: Move the Film Rows to Their Own Component
 
-Create a new component for each film row, called `FilmRow.js`. Have your `map` instead create an array of `FilmRow`s. Don't forget to pass the individual film prop to the component when creating them!
+Create a new component for each film row, named `FilmRow.js`. Have your `map` create an array of `FilmRow`s. Don't forget to pass the individual film prop to the component when creating them!
 
 Once you have this working, also pass `film.id` as a `key` prop to `FilmRow`, though you won't use it yet.
 
-#### Step 7: Flesh out each film row
+#### Step 7: Flesh Out Each Film Row
 
 Make each film row in the film list look like the main finished image, using the following markup (replace "TITLE" and "YEAR" with the actual title and year of the film).
 
@@ -122,7 +122,7 @@ You'll also have to extract the year from the `release_date` property. To do thi
 </details>
 
 
-#### Step 8: Move film posters to their own component
+#### Step 8: Move Film Posters to Their Own Component
 
 Final step for today!
 
