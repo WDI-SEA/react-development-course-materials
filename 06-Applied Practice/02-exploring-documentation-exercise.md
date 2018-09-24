@@ -14,7 +14,7 @@ Create a compelling presentation to present that:
 - 15 min to research the question.
 - 10 min to structure a presentation.
 - 5 min to present.
-  - **Note:** all group members must participate in the presentation!
+  - **Note:** All group members must participate in the presentation.
 
 
 ### Question Bank
