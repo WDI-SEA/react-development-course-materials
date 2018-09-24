@@ -20,6 +20,8 @@
 
 - If the class is split (one or more students need a deeper review of a given lesson whereas the rest feel comfortable with that material), recruit the more advanced students to help you with the ones needing the deeper review. You can partner up a student who understands the material with one that is struggling. As an alternative, you may move on, but ask the struggling students to see you in office hours. Or direct them to additional tutorials.
 
+- Be sure to spend sufficient time on the blog post exercise in the props lesson. Students must all have their blog code in good order before moving on — that is a dependency for the next lesson. 
+
 </aside>
 
 ---
