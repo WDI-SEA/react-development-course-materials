@@ -61,7 +61,8 @@
 
 ### Why use APIs?
 
-![](./assets/api-diagram.png)
+![](./assets/api-diagram.png)<br>
+<sup> Image Credit: [Anuschka Diderich-Rijnsburger](https://www.slideshare.net/AnuschkaDiderichRijn?utm_campaign=profiletracking&utm_medium=sssite&utm_source=ssslideview) on SlideShare <sup>
 
 <aside class="notes">
 
