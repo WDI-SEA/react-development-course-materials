@@ -145,11 +145,13 @@ Optional topics you may consider adding on to extend learning (provided your stu
   
 ![lab icon](images/lab-icon.png) **Labs**:
 
-  - There are two labs (ATM and TicTacToe), in which students fork a repo with existing code and add features to it.
+  - The core curriculum has two labs (ATM and TicTacToe), in which students fork a repo with existing code and add features to it.
   - Labs take approximately 90 minutes to complete.
   - They come at the end of course and assume that the primary course learning objectives have already been covered. They do not have much in the way of textual guidance - students will be very much on their own.
   - You can have students work on these individually or in groups. As they work, you should circulate around the room, providing hints and guidance as needed. Be sure to do a thorough review of the solution when finished.
+  - There is an additional lab (Dad Jokes Lab) that is not a part of the core cirriculum. It is included as a resource in case you have some extra time to fill or you have students who are caught up and looking for an additional challenge. Pre-requisitives for the Dad Jokes Lab are: React and React Components, State and Props, The Component Lifecycle, and Working with an API.
   - [Lab Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/ATM%20Lab/README.md)
+  
 
 
 
