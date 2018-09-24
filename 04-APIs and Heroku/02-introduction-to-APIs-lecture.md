@@ -29,7 +29,7 @@
 ### Web APIs
 
 ![what is an api?](./assets/What-is-an-API.png)<br>
-<sup> Photo Credit: [Signity Solutions](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
+<sup> Image Credit: [Signity Solutions](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
 
 <aside class="notes">
 
@@ -42,7 +42,7 @@
 ---
 
 ![](./assets/scotch-mean-example.png) <br>
-<sup> Photo Credit: [Build a MEAN App with Google Maps](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
+<sup> Image Credit: [Build a MEAN App with Google Maps](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
 
 <aside class="notes">
 
@@ -181,7 +181,7 @@ Suggested Examples:
 ## Describe How an API Fits in With SPAs
 
 ![](./assets/traditional-page-lifecycle.png)<br>
-<sup>Image Source: [Zanon.io](https://zanon.io/posts/angularjs-how-to-create-a-spa-crawlable-and-seo-friendly)<sup>
+<sup>Image Credit: [Zanon.io](https://zanon.io/posts/angularjs-how-to-create-a-spa-crawlable-and-seo-friendly)<sup>
 
 <aside class="notes">
 
