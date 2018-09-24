@@ -41,8 +41,8 @@
 
 ---
 
-![](./assets/scotch-mean-example.png)
-> Photo Credit: [Build a MEAN App with Google Maps](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/)
+![](./assets/scotch-mean-example.png) <br>
+<sup> Photo Credit: [Build a MEAN App with Google Maps](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
 
 <aside class="notes">
 
