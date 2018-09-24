@@ -12,7 +12,7 @@
 
 - Students should have completed all work prior to the start of the course.
 
-- Review each lesson. How much time you spend on each lesson will vary. Always get a barometer reading of the class. If students seem comfortable with the material of a given lesson, call out a few specific key points and move on. If however, students seem confused/concerned about the content of a given lesson, do a deeper review. Maybe go through the lesson slide-by-slide. 
+- How much time you spend reviewing each lesson will vary. Always get a barometer reading of the class. If students seem comfortable with the material of a given lesson, call out a few specific key points and move on. If however, students seem confused/concerned about the content of a given lesson, do a deeper review. Maybe go through the lesson slide-by-slide, checking comprehension as you progress. 
 
 - Links to a sandbox version of each lesson are in this document, so you can easily project the lessons and walk through them. Please do not share out these links.
 
