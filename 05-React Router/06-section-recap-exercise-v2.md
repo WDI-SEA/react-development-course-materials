@@ -6,7 +6,7 @@ What have we learned so far?
 * Single Page Applications have specific URLs that are routed to display
   different content.
 * React Router is a third-party library that we can install and use with React.
-* Since React Router isn't built in to React, we must import its components.
+* Since React Router isn't built into React, we must import its components.
 * React Router makes it easy for us to route URLs to components.
 * React Router automatically manipulates modern browser history mechanics.
 
@@ -22,7 +22,7 @@ Task:
 - Create two new pages to your blog:
   - An "About" page (bios of the dino authors)
   - A "Tiny T's Two Cents' Worth" page (Tiny's opinions on the saurian political scene)
-  - These pages don't need to have much content — just the header at the top saying what the page is and a paragraph description of your choosing.
+  - Get creative and add some fun additional content to these other routes.
   
 - Create a navigation menu of list items that route to each page.
  
@@ -33,6 +33,9 @@ Task:
 
 - Each page is a component - we're learning to use React Router here!
   
+**Teaching Tip**:
+
+- This exercise requires students to refactor their `App.js` file.
 
 **Hint**: You'll need multiple `.js` files
 
