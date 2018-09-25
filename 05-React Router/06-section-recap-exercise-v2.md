@@ -20,36 +20,19 @@ Now let's put that to the test!
 Task:
 
 - Create two new pages to your blog:
-  1) An "About" page 
-  2) A "Tiny T's Two Cents' Worth" page 
+  - An "About" page (bios of the dino authors)
+  - A "Tiny T's Two Cents' Worth" page (Tiny's opinions on the saurian political scene)
   - These pages don't need to have much content — just the header at the top saying what the page is and a paragraph description of your choosing.
   
 - Create a navigation menu of list items that route to each page.
  
-
-<aside class="notes">
-
-**Talking Points**:
-
-
-</aside>
-
----
-
-Task:
-
-- Create a navigation menu of list items that Route to each page.
-  - These pages don't need to have much content — just the header at the top saying what the page is and a paragraph description of your choosing.
-  
-  
+ 
   <aside class="notes">
 
 **Talking Points**:
 
 - Each page is a component - we're learning to use React Router here!
   
-_Fun Note:_ There's no reason you can't change the CSS, if you'd like! The CSS file that you'll change is `App.css`. If you'd like, you can grab ours [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/blob/master/projects/project-04-router/solution-code/src/App.css).
- - Thought exercise: Why is that the only CSS file you need to change?
 
 **Hint**: You'll need multiple `.js` files
 
