@@ -19,9 +19,9 @@ Now let's put that to the test!
 
 Task:
 
--Create two new pages to your blog:
-  1) an "About" page 
-  2) a "Tiny T's Two Cents' Worth" page 
+- Create two new pages to your blog:
+  1) An "About" page 
+  2) A "Tiny T's Two Cents' Worth" page 
   - These pages don't need to have much content — just the header at the top saying what the page is and a paragraph description of your choosing.
   
 - Create a navigation menu of list items that route to each page.
