@@ -58,7 +58,7 @@ Task:
 ## Solution
 
 
-![Solution for Project](assets/router-solution.png)
+![Solution for Project](assets/implement-router-solution.png)
 
 <aside class="notes">
 
