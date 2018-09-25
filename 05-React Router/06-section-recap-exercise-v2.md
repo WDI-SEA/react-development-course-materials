@@ -14,23 +14,23 @@ Now let's put that to the test!
 
 ---
 
-## You Do: Implement Router
+## Try It: Implement Router
 
 
-- Homepage
-- **Main blog**
-- Favorite movie
-- Favorite food
-- About page
+Task:
 
+-Create two new pages to your blog:
+  1) an "About" page 
+  2) a "Tiny T's Two Cents' Worth" page 
+  - These pages don't need to have much content — just the header at the top saying what the page is and a paragraph description of your choosing.
+  
+- Create a navigation menu of list items that route to each page.
+ 
 
 <aside class="notes">
 
 **Talking Points**:
 
-Let's go back to our blog project.
-
-You've been told your blog needs to have the five pages seen here. You already have the "Main blog" page, which renders the `Post` component! One down, four to go.
 
 </aside>
 
