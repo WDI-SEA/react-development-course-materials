@@ -1,25 +1,25 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React Key Concepts: Section Recap
 
 
-### Learning Objectives that we've covered so far
+### Learning Objectives We've Covered So Far:
 
-* **React** is?
+* What is **React**?
   
-* A **component** is?
+* What is a **component**?
 
 <aside class="notes">
 
 **Talking Points**:
 
-- It is time to stop for a moment and review all of the topics that we've discussed so far. React may seem very confusing at first with all of the jargon, so let's break everything down:
-- React is a framework created by developers at Facebook. It is aimed at being the 'view' of your Javascript application. It focuses on creating a component-based architecture.
-- A component is An independent, reusable piece of your user interface.
+- It is time to stop and review all of the topics that we've discussed so far. At first, React may seem confusing thanks to all of the jargon, so let's break it down:
+- React is a framework created by the developers at Facebook. Its aim is to be the "view" of your JavaScript application. It focuses on creating a component-based architecture.
+- A component is an independent, reusable piece of your user interface.
 
 </aside>
 
 ---
 
-* **A nested component** is?
+* **What Is a Nested Component**?
 
 
 ![nested components chart](https://ga-instruction.s3.amazonaws.com/json/REACT/assets/unit1/nested_components_chart.jpg)
@@ -28,15 +28,15 @@
 
 **Talking Points**:
 
-- A nested component is a component called inside another component (like calling Comment components within a blog Post). Here is a diagram of the flow of information for a Comment component nested inside (called by!) a Post component.
+- A nested component is a component called inside another component (such as calling `Comment` components within a blog `Post`). Here is a diagram of the flow of information for a `Comment` component nested inside (called by!) a `Post` component.
 
 </aside>
 
 ---
 
-* The **Virtual DOM** is?
+* What is the **Virtual DOM**?
   
-* **JSX** is?
+* What is **JSX**?
   
 
 
@@ -48,18 +48,18 @@
 
 - Your virtual DOM is compared to the regular DOM, and only the element specified in `ReactDOM.render()` on the page updates.
 
-- JSX is a standard that React uses to represent HTML elements as XML tags. It looks like a template language but is much more powerful. Each JSX tag represents a React Element, and a React Class is composed of multiple elements. You express your visual user interface through nested JSX tags that can render additional components. JSX is not required for React, but it is incredibly useful.
+- JSX is a standard that React uses to represent HTML elements as XML tags. It looks like a template language but is much more powerful. Each JSX tag represents a React element, and a React class is composed of multiple elements. You express your visual user interface through nested JSX tags that can render additional components. JSX is not required for React, but it is incredibly useful.
 
-- JSX can look just like HTML, with `<h1>Hello world!</h1>`, but it can also get far more complicated.
+- JSX can look just like HTML, with `<h1>Hello, World!</h1>`, but it can also get far more complicated.
 
 </aside>
 
 ---
 
-* **Props** are?
+*What Are **Props**?
   
   
-  For example, your `App.js` could have
+  For example, your `App.js` could have:
 
 ```js
   ReactDOM.render(
@@ -68,7 +68,7 @@
 )
 ```
 
-And your `Hello.js` component could have
+And your `Hello.js` component could have:
 
 ```js
 class Hello extends Component {
@@ -81,13 +81,13 @@ class Hello extends Component {
 ```
 
 
-**Teaching Tip**
+**Teaching Tip**:
 
-One fun activity to do as part of the review is a [Kahoot](https://create.kahoot.it/details/react-1-17/dc18ba75-295e-4aee-a989-7e4c945ca66a).  It takes about 2 min to have everyone join and 10 questions @ 20 sec will only take about 5 min to go through.  Once the review is complete you will be able provide additional clarity on any lingering concepts. And the activity is guaranteed to be a resounding crowd pleaser!
+One fun activity to do as part of this review is a [Kahoot](https://create.kahoot.it/details/react-1-17/dc18ba75-295e-4aee-a989-7e4c945ca66a). It takes about two minutes to have everyone join; 10 questions at roughly 20 seconds each will only take about five minutes to complete. Once the review is done, you will be able to provide additional clarity on any lingering concepts. And, the activity is guaranteed to be a crowd-pleaser!
 
 <aside class="notes">
 
 **Talking Points**:
 
-- Props are arguments passed into a component, as though they were arguments to a function. The component can then use this data to render something or pass the data on to another component. 
+- Props are arguments passed into a component as though they were arguments to a function. The component can then use this data to render something or pass the data to another component. 
 
