@@ -48,7 +48,8 @@ Task:
 ---
 
 ```js
-render={(props) => <Dashboard {...props} title={post.title}   author={post.author} body={post.body} comments={post.comments}/>}
+render={(props) => <Dashboard {...props} title={post.title}   author={post.author} body=
+{post.body} comments={post.comments}/>}
 ```
 
 ---
