@@ -13,9 +13,9 @@ creator: Brandi Butler
 <!--
 
 ## Overview
-This lesson serves as the kick-off for your React Programming class. Whether you’re delivering this course online or in person, in a 1-week accelerated or 10-week format, take the first hour or so of your time together to get things started on the right foot.
+This lesson serves as the kick-off for your React Development course. Whether you’re delivering this course online or in person, in a 1-week, accelerated or 10-week, part-time format, take the first hour or so of your time together to start things off on the right foot.
 
-This lesson is designed to introduce yourself, GA, and get the students comfortable and excited to learn. After that, there's a brief review of the pre-work.
+This lesson is designed to introduce yourself and GA and get the students comfortable and excited to learn. After that, there's a brief review of the pre-work.
 
 ## Learning Objectives
 In this lesson, students will:
@@ -28,11 +28,11 @@ In this lesson, students will:
 
 
 ## Before Class: Preparation
-- Update the following slides with specific information about you, your class, your city and your local support team.
+- Update the following slides with specific information about you, your class, your city, and your local support team.
 - Take some time to consider your expectations for learners, and be prepared to talk about them.
-- Choose an "icebreaker" to run that will allow learners to get to know one another in a fun, informal, low-stakes way. We have a list [here](https://docs.google.com/presentation/d/1a91IqhzijI_3EqU-trJbZN4vDDSU0rXqgIrqGwsWM7I/edit) of fun activities for you to choose from (as well as other good slides to copy). And if you have some good ones, feel free to share your ideas with us!
+- Choose an "ice breaker" to run that will allow learners to get to know one another in a fun, informal, low-stakes way. We have a list of activities [here](https://docs.google.com/presentation/d/1a91IqhzijI_3EqU-trJbZN4vDDSU0rXqgIrqGwsWM7I/edit) for you to choose from (as well as other good slides to copy). If you have some good ones, feel free to share your ideas with us!
 - Before class, review completion data to understand how far your learners have progressed through the myGA pre-work.
--- If most of your learners have completed all of the pre-work, you should be able to breeze through this lesson very quickly.
+-- If most of your learners have completed the pre-work, you should be able to breeze through this lesson very quickly.
 -- If most of your learners have not completed all of the pre-work, you might want to spend more time on this lesson and reduce your timings for the rest of the lessons in Unit 1.
 
 
@@ -122,7 +122,7 @@ Have a question about:
 
 Come here to talk to Front Lines and they will help you out.
 
-{Picture of the local front lines desk.}
+{Picture of the local Front Lines desk.}
 
 <aside class="notes">
 
@@ -136,7 +136,7 @@ Come here to talk to Front Lines and they will help you out.
 
 ## More Great People
 
-{Bullet list of names and roles}
+{Bulleted list of names and roles}
 
 <aside class="notes">
 
@@ -181,7 +181,7 @@ Please share:
 
 **Teaching Tips**:
 
-- Feel free to swap these out for your preferred icebreaker questions. The following is an icebreaker activity; you could do that instead (or in addition). 
+- Feel free to swap these out for your preferred ice breaker questions. The following is an ice breaker activity; you could do that instead of (or in addition to) these questions. 
 
 </aside>
 
@@ -202,19 +202,19 @@ Create Your Own Web Warrior
 
 **Teaching Tip**:
 
-- Feel free to swap this out for your preferred icebreaker activity. You can do the icebreaker questions on the previous slide instead (or in addition).
+- Feel free to swap this out for your preferred ice breaker activity. You can use the ice breaker questions on the previous slide instead of (or in addition to) this activity.
 
-- Alternate icebreaker: Have students make their own meme (https://imgflip.com/memegenerator) that captures how they feel about taking this class. Then have them share and present their memes.
+- Alternate ice breaker: Have students make their own meme (https://imgflip.com/memegenerator) that captures how they feel about taking this class. Then, have them share and present their memes.
 
 </aside>
 
 ---
 
-## What is General Assembly?
+## What Is General Assembly?
 
 - More 20 global campuses across 6 countries.
-- Thriving alumni community of 50,000+ full- and part-time graduates.
-- Corporate training with 350+ companies, including 39 of the Fortune 100.
+- A thriving alumni community of 50,000+ full- and part-time graduates.
+- Corporate training with 350+ companies, including more than 40 of the Fortune 100.
 - 500,000+ attendees at bootcamps, workshops, and events.
 
 
@@ -229,9 +229,9 @@ Create Your Own Web Warrior
 
 ---
 
-## What is General Assembly's Mission?
+## What Is General Assembly's Mission?
 
-> "GA was founded on the principle of empowering people to pursue the work they love. Since we opened our first campus in 2011, we have had the privilege of working with students, governments, and the world’s largest companies to create opportunities to radically transform careers and economic prospects." - Jake Schwartz, Founder + CEO, General Assembly
+> "GA was founded on the principle of empowering people to pursue the work they love. Since we opened our first campus in 2011, we have had the privilege of working with students, governments, and the world’s largest companies to create opportunities to radically transform careers and economic prospects." — Jake Schwartz, Founder + CEO, General Assembly
 
 
 <aside class="notes">
@@ -259,7 +259,7 @@ We’re open:
 
 **Teaching Tips**:
 
-- If this is the 5-day full-time, delete this slide; students won't need to take advantage of this.
+- If this is the 6-day, full-time format, delete this slide; students won't need to take advantage of this.
 
 </aside>
 
@@ -274,7 +274,7 @@ We’re open:
 
 **Talking Points**:
 
-- Point out restroooms, Front Lines, the classroom, the kitchen, and where they could come work (if that slide is left in).
+- Point out restrooms, Front Lines, the classroom, the kitchen, and where they could come work (if that slide is left in).
 
 </aside>
 
@@ -297,20 +297,20 @@ There’s a lot of work ahead, and you’re going to need fuel.
 
 ---
 
-## Moving to Course Specifics...
+## Moving On to Course Specifics...
 
-Okay, GA is cool!
+OK, we know that GA is cool!
 
-The classmates are cool.
+And your classmates are cool.
 
-Let's talk about the course.
+Now, let's talk about the course.
 
 <aside class="notes">
 
 
 **Teaching Tips**:
 
-- Transition from talking about GA in general back to the React course.
+- Transition from talking about GA in general back to talking about the React course.
 
 </aside>
 
@@ -319,13 +319,13 @@ Let's talk about the course.
 
 ## Computer Setup
 
-Needed for the course:
+In this course, you'll need:
 
 - A Mac, PC, or Linux machine.
 - Access to the internet.
 - Slack.
 
-*Wi-fi: GA-GUEST*
+*WiFi: GA-GUEST*
 *pw: yellowpencil*
 
 <aside class="notes">
@@ -333,7 +333,7 @@ Needed for the course:
 **Teaching Tips**:
 
 - Make sure all students are set up on Slack and connected to the network.
-- Change the WiFi if needed!
+- Change the WiFi information if needed!
 
 </aside>
 
@@ -351,7 +351,7 @@ Help us help you!
 
 **Teaching Tips**:
 
-- You won't have these in the 5-day delivery! (Delete this slide if so.)
+- You won't have these in the 6-day delivery! (Delete this slide if so.)
 
 </aside>
 
@@ -370,7 +370,7 @@ Help us help you!
 
 **Teaching Tips**:
 
-- This slide is on how to get a certificate of completion. If anything is different, change it!
+- This slide details how to get a certificate of completion. If anything is different, change it!
 
 </aside>
 
@@ -388,7 +388,7 @@ Lecture decks and activity prompts can be downloaded as PDFs. However, you are e
 **Teaching Tips**:
 
 - Modify the slide as needed to suit your preferences for material sharing.
-- If you're using Heroku, you can set up a landing page with links to materials that you will share out.
+- If you're using Heroku, you can set up a landing page with links to materials you will share out.
 
 </aside>
 
@@ -399,8 +399,8 @@ Lecture decks and activity prompts can be downloaded as PDFs. However, you are e
 
 Homework:
 
-  - Homework isn't graded, but is good practice.
-  - We will go over assignments in class the day they're due.
+  - Homework isn't graded but serves as good practice.
+  - We will review assignments in class the day they're due.
 
 <aside class="notes">
 
@@ -415,8 +415,8 @@ Homework:
 ## Your Final Project
 
 - Each day, you’ll build skills in React and understand different ways in which you can use it to build applications.
-- At the end of {Day 4 or the 9th week}, you’ll choose a final project focus.
-- On {Day 5 or the 10th week} in class, you’ll build an application in React based on your project focus area.
+- At the end of {Day 4 or the ninth week}, you’ll choose a final project focus.
+- On {Day 5 or the 10th week}, you’ll build an application in React in class based on your project focus area.
 - At the end of {Day 5 or the 10th week}, you’ll demo your project for the class.
 
 <aside class="notes">
@@ -425,22 +425,22 @@ Homework:
 **Teaching Tips**:
 
 - Explain details of the final project, {updating this slide to reflect your own expectations if needed}.
-- Encourage students to think throughout the course of what they want to build.
+- Encourage students to be thinking throughout the course about what they want to build.
 </aside>
 
 ---
 ## Some Key Features of React
 
-- Declarative Views: They make your code more readable and easier to debug.
+- Declarative views: They make your code more readable and easier to debug.
 - Virtual DOM: A virtual copy of the original DOM. Manipulating it (over the original DOM) speeds things up.
-- Event Handling: No need to worry about incompatible event names and fields.
-- JSX: Markup syntax you'll use for generating strings of HTML that are almost identical to the HTML you'll insert into the web page.
-- Component-Based: In React, everything on the web page is divided into small components to create a view (or UIs). 
+- Event handling: No need to worry about incompatible event names and fields.
+- JSX: Markup syntax you'll use for generating strings of HTML that are almost identical to the HTML you'll insert into the webpage.
+- Component-based: In React, everything on the webpage is divided into small components to create a view (or UIs). 
 <aside class="notes">
 
 **Talking Points**:
 
-- On this and all below, don't just read the slides; add in your own experience and thoughts.
+- On this and all following slides, don't just read the text; add in your own experience and thoughts.
 
 </aside>
 
@@ -448,7 +448,7 @@ Homework:
 
 ## When to Use React
 
-- If your project involves many components with different, often changing states (active/inactive navigation items, accordion sections expanded/collapsed, dynamic inputs, buttons active/disabled, user login and access permissions).
+- If your project involves many components with different, often-changing states (e.g., active/inactive navigation items, accordion sections expanded/collapsed, dynamic inputs, buttons active/disabled, user login and access permissions).
 
 <aside class="notes">
 
@@ -465,7 +465,7 @@ Homework:
 Other programming languages exist; React isn't great for everything! Avoid using React with:
 
 - Devices with limited hardware capabilities.
-- Web page widgets such as Botsplash Chat that are installed on 3rd party websites.
+- Webpage widgets such as Botsplash Chat that are installed on third-party websites.
 
 <aside class="notes">
 
