@@ -1,11 +1,11 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React Component Lifecycle
 
-## Learning Objectives
+## Learning Objectives:
 
 *After this lesson, you will be able to:*
 
-- List the three categories of the React component lifecycle
-- Define the main methods in each lifecycle category
+- List the three categories of the React component lifecycle.
+- Define the main methods in each lifecycle category.
 
 ---
 
@@ -25,7 +25,7 @@ The lifecycle falls into three main pieces:
 
 - React class components provide several lifecycle methods that you can use to control your application based on the state of the UI.
 
-- Lifecycle methods happen automatically - but you can call them to modify them.
+- Lifecycle methods happen automatically, but you can call them to modify them.
 
 </aside>
 
@@ -50,14 +50,14 @@ These methods are called at specific points in the rendering process. You can us
 
 ## Mounting, Updating, Unmounting
 
-* **Initializing / Mounting** e.g. What happens when the component is created and inserted into the DOM? Was an initial state set? Methods:
+* **Initializing / Mounting**: For example, what happens when the component is created and inserted into the DOM? Was an initial state set? Methods:
   - `constructor()`
   - `static getDerivedStateFromProps()`
   - `render()`
   - `componentDidMount()`
 
 
-* **Updating** e.g. Did an event happen that changed the state? What happens when a component is being re-rendered? Methods:
+* **Updating**: For example, did an event happen that changed the state? What happens when a component is being re-rendered? Methods:
   - `static getDerivedStateFromProps()`
   - `shouldComponentUpdate()`
   - `render()`
@@ -65,14 +65,14 @@ These methods are called at specific points in the rendering process. You can us
   - `componentDidUpdate()`
 
 
-* **Destruction / Unmounting** e.g. What needs to happen when we're done with the component? Method:
+* **Destruction / Unmounting**: For example, what needs to happen when we're done with the component? Method:
   - `componentWillUnmount()`
 
 <aside class="notes">
 
 **Talking Points**:
 
-- Aagin, react components' lifecycle events fall into three broad categories, as seen here.
+- Again, React components' lifecycle events fall into three broad categories, as seen here.
 
 
 - Error handling- `componentDidCatch()` method is called when there is an error in a lifecycle method, when rendering, or in the constructor of child components.
@@ -91,10 +91,10 @@ These methods are called at specific points in the rendering process. You can us
 
 **Talking Points**:
 
-- Here they are in a diagram form.
+- Here they are in diagram form.
 
-- Again, you don't need to write these methods - they happen automatically, just like constructors did before we explicitly wrote one. You only have to worry about these if you want to change something in them - but if you do, it's important to understand them!
-- Note thate `getDerivedStateFromProps()`  `shouldComponentUpdate()` and `getSnapshotBeforeUpdate()` are not included on this diagram because they are less commonly leveraged
+- Again, you don't need to write these methods; they happen automatically, just like constructors did before we explicitly wrote one. You only have to worry about these if you want to change something in them; but if you do, it's important to understand them!
+- Note that `getDerivedStateFromProps()`, `shouldComponentUpdate()`, and `getSnapshotBeforeUpdate()` are not included in this diagram because they are less commonly leveraged.
 
 </aside>
 
@@ -111,7 +111,7 @@ constructor(props) {
 
 <aside class="notes">
 
-- This is in the first part of the component lifecycle- **initializing/mounting**. Like any JavaScript class, the `constructor` method is called when a component is instantiated (when it's first rendered). We've already used these, but let's take a look in more detail.
+- This is in the first part of the component lifecycle: **initializing/mounting**. Like any JavaScript class, the `constructor` method is called when a component is instantiated (i.e., when it's first rendered). We've already used these, but let's take a look in more detail.
 
 - In a class constructor, you must call `super` before you do anything else. So a React component `constructor` in its most basic form looks as seen here.
 
@@ -132,7 +132,7 @@ constructor(props) {
 
 **Talking Points**:
 
-- You don't need to define a constructor if that's all it does, though. This happens automatically when your component is invoked. A common use of the constructor is to initialize `state` using the `props` passed to the component - as we have been doing.
+- You don't need to define a constructor if that's all it does, though. This happens automatically when your component is invoked. A common use of the constructor is to initialize `state` using the `props` passed to the component, as we have been doing.
 
 - This constructor sets the initial `fruits` `state` of the component to the `fruits` `prop` passed to the component.
 
@@ -143,7 +143,7 @@ constructor(props) {
 
 Another common use of the `constructor` method is to bind class methods.
 
-For example, we could set
+For example, we could set:
 ```js
 this.myFunctionName = this.myFunctionName.bind(this)
 ```
@@ -173,7 +173,7 @@ class FruitTable extends React.Component {
 
 **Talking Points**:
 
-- Notice that in the constructor, `this.addFruit` is bound to the class:
+- Notice that, in the constructor, `this.addFruit` is bound to the class:
 `this.addFruit = this.addFruit.bind(this);`
 
 - Now, if we pass `this.addFruit` to a child component as an `onChange` callback, it will be bound to `FruitTable` and will update its state when it's invoked.
@@ -191,9 +191,9 @@ class FruitTable extends React.Component {
 
 `getDerivedStateFromProps` is invoked right before calling the render method. It should return an object to update the state, or null to update nothing.
 
-`getSnapshotBeforeUpdate()` is invoked right before the most recently rendered output is committed to e.g. the DOM.
+`getSnapshotBeforeUpdate()` is invoked right before the most recently rendered output is committed (e.g., to the DOM).
 
-These method exists for *rare* use cases where the state depends on changes in props over time (`getDerivedStateFromProps`) or if you need to handle something like scroll position before an update (`getSnapshotBeforeUpdate()`)
+This method exists for *rare* use cases where the state depends on changes in props over time (`getDerivedStateFromProps`) or if you need to handle something such as scroll position before an update (`getSnapshotBeforeUpdate()`).
 
 
 <aside class="notes">
@@ -201,9 +201,9 @@ These method exists for *rare* use cases where the state depends on changes in p
 **Talking Points**:
 
 - This method is not as commonly used and can make your code overly verbose and your components overly complicated.
-- Alternatives: if you want to perform a side effect in reponse to props, use `componenentDidUpdate()` which will will discuss later.
-- Alternatives: discuss memoiazation helpers for re-computing data when a prop changes.
-- Alternatives: to reset state on prop change, make the component fully controlled or uncontrolled with a key instead of using this method.
+- Alternatives: If you want to perform a side effect in response to props, use `componenentDidUpdate()`, which we will discuss later.
+- Alternatives: Discuss memoization helpers for re-computing data when a prop changes.
+- Alternatives: To reset state on prop change, make the component fully controlled or uncontrolled with a key instead of using this method.
 
 </aside>
 
@@ -249,7 +249,7 @@ class FruitTable extends React.component {
 
 **Talking Points**:
 
-- Another common use for `componentDidMount` is to bind event listeners to your component. You can then remove the event listeners in `componentWillUnmount`, which is the only method in the last part of the component lifecycle- when the component is being removed from the DOM.
+- Another common use for `componentDidMount` is to bind event listeners to your component. You can then remove the event listeners in `componentWillUnmount`, which is the only method in the last part of the component lifecycle (when the component is being removed from the DOM).
 In the example seen on this slide, we bind and unbind an event listener for a drag-drop component.
 
 -You may call setState() immediately in componentDidMount(). It will trigger an extra rendering, but it will happen before the browser updates the screen.
@@ -260,12 +260,12 @@ In the example seen on this slide, we bind and unbind an event listener for a dr
 
 ## The `render()` Method
 
-This is the one method that every React class component **must** have. It is called in two parts of the component lifecycle - at the beginning, when the component is being initiated/mounted, and when the component is being updated.
+This is the one method that every React class component **must** have. It is called in two parts of the component lifecycle: At the beginning, when the component is being initiated/mounted, and when the component is being updated.
 
 - In `render`, you return JSX using `this.props` and `this.state`.
 
 
-The following component renders a single `prop` and a single `state` key - a car model and a speed. Once this component is mounted, its `speed` state will increase by 1 every second. You can [try it out yourself on CodePen](https://codepen.io/SuperTernary/pen/zzMPGp).
+The following component renders a single `prop` and a single `state` key: A car model and a speed. Once this component is mounted, its `speed` state will increase by 1 every second. You can [try it out yourself on CodePen](https://codepen.io/SuperTernary/pen/zzMPGp).
 
 ```javascript
 class Car extends React.Component {
@@ -333,9 +333,9 @@ Use [`window.setTimeout`](https://developer.mozilla.org/en-US/docs/Web/API/Windo
 
 **Talking Points**:
 
-- Render will not be invoked if `shouldComponentUpdate()` returns false
+- Render will not be invoked if `shouldComponentUpdate()` returns false.
 - You should never set `state` in `render` - `render` should only react to changes in `state` or `props`, not create those changes.
-- Render should be a 'pure' function- it does not modify component state, it returns the same result each time it’s invoked, and does not directly interact with the browser.
+- Render should be a 'pure' function: It does not modify component state, it returns the same result every time it’s invoked, and it does not directly interact with the browser.
 
 </aside>
 
@@ -345,7 +345,7 @@ Use [`window.setTimeout`](https://developer.mozilla.org/en-US/docs/Web/API/Windo
 
 `shouldComponentUpdate()` lets React know if a component’s output is *not* affected by the current change in state or props. The default returns `true` and to re-render on every state change.
 
-If shouldComponentUpdate() returns false, then `render()`, and `componentDidUpdate()` will not be invoked.
+If shouldComponentUpdate() returns false, then `render()` and `componentDidUpdate()` will not be invoked.
 
 ```javascript
 shouldComponentUpdate(nextProps, nextState)
@@ -355,8 +355,8 @@ shouldComponentUpdate(nextProps, nextState)
 <aside class="notes">
 
 **Talking Points**:
-- In the vast majority of cases you should rely on the default behavior to re-render on every state change and will not need to invoke `shouldComponentUpdate()`.
-- `shouldComponentUpdate()` only exists as a performance optimization and you shouln't rely on it to “prevent” a rendering.
+- In the vast majority of cases, you should rely on the default behavior to re-render on every state change, and will not need to invoke `shouldComponentUpdate()`.
+- `shouldComponentUpdate()` only exists as a performance optimization, and you shouldn't rely on it to “prevent” a rendering.
 
 
 </aside>
@@ -385,12 +385,12 @@ componentDidUpdate(prevProps) {
 
 **Talking Points**:
 
-- `componentDidUpdate()` is invoked immediately after updating occurs and is a good place to operate on the DOM when the component has been updated.
+- `componentDidUpdate()` is invoked immediately after updating occurs, and is a good place to operate on the DOM when the component has been updated.
 
 - This is also a good place to do network requests as long as you compare the current props to previous props.
 
-- This method is not called for the initial render
-- You may call setState() immediately in componentDidUpdate() but it must be wrapped in a condition like in our, or you’ll cause an infinite loop and a re-rendering.
+- This method is not called for the initial render.
+- You may call setState() immediately in componentDidUpdate(), but it must be wrapped in a condition like in our, or you’ll cause an infinite loop and a re-rendering.
 - The re-rendering may not be visible to the user, but can kill your performance!
 - As mentioned above, `componentDidUpdate()` will not be invoked if `shouldComponentUpdate()` returns false.
 
@@ -405,6 +405,6 @@ React class components have lifecycle methods that are invoked at certain stages
 
     - `constructor()`: Initializes state, binds methods.
     - `componentDidMount()`: Makes AJAX requests, gets DOM refs, binds event listeners, sets `state` if necessary.
-    - `componentWillUnmount()`: Unbinds event listeners, performs other clean up.
+    - `componentWillUnmount()`: Unbinds event listeners, performs other clean-up.
     - `componentDidUpdate()`: Updates `state` based on changes in components.
     - `render()`: Returns markup/UI.
