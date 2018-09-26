@@ -56,7 +56,7 @@
 
 ---
 
-*What Are **Props**?
+* What Are **Props**?
   
   
   For example, your `App.js` could have:
