@@ -2,25 +2,36 @@
 
 ![Lord of the Rings movie info](images/lord-of-the-rings-final.png)
 
+<aside class="notes">
 
-Let's build something small to reinforce what you've learned so far. We're going
+**Teaching Tips**:
+- These first two slides (ending with the Gollum image) are for you to project to the class as you introduce the topic. The remainder of this lesson is an instructor-facing script. 
+
+- The image here is so the class can see the end product and have an idea of what they are building.
+
+**Talking Points**:
+
+- Let's build something small to reinforce what you've learned so far. We're going
 to practice creating components and passing information into them.
 
-We'll build a simple website that shows title and runtime information about the
+- We'll build a simple website that shows title and runtime information about the
 original Lord of the Rings trilogy.
 
-Specifically, at the end of this lesson, your solution will look like what you see here. 
+- Specifically, at the end of this lesson, your solution will look like what you see here. 
 
-
-**Teaching Tip**
-
-Show the .png file to the class so they can see the end result.
+</aside>
 
 
 ---
 
 
 ![Gollum](images/gollum-meme.jpg)
+
+<aside class="notes">
+
+**Teaching Tips**:
+
+- At this point you can stop projecting these slides and begin to project the code. The remainder of this lesson is a script for instructors (not student-facing slides).
 
 ---
 
@@ -142,6 +153,7 @@ Uh oh, there's an error!
 **Teaching Tip**:
 
 - Use this as an opportunity to ask the class what is going on, if they have seen that error before, and how to resolve it. Point out that the same error would appear in normal JS if you tried calling a function or variable that wasn't defined.
+
 
 One does not simply refer to components in React. In our `src/App.js`, we're saying: "Display what's returned from the `Movie` component." However, we haven't told `src/Apps.js` where to find the `Movie` component! We must import a component before using it.
 
