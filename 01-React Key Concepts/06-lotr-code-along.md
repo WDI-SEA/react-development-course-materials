@@ -34,6 +34,7 @@ original Lord of the Rings trilogy.
 - At this point you can stop projecting these slides and begin to project the code. The remainder of this lesson is a script for instructors (not student-facing slides).
 
 ---
+## Code-a-long Script for Instructors
 
 ### Set Up
 
