@@ -164,7 +164,7 @@ Check to see that everyone is following along. Remember to ask: "What questions 
 
 **Talking Points**:
 - We can also simply pass a variable as a parameter. For example, we could pass the whole `comments` array with `<Comment body={comments} />`. 
-- We can also just write a JavaScript expression if we put it inside brackets. For example, if I had an object inside my `App.js`, each row of the object could individually call the `Comment` component.
+- We can also just write a JavaScript expression if we put it inside curly braces. For example, if I had an object inside my `App.js`, each row of the object could individually call the `Comment` component.
 
 </aside>
 
