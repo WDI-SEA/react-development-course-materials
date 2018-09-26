@@ -14,10 +14,10 @@ Create a compelling presentation to present that:
 - 15 min to research the question.
 - 10 min to structure a presentation.
 - 5 min to present.
-  - **Note:** all group members must participate in the presentation!
+  - **Note:** All group members must participate in the presentation.
 
 
-### Questions to choose from!
+### Question Bank
 - What is a controlled component in React? How is this different from regular HTML forms?
 
 - What is an uncontrolled component in React? Why would we use it instead of a controlled one?
@@ -38,11 +38,12 @@ Create a compelling presentation to present that:
 
 
 <aside class="notes">
-**Teaching tip**
 
-- try to make sure each group chooses a different question to answer so there are no repeats.
-- circulate while the groups are developing their presentation.
-- be sure to time presentations so the activity moves along (each should be no longer than 5 minutes). 
+**Teaching Tips**
+
+- Have each group choose a different question to answer so there are no repeats.
+- Circulate while the groups are developing their presentation.
+- Time the presentations so the activity moves along (each should be no longer than 5 minutes). 
 
 
 </aside>

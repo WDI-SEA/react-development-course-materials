@@ -11,13 +11,14 @@
 
 ## Return Format
 
-![slow to load](./assets/slow-load.png)
+![slow to load](./assets/waiting.jpg)<br>
+<sup>Image Credit: [All Things Clipart](http://www.allthingsclipart.com/09/waiting.clipart.htm)<sup>
 
 <aside class="notes">
 
 **Talking Points**:
 
-- No user likes when they're on a page that takes forever to load. If your web app has a Google Map, a list of movies from OMDB, and a Spotify catalog, that's a lot of information! You want the information returned as quickly as possible so that users aren't waiting forever for your page to load.
+- No user likes when they're on a page that takes forever to load. If your web app has a Google Map, a list of movies from IMDB, and a Spotify catalog — that's a lot of information. You want the information returned as quickly as possible so that users aren't waiting forever for your page to load.
 
 - All of this information — from all of these browsers and all of these servers — has to travel through the network. That's almost certainly the slowest part of the request cycle. We want to minimize the bits. There are times when we just need the data, and in those cases, we want a concise format.
 

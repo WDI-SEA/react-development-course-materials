@@ -241,7 +241,8 @@ https://example.com/users/me/edit
 
 Cross-Origin Resource Sharing
 
-![logo](assets/CORS-principle.png)
+![logo](assets/CORS-principle.png)<br>
+<sup>Image Credit: [Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
 <aside class="notes">
 

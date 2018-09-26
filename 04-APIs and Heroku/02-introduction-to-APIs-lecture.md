@@ -28,8 +28,8 @@
 
 ### Web APIs
 
-![what is an api?](./assets/What-is-an-API.png)
-> Photo Credit: [Signity Solutions](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/)
+![what is an api?](./assets/What-is-an-API.png)<br>
+<sup> Image Credit: [Signity Solutions](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
 
 <aside class="notes">
 
@@ -41,8 +41,8 @@
 
 ---
 
-![](./assets/scotch-mean-example.png)
-> Photo Credit: [Build a MEAN App with Google Maps](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/)
+![](./assets/scotch-mean-example.png) <br>
+<sup> Image Credit: [Build a MEAN App with Google Maps](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
 
 <aside class="notes">
 
@@ -61,7 +61,8 @@
 
 ### Why use APIs?
 
-![](./assets/api-diagram.png)
+![](./assets/api-diagram.png)<br>
+<sup> Image Credit: [Anuschka Diderich-Rijnsburger](https://www.slideshare.net/AnuschkaDiderichRijn?utm_campaign=profiletracking&utm_medium=sssite&utm_source=ssslideview) on SlideShare <sup>
 
 <aside class="notes">
 
@@ -179,7 +180,8 @@ Suggested Examples:
 
 ## Describe How an API Fits in With SPAs
 
-![](./assets/traditional-page-lifecycle.png)
+![](./assets/traditional-page-lifecycle.png)<br>
+<sup>Image Credit: [Zanon.io](https://zanon.io/posts/angularjs-how-to-create-a-spa-crawlable-and-seo-friendly)<sup>
 
 <aside class="notes">
 

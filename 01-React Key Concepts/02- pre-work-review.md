@@ -20,6 +20,8 @@
 
 - If the class is split (one or more students need a deeper review of a given lesson, whereas the rest feel comfortable with the material), recruit the more advanced students to help you with the ones needing a deeper review. You can partner up a student who understands the material with one who is struggling. As an alternative, you may move on, but ask the struggling students to see you in office hours, or direct them to additional tutorials.
 
+- Be sure to spend sufficient time on the blog post exercise in the props lesson. Students must all have their blog code in good order before moving on — that is a dependency for the next lesson. 
+
 </aside>
 
 ---
@@ -174,6 +176,8 @@ By the end of this lesson, you'll be able to:
 
 **Teaching Tips**:
 
+
 - Before you wrap up the pre-work review, make sure all students seem ready and eager to move on. Consider prompting them as follows: "The pre-work was loaded with information. What further questions do you have? What can I clarify? There are no silly questions. Chances are good that the student sitting next to you has the same question, so fire away!"
+
 
 </aside>
