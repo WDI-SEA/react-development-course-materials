@@ -11,7 +11,7 @@
 
 ## In Your Blog...
 
-...a section of your `App.js` `render` function currently looks like this:
+...a section of your `App.js` `render()` function currently looks like this:
 ```html
 <h3>Comments:</h3>
 <p>{this.props.comments[0]}</p>
@@ -25,7 +25,7 @@ Discussion: While you can certainly display more comments with `<p>{this.props.c
 
 - Elicit answers before discussing the following talking points.
 
-- Spend a minute and try to get a consensus that there is a clear pattern forming here, and how repetitive patterns in JS provide some indication that the code can be refactored for reusability.
+- Spend a minute and try to get a consensus that there is a clear pattern forming here and how repetitive patterns in JS provide some indication that the code can be refactored for reusability.
 
 - It would be a pain to have to explicitly define every comment when rendering `<Post />`, especially if each comment had multiple properties.
 
@@ -33,13 +33,13 @@ Discussion: While you can certainly display more comments with `<p>{this.props.c
 
 - To solve this problem, in the following slides we will **nest** `Comment` components within a `Post` component.
 
-- We can create these comments the same way we created posts: By defining a `Comment` class that `extends Component` and has a `render` method.
+- We can create these comments the same way we created posts: By defining a `Comment` class that `extends Component` and has a `render()` method.
 
 </aside>
 
 --- 
 
-Next, we'll put comments inside an individual post component. To do this, we can reference a comment using `<Comment />` inside of `Post`'s `render` method.
+Next, we'll put comments inside an individual `Post` component. To do this, we can reference a comment using `<Comment />` inside of `Post`'s `render()` method.
 
 * Starting from the blog post code, let's create a new file for a `Comment` component, `src/Comment.js`:
 
@@ -84,7 +84,7 @@ Now, in `src/App.js`, we need to import our `Comment` component so it's availabl
 import React, { Component } from 'react';
 import './App.css';
 
-// Load in Comment component
+// Load in Comment component.
 import Comment from './Comment.js';
 ```
 
@@ -95,6 +95,7 @@ import Comment from './Comment.js';
 <aside class="notes">
 
 **Talking Points**:
+
 - With this setup, we can render one or more comments inside the `Post` component. 
 - Currently,
 `<p>{this.props.comments[0]}</p>` is rendering one comment in the `Post` component from `App.js`. 
@@ -125,7 +126,7 @@ import Comment from './Comment.js';
 **Talking Points**:
 - Let's reflect on what just happened. We rendered a component _inside another component_. 
 - Technically, we just **nested** components. Very much like how we imported `Post` from `App.js` into `index.js` and rendered a post inside `index.js`, we've imported `Comment` from `Comment.js` into `App.js` and rendered a comment. 
-- Inside `App.js`, we're using some of the props to render a post and simply passing the `comments` prop on to be rendered with the `Comment` component class. So the flow of the props looks like... (advance to next slide)
+- Inside `App.js`, we're using some of the props to render a post and simply passing the `comments` prop on to be rendered with the `Comment` component class. So, the flow of the props looks like... (advance to next slide)
 </aside>
 
 ---
@@ -136,12 +137,12 @@ import Comment from './Comment.js';
 
 **Teaching Tips**:
 
-Check to see that everyone is following. Remember to ask, "What questions do you have?" instead of, "Do you have any questions?"
+Check to see that everyone is following along. Remember to ask: "What questions do you have?" instead of: "Do you have any questions?"
 
 **Talking Points**:
 
 - That's nested components! 
-- What we're about to look into is just the idea of calling an object during the `render` `return` method -- and that object can have component calls in it.
+- What we're about to look into is just the idea of calling an object during the `render` `return` method — and that object can contain component calls.
 
 </aside>
 
@@ -151,7 +152,7 @@ Check to see that everyone is following. Remember to ask, "What questions do you
 ### Recap
 
 
-##### What We Did:
+##### What We Did
 
 `<Comment body={this.props.comments[0]} />` passed just the first object in the `comments` array.
 
@@ -179,17 +180,17 @@ class Post extends Component {
       <Comment body={this.props.comments[1]} />,
       <Comment body={this.props.comments[2]} />
     ]
-    /// rest of content .....
+    /// Rest of content...
   }
 }
 ```
 <aside class="notes">
 
 **Talking Points**:
-- This is to demonstrate a shorthand way of writing what your code already does.
-- Why is this variable declared in the `render` method? Because this calls the `Comment` component, which will render UI within it. The `render` method is where all UI goes!
+- This is meant to demonstrate a shorthand way of writing what your code already does.
+- Why is this variable declared in the `render()` method? Because this calls the `Comment` component, which will render UI within it. The `render()` method is where all UI goes!
 
-- Since the `render()` method is where our component will render all UI elements, it makes sense to initially place it here.
+- Because the `render()` method is where our component will render all UI elements, it makes sense to initially place it here.
 
 </aside>
 
@@ -213,8 +214,7 @@ We could then call this object inside our `return` JSX with `{allComments}`, whi
 
  **Talking Point**: 
 
-
-- Earlier, we briefly discussed that repetitive patterns in JS provide an opportunity for refactoring code for efficiency. A clear pattern that is emerging is the need to create three <Comment> components, each containing the same structure but differing in content. The idea of manually creating these elements also doesn't take into consideration that, in the future, there might be hundreds of comments to create. Does anyone have any suggestions on how we could improve the code and refactor for more efficiency?  
+- Earlier, we briefly discussed that repetitive patterns in JS provide an opportunity for refactoring code for efficiency. A clear pattern that is emerging is the need to create three `Comment` components, each containing the same structure but differing in content. The idea of manually creating these elements also doesn't take into consideration that, in the future, there might be hundreds of comments to create. Does anyone have any suggestions for how we could improve the code and refactor for more efficiency?  
 
 </aside>
 
@@ -235,14 +235,14 @@ class Post extends Component {
 
 **Teaching Tip**:
 
-- Since the students will be proficient in JS, it's assumed that one of the recommendations is to implement a loop. Since **this.props.comments** is an array, it makes sense that **.map()** would be the best option here. 
+- Because the students will be proficient in JS, assume that one of their recommendations will be to implement a loop. Because `this.props.comments` is an array, it makes sense that `.map()` would be the best option here. 
 
 
 **Talking Points**:
 
-- So let's take a minute to refactor our code to incorporate a **.map()**.
+- So, let's take a minute to refactor our code to incorporate a `.map()`.
 
-- Since React is responsible for managing our elements, it also needs a way to uniquely identify repeating elements such as the <Comment> components. React does so using a **key** property, which in this case is the item's index position in the array, as this will guarantee that it is unique. 
+- Because React is responsible for managing our elements, it also needs a way to uniquely identify repeating elements such as the `Comment` components. React does so using a **key** property, which in this case is the item's index position in the array, as this will guarantee that it is unique. 
 
 - Note: We could have put all of our code in one file, but it's a good practice to break components out into different files to help practice separation of concerns. The only downside is that we have to be extra conscious of remembering to **export/import** each component to the file where it's rendered.
 
