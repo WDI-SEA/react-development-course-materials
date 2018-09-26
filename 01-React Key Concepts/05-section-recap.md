@@ -1,7 +1,7 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React Key Concepts: Section Recap
 
 
-### Learning Objectives That We've Covered So Far:
+### Learning Objectives We've Covered So Far:
 
 * What is **React**?
   
@@ -11,15 +11,15 @@
 
 **Talking Points**:
 
-- It is time to stop and review all of the topics that we've discussed so far. At first, React may seem very confusing, thanks to all of the jargon, so let's break everything down:
-- React is a framework created by the developers at Facebook. It is aimed at being the 'view' of your JavaScript application. It focuses on creating a component-based architecture.
+- It is time to stop and review all of the topics that we've discussed so far. At first, React may seem confusing thanks to all of the jargon, so let's break it down:
+- React is a framework created by the developers at Facebook. Its aim is to be the "view" of your JavaScript application. It focuses on creating a component-based architecture.
 - A component is an independent, reusable piece of your user interface.
 
 </aside>
 
 ---
 
-* **What is a nested component**?
+* **What Is a Nested Component**?
 
 
 ![nested components chart](https://ga-instruction.s3.amazonaws.com/json/REACT/assets/unit1/nested_components_chart.jpg)
@@ -28,7 +28,7 @@
 
 **Talking Points**:
 
-- A nested component is a component called inside another component (such as calling Comment components within a blog Post). Here is a diagram of the flow of information for a Comment component nested inside (called by!) a Post component.
+- A nested component is a component called inside another component (such as calling `Comment` components within a blog `Post`). Here is a diagram of the flow of information for a `Comment` component nested inside (called by!) a `Post` component.
 
 </aside>
 
@@ -48,15 +48,15 @@
 
 - Your virtual DOM is compared to the regular DOM, and only the element specified in `ReactDOM.render()` on the page updates.
 
-- JSX is a standard that React uses to represent HTML elements as XML tags. It looks like a template language, but is much more powerful. Each JSX tag represents a React element, and a React class is composed of multiple elements. You express your visual user interface through nested JSX tags that can render additional components. JSX is not required for React, but it is incredibly useful.
+- JSX is a standard that React uses to represent HTML elements as XML tags. It looks like a template language but is much more powerful. Each JSX tag represents a React element, and a React class is composed of multiple elements. You express your visual user interface through nested JSX tags that can render additional components. JSX is not required for React, but it is incredibly useful.
 
-- JSX can look just like HTML, with `<h1>Hello world!</h1>`, but it can also get far more complicated.
+- JSX can look just like HTML, with `<h1>Hello, World!</h1>`, but it can also get far more complicated.
 
 </aside>
 
 ---
 
-*What are **Props**?
+*What Are **Props**?
   
   
   For example, your `App.js` could have:
@@ -83,7 +83,7 @@ class Hello extends Component {
 
 **Teaching Tip**:
 
-One fun activity to do as part of the review is a [Kahoot](https://create.kahoot.it/details/react-1-17/dc18ba75-295e-4aee-a989-7e4c945ca66a). It takes about two minutes to have everyone join; 10 questions at roughly 20 seconds each will only take about five minutes to go through. Once the review is complete, you will be able to provide additional clarity on any lingering concepts. And the activity is guaranteed to be a resounding crowd-pleaser!
+One fun activity to do as part of this review is a [Kahoot](https://create.kahoot.it/details/react-1-17/dc18ba75-295e-4aee-a989-7e4c945ca66a). It takes about two minutes to have everyone join; 10 questions at roughly 20 seconds each will only take about five minutes to complete. Once the review is done, you will be able to provide additional clarity on any lingering concepts. And, the activity is guaranteed to be a crowd-pleaser!
 
 <aside class="notes">
 
