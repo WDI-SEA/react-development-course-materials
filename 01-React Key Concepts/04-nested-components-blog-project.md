@@ -24,7 +24,7 @@
 This blog looks great so far! Now, our stegosaurus is actually collaborating more on the blog, so each post has multiple authors. Let's set that up. Besides Stealthy Stegosaurus, we have authors named Tiny T-Rex and Ivory Iguanodon.
 
 
-> Hint: Remember that, whenever you write JavaScript expressions inside of JSX, you need to surround them with single brackets (`{}`). Refer to the advanced note on the previous page...
+> Hint: Remember that, whenever you write JavaScript expressions inside of JSX, you need to surround them with single brackets (`{}`). 
 
 </aside>
 
