@@ -48,12 +48,7 @@ Task:
 ---
 
 ```js
-<Route path="/blog" component={
-    () => (<Blog title={post.title}
-              author={post.author}
-              body={post.body}
-              comments={post.comments} />
-)}/>
+render={(props) => <Dashboard {...props} title={post.title}   author={post.author} body={post.body} comments={post.comments}/>}
 ```
 
 ---
