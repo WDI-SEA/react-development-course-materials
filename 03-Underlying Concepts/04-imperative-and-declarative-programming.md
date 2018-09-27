@@ -1,10 +1,10 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Imperative and Declarative Programming
 
-## Learning Objectives
+## Learning Objectives:
 *After this lesson, you will be able to:*
-- Create a JavaScript function via declarative programming
-- Create a JavaScript function via imperative programming
-- Contrast imperative and declarative
+- Create a JavaScript function via declarative programming.
+- Create a JavaScript function via imperative programming.
+- Contrast imperative and declarative.
 
 ---
 
@@ -23,17 +23,17 @@ for every person in the line
 
 - Imperative and declarative programming are two terms that you might encounter. Most developers begin by writing _imperative_ code. That is to say, most developers:
 1. Outline what they need to do.
-2. Write it out step by step.
+2. Write it out step-by-step.
 
-- Writing pseudocode is an excellent example of writing things out step by step the imperative way. For example, if we asked everyone in the room to say their name, we could conceptually write it out as seen here.
+- Writing pseudocode is an excellent example of writing things out step-by-step the imperative way. For example, if we asked everyone in the room to say their name, we could conceptually write it out as seen here.
 
 </aside>
 
 ---
 
-To explore this the imperative way of thinking, let's open this CodePen: https://codepen.io/SuperTernary/pen/eEVVvg?editors=0010
+To explore the imperative way of thinking, let's open this CodePen: https://codepen.io/SuperTernary/pen/eEVVvg?editors=0010
 
-- We could write that out in Javascript by creating an array of those people.
+- We could write that out in JavaScript by creating an array of those people.
 
 ```js
 let room = ['Superman', 'Black Panther', 'Wonder Woman', 'Iron Man']
@@ -49,7 +49,7 @@ for (let i = 0; i < room.length; i++) {
 }
 ```
 
-- Finally, we have them speak their name - or in our case, we'll just _console.log()_ their name out as represented by the _person_ variable.
+- Finally, we have them speak their name; or in our case, we'll just _console.log()_ their name out as represented by the _person_ variable.
 
 ```js
 let room = ['Superman', 'Black Panther', 'Wonder Woman', 'Iron Man']
@@ -68,10 +68,10 @@ for (let i = 0; i < room.length; i++) {
 
 **Talking Points**:
 
-- Run this in CodePen and check the console tab. It works - we've built this function using the *Imperative* way of thinking.
+- Run this in CodePen and check the console tab. It works: We've built this function using the *imperative* way of thinking.
 
 - We have explicitly listed out each step, paying attention to each and every detail of what we needed to achieve.
-- Imperative programming focuses on the _why_, _how_, _where_, and _when_ your code executes. It allows precise control over your code and allows for line-by-line code execution - you're writing every single thing that happens.
+- Imperative programming focuses on the _why_, _how_, _where_, and _when_ your code executes. It allows precise control over your code and allows for line-by-line code execution; you're writing every single thing that happens.
 
 </aside>
 
