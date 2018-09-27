@@ -39,9 +39,9 @@ class Post extends Component {
 
 **Talking Points**:
 
-- Now that you've wrapped up the Blog project, take a moment to review the component lifecycle at a high level.
+- Now that you've wrapped up the blog project, take a moment to review the component lifecycle at a high level.
 
-- Seen here is an example of a Post Component.
+- Seen here is an example of a `Post` component.
 
 - In the `Post` component above, there are three things to notice:
 
@@ -49,7 +49,7 @@ class Post extends Component {
 * `changeBody()`
 * `render()`
 
-- Upon instantiation of your component, the initial state is set. Here we define that our component's state contains a `body` attribute whose value will start as the string we define.
+- Upon instantiation of your component, the initial `state` is set. Here we define that our component's `state` contains a `body` attribute whose value will start as the string we define.
 
 </aside>
 
@@ -63,7 +63,7 @@ Let's consider a data flow example.
   <Post />
   ```
 
-2. Inside of this post component, state object is created:
+2. Inside of this post component, `state` object is created:
 
 ```js
 class Post extends Component {
@@ -94,11 +94,11 @@ class Post extends Component {
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking Points:**
 
-- This method uses `prompt` to get a new value from the user (but please do not ever use `prompt` in production - users hate popups!).
+- This method uses `prompt` to get a new value from the user (but please do not ever use `prompt` in production — users hate pop-ups!).
 
-- Then, `setState()` is called to update the component's state.  This will eventually lead to `render` being called to automatically re-render the component with the new data.
+- Then, `setState()` is called to update the component's `state`. This will eventually lead to `render` being called to automatically re-render the component with the new data.
 
 - Understanding the component lifecycle is key to being a productive React developer (and it will save you headaches).
 
@@ -112,7 +112,7 @@ When you `setState()`, what methods are fired? How are your `props` and `state` 
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking Point:**
 
 - Draw this out or comment throughout your code.
 
