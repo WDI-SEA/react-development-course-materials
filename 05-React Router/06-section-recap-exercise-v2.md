@@ -84,6 +84,7 @@ render={(props) => <Dashboard {...props} title={post.title}   author={post.autho
 - Here's the render prop. Note that the function will also receive all the same props that component would receive. So you can take those and pass those along to the rendred component.
 
 </aside>
+
 ---
 
 ## Solution
