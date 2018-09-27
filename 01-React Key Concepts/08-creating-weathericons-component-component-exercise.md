@@ -6,7 +6,7 @@
 
 This exercise is meant to provide students with additional practice creating reusable React components.
 
-In the [Creating a WeatherIcons Component](https://codepen.io/jkeohan/pen/NLdOwb?editors=) CodePen, you will find five weather elements generated within the HTML section. 0010
+In the [Creating a WeatherIcons Component](https://codepen.io/jkeohan/pen/NLdOwb?editors=) CodePen, you will find five weather elements generated within the HTML section.
 
 Perform the following to complete the exercise: 
 
