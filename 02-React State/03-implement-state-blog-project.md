@@ -1,29 +1,29 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Blog Project: Implement State #
 
-Let's implement state in our Blog.
+Let's implement `state` in our blog.
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking Points:**
 
-- Let's implement state in our Blog by making `body` a mutable value.
+- Let's implement `state` in our blog by making `body` a mutable value.
 - Remember to switch the running application!
 
 </aside>
 
 ---
 
-### But First: What Would Happen to `state` if you refreshed the page?
+### But first: What would happen to `state` if you refreshed the page?
 
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking Point:**
 
-- In React `state` just represents the state of data on our page.
+- In React, `state` just represents the state of data on our page.
 Something saved to `state` in React is not automatically saved to a database,
 or to local storage. `state` is just what's currently on the page. If you
-refresh the page then all `state` is lost, and refreshed with the page.
+refresh the page, then all `state` is lost and refreshed with the page.
 
 </aside>
 
@@ -41,9 +41,9 @@ refresh the page then all `state` is lost, and refreshed with the page.
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking Points:**
 
-1. Set an initial `state` for our `Post` component. The `state` object should have an attribute called `body`.  Remove the prop we set for `Post`, and put it into the initial state instead. The value of `this.state.body` should be `Check out this body property!`.
+1. Set an initial `state` for our `Post` component. The `state` object should have an attribute called `body`. Remove the `prop` we set for `Post`, and put it into the initial `state` instead. The value of `this.state.body` should be `Check out this body property!`.
 
 2. Modify `Post`'s `render` method so that it uses the `body` from `state`, not `props`.
 
@@ -64,7 +64,7 @@ refresh the page then all `state` is lost, and refreshed with the page.
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking Point:**
 
 - This is how your solution should look.
 
@@ -76,17 +76,17 @@ refresh the page then all `state` is lost, and refreshed with the page.
 
 Use a form to take in user input.
 
-> Helpful Documentation Available [Here](https://reactjs.org/docs/forms.html)
+> Helpful documentation available [here](https://reactjs.org/docs/forms.html).
 
 
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking Points:**
 
 - The blog post's body should be updated dynamically when the user types in an input field.
 - One option is to keep track of what the new input is going to be by triggering a method using `onChange` on the `<input>`.
-- Another option is to pass an event object to the `onSubmit` method and traverse the DOM from the event's target (for example, `e.target`) to find the `<input>` value.
+- Another option is to pass an `event` object to the `onSubmit` method and traverse the DOM from the event's target (for example, `e.target`) to find the `<input>` value.
 - Note: You can leave the button from above to give the user options!
 
 </aside>
@@ -99,6 +99,6 @@ Use a form to take in user input.
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking Point:**
 
 - This is how your solution should look.
