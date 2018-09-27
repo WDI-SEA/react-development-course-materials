@@ -94,9 +94,9 @@ room.forEach((person) => {
 
 - Run it! It still lists the people in the room. Consider how much less code it took.
 
-- What happened? Well, Javascript has a built-in method that loops over arrays for you. `.forEach()` does the same thing that `for` loop you wrote above - except you had to write a lot less.
+- What happened? Well, JavaScript has a built-in method that loops over arrays for you. `.forEach()` does the same thing as that `for` loop you wrote above... except you had to write a lot less.
 
-- `forEach` is a method in declarative programming. Instead of writing every single step yourself - instead of explicitly writing the _why_, _how_, _where_, and _when_ of your program - this method only cares about *what* you want.
+- `forEach` is a method in declarative programming. Instead of writing every single step yourself (i.e., instead of explicitly writing the _why_, _how_, _where_, and _when_ of your program), this method only cares about *what* you want.
 
 - Instead of taking the time to write out a specific set of instructions to receive a result, you focus on just one thing: the result. This might sound a little confusing at first, so open up CodePen and try solving the following problem.
 
@@ -116,7 +116,7 @@ How was your discount coded? What would be the steps of an **imperative approach
 
 **Talking Points**:
 
-- Here's a scenario for you: To your utter delight, your favorite vintage television series has just been released for purchase. After adding it to your shopping cart up, you scour the internet for a discount code. Finally, you found one! You enter `TREATYOSELF2020` into your cart's coupon code input box, and instantaneously your cart reflects the discounted price. Success!
+- Here's a scenario for you: To your utter delight, your favorite vintage television series has just been released for purchase. After adding it to your shopping cart, you scour the internet for a discount code. Finally, you find one! You enter `TREATYOSELF2020` into your cart's coupon code input box, and instantaneously your cart reflects the discounted price. Success!
 
 </aside>
 
@@ -128,7 +128,7 @@ An **imperative** approach might:
 1. Declare an object consisting of the items in the cart with the original prices.
 2. Loop through that object with a `for` loop, updating the price as it goes.
 
-And this would be explicitly coded line by line, like this:
+And this would be explicitly coded line-by-line, like this:
 
 ```js
 // Imperative approach
@@ -203,13 +203,13 @@ let discountedItems = items.map((item) => {
 
 **Talking Points**:
 
-- This is fairly clean code, but we could write more succinct code using a **declarative** style. We'll use the array's built-in `.map` method to accomplish the same thing. We'll focus on _what_ we want — just the updated values — and we'll let `.map` take care of the _how_.
+- This is fairly clean code, but we could write more succinct code using a **declarative** style. We'll use the array's built-in `.map` method to accomplish the same thing. We'll focus on _what_ we want (just the updated values) and we'll let `.map` take care of the _how_.
 
 - Try it! This goes right after the "items" array declaration, replacing all the calculation code (the `for` loop and the discountedItems array before that).
 
 - Using the declarative approach, we declare that we intend to .map through an array and create a newly updated version of it.
 
-- _"But what if that method breaks?"_ you might be thinking. While a problem, you would know exactly what is broken - the `.map` method (or, more likely, your syntax is incorrect). This allows for easy debugging and testing. Consider how you would debug the imperative version of the code instead. How would your approach differ?
+- _"But what if that method breaks?"_ you might be thinking. While a problem, you would know exactly what is broken: the `.map` method (or, more likely, your syntax is incorrect). This allows for easy debugging and testing. Consider how you would debug the imperative version of the code instead. How would your approach differ?
 
 ---
 
@@ -228,8 +228,8 @@ With modern web development's focus on simplicity, some developers have been lev
 
 - Neither method is incorrect, but declarative code tends to lead to DRY, clean code. And a final fun fact: Functional programming is a subset of declarative programming. If you've ever used a functional language, such as Haskell or Lisp, or written calculus, you've likely written declarative code.
 
-- This was a mini lesson to get us thinking about different ways of programming.
-- You will likely encounter both ways of writing code as you continue in your development path and it is good to be aware of both!
+- This was a mini-lesson to get us thinking about different ways of programming.
+- You will likely encounter both ways of writing code as you continue in your development path, and it is good to be aware of both!
 
 </aside>
 
