@@ -7,7 +7,7 @@ This exercise is meant to provide students with additional practice creating reu
 **Estimated Time:** 45 min
 
 1. In the HTML, look for a section element with an ID of `main`. Nested within it, you will find three articles.
-2. Using the `sources` array (defined below), create an app component that will recreate the section elements.
+2. Using the sources array (defined below), create an app component that will recreate the section elements.
 
 In the [Creating a Newsfeed Component](https://codepen.io/jkeohan/pen/PBvxvY?editors=0010) CodePen, you will find three article elements within the HTML section generating the newsfeed articles visible on the page.
 
