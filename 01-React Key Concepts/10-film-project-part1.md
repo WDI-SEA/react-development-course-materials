@@ -2,9 +2,9 @@
 
 ## Your Mission (If You Choose to Accept It...)
 
-...is to build a film app that will feature a list of all the recent popular movies; a user can scroll through the titles, click one for more details, and save it to their favorites. 
+...is to build a film app that will feature a list of all of the recent popular movies. A user can scroll through the titles, click one for more details, and save it to their favorites. 
 
-Note, this is just the first phase; the app won't be completed until a future lesson. For today, the plan is to identify the app components, create the overall structure, and then split that structure into individual components. You'll pass films as props to each component, and ultimately use iteration to render one component for each film. At the end of this exercise, you will have the app as seen here:
+Note, this is just the first phase of this project; the app won't be completed until a future lesson. For today, the plan is to identify the app components, create the overall structure, and then split that structure into individual components. You'll pass films as props to each component and ultimately use iteration to render one component for each film. At the end of this exercise, you will have the app seen here:
 
 
 
@@ -16,16 +16,16 @@ Note, this is just the first phase; the app won't be completed until a future l
 
 OK. Start by forking and cloning the `react-film` repo.
 
-**Important**: After each step that follows, check your application to see how it looks before going to the next one. It's good practice to be sure your app is working correctly before adding new functionality.
+**Important**: After each step that follows, check your application to see how it looks before moving on. It's good practice to be sure your app is working correctly before adding new functionality.
 
 Don't forget any <code>import</code> statements as you add more files.
 
 
-#### Step 1: Create Baseline Layout
+#### Step 1: Create the Baseline Layout
 
-First, create the layout. You'll have a Films column and a Details column.
+First, create the layout. You'll have a `Films` column and a `Details` column.
 
-Make the provided `App` component render the code seen here:
+Have the provided `App` component render the code seen here:
 
 ```html
 <div className="film-library">
@@ -39,11 +39,9 @@ Make the provided `App` component render the code seen here:
 </div>
 ```
 
-#### Step 2: Create New Components
+#### Step 2: Create New Components: `FilmListing` and `FilmDetails`
 
-`FilmListing` and `FilmDetails`
-
-Move the `film-list` and `film-details` into their own separate components (in separate files), `FilmListing` and `FilmDetails` (respectively).
+Move `film-list` and `film-details` into their own separate components (in separate files): `FilmListing` and `FilmDetails`, respectively.
 
 Make sure you now call these components in `App.js`. Check your app in the browser. If you've done it right, nothing will have changed, and the application will look the same.
 
@@ -52,54 +50,54 @@ Make sure you now call these components in `App.js`. Check your app in the brows
 
 Pass the films (stored in `TMDB.films`) to each of your new components as props.
 
-If you check your file, it still shouldn't look different. We're sending the props to the components, but we are not using the props yet.
+If you check your file, it still shouldn't look different. We're sending the props to the components, but we are not using the props just yet.
 
 <details>
   <summary>Hint</summary>
-  For now, this step is just changing the <code>App.js</code> file to make sure it imports the film file and passes props.
+  For now, this step is just simply the <code>App.js</code> file to make sure it imports the film file and passes props.
 </details>
 
 
 #### Step 4: Render a Film
 
-In the `FilmListing` component, render the title of just one film as an `<h1>`, below the `section-title`.
+In the `FilmListing` component, render the title of just one film as an `<h1>` below the `section-title`.
 
 Does "It" appear on the left side of your browser?
 
 
 <details>
   <summary>Hint</summary>
-  The films prop is an array, and you just want the title from the first one.
+  The <code>films</code> prop is an array, and you just want the title from the first one.
 </details>
 
 
 #### Step 5: Create and Render an Array of Film Title Elements
 
-Use `.map()` inside of the `FilmListing` to iterate over the collection of films and create an element for each one. (Here is the [map documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map).
+Use `.map()` inside of the `FilmListing` to iterate over the collection of films and create an element for each one. (Here is the [map documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)).
 
-Then, render the variable `allFilms` underneath the Films `<h1>`.
+Then, render the `allFilms` variable underneath the "Films" `<h1>`.
 
-You should have a list of all the films appear in the left column.
+You should see a list of all of the films appear in the left column.
 
 
 <details>
-  <summary>Hint - Need help on <code>map</code>?</summary>
-  This step will look like this in your <code>render</code> method (above the <code>return</code>):
+  <summary>Hint: Need help on <code>.map()</code>?</summary>
+  This step will look like this in your <code>render()</code> method (above the <code>return</code>):
   <code> let allFilms = this.props.films.map( (film, index) => ( your-jsx-per-film-here ))</code>
     Then, you'll just need to call <code>{allFilms}</code> in your JSX where you want the titles to appear.
 </details>
 
 #### Step 6: Move the Film Rows to Their Own Component
 
-Create a new component for each film row, named `FilmRow.js`. Have your `map` create an array of `FilmRow`s. Don't forget to pass the individual film prop to the component when creating them!
+Create a new component for each film row named `FilmRow.js`. Have your `.map()` create an array of `FilmRow`s. Don't forget to pass the individual film prop to the component when creating them!
 
-Once you have this working, also pass `film.id` as a `key` prop to `FilmRow`, though you won't use it yet.
+Once you have this working, also pass `film.id` as a `key` prop to `FilmRow`, although you won't use it yet.
 
 #### Step 7: Flesh Out Each Film Row
 
-Make each film row in the film list look like the main finished image, using the following markup (replace "TITLE" and "YEAR" with the actual title and year of the film).
+Make each film row in the film list look like the main finished image using the following markup (replace `TITLE` and `YEAR` with the actual title and year of the film).
 
-You'll have to create the `posterUrl` for each film by combining the prefix `https://image.tmdb.org/t/p/w780/` with each film's `poster_path` property.
+You'll have to create the `posterUrl` for each film by combining the prefix, `https://image.tmdb.org/t/p/w780/`, with each film's `poster_path` property.
 
 You'll also have to extract the year from the `release_date` property. To do this, you'll need to figure out how to use the [`getFullYear()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear) JS method.
 
@@ -124,7 +122,7 @@ You'll also have to extract the year from the `release_date` property. To do thi
 
 #### Step 8: Move Film Posters to Their Own Component
 
-Final step for today!
+Here's the final step for today!
 
-Since the poster requires you to create the URL first, move those elements to their own component. This could be reusable later. **Don't forget to** pass the film as a prop to the new `FilmPoster` component.
+Because the poster requires you to create the URL first, move those elements to their own component. This could be reusable later. **Don't forget to** pass the film as a prop to the new `FilmPoster` component.
 
