@@ -27,7 +27,7 @@ Task:
 - Create a navigation menu of list items that route to each page.
  
  
-  <aside class="notes">
+<aside class="notes">
 
 **Talking Points**:
 
@@ -48,10 +48,42 @@ Task:
 ---
 
 ```js
+<Route path="/blog" component={
+    () => (<Blog title={post.title}
+              author={post.author}
+              body={post.body}
+              comments={post.comments} />
+)}/>
+```
+
+(This is not the best choice.)
+
+<aside class="notes">
+
+**Talking Points**:
+- The above will work, but it is not a great solutiom; it can create performance issues. [Official React documentation]( https://reacttraining.com/react-router/web/api/Routestates), "When you use component the router uses React.createElement to create a new React element from the given component. That means if you provide an inline function to the component prop, you would create a new component every render. This results in the existing component unmounting and the new component mounting instead of just updating the existing component. When using an inline function for inline rendering, use the render or the children prop.
+
+- So if you’re not supposed to pass a function to component, what’s the solution? Turns out the React Router team predicted this problem and gave us a handy solution. Instead of using component, use the render prop. render accepts a functional component and that function won’t get unnecessarily remounted like with component. 
+Source: [Tyler Mcginnis](https://tylermcginnis.com/react-router-pass-props-to-components/)
+
+</aside>
+
+---
+
+```js
 render={(props) => <Dashboard {...props} title={post.title}   author={post.author} body=
 {post.body} comments={post.comments}/>}
 ```
 
+(This IS the best choice.)
+
+<aside class="notes">
+
+**Talking Points**:
+
+- Here's the render prop. Note that the function will also receive all the same props that component would receive. So you can take those and pass those along to the rendred component.
+
+</aside>
 ---
 
 ## Solution
