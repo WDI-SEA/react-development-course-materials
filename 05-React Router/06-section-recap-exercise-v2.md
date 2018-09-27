@@ -56,7 +56,7 @@ Task:
 )}/>
 ```
 
-(This is not the best choice.)
+### But, wait! This is not the best choice.
 
 <aside class="notes">
 
@@ -75,7 +75,7 @@ render={(props) => <Dashboard {...props} title={post.title}   author={post.autho
 {post.body} comments={post.comments}/>}
 ```
 
-(This IS the best choice.)
+### Much better!
 
 <aside class="notes">
 
