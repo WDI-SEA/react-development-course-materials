@@ -31,6 +31,10 @@ competencies: Full-Stack Applications
 
 ---
 
+![you got this] (./assets/you-got-this-meme.png)
+
+---
+
 **This readme serves as the instructor notes/prep for the MERN stack idea board app. This is not a student-facing document.**
 
 ## Getting Started
