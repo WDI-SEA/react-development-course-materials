@@ -12,6 +12,8 @@ competencies: Full-Stack Applications
 
 ---
 
+Let's build an idea board!
+
 ### Objectives
 *After this lesson, students will be able to:*
 - Use MongoDB and Mongoose to persist data to be served to a React UI.
@@ -19,13 +21,15 @@ competencies: Full-Stack Applications
 - Connect API to React via `axios`
 - Deploy the full stack application to Heroku
 
+---
+
 ![idea board](https://slack-imgs.com/?c=1&url=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*SMKZC-Ej73wFOmqNT-JQ7Q.gif)
 
 <aside class="notes">
 
 **Teaching Tips**:
-- These first two slides are for you to project to the class as you introduce the topic. The remainder of this lesson is an instructor-facing script. 
-- The image here is so the class can see the end product and have an idea of what they are building.
+- These first three slides (learning objectives, image of solution, and good luck meme) are for you to project to the class as you introduce the topic. The remainder of this lesson is an instructor-facing script. 
+- The image of the solution here is so the class can see the end product and have an idea of what they are building.
 
 </aside>
 
