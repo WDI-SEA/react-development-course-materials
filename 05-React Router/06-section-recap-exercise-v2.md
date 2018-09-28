@@ -48,7 +48,7 @@ Task:
 ---
 
 ```js
-<Route path="/blog" render={
+<Route path="/blog" component={
     () => (<Blog title={post.title}
               author={post.author}
               body={post.body}
@@ -71,8 +71,12 @@ Source: [Tyler Mcginnis](https://tylermcginnis.com/react-router-pass-props-to-co
 ---
 
 ```js
-render={(props) => <Dashboard {...props} title={post.title}   author={post.author} body=
-{post.body} comments={post.comments}/>}
+<Route path="/blog" render={
+    () => (<Blog title={post.title}
+              author={post.author}
+              body={post.body}
+              comments={post.comments} />
+)}/>
 ```
 
 ### Much better!
