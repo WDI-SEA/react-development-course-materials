@@ -110,7 +110,7 @@ Your folder structure should now look something like this.
 
 This will create a new React application for us to begin building our game.  Let's try to start our application.
 
-**OH NO**
+**OH NO!**
 You may have gotten an error that looks something like this:
 ```bash
 ? Something is already running on port 3000. Probably:
