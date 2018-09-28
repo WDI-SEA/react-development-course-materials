@@ -31,7 +31,7 @@ competencies: Full-Stack Applications
 
 ---
 
-![you got this] (./assets/you-got-this-meme.png)
+![you got this](assets/you-got-this-meme.png)
 
 ---
 
