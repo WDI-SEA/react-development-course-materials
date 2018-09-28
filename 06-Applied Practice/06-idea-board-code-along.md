@@ -204,7 +204,7 @@ Now that we've verified that we can run both apps at the same time and gotten th
 
 Today's example app is going to have 2 Models. User and Idea
 
-### You Do
+### Create a New Directory
 Create a new directory called `db` and create a `schema.js` within there. Create a Mongoose model for each model.
 
 * User has name, password(string), and ideas.
@@ -336,7 +336,7 @@ We can add route params to our client side routes, much like what we've seen whe
 
 The first thing we'll focus on in the UI is the page users will see when they first load the page. On this page, we want to encourage a user to visit the LogIn page or Ideas page. We will start to make API calls once we build out the LogIn page.
 
-## You Do 
+## Create the Home Page Element
 Create the home page element with a greeting and a `Link` to the LogIn component.  Make sure to also add a `Link` back to home on LogIn
 
 ## LogIn
@@ -509,7 +509,7 @@ class IdeaView extends Component {
 export default IdeaView
 ```
 
-## You Do
+## Add Styling
 
 Now that we have the static starter code, let's clean things up and add some styling. Take the code above and refactor it into smaller components.  Next, use `styled-components` to add some styling to the page.  As a reminder, we ideally want our app to look something like this.
 
@@ -587,7 +587,7 @@ router.post('/', (req, res) => {
   <button onClick={this.createIdea}>New Idea</button>
 ```
 
-## You Do
+## Write Code to Delete an Idea
 We will write similar code to delete an idea.  Work with the student's around you to write an Express route, create a custom method, and pass it down through props.
 
 Hint: You will need one argument
@@ -665,7 +665,7 @@ Next, we will add a method that will trigger the patch and update the local stat
 
 Finally, let's tie this event to an individual idea.  We COULD attach that to a button and have a boring old onClick event, but let's try something new.
 
-## You Do
+## Check Documentation
 Check out the [Synthetic Event docs](https://reactjs.org/docs/events.html) and find the event that allows us to trigger the update whenever a user leaves an input.
 
 > COMMIT
