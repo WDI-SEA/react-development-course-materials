@@ -48,7 +48,7 @@ Task:
 ---
 
 ```js
-<Route path="/blog" component={
+<Route path="/blog" render={
     () => (<Blog title={post.title}
               author={post.author}
               body={post.body}
