@@ -41,13 +41,11 @@ Let's build an idea board!
 
 **Teaching Tips**:
 
-- At this point you can stop projecting these slides and begin to project the code. The remainder of this lesson is a script for instructors (not student-facing slides).
+**The remainder of this document serves as the instructor notes/prep for the MERN stack idea board app. This is not a student-facing document.**
 
 </aside>
 
 ---
-
-**This readme serves as the instructor notes/prep for the MERN stack idea board app. This is not a student-facing document.**
 
 ## Getting Started
 
