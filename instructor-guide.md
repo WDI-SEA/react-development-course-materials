@@ -70,7 +70,7 @@ Once enrolled, students complete approximately 4 hours of pre-work on the myGA p
 
 **Important Note:** All students must complete the blog post code in the props pre-work lesson. If any haven't finished it or have buggy code, work that out during the in-class pre-work review. The Nested Components lecture (which follows the pre-work review) builds off the blog post code.
 
-Your role as an instructor is to facilitate each student’s journey to mastery of the concepts outlined below. This guide will provide you with a suggested pacing guide you can use to ensure you hit all of the required objectives in a sequence that makes sense. **We recommend you follow the suggested pacing guide during your first instance.** Later on, as you become more familiar with the content and your own teaching style, you can remix and extend the lessons provided. Just be sure to cover all of the required topics that follow.
+Your role as an instructor is to facilitate each student’s journey to mastery of the concepts outlined below. This guide includes a suggested pacing guide you can use to ensure you hit all of the required objectives in a sequence that makes sense. **We recommend you follow the suggested pacing guide during your first instance.** Later on, as you become more familiar with the content and your own teaching style, you can remix and extend the lessons provided. Just be sure to cover all of the required topics that follow.
 
 In order to graduate and earn a course completion certificate, every student must complete a final project that meets or exceeds the minimum standards outlined in the project rubric. Your manager will help you track other graduation requirements and make decisions about graduation.
 
