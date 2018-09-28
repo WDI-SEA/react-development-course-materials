@@ -4,7 +4,7 @@
 
 ...is to build a film app that will feature a list of all of the recent popular movies. A user can scroll through the titles, click one for more details, and save it to their favorites. 
 
-Note, this is just the first phase of this project; the app won't be completed until a future lesson. For today, the plan is to identify the app components, create the overall structure, and then split that structure into individual components. You'll pass films as props to each component and ultimately use iteration to render one component for each film. At the end of this exercise, you will have the app seen here:
+Note, this is just the first phase of this project; the app won't be completed until a future lesson. For today, the plan is to identify the overall application structure, then create the individual components that support that structure. You'll pass films as props to each component and ultimately use iteration to render one component for each film. At the end of this exercise, you will have the app seen here:
 
 
 
