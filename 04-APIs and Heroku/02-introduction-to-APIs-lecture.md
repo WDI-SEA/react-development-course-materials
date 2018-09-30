@@ -20,7 +20,7 @@ API stands for application programming interface.
 
 - Over your development career, you'll see tons of references to APIs. Today, we'll learn about connecting to RESTful APIs through HTTP requests.
 
-- Basically, an API is a service that provides raw data for public use. As third-party software developers, we can access an organization's API and use their data within our own applications.
+- Basically, an API is a service that provides raw data for public use. As third-party software developers, we can access an organization's API and use its data within our own applications.
 
 </aside>
 
@@ -33,7 +33,7 @@ API stands for application programming interface.
 
 <aside class="notes">
 
-**Talking points**:
+**Talking point**:
 
 - When we think about web APIs, we're thinking about communicating with servers that can send and receive data. Let's look at an example.
 
@@ -46,7 +46,7 @@ API stands for application programming interface.
 
 <aside class="notes">
 
-**Talking points**:
+**Talking point**:
 
 - Imagine you want a Google map embedded in your web app. You aren't going to make that map yourself, so somehow you have to use Google Maps. Google Maps has an API you can call to get the map information. All you have to do is send a request to the Google Maps API and it sends back a map that you can use.
 
@@ -66,7 +66,7 @@ API stands for application programming interface.
 
 <aside class="notes">
 
-**Teaching tips**:
+**Teaching tip**:
 
 - This class doesn't cover any back-end development, but this would be a good opportunity for you to give an example of how you interacted with a custom-made API in the past.
 
@@ -76,7 +76,7 @@ API stands for application programming interface.
 
 - APIs can provide us with data that we wouldn't otherwise be able to create ourselves.
 
-- As we move into building single-page applications, we'll be relying more on both third-party APIs and APIs that we can create using back-end programming languages.
+- As we move into building single-page applications (SPAs), we'll be relying more on both third-party APIs and APIs that we can create using back-end programming languages.
 
 </aside>
 
@@ -85,7 +85,7 @@ API stands for application programming interface.
 ## API Exploration
 
 
-| What's the API? | Sample URL - you call this |
+| What's the API? | Sample URL you can call |
 |------|------------|
 | **[Giphy's API: request a list of all funny cats](https://github.com/Giphy/GiphyAPI)** | http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC |
 | **[The Star Wars API: request R2-D2 info](http://swapi.co/)** | http://swapi.co/api/people/3 |
@@ -93,26 +93,26 @@ API stands for application programming interface.
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking points**:
 
-- There are a variety of APIs available on the internet. To call an API, send a request to a URL, and that API will return data to your program. You can pull data from anywhere that offers an API.
+- A variety of APIs are available on the internet. To call an API, send a request to a URL and that API will return data to your program. You can pull data from any web app that offers an API.
 
-- You can make this request as specific as you'd like - each web app out there offers different options for their API. You just have to find out from them what you can request!
+- You can make this request as specific as you'd like. Each web app offers different options for its API; you just have to find out what you can request from it.
 
-- Here are just a few examples of APIs that you can use. Check it out - the left column is the common name you might know. The right column is the URL you, in your program, would send a request to. 
+- These are just a few examples of APIs you can use. Check it out — the left column is the common name you might know. The right column is the URL you would send a request to in your program.
 
 
-**Teaching Tips**:
+**Teaching tips**:
 
-- Does the JSON look unreadable in the browser? If you're using Chrome, install the [JSON View plugin](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en).
+- Does the JSON look unreadable in the browser? If you're using Chrome, install the [JSONView plugin](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en).
 
 - Click the URLs in the table to show students what each call would return.
 
-- Make sure to also get rid of the API key query param when requesting Giphy so that you can show what a response looks like when a key is not provided.
+- Make sure to also get rid of the API key query parameter when requesting Giphy so you can show what a response looks like when a key isn't provided.
 
-- Unless the class is already versed in making API calls, it's likely that they do not have JSONView.  Make sure to spend the time to make sure the students have this plugin.
+- Unless the class is already versed in making API calls, it's likely that they don't have JSONView. Make sure to check that students have this plugin.
 
-- Alternatively, have the students download [Postman](https://www.getpostman.com/) and give a brief overview.
+- Alternatively, have students download [Postman](https://www.getpostman.com/) and give a brief overview.
 
 </aside>
 
@@ -143,7 +143,7 @@ API stands for application programming interface.
 
 <aside class="notes">
 
-**Talking points**:
+**Talking point**:
 
 - Take some time to explore public APIs that exist online. Search Google or use an API aggregator to find interesting APIs. Post anything you find to Slack.
 
@@ -174,17 +174,17 @@ Suggested examples:
 
 ---
 
-## Describe How an API Fits in With SPAs
+## How an API Fits in With SPAs
 
 ![](./assets/traditional-page-lifecycle.png)<br>
 <sup>Image Credit: [Zanon.io](https://zanon.io/posts/angularjs-how-to-create-a-spa-crawlable-and-seo-friendly)<sup>
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking points**:
 
-- In a traditional, server-side-rendered application, the server retrieves data from the database and uses that information to format the HTML on the server side. <!-- (Demo https://www.amazon.com). -->
+- In a traditional server-side-rendered application, the server retrieves data from the database and uses that information to format the HTML on the server side. <!-- (Demo https://www.amazon.com). -->
 
-- Now, a server retrieves the data from the database and responds to requests with JSON. <!-- (Demo http://www.swapi.co/). -->
+- With SPAs, the server retrieves data from the database and responds to requests with JSON. <!-- (Demo http://www.swapi.co/). -->
 
-- We can use various web-based APIs to populate our SPAs with data asynchronously. This way, the user can interact with the application and see it respond with new data without needing to refresh or navigate to a new page <!-- (demo [/starwars](/starwars)). -->
+- We can use various web-based APIs to populate our SPAs with data asynchronously. This way, the user can interact with the application and see it respond with new data without needing to refresh the page or navigate to a new page. <!-- (demo [/starwars](/starwars)). -->
