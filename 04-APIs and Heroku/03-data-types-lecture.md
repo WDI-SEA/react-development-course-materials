@@ -88,7 +88,7 @@
 
 **Talking Points**:
 
-- **XML** stands for "eXtensible Markup Language" and is the granddaddy of serialized data formats (itself based on HTML). XML is fat, ugly and cumbersome to parse. It remains a major format, however, due to its legacy usage across the web.
+- **XML** stands for "eXtensible Markup Language" and is the granddaddy of serialized data formats (itself based on HTML). XML remains a major format due to its legacy usage across the web.
 
 - XML has an idea of open tags and close tags - just like HTML.
 
