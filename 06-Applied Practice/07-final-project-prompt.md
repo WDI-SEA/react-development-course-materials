@@ -26,7 +26,7 @@ Once you have a website with basic functionality that you're satisfied with, loo
 
 **Suggestions and Hints**
 
-- Don't worry about styling at first! Focus on getting the functionality working.
+- Don't worry about styling at first. Focus on getting the functionality working.
 - Remember that `state` and `props` are **not** the same!
   - `state` represents the _state_ of your user interface component.
   - `state` can trigger changes in `props`, or `props` can come from parent components.
