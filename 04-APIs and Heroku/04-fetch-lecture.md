@@ -2,38 +2,29 @@
 
 ## Learning Objectives
 
-*After this lesson, you will be able to:*
+After this lesson, you'll be able to:
 
-- Identify the pieces of a `fetch()` call
-- Create a React component that calls an API
+- Identify the pieces of a `fetch()` call.
+- Create a React component that calls an API.
 
 ---
 
 ## Introducing `fetch()`
 
-#### `fetch()` + AJAX requests = the power to build single page applications that do not require refreshes
+`fetch()` + AJAX requests = the power to build single-page applications that do not require refreshes
 
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking points**:
 
-- So we know what an API is. Now what?
+- So we know what an API is. How can we use it to dynamically manipulate the DOM with the given data?
 
-- How can we use an API to dynamically manipulate the DOM with the given data?
+- There are many ways that we can retrieve this data. Tons of libraries have been created over the years to make this easier than JavaScript's built-in `XMLHttpRequest` methods. You may see APIs being used with libraries such as jQuery, axios, request-promise, and bluebird.
 
-- There are many ways that we can retrieve this data. Tons of libraries have been created over the years to make this easier than JavaScript's build in `XMLHttpRequest` methods.
+- However, a couple of years ago, JS debuted a new method called `fetch()`. This is an easy way to request data that is now completely built into the language.
 
-- You may see APIs being used with libraries such as:
-
-- jQuery
-- axios
-- request-promise
-- bluebird
-
-However, a couple years ago, JS debuted a new method called `fetch()`. This is an easy to use way to request data that is now completely built into the language.
-
-The requests we are making are called **AJAX** requests. As you'll come to learn, `fetch()` combined with AJAX requests allows us to build single page applications that do not require refreshes.
+- The requests we're making are called **AJAX** requests. As you'll come to learn, `fetch()` combined with AJAX requests allows us to build single-page applications that do not require refreshes.
 
 </aside>
 
@@ -41,20 +32,20 @@ The requests we are making are called **AJAX** requests. As you'll come to learn
 
 ### AJAX
 
-| Type of Request | What's It Do? |
+| Type of Request | What It Does |
 |-----------------|---------------|
-| `GET`  | Read (*'give me movie names from your database'*)|
-| `POST` | Create (*'here's a new movie for your database'*)|
-| `PATCH` | Update (*'hey, this movie has a new title'*)) |
-| `PUT` | Update (*'hey, this movie totally changed'*) |
-| `DELETE` | Delete (*'that movie is so bad you should just take it out of the database'*) |
+| `GET`  | Read ("Give me movie names from your database.")|
+| `POST` | Create ("Here's a new movie for your database.")|
+| `PATCH` | Update ("Hey, this movie has a new title.")|
+| `PUT` | Update ("Hey, this movie has changed.")|
+| `DELETE` | Delete ("That movie is so bad you should just take it out of the database.")|
 
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking point**:
 
-- **AJAX**, which stands for "Asynchronous Javascript and XML," is the method through which we are able to make HTTP **requests**. The standard requests we will be making are `GET` `POST` `PUT` `PATCH` and `DELETE`.
+- AJAX, which stands for **A**synchronous **Ja**vaScript and **X**ML, is the method through which we're able to make HTTP **requests**. The standard requests we'll be making are `GET`, `POST`, `PUT`, `PATCH`, and `DELETE`.
 
 </aside>
 
@@ -64,17 +55,18 @@ The requests we are making are called **AJAX** requests. As you'll come to learn
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking points**:
 
-- The browser packages this together using `fetch()` and sends it off to a server. The server then listens to your request and provides a **response**. It looks something like seen here.
+- The browser packages your request together using `fetch()` and sends it off to a server. The server then listens to your request and provides a **response**. It looks like what's seen here.
 
-- When you browse to your favorite websites, your browser is making a request and the server is providing a response. `fetch()` allows us to perform the same type of requests over a network. Imagine fetching weather information and rendering it on your website. Perhaps you want to create a real-life Pokedex? You can use `fetch()` to build these applications.
+- When you visit your favorite websites, your browser is making a request and the server is providing a response. `fetch()` allows us to perform the same type of requests over a network.
+- Imagine fetching weather information and rendering it on your website. Or maybe you want to create a real-life Pokedex. You can use `fetch()` to build these applications.
 
 </aside>
 
 ---
 
-### Taking a look at fetch in action
+## `fetch()` in Action
 
 ```
   http://api.open-notify.org/astros.json
@@ -92,21 +84,19 @@ The requests we are making are called **AJAX** requests. As you'll come to learn
 		{"craft": "ISS", "name": "Fyodor Yurchikhin"},
 		{"craft": "ISS", "name": "Jack Fischer"}
 		],
-		"message": "success"
+	"message": "success"
 }
 ```
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking points**:
 
-- This is a lot to wrap our minds around! Let's take a look at `fetch()` in action.
+- Let's take a look at `fetch()` in action.
 
-- Imagine we want to `fetch()` the number of astronauts currently aboard the International Space Station (ISS). Good thing there is an API for that, right? This API allows us get the information using the URL at the top of this slide.
+- Imagine we want to `fetch()` the number of astronauts currently aboard the International Space Station (ISS). Good thing there's an API for that, right? This API allows us get the information using the URL at the top of this slide.
 
-- The API provides a response that looks like what is seen here.
-
-- This particular API tells us the number of people currently in space on the ISS and their names. It also happily gives us "message: success" so we know it worked!
+- The API provides a response that looks like what's seen here. It tells us the number of people currently in space on the ISS and their names. It also gives us `"message": "success"` so we know it worked.
 
 - If you'd like, you can copy and paste the API URL into a browser to see this happen.
 
@@ -114,7 +104,7 @@ The requests we are making are called **AJAX** requests. As you'll come to learn
 
 ---
 
-We can fetch this JSON easily using Javascript.
+We can fetch this JSON easily using JavaScript.
 
 How? The skeleton code looks like this:
 
@@ -163,14 +153,14 @@ fetch(issApi)
 
 ---
 
-Let's break this API call down into a few steps.
+Let's break down this API call into a few steps.
 
-- `const issApi = 'http://api.open-notify.org/astros.json'`: First, we define our API URL to fetch from
+- `const issApi = 'http://api.open-notify.org/astros.json'`: First, we define our API URL to fetch from.
 
 - `fetch(issApi)`: We call fetch on that API URL.
 
 - `.then((response) => {
-   return response.json()`: We take the response when the server provides it. We return the `response.json()`
+   return response.json()`: We take the response when the server provides it. We return `response.json()`.
 
 - `.then((json) => { console.log('JSON from the ISS', json)`: We take that `json` and `console.log` it.
 
@@ -178,43 +168,43 @@ Let's break this API call down into a few steps.
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking points**:
 
-- That's as simple as fetch is. While there are other ways to handle the response (such as `html` or `blob`), this approach makes writing requests to APIs and other network calls in Javascript easy.
+- That's how simple `fetch()` is. While there are other ways to handle the response (such as `html` or `blob`), this approach makes writing requests to APIs and other network calls in JavaScript easy.
 
-- *Production Warning!* It is important to note that while this is an ES6 standard, [some browsers such as Internet Explorer](http://caniuse.com/#search=fetch) do not support it; yet Edge does. You may need a polyfill for live projects. If you need a polyfill for a production project, [Github's polyfill is very popular](https://github.com/github/fetch).
+- It's important to note that while `fetch()` is part of the JavaScript standard, some browsers such as [Internet Explorer don't support it](http://caniuse.com/#search=fetch). You may need a polyfill — code that implements a feature on web browsers that don't support that feature — for live projects. If you need a polyfill for a production project, [GitHub's polyfill](https://github.com/github/fetch) is a popular option.
 
 </aside>
 
 ---
 
-## Pop Quiz!
+## Pop Quiz
 
 <details>
   <summary><strong>Q: Which React lifecycle method should API calls be made from?</strong></summary>
   <br />
   <p>
-    <code>componentDidMount()</code>. Per the <a href="https://facebook.github.io/react/docs/react-component.html#componentDidmount">React documentation</a>, <em>If you need to load data from a remote endpoint, this is a good place to instantiate the network request.</em>
+    API calls should be made from the <code>componentDidMount()</code> React lifecycle method. According to the <a href="https://facebook.github.io/react/docs/react-component.html#componentDidmount">React documentation</a>, if you need to load data from a remote endpoint, this is a good place to instantiate the network request.
   </p>
 </details>
 
 <details>
-  <summary><strong>Q: What does it mean to make <code>GET</code> request?</strong></summary>
+  <summary><strong>Q: What does it mean to make a <code>GET</code> request?</strong></summary>
   <br />
-  <p>We are asking the server to send us data to read. To <code>GET</code> means to "read."</p>
+  <p>We're asking the server to send us data to read. To <code>GET</code> means to "read."</p>
 </details>
 
 <aside class="notes">
 
-**Teaching Tip**:
+**Teaching tip**:
 
-- Have students Slack you answers before revealing the answers.
+- Have students send you the answers through Slack before revealing them.
 
 </aside>
 
 ---
 
-## Codealong - Shakespeare
+## Code-Along: Shakespeare
 
 ![poem](assets/example-poem-from-shake-it-speare.png)
 
@@ -223,15 +213,15 @@ http://ShakeItSpeare.com/api/poem
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking point**:
 
-- It is time for you to build a very simple component that shows a randomly generated Shakespeare poem. We'll do this using the [Shake it Speare API](http://ShakeItSpeare.com/api/poem). (There really is an API for anything!)
+- It's time for you to build a simple component that shows a randomly generated Shakespeare poem. We'll do this using the ShakeItSpeare API. (There really is an API for anything!)
 
 </aside>
 
 ---
 
-## Fetching Shakespeare in a React Component
+### Fetching Shakespeare in a React Component
 
 ```js
 import React, {Component} from 'react';
@@ -257,37 +247,37 @@ export default Home
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking points**:
 
-- Let's go back to your blog project (so make sure it's running!).
+- Let's go back to your blog project (make sure it's running).
 
 - Let's use the `fetch()` API directly inside of a React Component to render a poem. We'll be using the `Home` component, so open `Home.js` to edit.
 
-- The official [React documentation](https://facebook.github.io/react/docs/react-component.html#componentdidmount) tells developers that any network requests should be placed inside of the _componentDidMount_ method.
+- The official [React documentation](https://facebook.github.io/react/docs/react-component.html#componentdidmount) tells developers that any network requests should be placed inside of the `componentDidMount()` method.
 
 - Start by changing the `Home` component to have an empty `componentDidMount()` method.
 
-- Set the stage for returning a poem in the `div` by changing the text to be an `<h1>` with the text "My favorite Shakespeare poem" as seen here.
+- Set the stage for returning a poem in the `div` by changing the text within the `<h1>` to the text "My favorite Shakespeare poem:" as seen here.
 
 </aside>
 
 ---
 
-## Making The API Call
+### Making The API Call
 
-- Fill in the `componentDidMount` method with calling the API
-- Save the poem in a state called `poem`
-- Render the poem!
+- Fill in the `componentDidMount()` method with a call to the API.
+- Save the poem in a state called `poem`.
+- Render the poem.
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking points**:
 
-- We can now tell our component to fetch a Shakespeare poem and then set it to our state. We do this by adding the `fetch()` call inside of _componentDidMount()_.
+- We can now tell our component to fetch a Shakespeare poem and then set it to our state. We do this by adding the `fetch()` call inside of `componentDidMount()`.
 
-- Calling _setState_ then triggers a re-_render_ inside of our component.
+- Calling `setState` then triggers a re-`render` inside our component.
 
-- So we will do the three steps here.
+- So we'll do the three steps here.
 
 </aside>
 
@@ -332,7 +322,7 @@ class Home extends Component {
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking points**:
 
 - You should have what's seen here.
 
@@ -367,15 +357,15 @@ render() {
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking points**:
 
-- But just in case, let's add a quick check.
+- Just in case, let's add a quick check.
 
 - Add an `if` statement under `render`.
-  - This simply checks to see if `fetch()` has completed before `render()` tries to return the movie - otherwise it returns "Loading...".
+  - This simply checks to see if `fetch()` has completed before `render()` tries to return the movie. Otherwise, it returns "Loading...".
   - For this especially, it's important that the state is declared in initial state object. This way, the `if` statement does not fail if the `fetch()` hasn't created the state yet.
 
-- You're done! Your `home` page should load a random Shakespeare poem. 
+- You're done! Your `Home` page should load a random Shakespeare poem.
 </aside>
 
 ---
