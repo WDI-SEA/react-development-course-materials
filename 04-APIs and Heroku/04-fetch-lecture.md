@@ -184,7 +184,7 @@ Let's break down this API call into a few steps.
   <summary><strong>Q: Which React lifecycle method should API calls be made from?</strong></summary>
   <br />
   <p>
-    API calls should be made from the <code>componentDidMount()</code> React lifecycle method. According to the <a href="https://facebook.github.io/react/docs/react-component.html#componentDidmount">React documentation</a>, if you need to load data from a remote endpoint, this is a good place to instantiate the network request.
+    API calls should be made from the <code>componentDidMount()</code> method. According to the <a href="https://facebook.github.io/react/docs/react-component.html#componentDidmount">React documentation</a>, if you need to load data from a remote endpoint, this is a good place to instantiate the network request.
   </p>
 </details>
 
@@ -251,9 +251,9 @@ export default Home
 
 - Let's go back to your blog project (make sure it's running).
 
-- Let's use the `fetch()` API directly inside of a React Component to render a poem. We'll be using the `Home` component, so open `Home.js` to edit.
+- Let's use the `fetch()` API directly inside a React component to render a poem. We'll be using the `Home` component, so open `Home.js` to edit.
 
-- The official [React documentation](https://facebook.github.io/react/docs/react-component.html#componentdidmount) tells developers that any network requests should be placed inside of the `componentDidMount()` method.
+- The official [React documentation](https://facebook.github.io/react/docs/react-component.html#componentdidmount) tells developers that any network requests should be placed inside the `componentDidMount()` method.
 
 - Start by changing the `Home` component to have an empty `componentDidMount()` method.
 
@@ -263,7 +263,7 @@ export default Home
 
 ---
 
-### Making The API Call
+### Making the API Call
 
 - Fill in the `componentDidMount()` method with a call to the API.
 - Save the poem in a state called `poem`.
@@ -273,7 +273,7 @@ export default Home
 
 **Talking points**:
 
-- We can now tell our component to fetch a Shakespeare poem and then set it to our state. We do this by adding the `fetch()` call inside of `componentDidMount()`.
+- We can now tell our component to fetch a Shakespeare poem and set it to our state. We do this by adding the `fetch()` call inside of `componentDidMount()`.
 
 - Calling `setState` then triggers a re-`render` inside our component.
 
@@ -362,7 +362,7 @@ render() {
 - Just in case, let's add a quick check.
 
 - Add an `if` statement under `render`.
-  - This simply checks to see if `fetch()` has completed before `render()` tries to return the movie. Otherwise, it returns "Loading...".
+  - This simply checks to see if `fetch()` has completed before `render()` tries to return the poem. Otherwise, it returns "Loading...".
   - For this especially, it's important that the state is declared in initial state object. This way, the `if` statement does not fail if the `fetch()` hasn't created the state yet.
 
 - You're done! Your `Home` page should load a random Shakespeare poem.
@@ -370,7 +370,7 @@ render() {
 
 ---
 ### Hast thou not a word of joy?
--Romeo and Juliet, Act 3, Scene 5
+— Romeo and Juliet, Act 3, Scene 5
 
 ![happy programmer](assets/happy-programmer.jpg)
 
