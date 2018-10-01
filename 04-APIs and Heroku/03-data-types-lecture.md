@@ -36,7 +36,7 @@ APIs can be read using two major data formats: **JSON** and **XML**.
 
 **Talking points**:
 
-- All data sent via HTTP are strings. Unfortunately, what we want to pass between web applications is **structured data** (i.e., arrays and hashes). Thus, native data structures can be **serialized** into a string representation of the data. Serializing refers to taking a large string of data and turning it into something readable and useful.
+- All data sent via HTTP are strings. But what we want to pass between web applications is **structured data** (i.e., arrays and hashes). Thus, native data structures can be **serialized** into a string representation of the data. Serializing refers to taking a large string of data and turning it into something readable and useful.
 
 - There are two major serialized data formats that you will typically encounter: JSON and XML.
 
@@ -152,7 +152,7 @@ APIs can be read using two major data formats: **JSON** and **XML**.
 ### Getting an API Key
 
 
-**GIPHY API**: https://api.giphy.com/
+GIPHY API: https://api.giphy.com/
 
 * No key: [http://api.giphy.com/v1/gifs/search?q=funny+cat](http://api.giphy.com/v1/gifs/search?q=funny+cat)
 
@@ -165,38 +165,30 @@ APIs can be read using two major data formats: **JSON** and **XML**.
 
 - Many APIs require a key to regulate usage and prevent abuse. Some APIs also rate-limit developers, which means they have a cap on the free data allowed during a given time period.
 
-- Try hitting the [GIPHY API](https://api.giphy.com/). You can just click these links to show you how it's done.
+- Try hitting the GIPHY API with no key. You can just click on the link to show you how it's done. You get an error message in JSON formatting: `{"message": "No API key found in request"}`.
 
-- When You get back, in the center of the string: *"error_code":"invalid_api_key"* (and, on a note, it's in JSON formatting). The rest of the string is just more information.
+- Now try with a key. You get a list of funny cats — still in JSON formatting. It would be more readable if we added new lines between cat GIFs in the list, but that's not automatic.
 
-- Now try with a key: [http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC](http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC)
+**Teaching tips**:
 
-- You get back the list of funny cats - still JSON formatting.
-
-- It'd be more readable if we added new lines between cat gifs in the list, but that's not automatic.
-
-**Teaching Tips**:
-
-- If possible, walk through the steps to generate an API key with Giphy.  It's pretty easy to get a key, but requires creating an account.
-- Make sure to emphasize that all APIs that use keys have their own way of generating them. Some are easy to get, like Giphy. Others are difficult and you may even have to e-mail the developers of the app themselves.
+- If possible, walk through the steps to generate an API key with GIPHY. It's pretty easy to get a key but it requires creating an account.
+- Make sure to emphasize that all APIs that use keys have their own way of generating them. Some are easy to get, like GIPHY. Others are difficult and you may even have to email the developers of the app themselves.
 
 </aside>
 
 ---
 
-### Important note!
+### Important Note
 
-#### Store those keys someplace private.
+**Store those keys somewhere private.**
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking points**:
 
-- When you are calling APIs that require a key, it's up to you to store those keys somewhere private. They are the only proof that you are you and you are allowed to call that API, after all.
+- When you're calling APIs that require a key, it's up to you to store those keys somewhere private. They're the only proof that you are you and you're allowed to call that API.
 
-- For example, it is very important that you not push your API keys to a public Github repo.
-
-- This is especially true when working with [Amazon Web Services (AWS)](https://aws.amazon.com/). Here's an example of a [stolen key horror story](https://wptavern.com/ryan-hellyers-aws-nightmare-leaked-access-keys-result-in-a-6000-bill-overnight).
+- For example, it's important not to push your API keys to a public GitHub repo. This is especially true when working with [Amazon Web Services (AWS)](https://aws.amazon.com/). Here's an example of a [stolen key horror story](https://wptavern.com/ryan-hellyers-aws-nightmare-leaked-access-keys-result-in-a-6000-bill-overnight).
 
 </aside>
 
