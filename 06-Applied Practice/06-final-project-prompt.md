@@ -31,7 +31,7 @@ Once you have a website with basic functionality that you're satisfied with, loo
   - `state` represents the _state_ of your user interface component.
   - `state` can trigger changes in `props`, or `props` can come from parent components.
 - Stick to functional programming techniques whenever possible (e.g. use built-in methods such as `.forEach()` and `.map()` if available).
-- If you are rendering a list of child components (such as a _ul_ -> _li_ list), each individual child component needs a unique `id` for React to work with it. This is so React can identify each element uniquely, if necessary.
+- If you are rendering a list of child components (such as a _ul_ -> _li_ list), each individual child component needs a unique `key` for React to work with it. This is so React can identify each element uniquely, if necessary.
 
 ## Further Directions
 
