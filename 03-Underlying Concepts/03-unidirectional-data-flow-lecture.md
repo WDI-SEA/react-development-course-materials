@@ -10,15 +10,15 @@
 
 **Talking Points**:
 
-- What questions do we have about the component lifecycle?
+- What questions do we have about the component life cycle?
 
 </aside>
 
 ---
 
-## What is Unidirectional Data Flow?
+## What Is Unidirectional Data Flow?
 
-Let's start with [a video explaining this concept](https://generalassembly.wistia.com/medias/v2uenqkgwk).
+Let's start with [a video that explains this concept](https://generalassembly.wistia.com/medias/v2uenqkgwk).
 
 ![video](./assets/video-screen-shot.png)
 
@@ -28,11 +28,11 @@ Let's start with [a video explaining this concept](https://generalassembly.wisti
 
 - In React applications, data usually flows from the top down. How does this apply?
 
-- When several components in a view need to share `state`, you lift, or **hoist**, the `state` so that it's available to all the components that need it. Define the state in the highest component you can, so that you can pass it to any components that will need it.
+- When several components in a view need to share state, you lift, or **hoist**, the state so that it's available to all the components that need it. Define the state in the highest component you can, so that you can pass it to any components that will need it.
 
-- Briefly describe the concept of 'hoisting' in JavaScript.
+- Briefly describe the concept of "hoisting" in JavaScript.
 
-- Let's look at a search filter as an example. This app will have two basic components: One that displays a list of data, and one that captures user input to filter the data.
+- Let's look at a search filter as an example. This app will have two basic components: One that displays a list of data and one that captures user input to filter the data.
 
 </aside>
 
@@ -45,9 +45,10 @@ Let's start with [a video explaining this concept](https://generalassembly.wisti
 <aside class="notes">
 
 **Talking Points**:
+
 - Our data will be simple: A list of fruits. The app will end up looking like what's seen here.
 
-- When building a React app, it's important to take time to define the app's structure before you start writing code. I'm going to define the **components** and the **state** I need before I write the code.
+- When building a React app, it's important to take time to define the app's structure before you start writing code. I'm going to define the **components** and the **state** I need before begin.
 
 ---
 
@@ -103,7 +104,7 @@ This app needs to keep track of changes in two items:
  
  **Talking Points**:
  
- - How to achieve this, though? Using unidirectional data flow, of course! If I create a container component to hold both the filter value and the filtered list, I can hoist the `state` to the container so it's available to all the children. It will then be simple to display the `state` in the child components. The data will flow as seen here.
+ - How do I achieve this? Using unidirectional data flow, of course! If I create a container component to hold both the filter value and the filtered list, I can hoist the state to the container so it's available to all of the children. It will then be simple to display the state in the child components. The data will flow as seen here.
  
  </aside>
 
@@ -130,9 +131,9 @@ const FruitFilter = props => (
  
  **Talking Points**:
  
-- Now that I know the components I need, the `state` I need, and where everything needs to be, I can start writing some code. First, I'll create the child components. I can use functional components, since they won't need to hold their own state.
+- Now that I know the components I need, the state I need, and where everything needs to be, I can start writing some code. First, I'll create the child components. I can use functional components, as they won't need to hold their own state.
 
-- `FruitList` renders an unordered list (`ul`), which contains an array of `li` elements, each with a single `fruit` string. `FruitList` uses [array map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) to convert the array of fruit strings in our data to an array of fruit `li` elements to render. Using `map` to convert data arrays to arrays of UI elements is a common pattern you will use, and see used, in React.
+- `FruitList` renders an unordered list (`ul`), which contains an array of `li` elements, each with a single `fruit` string. `FruitList` uses [`array.map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) to convert the array of `fruit` strings in our data to an array of `fruit` `li` elements to render. Using `map()` to convert data arrays to arrays of UI elements is a common pattern you will use, and see used, in React.
 
 `FruitFilter` renders a single input. Its value and `onChange` callbacks will both be set by the container component.
 
@@ -147,9 +148,9 @@ const FruitFilter = props => (
 constructor(props) {
     super(props);
     this.state = {
-      // initialize the fruit list to the full list passed in props
+      // Initialize the fruit list to the full list passed in props.
       fruitsToDisplay: props.fruits,
-      // intialize the filter value to an empty string
+      // Initialize the filter value to an empty string.
       filterValue: ''
     }
   }
@@ -170,10 +171,10 @@ handleFilterChange(event) {
   event.preventDefault()
   const filterValue = event.target.value
   this.setState((prevState, props) => {
-    // remove fruits that don't contain the filter value
+    // Remove fruits that don't contain the filter value.
     const filteredFruitList = props.fruits.filter(fruit =>
       fruit.toLocaleLowerCase().includes(filterValue.toLocaleLowerCase()))
-    // return new state with the filtered fruit list and the new value of the filter
+    // Return new state with the filtered fruit list and the new value of the filter.
     return {
       fruitsToDisplay: filteredFruitList,
       filterValue
@@ -186,7 +187,7 @@ handleFilterChange(event) {
  
  **Talking Points**:
  
- - I'll need a method to update the `state` when the filter value changes. This method will store the filter `state`, and filter the list of fruits to display. I'll pass this change handler to the filter component to react to user input.
+ - I'll need a method to update the state when the filter value changes. This method will store the filter state and filter the list of fruits to display. I'll pass this change handler to the filter component to react to user input.
 
 </aside>
 
@@ -213,12 +214,12 @@ class FruitContainer extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      // initialize the fruit list to the full list passed in props
+      // Initialize the fruit list to the full list passed in props.
       fruitsToDisplay: props.fruits,
-      // intialize the filter value to an empty string
+      // Initialize the filter value to an empty string.
       filterValue: ''
     };
-    // JavaScript cleanup: bind the context of our filterChange event handler (to have `this` to the context and handler we want)
+    // JavaScript cleanup: Bind the context of our filterChange event handler (to have "this" to the context and handler we want).
     this.handleFilterChange = this.handleFilterChange.bind(this)
   }
 
@@ -226,10 +227,10 @@ class FruitContainer extends Component {
     event.preventDefault()
     const filterValue = event.target.value;
     this.setState((prevState, props) => {
-      // remove fruits that don't contain the filter value
+      // Remove fruits that don't contain the filter value.
       const filteredFruitList = props.fruits.filter(fruit =>
         fruit.toLocaleLowerCase().includes(filterValue.toLocaleLowerCase()))
-      // return new state with the filtered fruit list and the new value of the filter
+      // Return new state with the filtered fruit list and the new value of the filter.
       return {
         fruitsToDisplay: filteredFruitList,
         filterValue,
@@ -253,31 +254,30 @@ class FruitContainer extends Component {
  
  **Talking Points**:
 
-- All of the data is hoisted to the top of the tree in the container, and I pass
-it to the child components.
+- All of the data is hoisted to the top of the tree in the container, and I pass it to the child components.
 
 </aside>
 
 ---
 
-## Try It: Also display the fruits that do _not_ match the filter.
+## Try It: Also Display the Fruits That Do _Not_ Match the Filter
 
 The full code for the fruit filter is
-available at this CodePen: https://codepen.io/SuperTernary/pen/qjQVZM
+available in [this CodePen](https://codepen.io/SuperTernary/pen/qjQVZM).
 
 <aside class="notes">
  
  **Talking Points**:
  
- - Once you have your data structured well, it's easier to add features to your
+ - Once your data is well-structured, it's easier to add features to your
 applications or make changes to them. Because all of our data lives at the top
 of the tree, we can send it where we want. The full code for the fruit filter is
-available [at this CodePen](https://codepen.io/SuperTernary/pen/qjQVZM).
+available in [this CodePen](https://codepen.io/SuperTernary/pen/qjQVZM).
 
 - Fork the CodePen; you're going to add a feature.
 
 - Add another child component to the `FruitContainer` that displays the fruits that do _not_ match the filter value
-(this should be all the items that are not in the `fruitsToDisplay` list).
+(this should be all of the items that are not in the `fruitsToDisplay` list).
 
 *Hint: Will you need to have a new state?*
 
@@ -285,9 +285,9 @@ available [at this CodePen](https://codepen.io/SuperTernary/pen/qjQVZM).
 
 ---
 
-## Solution - Unmatching Filter
+## Solution: Unmatching Filter
 
-Solution code: https://codepen.io/SuperTernary/pen/mMWddo
+Review the solution code [here](https://codepen.io/SuperTernary/pen/mMWddo).
 
 
 ```html
@@ -313,8 +313,7 @@ except it is passed a different list of fruits.
 
 ---
 
-Now the app maintains two lists
-of fruits:
+Now the app maintains two lists of fruits:
 - `fruitsToDisplay` shows all fruits that match the search
 term.
 - `unmatchedFruits` keeps track of which fruits don't match
@@ -323,13 +322,13 @@ the current search term.
 
 
 ```js
-// remove fruits that don't contain the filter value
+// Remove fruits that don't contain the filter value.
 const filteredFruitList = props.fruits.filter(fruit =>
   fruit.toLocaleLowerCase().includes(filterValue.toLocaleLowerCase()))
-// perform the opposite logic to create a list of fruits that don't match.
+// Perform the opposite logic to create a list of fruits that don't match.
 const unmatchedFruits = props.fruits.filter(fruit =>
  !fruit.toLocaleLowerCase().includes(filterValue.toLocaleLowerCase()))
-// return new state with the filtered fruit list and the new value of the filter
+// Return new state with the filtered fruit list and the new value of the filter.
 return {
  fruitsToDisplay: filteredFruitList,
  unmatchedFruits: unmatchedFruits,
@@ -350,11 +349,10 @@ return {
 ## Final Thoughts
 
 It's important that you think through your applications before you start writing
-code. It's often helpful to sketch out your app, and identify:
-- The **components**
-you will need.
+code. It's often helpful to sketch out your app and identify:
+- The **components** you will need.
 - The **states** you will need.
-- Where those states need to live.
+- **Where** those states need to live.
 
 <aside class="notes">
  
@@ -363,6 +361,6 @@ you will need.
 - Use the unidirectional data flow pattern; hoist your state toward the top of the
 component tree so it's available to the children that need it.
 
-- Once you start coding your applications, be aware that your initial ideas might need to change, and that is okay!
+- Once you start coding your applications, be aware that your initial ideas might need to change, and that is OK!
 
 </aside>
