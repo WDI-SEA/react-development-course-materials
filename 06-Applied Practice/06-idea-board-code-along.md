@@ -15,7 +15,7 @@ competencies: Full-Stack Applications
 Let's build an idea board!
 
 ### Objectives
-*After this lesson, students will be able to:*
+*After this lesson, you will be able to:*
 - Use MongoDB and Mongoose to persist data to be served to a React UI.
 - Build an Express server that serves information in a JSON format.
 - Connect API to React via `axios`
