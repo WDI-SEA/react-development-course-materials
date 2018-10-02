@@ -8,7 +8,7 @@ In this section, we dove deeper into React. Here's what we covered:
 
 ## The Component Life Cycle
 
-React class components have life cycle methods that are invoked at certain stages of their "lives" on the DOM. Some of the life cycle methods you'll use frequently include:
+React class components have life-cycle methods that are invoked at certain stages of their "lives" on the DOM. Some of the life-cycle methods you'll use frequently include:
 
   - `constructor()`: Initializes state, binds methods.
   - `componentDidMount()`: Makes AJAX requests, gets DOM refs, binds event listeners, sets `state` if necessary.
