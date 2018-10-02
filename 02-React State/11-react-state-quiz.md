@@ -68,10 +68,6 @@ class Compliment extends Component {
 }
 ```
 
-_Correct response_: Correct! `State` is set with `this.state`, and the name-value pair is separated with a colon, not an equals sign. Lastly, all constructors need to start with a call to `super()` to initialize the default class before modifying it.
-
-_Incorrect response_: Not quite. `State` is set with `this.state`, and the name-value pair is separated with a colon, not an equals sign. Lastly, all constructors need to start with a call to `super()` to initialize the default class before modifying it.
-
 _Choices_:
 
 1. You can't have a `state` with the same name as the component.
@@ -79,6 +75,10 @@ _Choices_:
 3. `State` is set with colons, not equal signs. It should be `compliment: "You're so awesome!"`. *
 4. Constructors need to begin with a call to `super()`. *
 5. All of the above.
+
+_Correct response_: Correct! `State` is set with `this.state`, and the name-value pair is separated with a colon, not an equals sign. Lastly, all constructors need to start with a call to `super()` to initialize the default class before modifying it.
+
+_Incorrect response_: Not quite. `State` is set with `this.state`, and the name-value pair is separated with a colon, not an equals sign. Lastly, all constructors need to start with a call to `super()` to initialize the default class before modifying it.
 
 ----------------------------------
 
@@ -103,10 +103,6 @@ class Volcano extends Component {
 
 ```
 
-_Correct response_: Correct! `State`s need to be declared before they can be used, so there needs to be a constructor method initializing `lava`. Additionally, you call `state` with `this.state.Name` and set `state` with `this.setState()`.
-
-_Incorrect response_: Not quite. `State`s need to be declared before they can be used, so there needs to be a constructor method initializing `lava`. Additionally, you call `state` with `this.state.Name` and set `state` with `this.setState()`.
-
 
 _Choices_:
 
@@ -116,6 +112,9 @@ _Choices_:
 4. `State` is called by JSX with `{this.lava}`, so the second `<h3>` statement needs to change.
 5. `State` is called by JSX with `{state.lava}`, so the first `<h3>` statement needs to change.
 
+_Correct response_: Correct! `State`s need to be declared before they can be used, so there needs to be a constructor method initializing `lava`. Additionally, you call `state` with `this.state.Name` and set `state` with `this.setState()`.
+
+_Incorrect response_: Not quite. `State`s need to be declared before they can be used, so there needs to be a constructor method initializing `lava`. Additionally, you call `state` with `this.state.Name` and set `state` with `this.setState()`.
 
 -----------------------------------
 
