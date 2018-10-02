@@ -21,7 +21,7 @@ for every person in the line
 
 **Talking Points**:
 
-- Imperative and declarative programming are two terms that you might encounter. Most developers begin by writing _imperative_ code. That is to say, most developers:
+- Imperative and declarative programming are two terms that you might encounter as a developer. Most developers begin by writing _imperative_ code. That is to say, most developers:
 1. Outline what they need to do.
 2. Write it out step by step.
 
