@@ -386,7 +386,7 @@ componentDidUpdate(prevProps) {
 - `componentDidUpdate()` is invoked immediately after updating occurs and is a good place to operate on the DOM when the component has been updated.
 - This is also a good place to do network requests as long as you compare the current props to previous props.
 - This method is not called for the initial render.
-- You may call `setState()` immediately in `componentDidUpdate()`, but it must be wrapped in a condition like in our, or you’ll cause an infinite loop and a re-rendering.
+- You may call `setState()` immediately in `componentDidUpdate()`, but it must be wrapped in a condition, or you’ll cause an infinite loop and a re-rendering.
 - The re-rendering may not be visible to the user, but it can kill your performance!
 - As mentioned before, `componentDidUpdate()` will not be invoked if `shouldComponentUpdate()` returns `false`.
 
