@@ -291,7 +291,7 @@ heroku config:set API_URL="https://api.example.com"
 
 - Add `"proxies"` to `static.json` as seen in the first code snippet here.
 
-- Then, point the React UI app to a specific backend API using the CLIas seen in the second code snippet here.
+- Then, point the React UI app to a specific backend API using the CLI as seen in the second code snippet here.
 
 </aside>
 

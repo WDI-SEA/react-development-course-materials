@@ -133,7 +133,9 @@ const FruitFilter = props => (
  
 - Now that I know the components I need, the state I need, and where everything needs to be, I can start writing some code. First, I'll create the child components. I can use functional components, as they won't need to hold their own state.
 
-- `FruitList` renders an unordered list (`ul`), which contains an array of `li` elements, each with a single `fruit` string. `FruitList` uses [`array.map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) to convert the array of `fruit` strings in our data to an array of `fruit` `li` elements to render. Using `map()` to convert data arrays to arrays of UI elements is a common pattern you will use, and see used, in React.
+
+- `FruitList` renders an unordered list (`ul`) which contains an array of `li` elements, each with a single `fruit` string. `FruitList` uses [Array.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) to convert the array of fruit strings in our data to an array of fruit `li` elements to render. Using `map` to convert data arrays to arrays of UI elements is a common pattern you will use, and see used, in React.
+
 
 `FruitFilter` renders a single input. Its value and `onChange` callbacks will both be set by the container component.
 
@@ -340,7 +342,9 @@ return {
  
  **Talking Points**:
  
-- Notice that, in the constructor, the app initializes the value of `unmatchedFruits` to just an empty list. Within `HandleChange`, we now need to update that list.
+
+- Notice that in the constructor the app initializes the value of `unmatchedFruits` to just an empty list. Within `handleFilterChange`, we now need to update that list.
+
 
 </aside>
 

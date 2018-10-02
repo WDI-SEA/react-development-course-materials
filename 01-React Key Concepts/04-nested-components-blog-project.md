@@ -1,15 +1,15 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Blog Project: Add Nested Component To Blog
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Blog Project: Add a Nested Component to Your Blog
 
 
-### Steps
+### Steps:
 
-* From the `index.js`, modify the `render` method to pass the `Post` component a prop called `allAuthors`, which will be the `authors` array.
+* From the `index.js`, modify the `render()` method to pass the `Post` component a prop called `allAuthors`, which will be the `authors` array.
 
 * Create an `Author` component that renders "Written by ", followed by an author.
 
-* Amend your `Post` component's `render` method first and create a variable, `authors`, which is equal to the return value of generating multiple `<Author />` elements.
+* Amend your `Post` component's `render()` method first and create a variable, `authors`, which is equal to the `return` value of generating multiple `<Author />` elements.
 
-> Hint: This variable will contain three calls to the `Author` component.  Take into account that the number of authors might change per book but that **this.props.allAuthors** will always be an array even if it contains only one author. 
+> Hint: This variable will contain three calls to the `Author` component. Take into account that the number of authors might change per book, but that `this.props.allAuthors` will always be an array, even if it contains only one author. 
 
 * Make sure to pass in the `allAuthors` body as an argument to each `Author` component.
 
@@ -21,22 +21,22 @@
 **Talking Points**:
 
 
-This blog is great so far! Now, our stegosaurus is actually collaborating more on the blog, so each post has multiple authors. Let's set that up. Besides Stealthy Stegosaurus, we have authors named Tiny T-Rex and Ivory Iguanodon.
+This blog looks great so far! Now, our stegosaurus is actually collaborating more on the blog, so each post has multiple authors. Let's set that up. Besides Stealthy Stegosaurus, we have authors named Tiny T-Rex and Ivory Iguanodon.
 
 
-> Hint: Remember that whenever you write Javascript expressions inside of JSX, you need to surround them with single brackets (`{}`). Refer to the advanced note on the previous page...
+> Hint: Remember that, whenever you write JavaScript expressions inside of JSX, you need to surround them with single curly braces (`{}`). 
 
 </aside>
 
 ---
 
-<i><strong>Advanced challenge:</strong> If you'd like, you can use JavaScript's array `map` method in `Post`'s `render` method to avoid having to hard-code all your `Author`s. 
+<strong>Advanced challenge:</strong> If you like, you can use JavaScript's array `map()` method in `Post`'s `render()` method to avoid having to hard-code all of your `Author`s. 
 
 <aside class="notes">
 
 **Talking Points**:
 
-- Hint for using Map:</strong> If you're using `map`, you should only have to return one `<MyPost />` inside of `map`.</i>
+> Hint: If you're using `map()`, you should only have to return one `<MyPost />` inside of `map()`.</i>
 
 **Teaching Tips**:
 
