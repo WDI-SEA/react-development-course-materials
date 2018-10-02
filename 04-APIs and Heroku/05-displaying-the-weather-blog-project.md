@@ -44,13 +44,16 @@
 
 On your "About" page, ask the user to input a zip code.
 
-- You can learn about forms [here](https://facebook.github.io/react/docs/forms.html).
+- You can learn more about forms [here](https://facebook.github.io/react/docs/forms.html).
   - When this event fires, take the `event.target.value` and `fetch()` from the OpenWeather API.
 
 - Use the response from the API to display the current temperature, the high and low temperatures, the current weather description, and the name of the city.
   - Note: Our solution uses Fahrenheit. You're free to use Celsius if you'd like.
 
-**Important Note**: Because the OpenWeather API is not an open API, every request must end with this API key:  `&appid=052f26926ae9784c2d677ca7bc5dec98`. As an example, this is a URL you might send a `fetch()` request to: `http://api.openweathermap.org/data/2.5/weather?zip=60614,us&appid=052f26926ae9784c2d677ca7bc5dec98`.
+**Important notes**:
+
+- Because the OpenWeather API is not an open API, every request must end with this API key:  `&appid=052f26926ae9784c2d677ca7bc5dec98`.
+- As an example, this is a URL you might send a `fetch()` request to: `http://api.openweathermap.org/data/2.5/weather?zip=60614,us&appid=052f26926ae9784c2d677ca7bc5dec98`.
 
 <details>
   <summary>Skeleton Code</summary>
