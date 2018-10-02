@@ -4,7 +4,7 @@ This is Unit 3 of the complete React Development course. It includes the followi
 
 1) **Review of Film Project, Part 2**: Discussion
 
-2) **React Component Life Cycle**: Interactive lecture
+2) **The React Component Life Cycle**: Interactive lecture
 
 3) **Unidirectional Data Flow**: Interactive lecture
 
