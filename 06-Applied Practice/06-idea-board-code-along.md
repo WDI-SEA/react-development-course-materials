@@ -21,11 +21,52 @@ Let's build an idea board!
 - Connect API to React via `axios`
 - Deploy the full stack application to Heroku
 
+<aside class="notes">
+
+**Teaching Tip**: This is a brief interactive lecture that introduces the 6-hour Idea Board Code-Along.
+
+**Talking Points**:
+
+- This code-along guides you in building a Full Stack Application with what we call MERN stack. We'll define that in just a moment.
+
+- A lot of modern JavaScript is focused on knowing the right tools for the job.  Today we will be pulling in everything we've learned about Node and React to build a full stack application using the MERN stack.
+
+</aside>
+
+-------
+
+## MERN Stack
+
+MERN stack -  shorthand way of saying that an application is a full-stack Java Script app. 
+
+**M**ongoDB
+
+**E**xpress
+
+**R**eact
+
+**N**ode
+
+
+
+<aside class="notes">
+
+**Talking Points**:
+
+When you see MERN stack, this is typically just a shorthand way of saying that the application is a full-stack JavaScript app.  The tools that we use for MERN apps are: Mongo (MongoDB), Express, React, and Node.  
+While there are some boilerplate tools to build out a full MERN stack app, we are going to build our own using `create-react-app` and the Express and Mongo patterns we've used in the past.  This allows us to fully understand our application and prevents introducing a bunch of code that we haven't written and understand.
+
+</aside>
+
 ---
 
 ![idea board](https://slack-imgs.com/?c=1&url=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*SMKZC-Ej73wFOmqNT-JQ7Q.gif)
 
 <aside class="notes">
+
+**Talking Points**:
+- We will build an app where a user can write out different ideas and save them to a database. This app will have 2 models — Users and Ideas (which will live inside of Users).
+
 
 **Teaching Tips**:
 - These first three slides (learning objectives, image of solution, and good luck meme) are for you to project to the class as you introduce the topic. The remainder of this lesson is an instructor-facing script. 
@@ -42,6 +83,27 @@ Let's build an idea board!
 **Teaching Tips**:
 
 **The remainder of this document serves as the instructor notes/prep for the MERN stack idea board app. This is not a student-facing document.**
+
+</aside>
+
+---
+
+## Data Model Brainstrom 
+
+Work with classmates around you to: 
+- Write out three user stories 
+- Sketch two wireframes 
+- Illustrate what our data model might look like. Think about the API routes that we will need. What components do you think we will need? What routes do we need to make available to the React app?
+
+
+<aside class="notes">
+
+**Teaching Tips**:
+- Read through activity directions.
+- Set students off in their groups.
+- Walk around and observe, help out, answer questions, provide input.
+
+**Note**: After this activity, you will transition from sharing the intro slides to sharing your text editor for the code-along. 
 
 </aside>
 
