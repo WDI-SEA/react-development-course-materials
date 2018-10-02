@@ -200,7 +200,7 @@ This method exists for *rare* use cases in which the state depends on changes in
 **Talking Points**:
 
 - This method is not as commonly used and can make your code overly verbose and your components overly complicated.
-- Alternatives: If you want to perform a side effect in response to props, use `componenentDidUpdate()`, which we will discuss later.
+- Alternatives: If you want to perform a supplementary effect in response to props, use `componenentDidUpdate()`, which we will discuss later.
 - Alternatives: Discuss memoization helpers for re-computing data when a prop changes.
 - Alternatives: To reset its state on prop change, make the component fully controlled or uncontrolled with a key instead of using this method.
 
