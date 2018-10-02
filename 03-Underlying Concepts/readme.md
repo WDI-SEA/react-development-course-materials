@@ -4,14 +4,14 @@ This is Unit 3 of the complete React Development course. It includes the followi
 
 1) **Review of Film Project, Part 2**: Discussion
 
-2) **React Component Lifecycle**: Interactive Lecture
+2) **React Component Life Cycle**: Interactive lecture
 
-3) **Unidirectional Data Flow**: Interactive Lecture
+3) **Unidirectional Data Flow**: Interactive lecture
 
-4) **Imperative and Declarative Programming**: Interactive Lecture 
+4) **Imperative and Declarative Programming**: Interactive lecture 
 
 5) **Film Project, Part 3**: Classwork
 
 6) **Section Recap**: Discussion
 
-Note that the Film Project, Part 3 can be done fully in class (depending on timing and needs).
+Note that Film Project, Part 3 can be done fully in class (depending on timing and needs).
