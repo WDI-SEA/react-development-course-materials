@@ -130,9 +130,3 @@ When you have it, check your solution against** [this CodePen](https://codepen.i
 
   
 </aside>
-
-
-
-
-
-**.
