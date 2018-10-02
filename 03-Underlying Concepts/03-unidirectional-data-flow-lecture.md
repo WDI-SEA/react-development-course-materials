@@ -342,7 +342,7 @@ return {
  
  **Talking Points**:
  
-- Notice that in the constructor the app initializes the value of `unmatchedFruits` to just an empty list. Within `HandleChange`, we now need to update that list.
+- Notice that in the constructor the app initializes the value of `unmatchedFruits` to just an empty list. Within `handleFilterChange`, we now need to update that list.
 
 </aside>
 
