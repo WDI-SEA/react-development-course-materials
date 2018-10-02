@@ -69,7 +69,7 @@ While there are some boilerplate tools to build out a full MERN stack app, we ar
 
 
 **Teaching Tips**:
-- These first five slides (learning objectives, MERN stack, image of solution, Data Model Brainstorm, and good luck meme) are for you to project to the class as you introduce the topic. The remainder of this lesson is an instructor-facing script. 
+- These first five slides (Learning Objectives, MERN Stack, Image of Solution, Data Model Brainstorm, and You Got This Meme) are for you to project to the class as you introduce the topic. The remainder of this lesson is an instructor-facing script. 
 - The image of the solution here is so the class can see the end product and have an idea of what they are building.
 
 </aside>
