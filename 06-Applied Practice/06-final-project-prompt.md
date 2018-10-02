@@ -80,11 +80,6 @@ Cheese | No cheese present. | A small sprinkle of unmelted cheese in the middle 
 
 
 
-A zero-to-three grade scale may not intuitively make sense, so here is an example using the criteria as if your assignment were to cook a pizza:
 
-Criteria | **0** Incomplete. | **1** Does not meet expectations. | **2** Meets expectations. | **3**  Exceeds expectations. |
-:--- | :--- | :--- | :--- | :---
-Crust | No crust present. Submission is just cheese and sauce on a plate. | Pizza has a crust, but it is raw. | Crust is cooked thoroughly.| Crust is golden brown and just thin enough without being too thick.
-Cheese | No cheese present. | Cheese is made of soy. | Cheese covers the pizza from edge to edge. | Cheese is delicious, plentiful, and melted to perfection.
 
 
