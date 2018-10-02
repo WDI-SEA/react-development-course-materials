@@ -23,7 +23,12 @@ Let's build an idea board!
 
 <aside class="notes">
 
-**Teaching Tip**: This is a brief interactive lecture that introduces the 6-hour Idea Board Code-Along.
+**Teaching Tip**: 
+
+- This is a brief interactive lecture that introduces the 6-hour Idea Board Code-Along.
+
+- Note: This code-along may not be appropriate for all students. Those not familiar with Node.js or MongoDB will need a quick tutorial or some context around those. Also, note that it uses “axios” instead of the “fetch” api. 
+
 
 **Talking Points**:
 
