@@ -6,9 +6,9 @@ In this section, we dove deeper into React. Here's what we covered:
 
 ---
 
-## Component Lifecycle
+## The Component Life Cycle
 
-React class components have lifecycle methods that are invoked at certain stages of a component's "life" on the DOM. Some of the lifecycle methods you'll use frequently are:
+React class components have life cycle methods that are invoked at certain stages of their "lives" on the DOM. Some of the life cycle methods you'll use frequently include:
 
   - `constructor()`: Initializes state, binds methods.
   - `componentDidMount()`: Makes AJAX requests, gets DOM refs, binds event listeners, sets `state` if necessary.
@@ -20,11 +20,11 @@ React class components have lifecycle methods that are invoked at certain stages
 
 ## Unidirectional Data Flow
 
-In React, data flows from the top down. Keep your data higher in your component tree so it's available to the sibling/children components that need it.
+In React, data flows from the top down. Keep your data higher in your component tree so it's available to sibling/children components that need it.
 
 ---
 
 ## Declarative vs. Imperative Programming
 
-  - Imperative programming is a more classical 'line-by-line' approach to programming.
+  - Imperative programming is a more classical "line-by-line" approach to programming.
   - Declarative programming expresses the logic of a computation without describing its control flow.
