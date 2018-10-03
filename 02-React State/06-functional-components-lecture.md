@@ -136,7 +136,7 @@ export default ListItem
 
 ## You Do: Functional Components in the To-Do List
 
-* Define as `const ToDoList` similar to `ListItem`.
+* Define `const ToDoList` similar to `ListItem`.
 * Import `ListItem` because it will render `ListItems`.
 * Accept props like `ListItem`.
 * Expect there to be something called `toDoItemArray` attached to these props.
