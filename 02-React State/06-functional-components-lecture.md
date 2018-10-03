@@ -4,22 +4,22 @@
 
 *After this lesson, you will be able to:*
 
-- Contrast class components with functional components.
+- Compare and contrast class components with functional components.
 - Rewrite class components into functional components.
 
 ---
 
 ## Components
 
-Functional Components vs. Presentational Components
+### Functional Components vs. Presentational Components
 
 <aside class="notes">
 
 **Talking Points:**
 
-- So far, we've been building components using the `class` syntax. As you've seen, this allows us to utilize changing values through `state` and build custom class methods. React **class** components also give us properties that we don't always need, namely `state`, methods like `setState`, and lifecycle methods (more about this later).
+- So far, we've been building components using the `class` syntax. As you've seen, this allows us to utilize changing values through state and build custom class methods. React **class** components also give us properties that we don't always need, namely `state`, methods like `setState()`, and life-cycle methods (more on these later).
 
-- Some components are purely presentational. They take `props` and render UI. As a React class, these components usually just contain a `render` method.
+- Some components are purely presentational. They take props and render UI. As a React class, these components usually just contain a `render()` method.
 
 </aside>
 
@@ -41,7 +41,7 @@ class Name extends React.Component {
 }
 ```
 
-But with ES6, we now have:
+But, with ES6, we now have:
 
 ```javascript
 const Name = props => (
@@ -57,21 +57,21 @@ const Name = props => (
 
 - Rather than create them as classes, you can write them as functions. A React functional component takes the `props` object as its argument and returns JSX. Here's a very simple example.
 
-- The whole declaration of `class`, `extends`, `React.component`, etc. — it's all been replaced. We now just have the component name, an input for the `props`, and what is returned. Simplicity at its finest!
+- The whole declaration of `class`, `extends`, `React.component`, etc. — it's all been replaced. We now just have the component name, an input for the props, and what is returned. Simplicity at its finest!
 
 </aside>
 
 ---
 
-### When Should You Use Functional Components, and When Should You Use Class Components?
+### When Should You Use Functional Components and When Should You Use Class Components?
 
 <aside class="notes">
 
 **Talking Points:**
 
-- Use a functional component if (1) you don't need anything special and (2) you are purely just returning JSX to render something. If you need your component to be stateful — that is, if you need the ability to use `setState` to respond to changes — use a class. If you need lifecycle methods — i.e., if you need to do something when the component mounts, receives `props`, or unmounts — use a class.
+- Use a functional component if 1) you don't need anything special and 2) you are purely just returning JSX to render something. If you need your component to be stateful — that is, if you need the ability to use `setState()` to respond to changes — use a class. If you need life-cycle methods — i.e., if you need to do something when the component mounts, receives props, or unmounts — use a class.
 
-- And only if you _don't_ need any of those things — use a functional component.
+- Only use a functional component when you _don't_ need any of those things.
 
 </aside>
 
@@ -99,9 +99,9 @@ export default ListItem
 
 **Talking Points:**
 
-- Now that we've learned about functional components, is there any place we can apply them?
+- Now that we've learned about functional components, is there any place where we can apply them?
 
-- Look through the projects you've done so far. Are there any places you could use a functional component?
+- Look through the projects you've done so far. Are there any places where you could use a functional component?
 
 - Let's do one together. Open your to-do list project.
 
@@ -124,12 +124,11 @@ export default ListItem
 
 **Talking Points:**
 
-- All that has changed is that `ListItem` now looks much more like a function than a component. However, `ListItem` is still a component — it returns JSX of UI to be rendered to the virtual DOM. Therefore, we still need to export it (so we can call it from `App.js`), and we still need the `import` statements — a React component won't work without React!
+- All that has changed is that `ListItem` now looks much more like a function than a component. However, `ListItem` is still a component — it returns JSX of UI to be rendered to the virtual DOM. Therefore, we still need to export it (so we can call it from `App.js`) and we still need the `import` statements — a React component won't work without React!
 
-- What else in your projects can you change?
+- What else can you change in your projects?
 
-- Not only can the `ListItem` be converted into a functional component — the
-entire `ToDoList` can be its own functional component as well.
+- Not only can the `ListItem` be converted into a functional component — the entire `ToDoList` can be its own functional component as well.
 
 </aside>
 
@@ -137,14 +136,13 @@ entire `ToDoList` can be its own functional component as well.
 
 ## You Do: Functional Components in the To-Do List
 
-
 * Define as `const ToDoList` similar to `ListItem`.
 * Import `ListItem` because it will render `ListItems`.
-* Accept `props` like `ListItem`.
-* Expect there something called `toDoItemArray` attached to `props`.
+* Accept props like `ListItem`.
+* Expect there to be something called `toDoItemArray` attached to these props.
 * Use `props.toDoItemArray.map(item, index)` to iterate over each item.
 * Render `<ListItem>` components inside the map.
-* Pass the proper properties (`doThis` and `key`) to the `<ListItem>` component
+* Pass the proper properties (`doThis` and `key`) to the `<ListItem>` component.
 
 
 <aside class="notes">
