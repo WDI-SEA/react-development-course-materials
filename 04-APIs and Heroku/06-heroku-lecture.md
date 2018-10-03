@@ -25,7 +25,7 @@ After this lesson, you'll be able to:
 
 **Teaching tip**:
 
-- Tell students it is **strongly** suggested that they have a working knowledge of Git. Before moving ahead, have them read the [Git basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics) guide or [try Git](https://try.github.io/levels/1/challenges/1) if they have **no experience** with it.
+- Tell students it is **strongly** suggested that they have a working knowledge of Git. Before moving ahead, have them read the [Git basics guide](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics) or [try Git](https://try.github.io/levels/1/challenges/1) if they have **no experience** with it.
 
 </aside>
 
@@ -66,7 +66,7 @@ https://devcenter.heroku.com/articles/heroku-cli
 
 - Before we go further, make sure you stop any currently running React apps.
 
-- Now let's download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). You can download the installer from the link provided or run `brew install heroku` in your terminal application.
+- Let's download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). You can download the installer from the link provided or run `brew install heroku` in your terminal application.
 
 - This tool is designed to make your life easier as a developer by integrating Heroku application development and deployment directly into the command line.
 
@@ -104,7 +104,7 @@ cd $your_app_name_here
 
 **Talking point**:
 
-- You can deploy an existing app with Heroku, but for the sake of completion, we'll do it from start to finish. Use the `create-react-app` command in your terminal to create an app — name it whatever you want. Then change directory into the app's directory.
+- You can deploy an existing app with Heroku, but for the sake of completion, we'll do it from scratch. Use the `create-react-app` command in your terminal to create an app — name it whatever you want. Then change directory into the app's directory.
 
 </aside>
 
@@ -211,7 +211,7 @@ https://example.com/users/me/edit
 
 - Now that you've seen how to deploy your application live, it's time for you to push your project live. Since you've already created an application using `create-react-app`, you can skip that step. Before pushing live, you'll need to do a few minor adjustments to make everything look great.
 
-- By default, [React Router](https://github.com/reactjs/react-router) (not included) uses hash-based URLs like `https://example.com/index.html#/users/me/edit`. This is nice and easy when getting started with local development, but for a public app, you probably want real URLs like `https://example.com/users/me/edit`.
+- By default, [React Router](https://github.com/reactjs/react-router) uses hash-based URLs like `https://example.com/index.html#/users/me/edit`. This is nice and easy when getting started with local development, but for a public app, you probably want real URLs like `https://example.com/users/me/edit`.
 
 </aside>
 
@@ -266,7 +266,7 @@ A CORS proxy is a service that allows developers to access resources from other 
 
 ---
 
-Using [proxy back-ends from the static site buildpack](https://github.com/heroku/heroku-buildpack-static/blob/master/README.md#proxy-backends).
+Configure a CORS proxy using [proxy back-ends from the static site buildpack](https://github.com/heroku/heroku-buildpack-static/blob/master/README.md#proxy-backends).
 
 
 ```json
@@ -296,7 +296,7 @@ heroku config:set API_URL="https://api.example.com"
 
 - Add `"proxies"` to `static.json` as seen in the first code snippet here.
 
-- Then, using the CLI, point the React UI app to a specific back-end API as seen in the second code snippet here.
+- Using the CLI, point the React UI app to a specific back-end API as seen in the second code snippet here.
 
 </aside>
 
