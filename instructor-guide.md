@@ -1,10 +1,8 @@
 
-![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
-
-# Instructor Guide
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Instructor Guide
 ## React Development
 
-![react](images/react-course.png)
+![react on a computer screen](./images/react-icon.png)
 
 > This document is the source of all knowledge for the course. 
 ----
@@ -63,14 +61,14 @@ General Assembly’s course materials are developed in close collaboration with 
 | [Claire Oliver](https://www.linkedin.com/in/claireoliver/) <br> ![claire](images/claire.jpeg) | [Jeff Boykin](https://www.linkedin.com/in/jeffboykin/) <br> ![jeff](images/jeff.jpeg) |
 
 ## Course Details
-React Development is a 40-hour course, delivered in either a 5-day full-time or a 10-week part-time (two 2-hour sessions per week) format. Incoming students should have a familiarity with HTML and the Document Object Model (DOM), along with a working knowledge of JavaScript programming and functions, objects, arrays, and classes.
+React Development is a 40-hour course, delivered in either a 1-week full-time or a 10-week part-time (two 2-hour sessions per week) format. Incoming students should have a familiarity with HTML and the Document Object Model (DOM), along with a working knowledge of JavaScript programming and functions, objects, arrays, and classes.
 
 
-Once enrolled, students complete approximately 4 hours of pre-work on the myGA platform. As an instructor, you should familiarize yourself with this pre-work so you can review and discuss it in the first lesson.
+Once enrolled, students complete approximately 4 hours of pre-work on the myGA platform. All pre-work must be finished prior to the first class. As an instructor, you should familiarize yourself with this pre-work so you can review and discuss it in the first lesson.
 
 **Important Note:** All students must complete the blog post code in the props pre-work lesson. If any haven't finished it or have buggy code, work that out during the in-class pre-work review. The Nested Components lecture (which follows the pre-work review) builds off the blog post code.
 
-Your role as an instructor is to facilitate each student’s journey to mastery of the concepts outlined below. This guide will provide you with a suggested pacing guide you can use to ensure you hit all of the required objectives in a sequence that makes sense. **We recommend you follow the suggested pacing guide during your first instance.** Later on, as you become more familiar with the content and your own teaching style, you can remix and extend the lessons provided. Just be sure to cover all of the required topics that follow.
+Your role as an instructor is to facilitate each student’s journey to mastery of the concepts outlined below. This guide includes a suggested pacing guide you can use to ensure you hit all of the required objectives in a sequence that makes sense. **We recommend you follow the suggested pacing guide during your first instance.** Later on, as you become more familiar with the content and your own teaching style, you can remix and extend the lessons provided. Just be sure to cover all of the required topics that follow.
 
 In order to graduate and earn a course completion certificate, every student must complete a final project that meets or exceeds the minimum standards outlined in the project rubric. Your manager will help you track other graduation requirements and make decisions about graduation.
 
@@ -101,7 +99,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - These are lectures that you present to the students. Some have mini code-alongs or exercises baked in. You will also find assets such as videos, charts, and discussion prompts in these lesson decks. **Talking Points** and **Teaching Tips** can be found in the presenter notes (not student-facing). Note that if a student downloads a PDF of these decks, they will not get the presenter notes. Students should be encouraged to take their own notes as they participate in the lecture.
   
   - Also note that slide content is sparse - each slide displays just a code snippet, an image, a chart, a bulletpoint list. You get to explain the content and expand upon it. There are plenty of notes in the presenter-note field to guide you.
-  - [Interactive Lecture Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/03-nested-components.md)
+  - [Interactive Lecture Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/03-nested-components-lecture.md)
   
   
   
@@ -110,7 +108,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
  
   - These are brief coding challenges with student-facing instructions. There are hints and some suggested talking points in the presenter notes (not student facing). Read these over carefully and decide how much info you will provide to the students prior to their starting the exercise.
   - Exercises generally take about 30 minutes to complete.
-  - Exercises are the most flexible of the activity types! Use them as solo work, partner work, or group work. Do them in class or assign them as homework. You can even do them as a code-along. 
+  - Exercises are the most flexible of the activity types! Use them as solo work, partner work, or group work. Do them in class or assign them as homework. You can even do them as code-alongs. 
 
   - [Exercise Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/07-creating-newsfeed-component-exercise.md)
 

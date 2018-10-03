@@ -63,7 +63,9 @@ Let's consider a data flow example.
   <Post />
   ```
 
-2. Inside of this post component, `state` object is created:
+
+2. Inside of this post component, the `state` object is created:
+
 
 ```js
 class Post extends Component {
@@ -81,7 +83,7 @@ class Post extends Component {
   </button>
 ```
 
-4. When the _button_ is _clicked_, the `changeBody()` method is called.
+4. When the button is clicked, the `changeBody()` method is called.
 
   ```js
   changeBody = () => {
