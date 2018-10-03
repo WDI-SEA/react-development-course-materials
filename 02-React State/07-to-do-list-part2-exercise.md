@@ -181,11 +181,14 @@ nothing wrong with how we hooked up the button and helps narrow our focus in cas
 
 ## Adding Items (Cont.)
 
-* `handleChange`, for when we type characters into an input field and change the value of `newItem`.
+* Create `handleChange`, for when we type characters into an input field and change the value of `newItem`.
+
     - We'll need to get the current value of the input field and set state accordingly.
+    
 > Create this function with an event parameter. Inside the function, change the state of `newItem` to `e.target.value`. This will be the value the user entered into the form.
 
-* `addItem`, for when we submit the form.
+* Create `addItem`, for when we submit the form.
+
   * We'll need to make a copy of `toDoItemArray`, push the `newItem`, set state, and finally clear `newItem`.
   
 > Create this function with an event parameter of `e`. Inside the function, create a new variable that's initialized to the value of the array saved in state. Then, use `yourArray.push(<value>)` to push the new item from the state into the array. Set the `newItem` state back to an empty string and the `toDoItemArray` state to your new array.
