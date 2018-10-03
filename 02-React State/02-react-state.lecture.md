@@ -282,7 +282,7 @@ return (
 
 
 
-#### CFU: Events in JavaScript
+#### Check for Understanding: Events in JavaScript
 
 
 <aside class="notes">
@@ -369,7 +369,7 @@ With a partner, discuss the following:
 
 We will create a button that the user can click, which will increase their mood by `1`.
 
-> CFU: If we were just working with regular old JavaScript, what could we use to increase the value of a variable by `1`?
+> **Check for Understanding**: If we were just working with regular old JavaScript, what could we use to increase the value of a variable by `1`?
 
 > How would we add or remove an item from an array?
 
