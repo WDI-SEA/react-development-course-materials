@@ -547,7 +547,7 @@ increaseMood = () => {
 
 ### Additional Resources
 
-- [React State vs. Props`](http://lucybain.com/blog/2016/react-state-vs-pros/)
+- [React State vs. Props](http://lucybain.com/blog/2016/react-state-vs-pros/)
 
 - [Understanding State in React](https://thinkster.io/tutorials/understanding-react-state)
 
