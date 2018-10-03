@@ -12,7 +12,7 @@ To-dos change. So should our list.
 
 ---
 
-Let the refactoring begin!
+## Let the Refactoring Begin!
 
 <aside class="notes">
 
@@ -47,6 +47,8 @@ items properly already. The steps here walk you through that.
 </aside>
 
 ---
+
+## Clearing the Items
 
 First, in `MyList`, we define the function that will be called by the button:
 
