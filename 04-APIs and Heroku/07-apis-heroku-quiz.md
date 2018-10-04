@@ -127,7 +127,7 @@ fetch(spotifyAPI)
 3. Ari's code is off — the `catch` statement is always being called because there's no explicitly defined `if` keyword.
 4. Ari's code is off — `fetch` is its own function and therefore everything after `fetch(spotifyAPI)` should be encased in curly braces.
 
-Explanation: If an API call isn't working and you're sure your code is correct, the first thing to check is the documentation of the API. Make sure the API isn't private and is returning the parameters you think it's returning (like `album`).
+**Explanation**: If an API call isn't working and you're sure your code is correct, the first thing to check is the documentation of the API. Make sure the API isn't private and is returning the parameters you think it's returning (like `album`).
 
 ---
 **Prompt**:
@@ -150,7 +150,7 @@ Is this valid JSON?
 
 **Choices**:
 1. No, this is XML. *
-2. No, `users`, `name,` and `user id` all need to be in quotations.
+2. No, `users`, `name,` and `user id` all need to be inside quotation marks.
 3. No, there should be curly braces around each attribute.
 4. No, this is HTML.
 
