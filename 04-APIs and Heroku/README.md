@@ -18,7 +18,7 @@ This is Unit 4 of the complete React Development Course. It includes the followi
 
 8) **Film Project, Part 4**: Classwork + Homework
 
-9) **Optional API Dad Jokes Lab** (Available in [Extra Resources](https://git.generalassemb.ly/react-development/react-development-course-materials/tree/master/Additional%20Resources/Dad%20Jokes%20Lab) folder)
+9) Optional: **API Dad Jokes Lab** (Available in [Extra Resources](https://git.generalassemb.ly/react-development/react-development-course-materials/tree/master/Additional%20Resources/Dad%20Jokes%20Lab) folder)
 
 Notes:
 
