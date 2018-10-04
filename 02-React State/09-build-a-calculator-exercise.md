@@ -8,16 +8,16 @@ Let's build a calculator — because we can!
 
 **Talking Points:**
 
-- Now it's time for you to check back on everything you've learned. You'll be using React to build a calculator. I'll only provide minimal instructions — the heavy thinking is on you!
+- Now it's time for you to check back on everything you've learned. You'll be using React to build a calculator. I'll only be providing minimal instructions — the heavy thinking is on you!
 
-- At first, your calculator will just add two numbers together when you type them in. For the bonus, you might decide to get more creative.
+- At first, your calculator will simply add two numbers together when you enter them. For the bonus exercise, you might decide to get more creative.
 
 </aside>
 
 ---
 
 
-### Setup
+### Set Up
 
 `create-react-app`
 
@@ -51,21 +51,21 @@ Let's build a calculator — because we can!
 
 ### Step 2
 
-What `state` attributes will you need to track? 
+- What state attributes will you need to track? 
 
-What values should those `state` items start with? 
+- With what values should those state items start? 
 
-Where is that `state` displayed in the browser?
+- Where is that state displayed in the browser?
 
 <aside class="notes">
 
 **Talking Points:**
 
-- Set up the initial `state` of your component. What `state` attributes will you
-need to track? What values should those `state` items start with? Where is that
-`state` displayed in the browser?
+- Set up the initial state of your component. What state attributes will you
+need to track? With what values should those state items start? Where is that
+state displayed in the browser?
 
-- Hint: You will only need one element in your `state` `state`.
+- Hint: You will only need one element in your state: `state`.
 
 </aside>
 
@@ -87,17 +87,16 @@ class Calculator extends Component {
 
 <details>
 
-  <summary>More Info About `bind`</summary>
+  <summary>More Info About <code>.bind()`</code></summary>
 
-  You must explicitly `bind` functions with `this` in order for `this` to remain the same inside that function. If you're having trouble calling functions off `this` like `this.setState`, take time to consider why this is necessary. See if that leads you to, using the documentation, see how to do it.
+  You must explicitly `.bind()` functions with `this` in order for `this` to remain the same inside of that function. If you're having trouble calling functions off `this`, like `this.setState()`, take time to consider why this is necessary. See if that leads you to using the documentation to see how to do it.
 
 ```js
-// This binding is necessary to make `this` work in the callback.
+// This binding is necessary to make this work in the callback.
 this.handleClick = this.handleClick.bind(this);
 ```
 
-Revisit the To-Do List project to see how we previously reacted to changing
-input text.
+Revisit the To-Do List project to see how we previously reacted to changing input text.
 
   <details>
     <summary>Hint: Where should the event binding go?</summary>
@@ -115,13 +114,13 @@ change. Consider: Should it be a `click` event? A `submit` event? Something else
 
 - Here's some documentation to help you choose what you want to do and how to do it:
 
-1. [A list of events React supports](https://facebook.github.io/react/docs/events.html#supported-events)
-2. [React form documentation](https://facebook.github.io/react/docs/forms.html)
-3. [How to handle events](https://facebook.github.io/react/docs/handling-events.html)
+1. [A list of events React supports](https://facebook.github.io/react/docs/events.html#supported-events).
+2. [React form documentation](https://facebook.github.io/react/docs/forms.html).
+3. [How to handle events](https://facebook.github.io/react/docs/handling-events.html).
 
-- Remember that when you create an event, the function you call should look something like what is seen here.
+- Remember that, when you create an event, the function you call should look something like what is shown here.
 
-- Notice that the "How to handle events" link has an example using the `bind` keyword. This is an alternative and older way to handle events in React.
+- Notice that the "How to handle events" link has an example using the `bind` keyword. This is an alternative, older way to handle events in React.
 
 </aside>
 
@@ -132,7 +131,7 @@ Time to create a new method.
 <details>
 
 <summary>Hint: Where should this method go?</summary>
-In the same component as it's being used — between the constructor and the render.
+In the same component as it's being used — between the constructor and <code>render()</code>.
 </details>
 
 > Thought: How will you handle inputs that aren't numbers?
@@ -143,7 +142,7 @@ In the same component as it's being used — between the constructor and the ren
 
 - Once you've chosen how to bind your inputs to an event, you'll need to create a
 method. The method should accept the triggered event, get the input values from
-your form, add them together, and set part of the `state` to the new `sum`.
+your form, add them together, and set part of the state to the new `sum`.
 
 </aside>
 
@@ -151,13 +150,13 @@ your form, add them together, and set part of the `state` to the new `sum`.
 
 ### Step 5
 
-Et voilà!
+Et, voilà!
 
 <aside class="notes">
 
 **Talking Point:**
 
-- Once the `state` of the `sum` has been set, React will re-render the whole
+- Once the state of the `sum` has been set, React will re-render the whole
 component. Make sure you have a place in your JSX that displays the result.
 
 ---
@@ -165,4 +164,4 @@ component. Make sure you have a place in your JSX that displays the result.
 ### Bonus
 
 - Make the calculator work with any of the four basic arithmetic operations
-  (+, -, \*, /). How will this change your `state` and your JSX?
+  (+, -, \*, /). How will this change your state and your JSX?
