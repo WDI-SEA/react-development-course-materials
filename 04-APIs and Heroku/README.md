@@ -6,7 +6,7 @@ This is Unit 4 of the complete React Development course. It includes the followi
 
 2) **Introduction to APIs**: Interactive lecture
 
-3) **Data Types**: Interactive lecture
+3) **Transferring Data**: Interactive lecture
 
 4) **`fetch`**: Interactive lecture 
 
