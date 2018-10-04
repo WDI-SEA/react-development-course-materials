@@ -2,7 +2,7 @@
 
 ## Your Mission
 
-Let's go back to the film application that you've started. You can run the app with `npm start`. Remember to first stop any project you currently have running.
+Let's go back to the film application you've started. You can run the app with `npm start`. Remember to first stop any project you currently have running.
 
 The end is in sight! Here's what to do next:
 - Show the details of each movie by getting this information from TMDB.
@@ -10,32 +10,32 @@ The end is in sight! Here's what to do next:
 
 ![](assets/bladerunner.png)
 
-### Task 1: Adding the API call
+### Task 1: Adding the API Call
 
 API calls in React are handled using the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) provided by modern browsers.
 
-You already have a function where you want the API call to go (`handleDetailsClick` - when a user clicks for details of a movie, you'll call the API to get those details), so your `fetch` task will work inside that function. You've set up the rest of your app correctly.
+You already have a function where you want the API call to go — `handleDetailsClick` — so your `fetch` task will work inside that function. When a user clicks for details of a movie, you'll call the API to get those details.
 
 #### Step 1: Set up the API key
 
-This step may seem challenging, but it really isn't! Here's a walk-through:
+This step may seem challenging, but it's actually not. Here's a walk-through:
 
-Because TMDB isn't a public API, you'll need to get an API key to add to your `fetch()` call; then, you'll want to make sure to keep the key in a safe spot.
+Because TMDB isn't a public API, you'll need to get an API key to add to your `fetch()` call. Make sure to keep the key in a safe spot.
 
 - To gain access to the TMDB API, you'll need to get an API key from [TMDB](https://www.themoviedb.org).
-  - TMDB only gives API keys to users with accounts, sou'll have to sign up first (it's free). However, it will ask for your phone and address.
-  - Then, request an API key on your profile page ([further instructions](https://developers.themoviedb.org/3/getting-started)).
-  - Once you have your API key, you need to include it in your app. Since you **never want to store app secrets in your repository**, you'll use the [`dotenv`](https://github.com/motdotla/dotenv) package to keep the API key in a local file.
+  - TMDB only gives API keys to users with accounts, so you'll have to sign up first (it's free). However, it will ask for your phone number and address.
+  - Then, request an API key on your profile page ([further instructions here](https://developers.themoviedb.org/3/getting-started)).
+  - Once you have your API key, include it in your app. Because you **never want to store app secrets in your repository**, you'll use the [`dotenv`](https://github.com/motdotla/dotenv) package to keep the API key in a local file.
 
 
 - You'll need to install `dotenv`.
-  - Run `npm install --save dotenv` on the command line to add the dependency to your `package.json` file
+  - Run `npm install --save dotenv` on the command line to add the dependency to your `package.json` file.
   - Create a new file at the root of your project called `.env.local` (accept the system warning).
-  - In your `.env.local` file, add the line `REACT_APP_TMDB_API_KEY=<Your TMDB API v3 KEY>`
+  - In your `.env.local` file, add the line `REACT_APP_TMDB_API_KEY=<Your TMDB API v3 KEY>`.
 
-*Note: The `.env.local` file is in your `.gitignore` by default when you create an app with `create-react-app`, so now your secret will never leak into your repository. It's important to note that since this is a front-end application, the built JavaScript will contain the key, which means end-users will be able to see it. However, that's fine for this practice app, since you'll only be running it locally.*
+**Note**: The `.env.local` file is in your `.gitignore` by default when you create an app with `create-react-app`, so now your secret will never leak into your repository. Since this is a front-end application, the built JavaScript will contain the key, which means end-users will be able to see it. However, that's fine for this practice app because you'll only be running it locally.
 
-- Now you have an API key saved in `dotenv`. Now, point your application to it: add the following to the top of your `TMDB.js` file:
+- You now have an API key saved in `dotenv`. Point your application to it by adding the following code to the top of your `TMDB.js` file:
 
 ```js
 import dotenv from 'dotenv';
@@ -43,13 +43,13 @@ import dotenv from 'dotenv';
 dotenv.config();
 ```
 
-- And replace `'<REPLACE_THIS_WITH_TMDB_API_KEY>'` with `process.env.REACT_APP_TMDB_API_KEY`.
+- Then replace `'<REPLACE_THIS_WITH_TMDB_API_KEY>'` with `process.env.REACT_APP_TMDB_API_KEY`.
 
-Your secrets are now set up!
+Your secrets are now set up.
 
 #### Step 2: Make a `const` called `url` with the API's URL
 
-Now that you have the API key to call for movie details, let's go back to making that call.
+Now that you have the API key to call for movie details, let's start making that call.
 
 In your `App.js` `handleDetailsClick` method, add the following `const` right above your `setState`:
 
@@ -59,8 +59,8 @@ const url = `https://api.themoviedb.org/3/movie/${film.id}?api_key=${TMDB.api_ke
 
 This is the URL to which you'll send your request to get detailed information about each film. You're passing the `film.id` and the `TMDB.api_key` as query string parameters.
 
-- *Note: Using `${film.id}` is a slightly faster shorthand for embedding variables in strings.*
-  - *For example, `const myString = "The " + film.id + " is great"` is the same as writing `const myString = "The ${film.id} is great"`.*
+- **Note**: Using `${film.id}` is a slightly faster shorthand for embedding variables in strings.
+  - For example, `const myString = "The " + film.id + " is great"` is the same as writing `const myString = "The ${film.id} is great"`.
 
 
 #### Step 3: Make the API call
