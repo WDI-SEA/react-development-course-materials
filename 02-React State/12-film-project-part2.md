@@ -237,7 +237,7 @@ You now want the `className` attribute on each `.film-list-filter` `div` to dyna
 <details>
   <summary>Hint: One way to do this could be by adding a line similar to this (that's different for each <code>div</code>) into the <code>className</code> parameter.</summary>
   
-This line in particular checks if the `filter` state is currently `"all"`; if it is, it sets the value to `is-active`. If it isn't, it does nothing.
+This line in particular checks if the `filter` state is currently `'all'`; if it is, it sets the value to `is-active`. If it isn't, it does nothing.
 <br>
  `{this.state.filter === 'all' ? 'is-active' : ''}`
 </details>
