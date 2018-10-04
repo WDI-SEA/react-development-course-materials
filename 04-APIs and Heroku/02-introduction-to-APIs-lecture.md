@@ -192,3 +192,9 @@ Suggested Examples:
 - Now, a server retrieves the data from the database and responds to requests with JSON. <!-- (Demo http://www.swapi.co/). -->
 
 - We can use various web-based APIs to populate our SPAs with data asynchronously. This way, the user can interact with the application and see it respond with new data without needing to refresh or navigate to a new page <!-- (demo [/starwars](/starwars)). -->
+
+**Teaching Tips**:
+
+- If time and interest allow, there is an optional [API Lab](https://git.generalassemb.ly/react-development/react-development-course-materials/tree/master/Additional%20Resources/Dad%20Jokes%20Lab) in the Additional Resources folder.
+
+</aside>
