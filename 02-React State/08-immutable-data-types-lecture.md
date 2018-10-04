@@ -52,6 +52,8 @@ anObject.foo = 'barrrrrrr';
 
 ---
 
+## Arrays Can Mutate!
+
 ```javascript
 const anArray = ['oneFish', 'two fish', 'red fish', 'blue fish']
 anArray.pop() // new value of anArray is ['oneFish', 'two fish', 'red fish']
@@ -69,6 +71,8 @@ anArray.pop() // new value of anArray is ['oneFish', 'two fish', 'red fish']
 
 ---
 
+## Other Array Methods That Can Mutate The Array That Calls Them
+
 - `push()`
 - `reverse()`
 - `unshift()`
@@ -76,9 +80,9 @@ anArray.pop() // new value of anArray is ['oneFish', 'two fish', 'red fish']
 
 <aside class="notes">
 
-**Talking Point:**
+**Teaching Tip:**
 
-- You may already be familiar with several other array methods that can mutate the array that calls them.
+- Here is an additional resource you can share: https://medium.com/@fknussel/arrays-objects-and-mutations-6b23348b54aa
 
 </aside>
 
