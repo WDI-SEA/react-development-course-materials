@@ -78,11 +78,11 @@ fetch(url).then(response => {
 })
 ```
 
-Try clicking a movie row in your browser — the data for it should appear in the console.
+Try clicking a movie row in your browser — the data should appear in the console.
 
 #### Step 4: Set the state when the API call completes.
 
-Set your `current` state to be the object you get back from TMDB. Move the `setState` call into the API call.
+Set your `current` state to the object you get back from TMDB. Move the `setState` call into the API call.
 
 ```JavaScript
 response.json().then(data => {
@@ -110,7 +110,7 @@ Check your app in your browser to be sure the functionality hasn't changed.
 
 #### Step 2: Refactor `FilmRow`.
 
-Follow the same steps to refactor the FilmRow component.
+Follow the same steps to refactor the `FilmRow` component.
 
 Check your app in your browser to be sure the functionality hasn't changed.
 
@@ -123,7 +123,7 @@ Follow the same steps as above, and again, check in your browser for functionali
 
 ### Task 3: Adding Film Details
 
-You're almost finished. Now, you'll render the film details you're receiving from the API (and currently logging to the console) in the browser window for the user.
+You're almost finished. Now, you'll render the film details you're receiving from the API (and currently logging to the console) in the browser window.
 
 #### Step 1: Add image URLs for `FilmDetails`.
 
@@ -161,7 +161,7 @@ Add this below the two declared `const` variables:
 let details
 ```
 
-Now, you need to determine if there is a film to render or not.
+Now, you need to determine if there's a film to render or not.
 
 To do this, you just need to check if there's an `id` property on the `film` prop passed to `FilmDetail`.
 - If there isn't, you want to render the empty case you added in the last step.
