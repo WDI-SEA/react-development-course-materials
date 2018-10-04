@@ -205,6 +205,9 @@ https://example.com/users/me/edit
 
 <aside class="notes">
 
+**Teaching Tip**:
+- React Router is covered in the next unit (Unit 5). You may want to revisit this section after you cover Router.
+
 **Talking Points**:
 
 - Now that you have seen how to deploy your application live, it is time for you to push your project live. Since you have created an application already using `create-react-app`, you can skip that step. Before pushing live, you'll need to make a few minor adjustments to make everything look great.
