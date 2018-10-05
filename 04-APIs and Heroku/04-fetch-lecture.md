@@ -1,4 +1,4 @@
-# ![GA Cog Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) `fetch`
+# ![GA Cog Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) `fetch()`
 
 ## Learning Objectives
 
@@ -11,18 +11,18 @@ After this lesson, you'll be able to:
 
 ## Introducing `fetch()`
 
-`fetch()` + AJAX requests = the power to build single-page applications that do not require refreshes
+`fetch()` + AJAX requests = The power to build single-page applications that do not require refreshes.
 
 
 <aside class="notes">
 
-**Talking points**:
+**Talking Points**:
 
-- So we know what an API is. How can we use it to dynamically manipulate the DOM with the given data?
+- So, we know what an API is. How can we use it to dynamically manipulate the DOM with the given data?
 
-- There are many ways that we can retrieve this data. Tons of libraries have been created over the years to make this easier than JavaScript's built-in `XMLHttpRequest` methods. You may see APIs being used with libraries such as jQuery, axios, request-promise, and bluebird.
+- There are many ways in which we can retrieve this data. Tons of libraries have been created over the years to make this easier than JavaScript's built-in `XMLHttpRequest` methods. You may see APIs being used with libraries such as jQuery, axios, request-promise, and bluebird.
 
-- However, a couple of years ago, JS debuted a new method called `fetch()`. This is an easy way to request data that is now completely built into the language.
+- However, a couple of years ago, JavaScript debuted a new method called `fetch()`. This is an easy way to request data that is now completely built into the language.
 
 - The requests we're making are called **AJAX** requests. As you'll come to learn, `fetch()` combined with AJAX requests allows us to build single-page applications that do not require refreshes.
 
@@ -43,7 +43,7 @@ After this lesson, you'll be able to:
 
 <aside class="notes">
 
-**Talking point**:
+**Talking Point**:
 
 - AJAX, which stands for **A**synchronous **Ja**vaScript and **X**ML, is the method through which we're able to make HTTP **requests**. The standard requests we'll be making are `GET`, `POST`, `PUT`, `PATCH`, and `DELETE`.
 
@@ -55,12 +55,13 @@ After this lesson, you'll be able to:
 
 <aside class="notes">
 
-**Talking points**:
+**Talking Points**:
 
-- The browser packages your request together using `fetch()` and sends it off to a server. The server then listens to your request and provides a **response**. It looks like what's seen here.
+- The browser packages your request together using `fetch()` and sends it off to a server. The server then listens to your request and provides a **response**. It looks like what's shown here.
 
 - When you visit your favorite websites, your browser is making a request and the server is providing a response. `fetch()` allows us to perform the same type of requests over a network.
-- Imagine fetching weather information and rendering it on your website. Or maybe you want to create a real-life Pokedex. You can use `fetch()` to build these applications.
+
+- Imagine fetching weather information and rendering it on your website. Or maybe you want to create a real-life Pokédex. You can use `fetch()` to build these applications.
 
 </aside>
 
@@ -90,13 +91,13 @@ After this lesson, you'll be able to:
 
 <aside class="notes">
 
-**Talking points**:
+**Talking Points**:
 
 - Let's take a look at `fetch()` in action.
 
 - Imagine we want to `fetch()` the number of astronauts currently aboard the International Space Station (ISS). Good thing there's an API for that, right? This API allows us get the information using the URL at the top of this slide.
 
-- The API provides a response that looks like what's seen here. It tells us the number of people currently in space on the ISS and their names. It also gives us `"message": "success"` so we know it worked.
+- The API provides a response that looks like what's shown here. It tells us the number of people currently in space on the ISS and their names. It also gives us `"message": "success"` so we know it worked.
 
 - If you'd like, you can copy and paste the API URL into a browser to see this happen.
 
@@ -114,10 +115,10 @@ fetch(url)
     return response.json()
   })
   .then((json) => {
-    // Here you get the JSON data to modify or display as you please  
+    // Here, you get the JSON data to modify or display as you please.  
   })
   .catch((ex) => {
-    // If there is any error, you will catch it here
+    // If there is any error, you will catch it here.
   })  
 ```
 
@@ -129,10 +130,10 @@ fetch(url)
     return response.json()
   })
   .then(function (json) {
-    // Here you get the JSON data to modify or display as you please  
+    // Here, you get the JSON data to modify or display as you please.  
   })
   .catch(function(ex) {
-    // If there is any error, you will catch it here
+    // If there is any error, you will catch it here.
   })  
 ```
 
@@ -147,7 +148,7 @@ fetch(issApi)
   }).then((json) => {
     console.log('JSON from the ISS', json)
   }).catch((ex) => {
-    console.log('An error occured while parsing!', ex)
+    console.log('An error occurred while parsing!', ex)
   })
 ```
 
@@ -155,9 +156,9 @@ fetch(issApi)
 
 Let's break down this API call into a few steps.
 
-- `const issApi = 'http://api.open-notify.org/astros.json'`: First, we define our API URL to fetch from.
+- `const issApi = 'http://api.open-notify.org/astros.json'`: First, we define our API URL from which to fetch.
 
-- `fetch(issApi)`: We call fetch on that API URL.
+- `fetch(issApi)`: We call `fetch()` on that API URL.
 
 - `.then((response) => {
    return response.json()`: We take the response when the server provides it. We return `response.json()`.
@@ -168,11 +169,11 @@ Let's break down this API call into a few steps.
 
 <aside class="notes">
 
-**Talking points**:
+**Talking Points**:
 
-- That's how simple `fetch()` is. While there are other ways to handle the response (such as `html` or `blob`), this approach makes writing requests to APIs and other network calls in JavaScript easy.
+- That's how simple `fetch()` is! While there are other ways to handle the response (such as `html` or `blob`), this approach makes writing requests to APIs and other network calls in JavaScript easy.
 
-- It's important to note that while `fetch()` is part of the JavaScript standard, some browsers such as [Internet Explorer don't support it](http://caniuse.com/#search=fetch). You may need a polyfill — code that implements a feature on web browsers that don't support that feature — for live projects. If you need a polyfill for a production project, [GitHub's polyfill](https://github.com/github/fetch) is a popular option.
+- It's important to note that, while `fetch()` is part of the JavaScript standard, some browsers such as [Internet Explorer don't support it](http://caniuse.com/#search=fetch). You may need a polyfill — code that implements a feature on web browsers that don't support it — for live projects. If you need a polyfill for a production project, [GitHub's](https://github.com/github/fetch) is a popular option.
 
 </aside>
 
@@ -181,7 +182,7 @@ Let's break down this API call into a few steps.
 ## Pop Quiz
 
 <details>
-  <summary><strong>Q: Which React lifecycle method should API calls be made from?</strong></summary>
+  <summary><strong>Q: From which React life-cycle method should API calls be made?</strong></summary>
   <br />
   <p>
     API calls should be made from the <code>componentDidMount()</code> method. According to the <a href="https://facebook.github.io/react/docs/react-component.html#componentDidmount">React documentation</a>, if you need to load data from a remote endpoint, this is a good place to instantiate the network request.
@@ -196,7 +197,7 @@ Let's break down this API call into a few steps.
 
 <aside class="notes">
 
-**Teaching tip**:
+**Teaching Tip**:
 
 - Have students send you the answers through Slack before revealing them.
 
@@ -213,7 +214,7 @@ http://ShakeItSpeare.com/api/poem
 
 <aside class="notes">
 
-**Talking point**:
+**Talking Point**:
 
 - It's time for you to build a simple component that shows a randomly generated Shakespeare poem. We'll do this using the ShakeItSpeare API. (There really is an API for anything!)
 
@@ -247,7 +248,7 @@ export default Home
 
 <aside class="notes">
 
-**Talking points**:
+**Talking Points**:
 
 - Let's go back to your blog project (make sure it's running).
 
@@ -257,7 +258,7 @@ export default Home
 
 - Start by changing the `Home` component to have an empty `componentDidMount()` method.
 
-- Set the stage for returning a poem in the `div` by changing the text within the `<h1>` to the text "My favorite Shakespeare poem:" as seen here.
+- Set the stage for returning a poem in the `div` by changing the text within the `<h1>` to the text "My favorite Shakespeare poem:" as shown here.
 
 </aside>
 
@@ -271,13 +272,13 @@ export default Home
 
 <aside class="notes">
 
-**Talking points**:
+**Talking Points**:
 
 - We can now tell our component to fetch a Shakespeare poem and set it to our state. We do this by adding the `fetch()` call inside of `componentDidMount()`.
 
-- Calling `setState` then triggers a re-`render` inside our component.
+- Calling `setState()` then triggers a re-`render()` inside of our component.
 
-- So we'll do the three steps here.
+- So, we'll do the three steps here.
 
 </aside>
 
@@ -304,7 +305,7 @@ class Home extends Component {
       }).then((json) => {
           this.setState({ shakeSpeare: json.poem });
       }).catch((ex) => {
-        console.log('An error occured while parsing!', ex)
+        console.log('An error occurred while parsing!', ex)
       })
   }
 
@@ -322,9 +323,9 @@ class Home extends Component {
 
 <aside class="notes">
 
-**Talking points**:
+**Talking Points**:
 
-- You should have what's seen here.
+- You should have what's shown here.
 
 - You can try it out at this point; it works (hopefully).
 
@@ -357,19 +358,19 @@ render() {
 
 <aside class="notes">
 
-**Talking points**:
+**Talking Points**:
 
 - Just in case, let's add a quick check.
 
-- Add an `if` statement under `render`.
+- Add an `if` statement under `render()`.
   - This simply checks to see if `fetch()` has completed before `render()` tries to return the poem. Otherwise, it returns "Loading...".
-  - For this especially, it's important that the state is declared in initial state object. This way, the `if` statement does not fail if the `fetch()` hasn't created the state yet.
+  - For this especially, it's important that the state is declared in initial state object. This way, the `if` statement does not fail if the `fetch()` hasn't yet created the state.
 
-- You're done! Your `Home` page should load a random Shakespeare poem.
+- You're done! Your `Home` page should now load a random Shakespeare poem.
 </aside>
 
 ---
-### Hast thou not a word of joy?
+### Hast Thou Not a Word of Joy?
 — Romeo and Juliet, Act 3, Scene 5
 
 ![happy programmer](assets/happy-programmer.jpg)
