@@ -76,6 +76,8 @@ https://devcenter.heroku.com/articles/heroku-cli
 
 ---
 
+### Logging In To Heroku
+
 ```bash
 Enter your Heroku credentials.
 Email: adam@example.com
@@ -110,6 +112,8 @@ cd $your_app_name_here
 
 ---
 
+### Initialize a Git Repo
+
 ```
 git init
 ```
@@ -123,6 +127,8 @@ git init
 </aside>
 
 ---
+
+### Create a Heroku Application
 
 `create-react-app-buildpack`
 
@@ -143,6 +149,8 @@ heroku create your_app_name_here --buildpack https://github.com/mars/create-reac
 
 ---
 
+### Heroku's Output
+
 ```sh
 Creating app... done, ⬢ your_app_name_here
 Setting buildpack to https://github.com/mars/create-react-app-buildpack.git... done
@@ -158,6 +166,8 @@ https://your_app_name_here.herokuapp.com/ | https://git.heroku.com/your_app_name
 </aside>
 
 ---
+
+### Add Files and Changes
 
 ```sh
 git add -A
@@ -175,6 +185,8 @@ git commit -m "My first React app on Heroku! wow!"
 </aside>
 
 ---
+
+### Push App to Heroku
 
 ```
 git push heroku master
@@ -219,6 +231,8 @@ https://example.com/users/me/edit
 </aside>
 
 ---
+
+### Create a `static.json` File
 
 ```json
 {
@@ -269,7 +283,9 @@ A CORS proxy is a service that allows developers to access resources from other 
 
 ---
 
-Configure a CORS proxy using [proxy back-ends from the static site buildpack](https://github.com/heroku/heroku-buildpack-static/blob/master/README.md#proxy-backends).
+### Configure a CORS proxy
+
+Use [proxy back-ends from the static site buildpack](https://github.com/heroku/heroku-buildpack-static/blob/master/README.md#proxy-backends).
 
 
 ```json
