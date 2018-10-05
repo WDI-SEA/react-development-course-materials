@@ -76,7 +76,7 @@ https://devcenter.heroku.com/articles/heroku-cli
 
 ---
 
-### Logging In To Heroku
+### Log In To Heroku
 
 ```bash
 Enter your Heroku credentials.
