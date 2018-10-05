@@ -173,7 +173,7 @@ Let's break down this API call into a few steps.
 
 - That's how simple `fetch()` is! While there are other ways to handle the response (such as `html` or `blob`), this approach makes writing requests to APIs and other network calls in JavaScript easy.
 
-- It's important to note that, while `fetch()` is part of the JavaScript standard, some browsers such as [Internet Explorer don't support it](http://caniuse.com/#search=fetch). You may need a polyfill — code that implements a feature on web browsers that don't support it — for live projects. If you need a polyfill for a production project, [GitHub's](https://github.com/github/fetch) is a popular option.
+- It's important to note that, while `fetch()` is part of the JavaScript standard, some browsers, such as Internet Explorer, [don't support it](http://caniuse.com/#search=fetch). You may need a polyfill — code that implements a feature on web browsers that don't support it — for live projects. If you need a polyfill for a production project, [GitHub's](https://github.com/github/fetch) is a popular option.
 
 </aside>
 
