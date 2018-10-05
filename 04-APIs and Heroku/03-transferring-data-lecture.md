@@ -96,6 +96,8 @@
 
 ---
 
+#### Most Developers Favor JSON API
+
 `https:///api/index.php?output=json` or
 `https:///api/index.php?output=xml`
 
