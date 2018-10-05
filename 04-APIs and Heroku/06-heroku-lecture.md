@@ -10,7 +10,7 @@ After this lesson, you'll be able to:
 
 ---
 
-## Deploying a React App
+### Deploying a React App
 
 ![meme](assets/heroku-meme.jpg)<br>
 <sup>Image source: http://cloudless.studio/articles/29-is-phoenix-deployment-really-that-hard</sup>
@@ -31,7 +31,7 @@ After this lesson, you'll be able to:
 
 ---
 
-## What Is Heroku?
+### What Is Heroku?
 
 ![logo](assets/heroku-logo.png)
 
@@ -53,7 +53,7 @@ https://heroku.com
 
 ---
 
-## The Heroku Command Line Interface
+### The Heroku Command Line Interface
 
 Download and install the Heroku command line interface (CLI):
 
