@@ -26,39 +26,6 @@ API stands for "application programming interface."
 
 ---
 
-## Web APIs
-
-![what is an api?](./assets/What-is-an-API.png)<br>
-<sup> Image Credit: [Signity Solutions](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
-
-<aside class="notes">
-
-**Talking Point**:
-
-- When we think about web APIs, we're thinking about communicating with servers that can send and receive data. Let's look at an example.
-
-</aside>
-
----
-
-![](./assets/scotch-mean-example.png) <br>
-<sup> Image Credit: [Build a MEAN App with Google Maps](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
-
-<aside class="notes">
-
-**Talking Point**:
-
-- Imagine you want to embed a Google Map in your web app. You aren't going to make that map yourself, so somehow you have to use Google Maps. Google Maps has an API you can call to get that map information. All you have to do is send a request to the Google Maps API and it sends back a map you can use.
-
-**Teaching Tips**:
-
-- If there is time, feel free to mention that SDKs for popular APIs exist for specific frameworks. [`google-maps-react`](https://github.com/fullstackreact/google-maps-react) is a popular example.
-- Make sure to mention the caveat that, by using a third-party SDK, you're giving up control to a "black box." This means that if the Google Maps API changes and the SDK does not, you're in for trouble as a developer.
-
-</aside>
-
----
-
 ## Why Use APIs?
 
 ![](./assets/api-diagram.png)<br>
@@ -77,6 +44,54 @@ API stands for "application programming interface."
 - APIs can provide us with data that we wouldn't otherwise be able to create ourselves.
 
 - As we move into building single-page applications (SPAs), we'll be relying more on both third-party APIs and APIs that we can create using back-end programming languages.
+
+</aside>
+
+---
+
+## Web APIs
+
+![what is an api?](./assets/What-is-an-API.png)<br>
+<sup> Image Credit: [Signity Solutions](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
+
+<aside class="notes">
+
+**Talking Point**:
+
+- When we think about web APIs, we're thinking about communicating with servers that can send and receive data. Let's look at an example.
+
+</aside>
+
+---
+
+## How an API Fits in With SPAs
+
+![](./assets/traditional-page-lifecycle.png)<br>
+<sup>Image Credit: [Zanon.io](https://zanon.io/posts/angularjs-how-to-create-a-spa-crawlable-and-seo-friendly)<sup>
+
+<aside class="notes">
+
+**Talking Points**:
+
+- In a traditional server-side-rendered application, the server retrieves data from the database and uses that information to format the HTML on the server side. <!-- (Demo https://www.amazon.com). -->
+
+- With SPAs, the server retrieves data from the database and responds to requests with JSON. <!-- (Demo http://www.swapi.co/). -->
+
+- We can use various web-based APIs to populate our SPAs with data asynchronously. This way, the user can interact with the application and see it respond with new data without needing to refresh the page or navigate to a new one. <!-- (demo [/starwars](/starwars)). -->
+
+![](./assets/scotch-mean-example.png) <br>
+<sup> Image Credit: [Build a MEAN App with Google Maps](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
+
+<aside class="notes">
+
+**Talking Point**:
+
+- Imagine you want to embed a Google Map in your web app. You aren't going to make that map yourself, so somehow you have to use Google Maps. Google Maps has an API you can call to get that map information. All you have to do is send a request to the Google Maps API and it sends back a map you can use.
+
+**Teaching Tips**:
+
+- If there is time, feel free to mention that SDKs for popular APIs exist for specific frameworks. [`google-maps-react`](https://github.com/fullstackreact/google-maps-react) is a popular example.
+- Make sure to mention the caveat that, by using a third-party SDK, you're giving up control to a "black box." This means that if the Google Maps API changes and the SDK does not, you're in for trouble as a developer.
 
 </aside>
 
@@ -173,18 +188,3 @@ Suggested examples:
 </aside>
 
 ---
-
-## How an API Fits in With SPAs
-
-![](./assets/traditional-page-lifecycle.png)<br>
-<sup>Image Credit: [Zanon.io](https://zanon.io/posts/angularjs-how-to-create-a-spa-crawlable-and-seo-friendly)<sup>
-
-<aside class="notes">
-
-**Talking Points**:
-
-- In a traditional server-side-rendered application, the server retrieves data from the database and uses that information to format the HTML on the server side. <!-- (Demo https://www.amazon.com). -->
-
-- With SPAs, the server retrieves data from the database and responds to requests with JSON. <!-- (Demo http://www.swapi.co/). -->
-
-- We can use various web-based APIs to populate our SPAs with data asynchronously. This way, the user can interact with the application and see it respond with new data without needing to refresh the page or navigate to a new one. <!-- (demo [/starwars](/starwars)). -->
