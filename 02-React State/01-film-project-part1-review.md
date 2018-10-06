@@ -2,13 +2,12 @@
 
 These are instructor notes to help guide a review discussion of [Film Project, Part 1](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/10-film-project-part1.md).
 
-**As you review, remember to ask students, "What questions do you have?" and not "Do you have any questions?"**
+**As you review, remember to ask students: "What questions do you have?" and not: "Do you have any questions?"**
 
+Notes to cover in homework review:
 
-Notes to cover in Homework Review
-
-- Make sure students are using proper naming conventions when building `FilmListing` and `FilmDetails` components.
-- Make sure each component is in it's own file.
-- Review the `import` keyword and importing the film details.
-- Make sure students properly used the getFullYear() method for the `release_date`
+- Make sure students are using proper naming conventions when building their `FilmListing` and `FilmDetails` components.
+- Make sure each component is in its own file.
+- Review the `import` keyword and importing film details.
+- Make sure students properly used the `getFullYear()` method for the `release_date`.
 

@@ -1,4 +1,4 @@
-# ![GA Cog Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Data Types
+# ![GA Cog Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Transferring Data
 
 ## Learning Objectives
 
@@ -96,6 +96,8 @@ APIs can be read using two major data formats: **JSON** and **XML**.
 
 ---
 
+#### JSON or XML?
+
 `https:///api/index.php?output=json` or
 `https:///api/index.php?output=xml`
 
@@ -192,5 +194,3 @@ Giphy API: https://api.giphy.com/
 - For example, it's important to not push your API keys to a public GitHub repo. This is especially true when working with [Amazon Web Services (AWS)](https://aws.amazon.com/). Here's an example of a [stolen key horror story](https://wptavern.com/ryan-hellyers-aws-nightmare-leaked-access-keys-result-in-a-6000-bill-overnight).
 
 </aside>
-
-

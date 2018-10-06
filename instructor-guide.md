@@ -64,7 +64,7 @@ General Assembly’s course materials are developed in close collaboration with 
 React Development is a 40-hour course, delivered in either a 1-week full-time or a 10-week part-time (two 2-hour sessions per week) format. Incoming students should have a familiarity with HTML and the Document Object Model (DOM), along with a working knowledge of JavaScript programming and functions, objects, arrays, and classes.
 
 
-Once enrolled, students complete approximately 4 hours of pre-work on the myGA platform. As an instructor, you should familiarize yourself with this pre-work so you can review and discuss it in the first lesson.
+Once enrolled, students complete approximately 4 hours of pre-work on the myGA platform. All pre-work must be finished prior to the first class. As an instructor, you should familiarize yourself with this pre-work so you can review and discuss it in the first lesson.
 
 **Important Note:** All students must complete the blog post code in the props pre-work lesson. If any haven't finished it or have buggy code, work that out during the in-class pre-work review. The Nested Components lecture (which follows the pre-work review) builds off the blog post code.
 
