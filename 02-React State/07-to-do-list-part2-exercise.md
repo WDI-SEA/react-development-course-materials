@@ -12,7 +12,7 @@ To-dos change. So should our list.
 
 ---
 
-Let the refactoring begin!
+## Let the Refactoring Begin!
 
 <aside class="notes">
 
@@ -47,6 +47,8 @@ items properly already. The steps here walk you through that.
 </aside>
 
 ---
+
+## Clearing the Items
 
 First, in `MyList`, we define the function that will be called by the button:
 
@@ -225,7 +227,7 @@ nothing wrong with how we hooked up the button and helps narrow our focus in cas
 
 - Note we can use `onChange` on the `input` field to trigger an event when the text in the box is changed.  
 
-- Note any function called when an event occurs (like functions that happen `onClick`, `onSubmit`, or `onChange`) can accept an argument that is the event. We pass this in as `e` to `newItemChange` and `addItem`.
+- Note any function called when an event occurs (like functions that happen `onClick`, `onSubmit`, or `onChange`) can accept an argument. This argument, typically denoted as `e`, is the event itself. We then pass this into `newItemChangev and `addItem`.
 
 **Teaching Tip**:
 
