@@ -31,7 +31,8 @@
 
 **Talking Points:**
 
-- If you look through your files, you'll see in your component classes that you define a `render()` method for that component, which is great. That class then is called by `ReactDOM.render()` in **a different place, outside that class definition** (likely `index.js`).
+- If you look through your files, you'll see in your component classes, you define a `render()` method for each component, which is great. That class then is called by `ReactDOM.render()` in **a different place, outside that class definition** (likely index.js).
+
 
 - In some tutorials or older code, you may find examples of `ReactDOM.render()` inside a component. Avoid this at all costs; this was an older technique used in past versions of React.
 
