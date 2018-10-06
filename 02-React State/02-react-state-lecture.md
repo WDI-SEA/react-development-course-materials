@@ -510,7 +510,7 @@ export default Hello;
 
 After 10 clicks, the user should see the counter reset to 1.
 
-> If you're interested in reading more in depth about this, here is more on what [should & shouldn't go in state](https://facebook.github.io/react/docs/state-and-lifecycle.html). This link is also in the Further Reading page at the end of the React module.
+> If you're interested in reading more in depth about this, here is more on what [should & shouldn't go in state](https://facebook.github.io/react/docs/state-and-lifecycle.html). This link is also in the Further Reading page at the end of the this lesson.
 
 <details>
   <summary>

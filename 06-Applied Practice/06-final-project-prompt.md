@@ -31,7 +31,7 @@ Once you have a website with basic functionality that you're satisfied with, loo
   - `state` represents the _state_ of your user interface component.
   - `state` can trigger changes in `props`, or `props` can come from parent components.
 - Stick to functional programming techniques whenever possible (e.g. use built-in methods such as `.forEach()` and `.map()` if available).
-- If you are rendering a list of child components (such as a _ul_ -> _li_ list), each individual child component needs a unique `id` for React to work with it. This is so React can identify each element uniquely, if necessary.
+- If you are rendering a list of child components (such as a _ul_ -> _li_ list), each individual child component needs a unique `key` for React to work with it. This is so React can identify each element uniquely, if necessary.
 
 ## Further Directions
 
@@ -80,11 +80,6 @@ Cheese | No cheese present. | A small sprinkle of unmelted cheese in the middle 
 
 
 
-A zero-to-three grade scale may not intuitively make sense, so here is an example using the criteria as if your assignment were to cook a pizza:
 
-Criteria | **0** Incomplete. | **1** Does not meet expectations. | **2** Meets expectations. | **3**  Exceeds expectations. |
-:--- | :--- | :--- | :--- | :---
-Crust | No crust present. Submission is just cheese and sauce on a plate. | Pizza has a crust, but it is raw. | Crust is cooked thoroughly.| Crust is golden brown and just thin enough without being too thick.
-Cheese | No cheese present. | Cheese is made of soy. | Cheese covers the pizza from edge to edge. | Cheese is delicious, plentiful, and melted to perfection.
 
 

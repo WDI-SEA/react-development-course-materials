@@ -4,7 +4,11 @@
 
 <aside class="notes">
 
-**Talking Points:**
+
+**Teaching Tip**:
+- Feel free to swap out the image here.
+
+**Talking Points**:
 
 - Don't worry! While there's a lot to see at first, React is a pretty straightforward framework to use. You can create user interface components that extend from `React.Component`. These have a built-in life cycle that accepts data and can trigger automatic re-rendering whenever that data is updating. In a React component, an update in either the state or props will trigger the method cascade that can lead to a `render()`.
 

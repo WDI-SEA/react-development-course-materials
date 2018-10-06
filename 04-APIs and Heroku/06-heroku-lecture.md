@@ -2,15 +2,15 @@
 
 ## Learning Objectives
 
-*After this lesson, you will be able to:*
+After this lesson, you'll be able to:
 
-- Describe Heroku
-- Deploy an app on Heroku
-- Set up a CORS proxy on Heroku
+- Describe Heroku.
+- Deploy an app on Heroku.
+- Set up a CORS proxy on Heroku.
 
 ---
 
-## Deploying a React App
+### Deploying a React App
 
 ![meme](assets/heroku-meme.jpg)<br>
 <sup>Image source: http://cloudless.studio/articles/29-is-phoenix-deployment-really-that-hard</sup>
@@ -19,23 +19,23 @@
 
 **Talking Points**:
 
-- You've been running everything on localhost, which is great for testing - but what if you want to show off what you've done?
+- You've been running everything on `localhost`, which is great for testing. But, what if you want to show off what you've done?
 
 - Let's learn an easy way to deploy a React app. We can use something called **Heroku** to deploy a React application to the internet in less than five minutes. Heroku is incredibly popular among web developers and provides five free applications to every user.
 
 **Teaching Tip**:
 
-- Tell students it is _strongly_ suggested that you have a working knowledge of Git. Before moving ahead, have them read the [Git basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics) guide or [try Git](https://try.github.io/levels/1/challenges/1) if they have **no experience** with Git.
+- **Strongly** suggest to students that they have a working knowledge of Git. Before moving ahead, have them read the [Git Basics guide](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics) or [try Git](https://try.github.io/levels/1/challenges/1) if they have **no experience** with it.
 
 </aside>
 
 ---
 
-## What is Heroku?
+### What Is Heroku?
 
 ![logo](assets/heroku-logo.png)
 
-Register a free account at:
+Create a free account at:
 
 https://heroku.com
 
@@ -45,17 +45,17 @@ https://heroku.com
 
 - Heroku is a cloud platform that allows developers to quickly deploy applications to the internet.
 
-- Note for your future use; they don't need to be React applications. Heroku supports Node.js, Ruby, Java, php, and many other things. You can read about it [here](https://devcenter.heroku.com/).
+- These applications don't need to be React applications. Heroku supports Node.js, Ruby, Java, PHP, and many others. You can read about it [here](https://devcenter.heroku.com/).
 
-- Before we dive in, register a free account at [heroku.com](https://heroku.com). Once you register, confirm your account, and sign back in, you will be re-directed to the Heroku dashboard at [https://dashboard.heroku.com/apps](https://dashboard.heroku.com/apps). You can view all of your applications on the dashboard once they are deployed.
+- Before we dive in, create a free account at [heroku.com](https://heroku.com). Once you've signed up, confirm your account and sign back in. You'll be redirected to the Heroku dashboard at [https://dashboard.heroku.com/apps](https://dashboard.heroku.com/apps). You can view all of your applications on the dashboard once they're deployed.
 
 </aside>
 
 ---
 
-## Heroku Command Line Interface
+### The Heroku Command Line Interface
 
-Download and install the Heroku CLI:
+Download and install the Heroku command line interface (CLI):
 
 https://devcenter.heroku.com/articles/heroku-cli
 
@@ -64,17 +64,19 @@ https://devcenter.heroku.com/articles/heroku-cli
 
 **Talking Points**:
 
-- Before we go further, make sure you stop any currently running React apps.
+- Before we go any further, make sure you stop any currently running React apps.
 
-- Now let's download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). You can download the installer from the link provided or run `brew install heroku` in your terminal application.
+- Let's download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). You can download the installer from the link provided or run `brew install heroku` in your terminal application.
 
 - This tool is designed to make your life easier as a developer by integrating Heroku application development and deployment directly into the command line.
 
--  _Note_: Just in case, you may need to restart your terminal session before moving forward. Why? Because you've just installed software to modify your terminal's environment, and your environment variables may not be updated yet.
+- You may need to restart your terminal session before moving forward. Why? Because you've just installed software to modify your terminal's environment, and your environment variables may not have updated yet.
 
 </aside>
 
 ---
+
+### Log In To Heroku
 
 ```bash
 Enter your Heroku credentials.
@@ -85,9 +87,9 @@ Authentication successful.
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking Point**:
 
-- Now, you should login to **Heroku** using the command line. Do so by typing in `heroku login`. You'll be prompted with the following questions followed by an authentication message as seen here.
+- Log in to Heroku using the command line. Do so by typing in `heroku login`. You'll be prompted to enter your Heroku credentials, followed by an authentication message like the one shown here.
 
 </aside>
 
@@ -102,13 +104,15 @@ cd $your_app_name_here
 ```
 <aside class="notes">
 
-**Talking Points**:
+**Talking Point**:
 
-- You can deploy an existing app with Heroku, but for the sake of completion, we're going to go start to finish. Like you have been, use the `create-react-app` command in your terminal to create an app - name it whatever you want! Then, as usual, change directory into the app's directory.
+- You can deploy an existing app with Heroku, but for the sake of completion, we'll do it from scratch. Use the `create-react-app` command in your terminal to create an app — name it whatever you'd like. Then, change directory into the app's directory.
 
 </aside>
 
 ---
+
+### Initialize a Git Repo
 
 ```
 git init
@@ -116,7 +120,7 @@ git init
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking Point**:
 
 - Now, we need to initialize a Git repository inside of our React application. The Heroku CLI requires Git to handle versioning for deployment.
 
@@ -124,7 +128,9 @@ git init
 
 ---
 
-*create-react-app-buildpack*
+### Create a Heroku Application
+
+`create-react-app-buildpack`
 
 
 ```sh
@@ -135,12 +141,15 @@ heroku create your_app_name_here --buildpack https://github.com/mars/create-reac
 
 **Talking Points**:
 
-- Next, we'll create a Heroku application using something called the *create-react-app-buildpack*.
-- This step isn't skippable! A buildpack is a set of scripts that Heroku will use to read your React.js code and rebuild it to be hosted on the web.
+- Next, we'll create a Heroku application using something called the `create-react-app-buildpack`.
+
+- A buildpack is a set of scripts that Heroku will use to read your React code and rebuild it for hosting on the web. You shouldn't skip this step.
 
 </aside>
 
 ---
+
+### Heroku's Output
 
 ```sh
 Creating app... done, ⬢ your_app_name_here
@@ -150,13 +159,15 @@ https://your_app_name_here.herokuapp.com/ | https://git.heroku.com/your_app_name
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking Point**:
 
-- You'll see Heroku output something similar to the what is seen here.
+- You'll see Heroku output something similar to what's shown here.
 
 </aside>
 
 ---
+
+### Add Files and Changes
 
 ```sh
 git add -A
@@ -167,12 +178,15 @@ git commit -m "My first React app on Heroku! wow!"
 
 **Talking Points**:
 
-- Now, we need to add all of the files and changes that we may have added.
-- In theory, we'll have actually built an application. For our purposes, we are going to use what has been provided with `create-react-app`. We'll use git to add _all_ of the files and commit our changes.
+- Now, we need to add all of the files and changes we may have added.
+
+- In theory, we'll have actually built an application. For our purposes, however, we're going to use what has already been provided with `create-react-app`. We'll use Git to add all of the files and commit our changes.
 
 </aside>
 
 ---
+
+### Push App to Heroku
 
 ```
 git push heroku master
@@ -182,21 +196,21 @@ git push heroku master
 
 **Talking Points**:
 
-- Finally, we can push our app to the Heroku. By doing this, Heroku will put your app together on the internet.
+- Finally, we can push our app to Heroku. By doing so, Heroku will put our app together on the internet.
 
-- After seeing lots of command line wizardry happen before your eyes, you should see Heroku print out a URL to the console. Copy and paste that URL into your browser, or type `heroku open`. Either way, you will be taken to your React application.
+- After witnessing lots of command line wizardry happen before your eyes, you should see Heroku print out a URL to the console. Copy and paste that URL into your browser, or type `heroku open`. Either way, you'll be taken to your React application.
 
-- Congrats - you've now deployed your React app! 
+- Congrats — you've now deployed your React app! 
 
 </aside>
 
 ---
 
-## Deploying your Project Live
+## Deploying Your Project Live
 
-#### Routing clean URLs with React Router
+### Routing Clean URLs With React Router
 
-Example of Default React Router Hash-Based URL:
+Example of a default React Router hash-based URL:
 https://example.com/index.html#/users/me/edit
 
 Example of a URL for a public app:
@@ -205,15 +219,20 @@ https://example.com/users/me/edit
 
 <aside class="notes">
 
+**Teaching Tip**:
+- React Router is covered in the next unit (Unit 5). You may want to revisit this section after you cover Router.
+
 **Talking Points**:
 
-- Now that you have seen how to deploy your application live, it is time for you to push your project live. Since you have created an application already using `create-react-app`, you can skip that step. Before pushing live, you'll need to make a few minor adjustments to make everything look great.
+- Now that you've seen how to deploy your application live, it's time for you to push your project live. Because you've already created an application using `create-react-app`, you can skip that step. Before pushing it live, you'll need to make a few minor adjustments to ensure that everything looks great.
 
-- By default, [React Router](https://github.com/reactjs/react-router) (not included) uses hash-based URLs like `https://example.com/index.html#/users/me/edit`. This is nice & easy when getting started with local development, but for a public app you probably want real URLs like `https://example.com/users/me/edit`.
+- By default, [React Router](https://github.com/reactjs/react-router) uses hash-based URLs, like `https://example.com/index.html#/users/me/edit`. This is nice and easy when getting started with local development, but for a public app, you probably want real URLs, like `https://example.com/users/me/edit`.
 
 </aside>
 
 ---
+
+### Create a `static.json` File
 
 ```json
 {
@@ -227,19 +246,23 @@ https://example.com/users/me/edit
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking Point**:
 
-- Create a `static.json` file to configure the web server for clean [`browserHistory` URLs with React Router](https://github.com/mars/create-react-app-buildpack#routing-clean-urls) as seen here.
+- Create a `static.json` file to configure the web server for clean [`browserHistory` URLs with React Router](https://github.com/mars/create-react-app-buildpack#routing-clean-urls), as shown here.
 
 </aside>
 
 ---
 
-#### Getting around CORS with Heroku Proxy
+### Getting Around CORS With Heroku Proxy
 
-**What's a CORS Proxy?**
+**What is CORS?**
 
-Cross-Origin Resource Sharing
+CORS stands for cross-origin resource sharing.
+
+**What's a CORS proxy?**
+
+A CORS proxy is a service that allows developers to access resources from other websites without having to own that website.
 
 ![logo](assets/CORS-principle.png)<br>
 <sup>Image Credit: [Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
@@ -248,20 +271,21 @@ Cross-Origin Resource Sharing
 
 **Talking Points**:
 
-A CORS proxy is a service that allows developers (probably you) to access resources from other websites without having to own that website.
+- Maybe you want to embed an image of a cat that you found on `https://acatwebsite.com/` (this is just a sample URL). However, the owners of that website might want to make sure that their cat images can **only** be accessed through a browser and not, for example, a JavaScript `POST` call.
 
-- Maybe you want to embed an image of a cat that you found on `https://acatwebsite.com/` (note: this URL is just an example). However, maybe the owners of that website want to make sure that their cat images can **only** be gotten to by a browser, not (for example) a JavaScript POST call.
-- Limiting who can access your web server is important in web security - otherwise, someone could (for example) write code that runs on `https://acatwebsite.com/` and changes all the content to be able dogs.
+- Limiting who can access your web server is important in web security. Otherwise, someone could write code that runs on `https://acatwebsite.com/` and changes all of its content to be images of dogs.
 
-- [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) stands for "Cross-Origin Resource Sharing". CORS is a web standard that websites use to make sure that things accessing them (like you trying to get a cat picture) are safe.
+- [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) stands for cross-origin resource sharing. CORS is a web standard that websites use to make sure that those accessing them (like you trying to get a cat picture) are safe.
 
-- When you try to go to a website where only one side is using CORS on the backend, you'll get an error saying that you aren't allowed to access the resource.
+- When you try to go to a website where only one side is using CORS on the back-end, you'll get an error saying that you aren't allowed to access the resource.
 
 </aside>
 
 ---
 
-Configure using [Proxy Backends from the static site buildpack](https://github.com/heroku/heroku-buildpack-static/blob/master/README.md#proxy-backends).
+### Configure a CORS proxy
+
+Use [proxy back-ends from the static site buildpack](https://github.com/heroku/heroku-buildpack-static/blob/master/README.md#proxy-backends).
 
 
 ```json
@@ -283,25 +307,25 @@ heroku config:set API_URL="https://api.example.com"
 
 **Talking Points**:
 
-- But if `https://acatwebsite.com/` is using CORS and you aren't, how are you supposed to get that cat image?
+- But, if `https://acatwebsite.com/` is using CORS and you aren't, how are you supposed to get that cat image?
 
-- With a CORS proxy, you don't have to know anything about setting up CORS (unless you're interested in researching yourself!); it takes care of this for you. You just need the proxy, and then you can embed all the cat pictures you want.
+- With a CORS proxy, you don't have to know anything about setting up CORS (unless you're interested in researching it yourself); it takes care of this for you. You just need the proxy, and then you can embed all of the cat pictures you want.
 
 - You can do this by setting up a proxy using Heroku. We'll do that now.
 
-- Add `"proxies"` to `static.json` as seen in the first code snippet here.
+- Add `"proxies"` to `static.json`, as shown in the first code snippet here.
 
-- Then, point the React UI app to a specific backend API using the CLI as seen in the second code snippet here.
+- Using the CLI, point the React UI app to a specific back-end API, as shown in the second code snippet here.
 
 </aside>
 
 ---
 
-## Try It!
+## Try It
 
-Deploy your dinosaur blog project live to Heroku. Do so by:
+Deploy your dinosaur blog project live to Heroku. Follow these steps:
 
-1. Initializing a Heroku app in your project's directory.
+1. Initialize a Heroku app in your project's directory.
 2. Use Git to add and commit your changes.
 3. Push your changes to Heroku using `git push heroku master`.
 4. View your project live online using `heroku open`.
@@ -310,14 +334,18 @@ Deploy your dinosaur blog project live to Heroku. Do so by:
 
 ## Further Considerations
 
-* Companies like General Assembly using PaaS solutions to deploy quickly. In fact, GA uses Heroku for their web front end.
-* Why might this be awesome? What advantages do you see to using PaaS vs building your own virtual servers?
-* Who might you trust with all of your secret data, keys, and environment variables? Co-workers? Friends? Your grandma?
+* Companies like General Assembly use Platform as a Service (PaaS) solutions to deploy quickly. In fact, GA uses Heroku for its web front-end.
+
+* Why might this be awesome? What advantages do you see to using PaaS versus building your own virtual servers?
+
+* Who might you trust with all of your secret data, keys, and environment variables? Coworkers? Friends? Your grandma?
 
 ---
 
-### Documentation
+## Documentation
 
-- https://blog.heroku.com/deploying-react-with-zero-configuration#new-zero-configuration-experience
-- https://github.com/facebookincubator/create-react-app
-- https://github.com/mars/create-react-app-buildpack#quick-start
+- [Deploying React With Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration#new-zero-configuration-experience)
+
+- [`create-react-app`](https://github.com/facebookincubator/create-react-app)
+
+- [Quick Start: Heroku Buildpack](https://github.com/mars/create-react-app-buildpack#quick-start)
