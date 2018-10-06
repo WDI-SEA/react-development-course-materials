@@ -1,4 +1,4 @@
-# ![GA Cog Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Data Types
+# ![GA Cog Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Transferring Data
 
 ## Learning Objectives
 
@@ -88,13 +88,15 @@
 
 **Talking Points**:
 
-- **XML** stands for "eXtensible Markup Language" and is the granddaddy of serialized data formats (itself based on HTML). XML is fat, ugly and cumbersome to parse. It remains a major format, however, due to its legacy usage across the web.
+- **XML** stands for "eXtensible Markup Language" and is the granddaddy of serialized data formats (itself based on HTML). XML remains a major format due to its legacy usage across the web.
 
 - XML has an idea of open tags and close tags - just like HTML.
 
 </aside>
 
 ---
+
+#### JSON or XML?
 
 `https:///api/index.php?output=json` or
 `https:///api/index.php?output=xml`

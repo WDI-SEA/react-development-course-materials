@@ -44,7 +44,9 @@ Open the [React homepage](https://facebook.github.io/react/)
 
 - "Since React was created by Facebook, it has a large community with a lot of information." **Teaching tip:** Direct students to open the [React homepage](https://facebook.github.io/react/). 
 
-- "Click "Tutorial" at the top. This is a tutorial created by Facebook to walk you through learning React - it's the tic tac toe game from the last lesson! **Teaching tip:** If that last exercise was a little confusing, it might be worth pausing this lesson to run through the Facebook tutorial and reinforce what we've learned so far.
+- "Click "Tutorial" at the top. This is a tutorial created by Facebook to walk you through learning React - it's the tic tac toe game that you will do later in this unit.
+
+**Teaching tip:** If that last exercise was a little confusing, it might be worth pausing this lesson to run through the Facebook tutorial and reinforce what we've learned so far.
 
 </aside>  
 
@@ -130,9 +132,3 @@ When you have it, check your solution against** [this CodePen](https://codepen.i
 
   
 </aside>
-
-
-
-
-
-**.

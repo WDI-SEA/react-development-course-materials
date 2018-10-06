@@ -2,12 +2,12 @@
 
 These are instructor notes to help guide a review discussion of [Film Project, Part 2](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/02-React%20State/12-film-project-part2.md).
 
-**As you review, remember to ask students, "What questions do you have?" and not "Do you have any questions?"**
+**As you review, remember to ask students, "What questions do you have?" and not, "Do you have any questions?"**
 
 
 **Talking Points**:
 
-- Events - are all of the click events firing and changing the ui? Have they stopped propagation?
-- State - have they successfully added state and does the state change and update the ui when needed?
+- Events: Are all of the click events firing and changing the UI? Have they stopped propagation?
+- State: Have they successfully added state, and does the state change and update the UI when needed?
 - Do students understand binding? Are all of their _this_ calls working accordingly?
 - Talk through any sticking points. Were there any common "stuck" places?
