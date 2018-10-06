@@ -2,19 +2,24 @@
 
 ![Lord of the Rings movie info](images/lord-of-the-rings-final.png)
 
+<aside class="notes">
 
-Let's build something small to reinforce what you've learned so far. We're going
+**Teaching Tips**:
+- These first two slides (ending with the Gollum image) are for you to project to the class as you introduce the topic. The remainder of this lesson is an instructor-facing script. 
+
+- The image here is so the class can see the end product and have an idea of what they are building.
+
+**Talking Points**:
+
+- Let's build something small to reinforce what you've learned so far. We're going
 to practice creating components and passing information into them.
 
-We'll build a simple website that shows title and runtime information about the
-original Lord of the Rings Trilogy.
+- We'll build a simple website that shows title and runtime information about the
+original Lord of the Rings trilogy.
 
-Specifically, at the end of this lesson, your solution will look like what you see here. 
+- Specifically, at the end of this lesson, your solution will look like what you see here. 
 
-
-**Teaching Tip**
-
-Show the .png file to the class so they can see the end result.
+</aside>
 
 
 ---
@@ -22,9 +27,17 @@ Show the .png file to the class so they can see the end result.
 
 ![Gollum](images/gollum-meme.jpg)
 
----
+<aside class="notes">
 
-### Setup
+**Teaching Tips**:
+
+- At this point you can stop projecting these slides and begin to project the code. The remainder of this lesson is a script for instructors (not student-facing slides).
+
+---
+## Code-a-long Script for Instructors
+
+### Set Up
+
 Open your terminal and use `create-react-app` to spin up another React
 app. Call the application `lord-of-the-rings`:
 
@@ -32,7 +45,7 @@ app. Call the application `lord-of-the-rings`:
 create-react-app lord-of-the-rings
 ```
 
-> Refer to the Initial Setup for a reminder of how to do this; make sure you stop the currently running application first!
+> Refer to the initial set up for a reminder of how to do this; make sure you stop the currently running application first!
 
 Start the app and make sure it appears in the browser with the spinning React
 logo:
@@ -44,14 +57,14 @@ npm start
 
 **Teaching Tip**
 
-Make sure eveyone gives a 👍 in Slack when they are able to start the server.
+- Make sure eveyone gives a 👍 in Slack when they are able to start the server.
 
 ---
 
-### Create A Simple Movie Component
+### Create a Simple Movie Component
 Open up your `./src` directory in your favorite text editor.
 
-Inside of `./src` folder, create a new React Component file called `Movie.js`.  Syntax is important here and conveys that the file is a React component so make sure it begins with a capital letter, in this case **'M'**. 
+Inside of the `./src` folder, create a new React component file called `Movie.js`. Syntax is important here and conveys that the file is a React component, so make sure it begins with a capital letter (in this case, **'M'**). 
 
 
 **src/Movie.js**
@@ -62,7 +75,7 @@ import React, { Component } from 'react';
 class Movie extends Component {
   render() {
     return (
-      // we'll add JSX here
+      // We'll add JSX here.
     )
   }
 }
@@ -70,15 +83,15 @@ class Movie extends Component {
 export default Movie
 ```
 
-Let's add some JSX to the render function so this component will be visible in
+Let's add some JSX to the `render()` function so this component will be visible in
 our application. Let's keep the JSX simple for now, and we'll make it more
 complex once we're sure it works.
 
 Remember, our goal is to display the movie title and
 runtime information.
 
-Let's add one `<h1>` for the movie title, and a `<p>` for the runtime. Remember,
-the JSX of each component in React ultimately must descend from just one parent
+Let's add one `<h1>` for the movie title and a `<p>` for the runtime. Remember,
+the JSX of each component in React must ultimately descend from just one parent
 element. Wrap the `<h1>` and `<p>` in a `<div>`.
 
 The JSX will look like this:
@@ -115,8 +128,8 @@ export default Movie
 ### Viewing the Component
 
 Let's make this component appear on the page. One great thing about using
-`create-react-app` is it tells us exactly what we need to do to start editing
-our application. The homepage says, "To get started, edit `src/App.js` and save to
+`create-react-app` is that it tells us exactly what we need to do to start editing
+our application. The home page says, "To get started, edit `src/App.js` and save to
 reload." Let's do that!
 
 
@@ -127,7 +140,7 @@ app and see if it appears.
 
 <aside class="notes">
 
-### Dealing with Errors
+### Dealing With Errors
 
 ```
 Failed to compile
@@ -135,25 +148,26 @@ Failed to compile
   Line 16:  'Movie' is not defined  react/jsx-no-undef
 ```
 
-Uh oh. There's an error.
+Uh oh, there's an error!
 
 
-**Teaching Tip**
+**Teaching Tip**:
 
-Use this as an opportunity to ask the class what is going on, if they have seen that error before and how to resolve it.  Point out that the same error would appear in normal JS if you tried calling a function or variable that wasn't defined.
+- Use this as an opportunity to ask the class what is going on, if they have seen that error before, and how to resolve it. Point out that the same error would appear in normal JS if you tried calling a function or variable that wasn't defined.
 
-One does not simply refer to components in React. In our `src/App.js`, we're saying "Display what's returned from the `Movie` component." However - we haven't told `src/Apps.js` where to find the `Movie` component! We must import a component before using it.
 
-Add this import statement with the other imports at the top of
-the `src/App.js` file.
+One does not simply refer to components in React. In our `src/App.js`, we're saying: "Display what's returned from the `Movie` component." However, we haven't told `src/Apps.js` where to find the `Movie` component! We must import a component before using it.
+
+Add this `import` statement to the other imports at the top of
+the `src/App.js` file:
 
 ```
 import Movie from './Movie.js';
 ```
 Now you should see the page without the error message, and it should have the
-JSX from the Movie component.
+JSX from the `Movie` component.
 
-The entire `App.js` should look like this.
+The entire `App.js` should look like this:
 
 **src/App.js**
 
@@ -186,10 +200,10 @@ export default App
 
 ### Passing Information via Properties
 
-We need our Movie component be more flexible and pass it data so we can use it to
-display different titles and runtimes. In the `src/App.js` file, add `title`, `hours`, and `minutes` props to the `<Movie>` tag.  These values will be passed to component where we can elicit thier value.  
+We need our `Movie` component to be more flexible and to pass it data so we can use it to
+display different titles and runtimes. In the `src/App.js` file, add `title`, `hours`, and `minutes` props to the `<Movie>` tag. These values will be passed to the component, where we can elicit their value.  
 
-You can name these properties anything you want, but it's good practice to be descriptive. 
+You can name these properties anything you want, but it's a good practice to be descriptive. 
 
 
 ```js
@@ -197,9 +211,9 @@ You can name these properties anything you want, but it's good practice to be de
 ```
 
 
-React gathers all of the props we added to the `<Movie>` component and makes them each available through the `this.props` object. This means that inside the `Movie` component, we can now access the values of props through: `this.props.title`, `this.props.hours` and `this.props.minutes`. 
+React gathers all of the props we added to the `<Movie>` component and makes them each available through the `this.props` object. This means that, inside the `Movie` component, we can now access the values of props through `this.props.title`, `this.props.hours`, and `this.props.minutes`. 
 
-In JSX we use curly braces `{ }` to enumerate the value of something.
+In JSX, we use curly braces `{ }` to enumerate the value of something.
 
 
 - In `src/Movie.js`, change the `<h1>` to display the value of
@@ -207,7 +221,7 @@ the `title` prop by writing `{this.props.title}`.
 
 There was also the `hours` and `minutes` props. Update the JSX to access and display the value of each prop we created.
 
-The `render()` function ends up looking like this.
+The `render()` function ends up looking like this:
 
 
 
@@ -236,9 +250,9 @@ Refresh the page and make sure everything works correctly.
 
 ### Reusing the Component
 
-Once you've got props working for one component, then we only need to write two more.
+Once you have props working for one component, you only need to write two more!
 
-In `src/App.js`, call the `<Movie>` component again with different values for the `title`, `hours` and `minutes` properties. Display information for the complete trilogy. 
+In `src/App.js`, call the `<Movie>` component again with different values for the `title`, `hours`, and `minutes` properties. Display information for the complete trilogy. 
 
 
 ```html
@@ -247,13 +261,15 @@ In `src/App.js`, call the `<Movie>` component again with different values for th
 <Movie title="The Return of the King" hours="3" minutes="21"></Movie>
 ```
 
-Point out that in the previous Blog Post examples/code alongs an array was used to store the names of Authors.  We then used .map() to loop over the array and create an Author component thereby creating more efficient code and keeping in mind that the number of authors may change over time.  That being said pose to the class what basic data type could we use to store multiple key:value pairs that could also then be stored in array and looped over.  
+**Teaching Tip**
+
+- Point out that, in the previous blog post examples/code-alongs, an array was used to store the names of authors. We then used `.map()` to loop over the array and create an `Author` component, thereby creating more efficient code while keeping in mind that the number of authors may change over time. That being said, pose to the class: "Which basic data type could we use to store multiple key-value pairs that could also be stored in an array and looped over?"  
 
 
-### Refactor index.js
-So it's agreed that an object should be created for each movie that would contain it's movie specific content and that those objects be stored in an array, thereby allows us to loop over the array and create only as many <Movie> componenents are there are object.  
+### Refactor `index.js`
+So, we agree that an object should be created for each movie that would contain its movie-specific content and that those objects should be stored in an array, thereby allowing us to loop over the array and create only as many `<Movie>` components as there are objects.  
 
-Open the `src/index.js` file and let's add the following just above `ReactDOM.render()`
+Open the `src/index.js` file and add the following just above `ReactDOM.render()`:
 
 
 ```js
@@ -282,7 +298,7 @@ ReactDOM.render(
 );
 ```
 
-With our object in place we can pass this to `App.js` as follows:
+With our object in place, we can pass this to `App.js` as follows:
 
 ```js
 ReactDOM.render(
@@ -291,9 +307,9 @@ ReactDOM.render(
 );
 ```
 
-### Refactor App.js
+### Refactor `App.js`
 
-Let's go back to `arc/App.js` and refactor to loop over `this.props.movies` and create the movies using the same <Movie> component code.
+Let's go back to `arc/App.js`, refactor to loop over `this.props.movies`, and create the movies using the same `<Movie>` component code.
 
 ```js
   render() {
@@ -305,13 +321,13 @@ Let's go back to `arc/App.js` and refactor to loop over `this.props.movies` and 
         	key={index}
         /> 
      )
-    /// rest of content .....
+    /// Rest of content...
   }
 }
 );
 ```
 
-With `allMovies` now containing an array of JSX elements we can simply replace all the <Movie> compoenents with `{allMovies}`
+With `allMovies` now containing an array of JSX elements, we can simply replace all the `<Movie>` components with `{allMovies}`.
 
 ```js
  render() {
@@ -339,10 +355,10 @@ With `allMovies` now containing an array of JSX elements we can simply replace a
   }
 ```
 
-Once you've got props working for one component, then write two more!
+Once you have props working for one component, write two more!
 
-In `src/App.js`, call the `<Movie>` component again with different values for the `title`, `hours` and `minutes`
-properties. Display information for the complete trilogy! (If you don't know everything about Lord of the Rings off the top of your head, here it is).
+In `src/App.js`, call the `<Movie>` component again with different values for the `title`, `hours`, and `minutes`
+properties. Display information for the complete trilogy! (If you don't know everything about Lord of the Rings off the top of your head, here it is.)
 
 
 
@@ -352,28 +368,27 @@ properties. Display information for the complete trilogy! (If you don't know eve
 ### Reflecting on Reusability
 
 - Components are great because they allow us to compartmentalize code and easily
-reuse parts we create. We simply set the value of props and the component defines how everything should be displayed.
+reuse parts we create. We simply set the value of props, and the component defines how everything should be displayed.
 
 In this instance, we factored out some redundancy of the
 movie titles.
-- All these movies start with `"Lord of the Rings:"`, so only the unique part is the prop.
+- All of these movies start with `"Lord of the Rings:"`, so the only unique part is the prop.
 - Similarly, we don't have to rewrite the format of the runtime information.
 
-Building and reusing components becomes especially powerful the more complex components become.
+Building and reusing components becomes especially powerful as component complexity increases.
 - Imagine building a component for video search results inside YouTube.
   - The props list is huge:
-    - ton of links
-    - time information
-    - preview images
-    - options to add the result to a playlist
+    - A ton of links.
+    - Time information.
+    - Preview images.
+    - Options to add the result to a playlist.
+    - And all sorts of other things.
 
-    - and all sorts of other things.
-
-Building multiple components may take more time but will allow you to separate concerns and reuse them more efficiently. Let alone testing one small component is much easier then an all encompasing one. 
+Building multiple components may take more time but will allow you to separate concerns and reuse them more efficiently. Testing one small component is much easier than testing an all-encompassing one. 
 
 
 ### Internet Dive Point
-In case you want to nerd out, here are handy links to the IMDB page for each
+In case you want to nerd out, here are handy links to the IMDb page for each Lord of the Rings
 movie:
 
 * [Lord of the Rings: The Fellowship of the Ring](http://www.imdb.com/title/tt0120737/)

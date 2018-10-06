@@ -10,15 +10,108 @@ competencies: Full-Stack Applications
  
  # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Code-Along: Idea Board 
 
+---
+
+Let's build an idea board!
 
 ### Objectives
-*After this lesson, students will be able to:*
+*After this lesson, you will be able to:*
 - Use MongoDB and Mongoose to persist data to be served to a React UI.
 - Build an Express server that serves information in a JSON format.
 - Connect API to React via `axios`
 - Deploy the full stack application to Heroku
 
-**This readme serves as the instructor notes/prep for the MERN stack idea board app. This is not a student-facing document.**
+<aside class="notes">
+
+**Teaching Tip**: 
+
+- This is a brief interactive lecture that introduces the 6-hour Idea Board Code-Along.
+
+- Note: This code-along may not be appropriate for all students. Those not familiar with Node.js or MongoDB will need a quick tutorial or some context around those. Also, note that it uses “axios” instead of the “fetch” api. 
+
+
+**Talking Points**:
+
+- This code-along guides you in building a Full Stack Application with what we call MERN stack. We'll define that in just a moment.
+
+- A lot of modern JavaScript is focused on knowing the right tools for the job.  Today we will be pulling in everything we've learned about Node and React to build a full stack application using the MERN stack.
+
+</aside>
+
+-------
+
+## MERN Stack
+
+MERN stack -  shorthand way of saying that an application is a full-stack Java Script app. 
+
+**M**ongoDB
+
+**E**xpress
+
+**R**eact
+
+**N**ode
+
+
+
+<aside class="notes">
+
+**Talking Points**:
+
+When you see MERN stack, this is typically just a shorthand way of saying that the application is a full-stack JavaScript app.  The tools that we use for MERN apps are: Mongo (MongoDB), Express, React, and Node.  
+While there are some boilerplate tools to build out a full MERN stack app, we are going to build our own using `create-react-app` and the Express and Mongo patterns we've used in the past.  This allows us to fully understand our application and prevents introducing a bunch of code that we haven't written and understand.
+
+</aside>
+
+---
+
+![idea board](https://slack-imgs.com/?c=1&url=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*SMKZC-Ej73wFOmqNT-JQ7Q.gif)
+
+<aside class="notes">
+
+**Talking Points**:
+- We will build an app where a user can write out different ideas and save them to a database. This app will have 2 models — Users and Ideas (which will live inside of Users).
+
+
+**Teaching Tips**:
+- These first five slides (Learning Objectives, MERN Stack, Image of Solution, Data Model Brainstorm, and You Got This Meme) are for you to project to the class as you introduce the topic. The remainder of this lesson is an instructor-facing script. 
+- The image of the solution here is so the class can see the end product and have an idea of what they are building.
+
+</aside>
+
+---
+
+## Data Model Brainstrom 
+
+Work with classmates around you to: 
+- Write out three user stories 
+- Sketch two wireframes 
+- Illustrate what our data model might look like. Think about the API routes that we will need. What components do you think we will need? What routes do we need to make available to the React app?
+
+
+<aside class="notes">
+
+**Teaching Tips**:
+- Read through activity directions.
+- Set students off in their groups.
+- Walk around and observe, help out, answer questions, provide input.
+
+
+</aside>
+
+---
+
+![you got this](assets/you-got-this-meme.png)
+
+<aside class="notes">
+
+**Teaching Tips**:
+
+**The remainder of this document serves as the instructor notes/prep for the MERN stack idea board app. Do not project or share out the remainder of this document.**
+
+</aside>
+
+---
 
 ## Getting Started
 
@@ -110,7 +203,7 @@ Your folder structure should now look something like this.
 
 This will create a new React application for us to begin building our game.  Let's try to start our application.
 
-**OH NO**
+**OH NO!**
 You may have gotten an error that looks something like this:
 ```bash
 ? Something is already running on port 3000. Probably:
@@ -204,14 +297,14 @@ Now that we've verified that we can run both apps at the same time and gotten th
 
 Today's example app is going to have 2 Models. User and Idea
 
-### You Do
+### Create a New Directory
 Create a new directory called `db` and create a `schema.js` within there. Create a Mongoose model for each model.
 
 * User has name, password(string), and ideas.
 * Idea has title, description, and created(Date)
   * Make sure the default value for title and description is something similar to "New Title" and "New Description"
 
-**Take a look at [Sample Project Two](https://github.com/dphurley/sample_project_two) if you need a refresh on how to do this**
+**Take a look at [this sample project Two](https://github.com/dphurley/sample_project_two) if you need a refresh on how to do this**
 
 > COMMIT
 
@@ -336,7 +429,7 @@ We can add route params to our client side routes, much like what we've seen whe
 
 The first thing we'll focus on in the UI is the page users will see when they first load the page. On this page, we want to encourage a user to visit the LogIn page or Ideas page. We will start to make API calls once we build out the LogIn page.
 
-## You Do 
+## Create the Home Page Element
 Create the home page element with a greeting and a `Link` to the LogIn component.  Make sure to also add a `Link` back to home on LogIn
 
 ## LogIn
@@ -509,7 +602,7 @@ class IdeaView extends Component {
 export default IdeaView
 ```
 
-## You Do
+## Add Styling
 
 Now that we have the static starter code, let's clean things up and add some styling. Take the code above and refactor it into smaller components.  Next, use `styled-components` to add some styling to the page.  As a reminder, we ideally want our app to look something like this.
 
@@ -587,7 +680,7 @@ router.post('/', (req, res) => {
   <button onClick={this.createIdea}>New Idea</button>
 ```
 
-## You Do
+## Write Code to Delete an Idea
 We will write similar code to delete an idea.  Work with the student's around you to write an Express route, create a custom method, and pass it down through props.
 
 Hint: You will need one argument
@@ -665,7 +758,7 @@ Next, we will add a method that will trigger the patch and update the local stat
 
 Finally, let's tie this event to an individual idea.  We COULD attach that to a button and have a boring old onClick event, but let's try something new.
 
-## You Do
+## Check Documentation
 Check out the [Synthetic Event docs](https://reactjs.org/docs/events.html) and find the event that allows us to trigger the update whenever a user leaves an input.
 
 > COMMIT
