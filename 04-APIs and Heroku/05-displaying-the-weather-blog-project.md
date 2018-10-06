@@ -1,28 +1,28 @@
 # ![GA Cog Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Blog Project: Displaying the Weather
 
-## Implement the ES6 fetch API
+## Implement the Fetch API
 
  ![logo](assets/open-weather-map-logo.png)
 
-#### Resources
+**Resources**:
 
-- OpenWeather API: http://openweathermap.org/current
+- [OpenWeather API](http://openweathermap.org/current)
 
-- Documentation: http://openweathermap.org/current
+- [OpenWeather API Documentation](http://openweathermap.org/current)
 
-- Info on `fetch`: https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch
+- [Info on `fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch)
 
 <aside class="notes">
 
 **Talking Points**:
 
-- Time to show off! You're going to display the weather on your "Dinosaurs are awesome" blog (because reptiles are rather finnicky about the weather).
+- Time to show off! You're going to display the weather on your "Dinosaurs are awesome" blog (because reptiles are rather finicky about the weather).
 
-- You will use the [OpenWeather API](http://openweathermap.org/current) to fetch the weather from a certain zip code and update the blog to display the current weather.
+- You'll use the OpenWeather API to fetch weather information from a certain zip code and update your blog to display the current weather.
 
-- Here is the [documentation for the weather API](http://openweathermap.org/current).
+- Here's the documentation for the OpenWeather API.
 
-- If you'd like, you can read about `fetch` in general on MDN [here](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch).
+- If you'd like, you can read about `fetch()` on MDN.
 
 </aside>
 
@@ -32,9 +32,9 @@
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking Point**:
 
-- At the end of this exercise, your solution will look something like what is seen here.
+- At the end of this exercise, your solution will look like what's shown here.
 
 </aside>
 
@@ -44,13 +44,17 @@
 
 On your "About" page, ask the user to input a zip code.
 
-- You can also learn about forms [here](https://facebook.github.io/react/docs/forms.html).
+- You can learn more about forms [here](https://facebook.github.io/react/docs/forms.html).
   - When this event fires, take the `event.target.value` and `fetch()` from the OpenWeather API.
 
-- Use the response to display the current temperature, the high and low temperate, the current weather description, and the name of the city that came back from the API.
-  - Note: Our solution uses Fahrenheit - you're free to use Celsius if you'd like.
+- Use the response from the API to display the current temperature, the high and low temperatures, the current weather description, and the name of the city.
+  - Note: Our solution uses Fahrenheit. You're free to use Celsius if you'd like.
 
-**IMPORTANT NOTE**: Because the OpenWeather API is not an open API, every request must end with this API key:  `&appid=052f26926ae9784c2d677ca7bc5dec98`  (i.e. this is a URL you might send a `fetch()` request to: `http://api.openweathermap.org/data/2.5/weather?zip=60614,us&appid=052f26926ae9784c2d677ca7bc5dec98`).
+**Important Notes**:
+
+- Because the OpenWeather API is not an open API, every request must end with this API key:  `&appid=052f26926ae9784c2d677ca7bc5dec98`.
+
+- As an example, this is a URL to which you might send a `fetch()` request: `http://api.openweathermap.org/data/2.5/weather?zip=60614,us&appid=052f26926ae9784c2d677ca7bc5dec98`.
 
 <details>
   <summary>Skeleton Code</summary>
@@ -61,7 +65,7 @@ import React, { Component } from 'react';
 class About extends Component {
 
   this.state = {
-     // your required states here
+     // Your required states here
   }
 
   handleChange = (event) => {
@@ -70,8 +74,8 @@ class About extends Component {
   }
 
   handleSubmit = (event) => {
-    // your fetch here
-    // your state updates go under function(json)
+    // Your fetch here
+    // Your state updates go under function(json)
   }
 
   render() {
@@ -79,7 +83,7 @@ class About extends Component {
       <div>
         <form onSubmit={this.handleSubmit}>
         <p>
-          // display weather information here
+          // Display weather information here
         </p>
         <label>
           Please enter your zip code for the weather:
@@ -103,15 +107,15 @@ export default About
 
 **Talking Points**:
 
-- **Hint 1:** You'll only need to re-work the About component. Nothing else needs to change.
+- **Hint 1:** You'll only need to rework the `About` component. Nothing else needs to change.
 
-- **Hint 2:** To see a skeleton of this (to see how to handle the form), see below.
+- **Hint 2:** To see how to handle the form, check out the skeleton code.
 
 </aside>
 
 ---
 
-### Optional:
+### Optional
 
 
 <aside class="notes">
@@ -119,6 +123,6 @@ export default About
 ![alt](assets/weather.png)
 
 
-**Talking Points**:
+**Talking Point**:
 
-- Spend a little time styling the page. Here's some inspiration (Don't worry about the lens flare!)
+- Spend a little time styling the page. Here's some inspiration (don't worry about the lens flare).

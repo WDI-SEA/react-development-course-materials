@@ -83,16 +83,31 @@ The requests we are making are called **AJAX** requests. As you'll come to learn
 
 
 ```json
-{
-	"number": 5,
-	"people": [
-		{"craft": "ISS", "name": "Oleg Novitskiy"},
-		{"craft": "ISS", "name": "Thomas Pesquet"},
-		{"craft": "ISS", "name": "Peggy Whitson"},
-		{"craft": "ISS", "name": "Fyodor Yurchikhin"},
-		{"craft": "ISS", "name": "Jack Fischer"}
-		],
-		"message": "success"
+{  
+   "number":5,
+   "people":[  
+      {  
+         "craft":"ISS",
+         "name":"Oleg Novitskiy"
+      },
+      {  
+         "craft":"ISS",
+         "name":"Thomas Pesquet"
+      },
+      {  
+         "craft":"ISS",
+         "name":"Peggy Whitson"
+      },
+      {  
+         "craft":"ISS",
+         "name":"Fyodor Yurchikhin"
+      },
+      {  
+         "craft":"ISS",
+         "name":"Jack Fischer"
+      }
+   ],
+   "message":"success"
 }
 ```
 

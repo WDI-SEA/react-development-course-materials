@@ -5,7 +5,7 @@ duration: "01:00"
 creator: Brandi Butler
 -->
 
-<h1>Welcome to React Development</h1>
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)Welcome to React Development
 
 ![react logo](images/react-logo.png)
 
