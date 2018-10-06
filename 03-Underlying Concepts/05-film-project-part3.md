@@ -50,7 +50,8 @@ Let's fix this:
 
 Take the `isFave` state out of the `fave` constructor.
 
-#### Step 2: Replace `setState` in `handleFaveClick()` Handler
+
+#### Step 2: Replace `setState` in `handleClick()` handler
 
 Because you're no longer holding the state in the `Fave` component, you no longer want to set the `isFave` state in the `handleClick()` event handler.
 
