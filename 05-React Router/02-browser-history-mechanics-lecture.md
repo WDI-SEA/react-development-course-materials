@@ -1,36 +1,34 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Browser History Mechanics and Single Page Applications
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Browser History Mechanics and Single-Page Applications
 
 
-### Learning Objectives
-*After this lesson, you will be able to:*
-* Compare old browser history mechanics to modern browser history mechanics
-* Define routing
-* Define Single Page Applications (SPAs)
-* Explain why old browser history mechanics don't work for SPAs
+## Learning Objectives
+After this lesson, you'll be able to:
+* Compare old browser history mechanics to modern browser history mechanics.
+* Define routing.
+* Define single-page applications (SPAs).
+* Explain why old browser history mechanics don't work for SPAs.
 
 ---
 
 ## Browser History Mechanics
 
-Browsers have built in history mechanics. You can go **back** and **forward** between pages you've visited and you can **reload** the page you're on.
+Browsers have built-in history mechanics. You can go **back** and **forward** between pages you've visited and you can **reload** the page you're on.
 
-It's important to specifically note what a "page" is.
-- A page is a whole HTML file that your browser downloads and displays. You know you're navigating between two different pages when you see your browser screen go blank then slowly load in a totally new page.
+It's important to note what a page is.
+- A page is a whole HTML file that your browser loads and displays. You know you're navigating between two different pages when you see your browser screen go blank then slowly load a completely new page.
 
-Open a new tab and navigate here: https://en.wikipedia.org/wiki/Café__Allegro
+Open a new tab and navigate here: https://en.wikipedia.org/wiki/Café__Allegro.
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking points**:
 
-* Open a new tab in your browser and navigate to the Wikipedia article for
-[Cafe Allegro](https://en.wikipedia.org/wiki/Cafe_Allegro) in Seattle.
+* Open a new tab in your browser and navigate to the Wikipedia article for Cafe Allegro in Seattle.
 * Hover over the link to the "Seattle" entry near the top of the article and look at the URL.
-* Notice that the URL says `wikipedia.org/wiki/Seattle`. It does not include `Cafe_Allegro`, and there is no hashtag. This URL takes us to an entirely different page.
+* Notice that the URL says `wikipedia.org/wiki/Seattle`. It doesn't include `Cafe_Allegro`, and there's no hashtag. This URL takes us to an entirely different page.
 * Click the link to "Seattle" and notice how your browser goes blank and loads another page, which is also full of links to other articles.
 * Click on several more links, paying attention to when the browser goes blank and loads a completely new page.
-* Hold down your mouse on the **back** button. You'll see a drop down menu
-  showing every page you've been on.
+* Hold down your mouse on the **back** button. You'll see a dropdown menu showing every page you've been on.
   
 </aside>
 
@@ -42,17 +40,13 @@ something like this:
 ![Cafe Allegro to General Assembly](assets/small-allegro_to_GA.png)
 
 
-**Talking Points**:
+**Talking points**:
 
-* Browser history mechanics are built for going **back** and **forward** between
-different pages (hello, arrows). These
-actions are also available to us in JavaScript. We can write JavaScript programs
-that invoke `window.history.back()` and `window.history.forward()`.
-* Let's note specifically note what a "page" is.
-* For instance, moving from the Cafe Allegro page on wikipedia to the Seattle page. Note when the browser goes blank and loads a completely new page. Browsing pages on one site is like viewing different articles on Wikipedia - you haven't left the Wikipedia site; you're just looking at different pages on it. Browsing pages on different sites is like using a search engine to look up a restaurant, looking at Yelp's website, and then looking at a restaurant's official website. In this case, the browser is visiting different *pages* on different *sites*.
+* Browser history mechanics are built for going **back** and **forward** between different pages (using arrows). These actions are also available to us in JavaScript. We can write JavaScript programs that invoke `window.history.back()` and `window.history.forward()`.
+* For instance, when moving from the Cafe Allegro page to the Seattle page on Wikipedia, the browser goes blank and loads a completely new page. Browsing pages on one site is like viewing different articles on Wikipedia — you haven't left the Wikipedia site; you're just looking at different pages on it. Meanwhile, browsing pages on different sites is like using a search engine to look up a restaurant, checking out the restaurant's reviews on Yelp's website, and then looking at the restaurant's official website. In this case, the browser is visiting different **pages** on different **sites**.
 * We can see the history of the pages we've visited by holding down the back button.
-* This seems pretty straightforward, right? However, the rise of recent approaches to websites - like React - broke old, traditional browser history mechanics and led to the introduction of new ways for websites to control what **back** and **forward** really mean.
-* Let's explore. 
+* This seems pretty straightforward, right? However, the rise of recent approaches to websites — like React — broke old, traditional browser history mechanics and led to the introduction of new ways for websites to control what **back** and **forward** really mean.
+* Let's explore.
 
 
 </aside>
@@ -61,22 +55,19 @@ that invoke `window.history.back()` and `window.history.forward()`.
 
 ## URL Routing
 
-**Routing** - the content is displayed when someone visits a certain a
-URL.
--  `http://github.com/` vs.`http://github.com/login`
+With **routing**, content is displayed when someone visits a certain URL.
+-  `http://github.com/` versus `http://github.com/login`
 
 These are two different pages on the same site, and each of these URLs is a **route**.
 
 <aside class="notes">
 
-**Talking Points**:
+**Talking points**:
 
-* **Routing** defines what content is displayed when someone visits a certain a
-URL.
+* Routing defines what content is displayed when someone visits a certain URL.
   - If you go to `http://github.com/`, you expect to see GitHub's home page.
-  - If you go to `http://github.com/login`, you expect to see a log-in page.
-* A route pairs a URL with the content that should
-be displayed for that URL. If you visit a webpage, copy the URL, and send it to a friend, your friend should end up viewing the same page.
+  - If you go to `http://github.com/login`, you expect to see a login page.
+* A route pairs a URL with the content that should be displayed for that URL. If you visit a webpage, copy the URL, and send it to a friend, your friend should end up viewing the same page.
 
 </aside>
 
@@ -84,11 +75,11 @@ be displayed for that URL. If you visit a webpage, copy the URL, and send it to 
 
 | **URL Route**                       | **Content**                                              |
 |-------------------------------------|----------------------------------------------------------|
-| /                                               | Homepage                                     |
-| /about                                          | General Information                          |
-| /education                                      | Shows all local upcoming courses             |
-| /education/web-development-immersive            | WDI course details                           |
-| /education/user-experience-design-immersive     | UX course details                            |
+| /                                               | Home page                                    |
+| /about                                          | General information                          |
+| /education                                      | Shows all upcoming local courses             |
+| /education/web-development-immersive            | Web Development Immersive course details     |
+| /education/user-experience-design-immersive     | User Experience Design Immersive course details|
 | /locations                                      | Shows all global GA locations                |
 | /locations/london                               | Shows London-specific location information   |
 | /locations/singapore                            | Shows Singapore-specific location information|
@@ -97,22 +88,20 @@ be displayed for that URL. If you visit a webpage, copy the URL, and send it to 
 
 <aside class="notes">
 
-**Teaching Tips**:
+**Teaching tips**:
 
-* Go to [General Assembly's Website](https://generalassemb.ly/). Interact with the menu in the top bar on the right.
-* You should see options for things like "On Campus," "Locations," and "About." Click on the different links to pages and point out the URLs that you end up at, or hover over the links to see their URL. Draw participants attention to the paths.
-* Compare the paths in the URLs and get a sense for how URLs are routed to content. Websites URLs are general split into succinct, descriptive, hierarchical categories. Notice how going to `/locations` takes you to a page
-showing all campus locations, then each specific location falls in a hierarchy under that such as `/locations/london` and `/locations/singapore`.
+* Go to [General Assembly's website](https://generalassemb.ly/). Interact with the menu in the top bar on the right.
+* You should see options for things like "On Campus," "Locations," and "About." Click on the different links to pages and point out the URLs that you end up at, or hover over the links to see their URL. Draw students' attention to the paths.
+* Compare the paths in the URLs and get a sense of how URLs are routed to content. Website URLs are generally split into succinct, descriptive, and hierarchical categories. Notice how going to `/locations` takes you to a page showing all campus locations, then each specific location falls in a hierarchy under that such as `/locations/london` and `/locations/singapore`.
 
 
-**Talking Points**: 
+**Talking points**: 
 
-* Let's look at an example of how content is routed by URLs by looking at the
-General Assembly homepage.
-* Notice that each with section (like "On Campus" and "About") has new information after the domain name. This is called the path. 
-* This table shows the **path** for each URL. In this case, the path is everything that appears after "https://generalassemb.ly" in the location bar of the browser. The `/` path is a special path called the root. It loads the homepage.
-* You can see that URLs *route* users to content. When someone types in a URL they are ultimately shown content associated with that URL.
-* URLs should represent the main content of the page you're looking at!
+* Let's look at the General Assembly home page for an example of how content is routed by URLs.
+* Notice that each section (like "On Campus" and "About") has new information after the domain name. This is called the **path**.
+* This table shows the path for each URL. In this case, the path is everything that appears after "https://generalassemb.ly" in the location bar of the browser. The `/` is a special path called the root. It loads the home page.
+* You can see that URLs **route** users to content. When someone types in a URL, they're ultimately shown content associated with that URL.
+* URLs should represent the main content of the page you're looking at.
 
 </aside>
 
@@ -127,16 +116,16 @@ Old websites:
 
 <aside class="notes">
 
-**Teaching Tips**: 
+**Teaching tips**: 
 
-* Open a new tab in your browser and navigate back to that Wikipedia article for [Cafe Allegro (https://en.wikipedia.org/wiki/Cafe_Allegro) in Seattle. Hover over the "1. History" link in the Contents section
-* click the history link
+* Open a new tab in your browser and navigate back to the Wikipedia article for [Cafe Allegro](https://en.wikipedia.org/wiki/Cafe_Allegro) in Seattle. Hover over the "History" link under the "Contents" section.
+* Click on the "History" link.
 
-**Talking Points**:
+**Talking points**:
 
-* Old websites spread content across differnet pages and each URL routes users to those pages. 
-* Take a look in the lower-left corner of my browser. Notice the URL is `wikipedia.org/wiki/Cafe_Allegro#history`. Specifically note the hashtag `#history`.
-* Notice that when I click, it scrolls down within the same page. This still counts as a route even though it's navigating you to a new section on the same page.
+* Old websites spread content across different pages and each URL routes users to those pages.
+* Take a look in the lower-left corner of my browser. Notice the URL is `wikipedia.org/wiki/Cafe_Allegro#History`. Specifically note the hashtag `#History`.
+* Notice that when I click on the "History" link, it scrolls down within the same page. This still counts as a route even though it's navigating to a new section on the same page.
 
 </aside>
 
