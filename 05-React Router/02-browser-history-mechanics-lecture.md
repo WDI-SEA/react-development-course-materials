@@ -129,94 +129,89 @@ Old websites:
 
 </aside>
 
-## Modern Single Page Applications
+## Modern Single-Page Applications
 
-Modern web apps serve up just one page and then change parts of its *contents*, without having to reload the entire page or send users to another page. These are called **single-page applications**.
+Modern web apps serve up just one page and then change parts of its contents without having to reload the entire page or send users to another page. These are called **single-page applications**.
 
 
 <aside class="notes">
 
-**Talking Points**: 
-* Now, consider web pages where, depending on what you click, the actual content of the page dynamically changes - the page itself never reloads. 
+**Talking points**: 
+* Now, consider webpages where, depending on what you click, the actual content of the page dynamically changes — the page itself never reloads.
 
-Websites that serve up only one page and change the content of the page dynamically without reloading it are called **single-page applications**.
+* Websites that serve up only one page and change the content of the page dynamically without reloading it are called **single-page applications**.
 
 </aside>
 
 ---
-## Activity 
+### Activity 
 
-Take three minutes now to find an example of a single page application. 
+Take three minutes to find an example of a single-page application. 
 
 
 <aside class="notes">
 
 **Teaching tips**: 
-* Give students 3 minutes to find an example of an SPA (give them hints if they need it, but this activity should demonstrate that they're more common than we may be making it seem). 
-* Elicit responses before moving on. Correct examples that are not SPAs.
+* Give students three minutes to find an example of an SPA. Give them hints if they need it, but this activity should demonstrate that they're more common than they seem.
+* Elicit responses before moving on. Correct examples that aren't SPAs.
 
 </aside>
 
 ---
 
 Gmail fits the definition of a single-page application.
-- Gmail loads one page just once.
-- That page replaces content dynamically to show the user many different things.
+- Gmail loads a page just once.
+- That page replaces content dynamically to show you many different things.
 - That single page changes its content dynamically without reloading or sending you to another page.
 
 <aside class="notes">
 
-**Talking Points**: 
+**Talking points**: 
 
 * When you load Gmail, you see your inbox.
-* You can start instant messaging a friend in a sidebar.
-* You can start to compose a new email to your manager to request time off.
+* You can start chatting with a friend on the sidebar.
+* You can compose a new email to your manager to request time off.
 * You can search for an email with flight information.
-* You can browse through more emails to make sure you've talked your manager about getting time off and aren't just disappearing for a week.
-* This all happens on one page! The page never refreshes. The chat bar with your friend never disappears as you compose an email and search through your inbox.
+* You can browse through more emails to make sure you've talked to your manager about getting time off and aren't just disappearing for a week.
+* This all happens on one page. The page never refreshes. The chat bar with your friend never disappears as you compose an email and search through your inbox.
 
 </aside>
 
 --- 
 
-Consider the benefits of a single page application:
-* It's fast. 
-* It's persistent. 
+Consider the benefits of a single-page application:
+* It's fast.
+* It's persistent.
 
 <aside class="notes">
   
-**Talking Points**
+**Talking points**:
 
 * Fast: Users don't have to wait for a page to reload over and over.
-* Persistent: You can have a chat window open in one corner and keep
-  talking to a friend as the rest of Gmail switches between showing you your
-  inbox, an email, or email search results.  
+* Persistent: You can have a chat window open in one corner and keep talking to a friend as the rest of Gmail switches between showing you your inbox, an email, or email search results.
  
 </aside>
   
  ---
-## Single Page Apps Break Old History Mechanics!
+## Single-Page Applications Break Old History Mechanics
 
-Imagine being on Wikipedia, going to Gmail, going through several views of
-different email inboxes and search results, and then pressing the back button. This process would go something like this:
+Imagine being on Wikipedia, going to Gmail, going through several views of different email inboxes and search results, and then pressing the back button. This process would go something like this:
 
-* Go to wikipedia.org
-* Type in www.gmail.com to check your email
-* Click on one email
-* Search your email for something
-* Open that email
-* Click 'back' in your browser to go back to the search results
-* Wait - you end up back at wikipedia.org
+* Go to wikipedia.org.
+* Type in www.gmail.com to check your email.
+* Click on one email.
+* Search your inbox for a certain email.
+* Open that email.
+* Click the back button on your browser to go back to the search results.
+* Wait — you end up at Wikipedia.
 
 <aside class="notes">
 
-**Talking Points**
+**Talking points**:
 
-* Now here's the catch, and why we went into such detail about browser history mechanics and defining what exactly Single Page Applications (SPAs) are - Single Page Applications break the initial design of Browser History Mechanics.
-* Why is this? The **back** and **forward** actions were built specifically to go back and forth between different pages. Since single page apps only change the content of themselves without actually sending users to different web pages the notion
-of **back** and **forward** is lost.
-* Gmail and most mail apps are a Single Page Applications - despite the content changing, you are always on gmail.com. Using old modern history mechanics (the ones we've learned so far), because of this, pressing the back button will take the user back to the last different URL they visited - in this case, Wikipedia - when really, the user just wanted to go back
-to their email search results.
+* Now here's the catch and why we went into such detail about browser history mechanics and defining exactly what SPAs are: single-page applications break the initial design of browser history mechanics.
+* Why is this? The **back** and **forward** actions were built specifically to go back and forth between different pages. Since single-page apps only change their content without actually sending users to different webpages, the notion of **back** and **forward** is lost.
+* Gmail and most email apps are single-page applications. Despite the content changing, you're always on gmail.com. Because of modern browser history mechanics (the ones we've learned so far), pressing the back button will take the user to the last URL they visited — in this case, Wikipedia — when the user just wants to go back to their email search results.
 
 </aside>
 
@@ -224,22 +219,21 @@ to their email search results.
 
 ## Introducing Modern Browser History Mechanics
 
-Developers need to have their fast loading web applications, but somehow still have the 'back' button work.
+Developers need to create fast-loading web applications, but somehow still make the back button work.
 
-The modern HTML5 specification (published in October 2014) introduced new browser history mechanics that make it easy to browse "back" and "forward" in single-page applications, even while actually staying on the same page.
+The modern HTML5 specification (published in October 2014) introduced new browser history mechanics that make it easy to browse back and forward in single-page applications, even while actually staying on the same page.
 
 
 <aside class="notes">
 
-**Talking Points**
-* Web Developers, browser vendors, and users (even if they don't know it) all love Single Page Applications; they're a great experience that the community is embracing. To facilitate these and still have things like the 'back' button work, a few years ago, people got together in committees and devised a way to upgrade the old
-browser history mechanics to accommodate modern SPAs.
+**Talking points**:
+* Web developers, browser vendors, and users (even if they don't know it) all love single-page applications. They're a great experience that the community is embracing. To facilitate them and still have things like the back button work, people got together in committees and devised a way to upgrade the old browser history mechanics to accommodate modern SPAs.
 
 </aside>
 
 ---
 
-## How?
+### How?
 
 HTML5 introduced:
 - `.pushState()`  
@@ -247,22 +241,19 @@ HTML5 introduced:
 
 <aside class="notes">
 
-**Talking Points**
-* These are functions that allow web pages to save custom history data to the browser.
-* Applications like Gmail can use these functions to manually save custom browser history. For example, Gmail can use `.pushState` to put in the browser history that a user is on their search results page, so if they go into an email and click 'back', they get back to the search page - instead of off gmail.com completely.
-* A bit more technically, when someone goes from their inbox to a specific email, Gmail can use `.pushState` to save in the browser information about what the user is currently doing in the application. Now when the user presses the 'back' button, the browser gives the saved information back to Gmail and Gmail brings back the content the user was last looking at.
+**Talking points**:
+* These are functions that allow webpages to save custom history data to the browser.
+* Applications like Gmail can use these functions to manually save custom browser history. For example, Gmail can use `.pushState` to put a user's email search results page in the browser history. So when the user opens an email and clicks on the back button, they're taken to the search page on Gmail and not to the last website they visited.
+* When someone goes from their inbox to a specific email, Gmail can use `.pushState` to save information in the browser about what the user is currently doing in the application. So when the user presses the back button, the browser returns the saved information to Gmail and Gmail loads the previous content the user was looking at.
 
 </aside>
+
 --- 
 
 ## Recap
-Here's a summary of what we've learned so far for routing:
+Here's a summary of what we've learned so far:
 
-### Single Page Applications and Browser History Mechanics
-* Single Page Applications are websites that serve only one web page, then
-  change the content of that page dynamically, without refreshing.
-* Old browser history mechanics support **back** and **forward** operations that
-  traditionally keep track of history as users move between different pages.
-* Since modern Single Page Applications keep the user on one page without
-  refreshing old browser history **back** and **forward** mechanics don't work
-  well with modern applications - so HTML5 changed the rules of how 'back' and 'forward' can work.
+* Single-page applications are websites that serve only one webpage then change the content of that page dynamically.
+* Old browser history mechanics support back and forward operations that traditionally keep track of history as users move between different pages.
+* Since modern SPAs keep users on one page without refreshing old browser history, back and forward browser mechanics don't work
+  well with modern applications. So HTML5 changed the rules of how back and forward work.
