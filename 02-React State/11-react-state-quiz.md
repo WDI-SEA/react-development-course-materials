@@ -2,7 +2,7 @@
 
 **Notes:**
 
-- The link to the React State Quiz is [here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-2/unit2-quiz.json). This is the link you will give to students.
+- The link to the React State Quiz is [here](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/quiz-react-state-3348.json). This is the link you will give to students. Remind students that this is just for practice. Their score will not be logged in the myGA system.
 
 - Approximate time to complete quiz: 20 minutes
 
