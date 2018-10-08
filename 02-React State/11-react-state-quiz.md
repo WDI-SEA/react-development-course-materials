@@ -23,7 +23,7 @@ _Choices_:
 3. In the component class's `render()` method; you always need it for accurate setup of that class.
 4. In the component class's `render()` method; you only need it if you are changing any initial configurations for that class.
 
-_Explanation_: `constructor()` is only necessary if you're changing initial setup — like setting a state. It is its own method and goes at the top of the component class, not inside the `render()` method.
+_Explanation_: `constructor()` is only necessary if you're changing initial setup — like setting a `state`. It is its own method and goes at the top of the component class, not inside the `render()` method.
 
 -----------------------------------
 
@@ -31,16 +31,16 @@ _Prompt_: What happens when you call `setState()`?
 
 _Choices_:
 
-1. The new state will be passed into the current state of the component. The virtual DOM tree is updated. A `diff` is run between the virtual DOM tree and the regular DOM tree. Only the corresponding elements in the regular DOM tree will update. *
-2. The virtual DOM tree is updated. A `diff` is run between the virtual DOM tree and the regular DOM tree. The new state will be passed into the current state of the component. Only the corresponding elements in the regular DOM tree will update.
-3. The virtual DOM tree is updated. The new state will be passed into the current state of the component. Only the corresponding elements in the regular DOM tree will update.
+1. The new `state` will be passed into the current `state` of the component. The virtual DOM tree is updated. A `diff` is run between the virtual DOM tree and the regular DOM tree. Only the corresponding elements in the regular DOM tree will update. *
+2. The virtual DOM tree is updated. A `diff` is run between the virtual DOM tree and the regular DOM tree. The new `state` will be passed into the current `state` of the component. Only the corresponding elements in the regular DOM tree will update.
+3. The virtual DOM tree is updated. The new `state` will be passed into the current `state` of the component. Only the corresponding elements in the regular DOM tree will update.
 4. The new state will be passed into the current state of the component. Only the corresponding elements in the regular DOM tree will update.
 
-_Explanation_: `setState()` first updates the state of the component; this causes the virtual DOM to be updated, which in turn triggers React to compare the virtual DOM and the regular DOM. Only the elements that have changed will update.
+_Explanation_: `setState()` first updates the `state` of the component; this causes the virtual DOM to be updated, which in turn triggers React to compare the virtual DOM and the regular DOM. Only the elements that have changed will update.
 
 -----------------------------------
 
-_Prompt_: If we have the code below inside of the `Painting` component, will `dinosaur` be treated as a prop or a state?
+_Prompt_: If we have the code below inside of the `Painting` component, will `dinosaur` be treated as a `prop` or a `state`?
 
 ```html
 <Painting dinosaur="velociraptor" />
@@ -51,7 +51,7 @@ _Choices_:
 1. Prop *
 2. State
 
-_Explanation_: Elements that are passed in to a component are treated as a prop within that component. For `dinosaur` to be considered a state within `Painting`, it would need to be a new element declared within `Painting`'s `constructor()` — not passed in to `Painting`.
+_Explanation_: Elements that are passed in to a component are treated as a `prop` within that component. For `dinosaur` to be considered a `state` within `Painting`, it would need to be a new element declared within `Painting`'s `constructor()` — not passed in to `Painting`.
 
 ----------------------------------
 
@@ -69,15 +69,15 @@ class Compliment extends Component {
 
 _Choices_:
 
-1. You can't have a state with the same name as the component.
-2. State is set with `this.state`, not just state. *
-3. State is set with colons, not equal signs. It should be `compliment: "You're so awesome!"`. *
+1. You can't have a `state` with the same name as the component.
+2. `State` is set with `this.state`, not just state. *
+3. `Statev is set with colons, not equal signs. It should be `compliment: "You're so awesome!"`. *
 4. Constructors need to begin with a call to `super()`. *
 5. All of the above.
 
-_Correct response_: Correct! State is set with `this.state`, and the name-value pair is separated with a colon, not an equals sign. Lastly, all constructors need to start with a call to `super()` to initialize the default class before modifying it.
+_Correct response_: Correct! `State` is set with `this.state`, and the name-value pair is separated with a colon, not an equals sign. Lastly, all constructors need to start with a call to `super()` to initialize the default class before modifying it.
 
-_Incorrect response_: Not quite. State is set with `this.state`, and the name-value pair is separated with a colon, not an equals sign. Lastly, all constructors need to start with a call to `super()` to initialize the default class before modifying it.
+_Incorrect response_: Not quite. `State` is set with `this.state`, and the name-value pair is separated with a colon, not an equals sign. Lastly, all constructors need to start with a call to `super()` to initialize the default class before modifying it.
 
 ----------------------------------
 
@@ -105,15 +105,15 @@ class Volcano extends Component {
 
 _Choices_:
 
-1. State is modified with `this.setState()`, not just `setState()`. *
+1. `State` is modified with `this.setState()`, not just `setState()`. *
 2. The `lava` state was never initialized. *
-3. State is called by JSX with `{this.state.lava}`, so both the `<h3>` statements need to change. *
-4. State is called by JSX with `{this.lava}`, so the second `<h3>` statement needs to change.
-5. State is called by JSX with `{state.lava}`, so the first `<h3>` statement needs to change.
+3. `State` is called by JSX with `{this.state.lava}`, so both the `<h3>` statements need to change. *
+4. `State` is called by JSX with `{this.lava}`, so the second `<h3>` statement needs to change.
+5. `State` is called by JSX with `{state.lava}`, so the first `<h3>` statement needs to change.
 
-_Correct response_: Correct! States need to be declared before they can be used, so there needs to be a `constructor()` method initializing `lava`. Additionally, you call state with `this.state.Name` and set state with `this.setState()`.
+_Correct response_: `States's` need to be declared before they can be used, so there needs to be a `constructor()` method initializing `lava`. Additionally, you call `state` with `this.state.Name` and set state with `this.setState()`.
 
-_Incorrect response_: Not quite. States need to be declared before they can be used, so there needs to be a `constructor()` method initializing `lava`. Additionally, you call state with `this.state.Name` and set state with `this.setState()`.
+_Incorrect response_: Not quite. `States's` need to be declared before they can be used, so there needs to be a `constructor()` method initializing `lava`. Additionally, you call state with `this.state.Name` and set `state` with `this.setState()`.
 
 -----------------------------------
 
@@ -124,7 +124,7 @@ _Choices_:
 1. True
 2. False *
 
-_Explanation_: State just represents the state of data on our page. Something that's saved to state in React is not automatically saved to a database or to local storage. If you refresh a page, all state information is lost.
+_Explanation_: `state` just represents the state of data on our page. Something that's saved to `state` in React is not automatically saved to a database or to local storage. If you refresh a page, all `state` information is lost.
 
 ----------------------------------
 
