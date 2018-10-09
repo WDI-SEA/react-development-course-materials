@@ -7,8 +7,8 @@
 
 **Talking points**:
 
-* We'll make a sample dentist website that has: a `Home` page, a page listing available `Procedures`, and a page displaying `Contact` information. Each page will be built into their own regular React component. Then, we'll create a unique URL route that leads to each component.
-* When you're done, it should look sometihng like what you see here.
+* We'll make a sample dentist website that has a `Home` page, a page listing available `Procedures`, and a page displaying `Contact` information. Each page will be built into their own regular React component. Then, we'll create a unique URL route that leads to each component.
+* When you're done, it should look like what you see here.
 * You can see a live working copy of the site [here](https://react-router-dentist.herokuapp.com/).
 
 
@@ -57,13 +57,13 @@ $ npm start
 <aside class="notes">
 
 **Talking points**:
-* Your browser should open to <http://localhost:3000/> and you'll see the standard "Welcome to React" message with a fancy rotating atomic icon. `create-react-app` creates several files for us in a directory called `src`. Open the `App.js` file in your editor.
+* Your browser should open to <http://localhost:3000/> and you'll see the standard "Welcome to React" message with a fancy rotating atomic icon. `create-react-app` creates several files for us in a directory called `src`.
 
-* Remember, `App.js` contains our main application (it's what's called by `index.js`). You should see the basic JSX structure of the standard React starter page. Make sure the file is the same thing you're looking at in the browser by finding the text `Welcome to React` inside an `<h2>` element.
+* Open the `App.js` file in your editor. Remember, `App.js` contains our main application (it's what's called by `index.js`). You should see the basic JSX structure of the standard React starter page. Make sure the file is the same thing you're looking at in the browser by finding the text `Welcome to React` inside an `<h2>` element.
 
 * Change the text to say `Hello!`, save the file, and make sure you see the changes automatically appear in your browser. If it doesn't automatically refresh, try to manually refresh the page. If you still don't see changes after a manual refresh then something could be wrong. Make sure you're editing the right file.
 
-* It's a good sanity check to make simple, verifiable changes like this when you begin a project. Don't start with complex changes that come with greater potential for error. Prove to yourself the small changes work and you'll save yourself headaches debugging large changes.
+* It's a good sanity check to make simple, verifiable changes like this when you begin a project. Don't start with complex changes that come with greater potential for error. Prove to yourself the small changes work and you'll save yourself headaches debugging larger ones.
 
 </aside>
 
@@ -142,7 +142,7 @@ export default App
 
 **Talking point**:
 
-* Great! Now we have a simple home page set up. Let's move on to setting up the rest of the content for our site.
+* Great! Now we have a simple home page. Let's move on to setting up the rest of the content for our site.
 
 </aside>
 
@@ -159,7 +159,7 @@ export default App
 6. Go back to the `App.js` file and delete the `<h1>` and `<p>` tags where we used to have content written directly inside our `App` component. We don't need that written inside `App` any longer because we moved them all to the new `Home` component.
 7. Instead, we need to call our new component. Put `<Home></Home>` inside the `<div>` in the `App` component. This tells the `App` component to render the `Home` component right inside the div.
   > Note: We've been using `<Home />` to call components. `<Home></Home>` is just a different syntax we're showing you so if you see it elsewhere, you're familiar with it.
-8. Let's try it out! Look at the browser and see if the home page appears. Unfortunately, if you've been following along, it won't. You'll see an error, which should look like this:
+8. Let's try it out. Look at the browser and see if the home page appears. Unfortunately, if you've been following along, it won't. You'll see an error, which should look like this:
 
 ![Home not defined](assets/home-not-defined-error.png)
 
