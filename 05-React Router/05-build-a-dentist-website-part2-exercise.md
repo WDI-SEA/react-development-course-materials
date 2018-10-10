@@ -10,7 +10,7 @@ Try this: Delete two of the three components so only one component is left on th
 **Talking points**:
 * You should see your webpage update with just that component. This is effectively what React Router does. We can configure React Router
 so it's aware of which component we want to show on the screen, and React Router will swap out the components so only the correct one is shown at a time.
-* Now that we're able to show each of the components on the main page, it's time to hook them up to React Router.
+* Now that we're able to show each of the components on the main page, it's time to hook them up to a Router component.
 
 </aside>
 
@@ -18,7 +18,7 @@ so it's aware of which component we want to show on the screen, and React Router
 
 ## Creating Routes
 
-React Router uses some of its own components to define how URLs are routed to your components and to create links to those routes. You must have one `<Router>` component that wraps itself around multiple `<Route>` components. Each `<Route>` component has two pieces:
+React Router uses some of its components to define how URLs are routed to your components and create links to those routes. You must have one `<Router>` component that wraps itself around multiple `<Route>` components. Each `<Route>` component has two pieces:
 - `path`: defines the URL path that leads to the component.
 - `component`: defines what component users will see when they navigate to the path.
 
@@ -54,7 +54,7 @@ Three other important things to note:
 
 * The first route for the home page at the root URL path `/` uses an extra `exact` attribute before defining the path.
 
-* Notice that all of the `<Route>` components are wrapped inside one `<div>`. Like `render`, the `<Router>` element can only have one direct child element. If you don't wrap the routes with a `<div>`, the page will appear blank and you'll have to open your JavaScript console to see that there's an error being logged to the console, like so:
+* Notice that all of the `<Route>` components are wrapped inside one `<div>`. Like `render`, the `<Router>` element can only have one direct child element. If you don't wrap the routes with a `<div>`, the page will appear blank and you'll have to open your JavaScript console to check for any errors logged, like so:
 
 ![A Router may only have one child element.](assets/router-requires-only-one-child.png)
 
@@ -64,7 +64,7 @@ Three other important things to note:
 **Talking points**:
 * `<Home />` or `<Home></Home>` depends on which syntax you went for.
 * The `exact` attribute means the component associated with the route will only be shown if users are exactly at that URL path. If you forget to include the `exact` keyword, users will actually see two components when they navigate to `/contact` because `/` is a partial match for `/contact`.
-* If you don't wrap the routes with a `<div>`, the page will appear blank and you'll have to open your JavaScript console to see that there's an error being logged to the console.
+* If you don't wrap the routes with a `<div>`, the page will appear blank and you'll have to open your JavaScript console to check for any errors.
 * Pro tip: It's a good habit to check the console for errors whenever your app is not behaving as expected.
 
 </aside>
@@ -87,9 +87,9 @@ import {
 
 **Talking points**:
 
-- To use the React Router components in `App.js`, you'll need to import them. This import syntax allows us to grab several specific components out of the `react-router-dom` library at once. So far we've used `Router` and `Route`.
+- To use the React Router components in `App.js`, you'll need to import them. This import syntax allows us to grab several specific components from the `react-router-dom` library at once. So far, we've used `Router` and `Route`.
 
-- While we're here, we'll also import a third component, `Link`, which we'll get to in a minute.
+- While we're here, we'll also import a third component, `Link`, which we'll get to in a bit.
 
 - Put the code seen on this slide at the top of your `App.js`.
 
@@ -186,8 +186,9 @@ Let's intentionally make an error.
 * Now add the `exact` keyword back to the home route and notice that the pages don't double up anymore.
 
 * Two common errors:
-1. If the page appears blank, open the JavaScript console to see if there are errors. Chances are you have a typo somewhere or forgot to make sure the `<Router>` only has one child element. Remember, wrap all of your `<Route>` components in one `<div>`.
-2. If multiple components appear on the page at the same time, there's something wrong with how you've routed URLs. Make sure you use the `exact` keyword on the root path `/` and there are no duplicate URL paths defined anywhere.
+    * If the page appears blank, open the JavaScript console to check for errors. Chances are you have a typo somewhere or forgot to make sure `<Router>` only has one child element. Remember, wrap all of your `<Route>` components in one `<div>`.
+    
+    * If multiple components appear on the page at the same time, there's something wrong with how you've routed URLs. Make sure you use the `exact` keyword on the root path `/` and there are no duplicate URL paths defined anywhere.
 
 </aside>
 
@@ -198,7 +199,7 @@ Let's intentionally make an error.
 
 `<Link>` creates `<a>` tags and automatically integrates modern HTML5 browser history mechanics for a single-page application. It has one attribute — `to` — which defines what path to navigate to when the user clicks the link.
 
-We'll add one `<Link>` component that leads to each of our different content pages.
+We'll add a `<Link>` component for each of our content pages.
 
 ```html
 <Link to="/">Go to Home Page</Link>
@@ -210,9 +211,9 @@ We'll add one `<Link>` component that leads to each of our different content pag
 
 **Talking points**:
 
-* Great, now our site is up and running. We can manually type in URLs and see the different pages. Although users never really type URLs, do they? We should probably have links at the top of the page so we can just click on them. We could build this ourselves, but we don't have to. Remember that `Link` component we imported from React Router? Just like links in HTML, we can wrap `<Link>` tags around whatever text we want the user to click on.
+* Great, now our site is up and running. We can manually type in URLs and see the different pages. Although users never really type URLs, do they? We should probably have links at the top of the page so users can just click on them. We could build this ourselves, but we don't have to. Remember that `Link` component we imported from React Router? Just like links in HTML, we can wrap `<Link>` tags around whatever text we want the user to click on.
 * Did you notice that we don't reference components here? We simply make links for users to click that connect to URLs, and the `Router` section in the code handles the actual component changes.
-* We can include those links in a `<nav>` element at the top of our page. It will stay on the page permanently, and the different components will be swapped between each other below it. There's actually nothing special about the `<nav>` element. It behaves exactly like a `<div>`. `<nav>` is just a semantic element that gives your JSX more meaning when people read it.
+* We can include those links in a `<nav>` element at the top of our page. It will stay on the page permanently and the different components will be swapped between each other below it. There's actually nothing special about the `<nav>` element. It behaves exactly like a `<div>`. `<nav>` is just a semantic element that gives your JSX more meaning when people read it.
 
 
 </aside>
@@ -239,7 +240,7 @@ So instead of the code we used before, here's how we'll format the links. Nothin
 ```html
 <Link to="/">Go to Home Page</Link>{' '}
 <Link to="/procedures">See Our Procedures</Link>{' '}
-<Link to="/contact">Contact Us!</Link>
+<Link to="/contact">Contact Us</Link>
 ```
 
 And now the nav bar will have spaces like it should. Try it!
@@ -248,8 +249,8 @@ And now the nav bar will have spaces like it should. Try it!
 <aside class="notes">
 
 **Talking points**:
-* So our web app now looks like the left image. But do you see a difference between the left and right images?
-* React strips out whitespace (e.g., spaces, returns, tabs) between elements. If we write `<Link>` components next to each other, even if they're on new lines in our code, React strips all of the whitespace between them and squishes them all together.
+* Our web app now looks like the left image. But do you see a difference between the left and right images?
+* React strips out whitespace (e.g., spaces, returns, tabs) between elements. If we write `<Link>` components next to each other, even if they're on new lines in our code, React strips all of the whitespace between them and brings them all together.
 
 </aside>
 
