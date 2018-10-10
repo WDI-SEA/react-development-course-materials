@@ -56,7 +56,7 @@ Task:
 )}/>
 ```
 
-But, wait! This isn't the best choice.
+But wait! This isn't the best choice.
 
 <aside class="notes">
 
@@ -78,7 +78,7 @@ But, wait! This isn't the best choice.
 )}/>
 ```
 
-Much better.
+Much better!
 
 <aside class="notes">
 
