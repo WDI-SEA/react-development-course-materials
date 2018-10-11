@@ -1,7 +1,7 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Quiz: React Router #
 
 **Notes**:
-- [The link to the React Router quiz is here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-4/unit4-quiz.json). This is the link you give to students.
+- [The link to the React Router quiz is here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-4/unit4-quiz.json). Give students this link.
 
 - Approximate time to complete quiz: 20 minutes
 
@@ -94,11 +94,11 @@ class App extends Component {
 **Choices**:
 
 1. The root path needs the `exact` keyword.
-2. The `nav` keyword doesn't belong here. Each `<Link>` would instead be wrapped by a `<nav>` element. *
+2. The `nav` keyword doesn't belong here. The `<Link>` components would instead be wrapped by a `<nav>` element. *
 3. The value of each `to` attribute needs to be the component.
 4. The declaration is correct.
 
-**Explanation**: The `nav` keyword doesn't belong here. Each `<Link>` would instead be wrapped by a `<nav>` element.
+**Explanation**: The `nav` keyword doesn't belong here. The `<Link>` components would instead be wrapped by a `<nav>` element.
 
 -----------------------------------
 
@@ -179,4 +179,4 @@ class App extends Component {
 3. If a user can click on new content and isn't sent to a new page. *
 4. If historical modern browser mechanics work.
 
-**Explanation**: Many frameworks enable you to write single-page applications. These are websites that serve only one web page and change the content of that page dynamically, without refreshing or sending the user to a separate page.
+**Explanation**: Many frameworks enable you to write single-page applications. These are websites that serve only one webpage and change the content of that page dynamically, without refreshing or sending the user to a separate page.
