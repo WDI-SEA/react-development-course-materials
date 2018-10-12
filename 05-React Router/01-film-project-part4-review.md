@@ -2,7 +2,7 @@
 
 These are instructor notes to help guide a review discussion of [Film Project, Part 4](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/04-APIs%20and%20Heroku/08-film-project-part4.md).
 
-**As you review, remember to ask students, "What questions do you have?" instead of "Do you have any questions?"**
+**As you review, remember to ask students: "What questions do you have?" and not: "Do you have any questions?"**
 
 
 ## Taking It Further
