@@ -2,23 +2,25 @@
 
 
 
-### Task
-In small groups, choose one of the following questions to research in the Facebook React.js documentation.
+## Task
+In small groups, choose one of the following questions to research in the React.js documentation.
 
-Create a compelling presentation to present that:
+Create a compelling presentation that:
 - Answers the question.
-- Provides examples via learning materials, diagrams, etc to the audience.
-- Bonus: is interactive!
+- Provides examples to the audience through learning materials, diagrams, and more.
+- Is interactive (bonus).
 
-### Overview
-- 15 min to research the question.
-- 10 min to structure a presentation.
-- 5 min to present.
-  - **Note:** All group members must participate in the presentation.
+## Overview
+Each group will have:
+- 15 minutes to research the question.
+- 10 minutes to structure a presentation.
+- 5 minutes to present.
+
+**Note:** All group members must participate in the presentation.
 
 
-### Question Bank
-- What is a controlled component in React? How is this different from regular HTML forms?
+## Question Bank
+- What is a controlled component in React? How is it different from regular HTML forms?
 
 - What is an uncontrolled component in React? Why would we use it instead of a controlled one?
 
@@ -26,24 +28,24 @@ Create a compelling presentation to present that:
 
 - What is a "ref"? List the pros and cons of using it.
 
-- Describe 1-way and 2-way data binding. Which model does React use? Explain and compare to other popular front-end frameworks.
+- Describe one-way and two-way data binding. Which model does React use? Explain and compare to other popular front-end frameworks.
 
-- Describe how to best gather information from a form in React. Be prepared to show code!
+- Describe how to best gather information from a form in React. Be prepared to show code.
 
-- Compare and contrast conditional rendering vs. the`shouldComponentUpdate()` lifecycle method. When would we use one over the other?
+- Compare and contrast conditional rendering and the `shouldComponentUpdate()` life cycle method. When would we use one over the other?
 
 - Compare and contrast stateful, stateless, and functional components in React. List the pros and cons of each. When would we use one over the other?
 
-- Is there a lifecycle method to prevent the initial rendering of a React component? Explain why or why not.
+- Is there a life cycle method to prevent the initial rendering of a React component? Explain why or why not.
 
 
 <aside class="notes">
 
-**Teaching Tips**
+**Teaching tips**:
 
-- Have each group choose a different question to answer so there are no repeats.
+- Have each group choose a different question to answer so there's no repetition.
 - Circulate while the groups are developing their presentation.
-- Time the presentations so the activity moves along (each should be no longer than 5 minutes). 
+- Time the presentations so the activity moves along (each should be no longer than five minutes).
 
 
 </aside>
