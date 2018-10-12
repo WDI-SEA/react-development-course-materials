@@ -4,16 +4,16 @@
 ## Recap
 What have we learned so far?
 * Single-page applications have specific URLs that are routed to display different content.
-* React Router is a third-party library that we can install and use with React.
-* Since React Router isn't built into React, we must import its components.
+* React Router is a third-party library we can install and use with React.
+* Because React Router isn't built into React, we must import its components.
 * React Router makes it easy to route URLs to components.
 * React Router automatically manipulates modern browser history mechanics.
 
-Now let's put that to the test.
+Now, let's put that to the test.
 
 ---
 
-## Try It: Implement Router on Your Dinosaur Blog
+## Try It: Implement React Router on Your Dinosaur Blog
 
 
 Task:
@@ -29,11 +29,11 @@ Task:
  
 <aside class="notes">
 
-**Talking point**:
+**Talking Point**:
 
 - Each page is a component. We're learning to use React Router here.
   
-**Teaching tips**:
+**Teaching Tips**:
 
 - This exercise requires students to refactor their `App.js` file.
 
@@ -60,10 +60,11 @@ But wait! This isn't the best choice.
 
 <aside class="notes">
 
-**Talking points**:
-- The code above will work, but it's not a great solution and can create performance issues. The [official React documentation]( https://reacttraining.com/react-router/web/api/Route/component) states: "When you use `component` the router uses `React.createElement` to create a new React element from the given component. That means if you provide an inline function to the `component` prop, you would create a new component every render. This results in the existing component unmounting and the new component mounting instead of just updating the existing component. When using an inline function for inline rendering, use the `render` or the `children` prop."
+**Talking Points**:
 
-- So if you’re not supposed to pass a function to `component`, what’s the solution? Turns out the React Router team predicted this problem and gave us a handy solution. Instead of using `component`, use the `render` prop. `render` accepts a functional component and that function won’t unnecessarily get remounted like `component`. (Source: [Tyler Mcginnis](https://tylermcginnis.com/react-router-pass-props-to-components/))
+- The code above will work, but it's not a great solution and can create performance issues. The [official React documentation]( https://reacttraining.com/react-router/web/api/Route/component) states: "When you use `component`, the router uses `React.createElement` to create a new React element from the given component. That means if you provide an inline function to the `component` prop, you would create a new component every render. This results in the existing component unmounting and the new component mounting instead of just updating the existing component. When using an inline function for inline rendering, use the `render` or the `children` prop."
+
+- So, if you’re not supposed to pass a function to `component`, what’s the solution? Turns out the React Router team predicted this problem and gave us a handy fix. Instead of using `component`, use the `render` prop. `render` accepts a functional component and that function won’t unnecessarily get remounted like `component`. (Source: [Tyler Mcginnis](https://tylermcginnis.com/react-router-pass-props-to-components/))
 
 </aside>
 
@@ -82,9 +83,9 @@ Much better!
 
 <aside class="notes">
 
-**Talking point**:
+**Talking Point**:
 
-- Here's the `render` prop. Note that the function will receive the same props that `component` would receive. So you can take those and pass them along to the `render` prop.
+- Here's the `render` prop. Note that the function will receive the same props that `component` would. So, you can take those and pass them along to the `render` prop.
 
 </aside>
 
@@ -97,9 +98,9 @@ Much better!
 
 <aside class="notes">
 
-**Talking point**:
+**Talking Point**:
 
-* Your solution should look like what's seen here.
+* Your solution should look like what's shown here.
 
 </aside>
 
