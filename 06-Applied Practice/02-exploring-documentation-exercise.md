@@ -26,7 +26,7 @@ Each group will have:
 
 - What is a synthetic event and how does it compare to regular DOM events?
 
-- What is a "ref"? List the pros and cons of using it.
+- What is a `ref`? List the pros and cons of using it.
 
 - Describe one-way and two-way data binding. Which model does React use? Explain and compare to other popular front-end frameworks.
 
