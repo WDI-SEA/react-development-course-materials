@@ -32,6 +32,8 @@ After this lesson, you'll be able to:
 
 ---
 
+## Benefits of React Router
+
 React Router is a third-party library that makes it easy for us to route URLs — not to different pages but instead to different dynamically loading components on the same page as the user navigates to different URLs.
 
 React Router provides:
