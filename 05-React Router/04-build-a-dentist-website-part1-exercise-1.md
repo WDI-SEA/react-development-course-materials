@@ -276,8 +276,8 @@ modern Single Page Application.
 * Students can refer to these complete files in the finished repo to make sure you got
 everything correct:
 
-* [Procedures.js](../../../react-router-simple-dentist-site/blob/master/src/procedures.js)
-* [Contact.js](../../../react-router-simple-dentist-site/blob/master/src/contact.js)
+* [Procedures.js](https://git.generalassemb.ly/ed-product-library/react-router-simple-dentist-site/blob/master/src/procedures.js)
+* [Contact.js](https://git.generalassemb.ly/ed-product-library/react-router-simple-dentist-site/blob/master/src/contact.js)
 
 You can Slack the file paths to them.
 
