@@ -65,13 +65,13 @@ Your project will be evaluated based on the rubric below.
 
 | Score | Expectations |
 | ----- | ---------------------------------------------------- |
-| 0 | Incomplete. |
-| 1 | Does not meet expectations. |
+| 0 | Incomplete |
+| 1 | Does not meet expectations |
 | 2 | Meets expectations — good job! |
 | 3 | Exceeds expectations — fantastic! |
 
 
-Here's an example of how the criteria works. Let's say your assignment was to cook a pizza:
+Here's an example of how the criteria works. Let's say your assignment was to cook pizza:
 
 Criteria | **0** (Incomplete) | **1** (Does not meet expectations) | **2** (Meets expectations) | **3** (Exceeds expectations) |
 :--- | :--- | :--- | :--- | :---
