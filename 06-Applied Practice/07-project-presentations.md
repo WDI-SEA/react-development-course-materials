@@ -37,7 +37,7 @@ In this lesson, students will:
 - Some students might not want to present and that's absolutely fine. This is just their chance to show off what they've done.
 - Compliment their projects. They've worked hard.
 - After presentations, ask students what their plans are. Give tips, offer suggestions.
-- Encourage the entire class to keep in touch and use each other as a resouce and to network.
+- Encourage the entire class to keep in touch, use each other as a resouce, and to network.
 - Enourage the entire class to stay active in the GA alumni community.
 
 
