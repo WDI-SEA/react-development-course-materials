@@ -42,13 +42,13 @@ Open the [React home page](https://facebook.github.io/react/).
 
 **Talking point**:
 
-- Click "Tutorial" at the top. This is a tutorial created by Facebook to walk you through learning React. It's the tic-tac-toe game that you'll do later in this unit.
+- Click "Tutorial" at the top. This is a tutorial to walk you through learning React. It's the tic-tac-toe game that you'll do later in this unit.
 
 **Teaching tips:**
 
 - Direct students to open the React home page.
 
-- If that last exercise was a little confusing, it might be worth pausing this lesson to run through the Facebook tutorial and reinforce what we've learned so far.
+- If that last exercise was a little confusing, it might be worth pausing this lesson to run through the tutorial and reinforce what we've learned so far.
 
 </aside>
 
@@ -56,7 +56,7 @@ Open the [React home page](https://facebook.github.io/react/).
 
 ## The React Community
 
-There are many recommended places to ask for help within "Community".
+There are many recommended places to ask for help within "Community."
 
 ![](assets/facebook-community.png)
 
@@ -80,19 +80,19 @@ There are many recommended places to ask for help within "Community".
 
 ![](assets/facebook-rendering.png)
 
-Click on "Docs".
+Click on "Docs."
 
 The navigation bar contains:
 - Getting started guide.
 - Main concepts.
 - Advanced guides. 
-- API Reference.
+- API reference.
 
 <aside class="notes">
 
 **Talking points**:
 
-- Let's dive in. Click on "Docs".
+- Let's dive in. Click on "Docs."
 - On the right is a navigation bar containing a getting started guide, main concepts, advanced guides, and an API reference (as well as how to contribute, which you could do some day).
 - Under "Main Concepts," click on "Rendering Elements." Read through the page, paying attention to the examples. Hopefully, this is all review and relatively straightforward.
 - Congratulations! You've read a page of React.js documentation.
@@ -132,7 +132,7 @@ When you have it, check your solution against [this CodePen](https://codepen.io/
   - The `return` method in the `render` method is accurate, as well as the `handleFilterChange()` method. No modifications are needed in either `handleFilterChange()` or the `return`.
   
 **Teaching tip**:
-- Provide [this CodePen](https://codepen.io/SuperTernary/pen/qPqqQE?editors=0010) for students who need support. There is a comment everywhere they need to make a modification.
+- Provide [this CodePen](https://codepen.io/SuperTernary/pen/qPqqQE?editors=0010) for students who need support. There's a comment everywhere they need to make a modification.
 
   
 </aside>
