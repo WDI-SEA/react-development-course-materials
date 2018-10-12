@@ -16,7 +16,7 @@ This is Unit 6 of the complete React Development course. It includes the followi
 
 7) **Final Project**: Prompt for students
 
-8) **Class Summary**: Info for instructors about class presentations
+8) **Project Presentations**: Info for instructors about class presentations
 
 Notes: 
 - Lesson 5 is a brief slideshow that introduces students to the code-along activity.
