@@ -244,8 +244,10 @@ We'll create two more components, then we'll start routing things up.
 
 * Students can refer to these completed files in the finished repo to make sure they got everything correct:
 
-  * [Procedures.js](../../../react-router-simple-dentist-site/blob/master/src/procedures.js)
-  * [Contact.js](../../../react-router-simple-dentist-site/blob/master/src/contact.js)
+
+* [Procedures.js](https://git.generalassemb.ly/ed-product-library/react-router-simple-dentist-site/blob/master/src/procedures.js)
+* [Contact.js](https://git.generalassemb.ly/ed-product-library/react-router-simple-dentist-site/blob/master/src/contact.js)
+
 
 * You can send them the file paths through Slack.
 
