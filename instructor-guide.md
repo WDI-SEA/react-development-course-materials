@@ -32,7 +32,7 @@ This guide contains links to a standard set of high quality resources for your u
 Think of this guide as a cookbook. You, as the chef, will use the guidelines provided to craft an amazing meal for your students. But of course, you’ll want to think ahead about the various “dietary restrictions” and preferences of your “diners” as well as the type of “ambience” best suited to the type of experience you want to create.
 
 
-![cookbook](images/cookbook-notes.png)
+![cookbook](images/cookbook-notes-small.png)
 
 
 Adaptations we encourage you to make:
