@@ -12,6 +12,10 @@ Let's build a calculator — because we can!
 
 - At first, your calculator will simply add two numbers together when you enter them. For the bonus exercise, you might decide to get more creative.
 
+**Teaching Tips:**
+
+- Solution is [here](https://git.generalassemb.ly/ed-product-library/React-Exercise-Solutions/tree/master/exercises/calculator).
+
 </aside>
 
 ---
