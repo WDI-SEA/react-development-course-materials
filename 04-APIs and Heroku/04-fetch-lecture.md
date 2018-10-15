@@ -397,5 +397,5 @@ render() {
 ### Hast thou not a word of joy?
 -Romeo and Juliet, Act 3, Scene 5
 
-![happy programmer](assets/happy-programmer.jpg)
+
 
