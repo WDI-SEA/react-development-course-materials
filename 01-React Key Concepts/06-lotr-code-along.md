@@ -9,6 +9,8 @@
 
 - The image here is so the class can see the end product and have an idea of what they are building.
 
+- Exercise solution is [here](https://git.generalassemb.ly/ed-product-library/React-Exercise-Solutions/tree/master/exercises/lord-of-the-rings).
+
 **Talking Points**:
 
 - Let's build something small to reinforce what you've learned so far. We're going
