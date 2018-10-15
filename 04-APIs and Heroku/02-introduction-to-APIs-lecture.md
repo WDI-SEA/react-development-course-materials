@@ -66,8 +66,8 @@ API stands for "application programming interface."
 
 ## How an API Fits in With SPAs
 
-![](./assets/traditional-page-lifecycle.png)<br>
-<sup>Image Credit: [Zanon.io](https://zanon.io/posts/angularjs-how-to-create-a-spa-crawlable-and-seo-friendly)<sup>
+![](./assets/traditional-page-lifecycle-v2.png)<br>
+<sup>Image Source: [Zanon.io](https://zanon.io/posts/angularjs-how-to-create-a-spa-crawlable-and-seo-friendly)<sup>
 
 <aside class="notes">
 
