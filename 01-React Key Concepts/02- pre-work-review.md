@@ -12,7 +12,7 @@
 
 - Students should have completed all lessons prior to the start of the course.
 
-- Review each lesson; how much time you spend on each will vary. Always get a barometer reading of the class. If students seem comfortable with the material in a given lesson, call out a few specific key points and move on. If, however, students seem confused/concerned about a lesson's content, do a deeper review — maybe go through the lesson slide by slide. 
+- Review each lesson; how much time you spend on each will vary. Always get a barometer reading of the class. If students seem comfortable with the material in a given lesson, call out a few specific key points and move on. If, however, students seem confused/concerned about a lesson's content, do a deeper review — maybe go through the lesson slide by slide.
 
 - Links to a sandbox version of each lesson are in this document, so you can easily project the lessons and walk through them. Please do not share out these links.
 
@@ -20,7 +20,7 @@
 
 - If the class is split (one or more students need a deeper review of a given lesson, whereas the rest feel comfortable with the material), recruit the more advanced students to help you with the ones needing a deeper review. You can partner up a student who understands the material with one who is struggling. As an alternative, you may move on, but ask the struggling students to see you in office hours, or direct them to additional tutorials.
 
-- Be sure to spend sufficient time on the blog post exercise in the props lesson. Students must all have their blog code in good order before moving on — that is a dependency for the next lesson. 
+- Be sure to spend sufficient time on the blog post exercise in the props lesson. Students must all have their blog code in good order before moving on — that is a dependency for the next lesson.
 
 </aside>
 
@@ -66,7 +66,13 @@ By the end of this lesson, you'll be able to:
 **Teaching Tips**:
 
 - [Sandbox version of lesson](https://my.generalassemb.ly/activities/477?from=assignment "ES6: Variables and Imports") — Remember to open this in a new tab.
-
+// There is an error on slide 20/22 in the sandboxed version of the lesson. The code snippet should be something like
+```JavaScript
+export function addTwo(n) {
+  return n + 2;
+}
+```
+but instead is cut and pated from the previous slide.
 - Elicit from students what purpose `const` and `let` serve.
 
 - Consider reviewing the [CodePen activity](https://codepen.io/SuperTernary/pen/owQGmy?editors=001) with them.

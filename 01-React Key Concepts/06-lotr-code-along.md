@@ -5,7 +5,7 @@
 <aside class="notes">
 
 **Teaching Tips**:
-- These first two slides (ending with the Gollum image) are for you to project to the class as you introduce the topic. The remainder of this lesson is an instructor-facing script. 
+- These first two slides (ending with the Gollum image) are for you to project to the class as you introduce the topic. The remainder of this lesson is an instructor-facing script.
 
 - The image here is so the class can see the end product and have an idea of what they are building.
 
@@ -17,7 +17,7 @@ to practice creating components and passing information into them.
 - We'll build a simple website that shows title and runtime information about the
 original Lord of the Rings trilogy.
 
-- Specifically, at the end of this lesson, your solution will look like what you see here. 
+- Specifically, at the end of this lesson, your solution will look like what you see here.
 
 </aside>
 
@@ -57,14 +57,14 @@ npm start
 
 **Teaching Tip**
 
-- Make sure eveyone gives a 👍 in Slack when they are able to start the server.
+- Make sure everyone gives a 👍 in Slack when they are able to start the server.
 
 ---
 
 ### Create a Simple Movie Component
 Open up your `./src` directory in your favorite text editor.
 
-Inside of the `./src` folder, create a new React component file called `Movie.js`. Syntax is important here and conveys that the file is a React component, so make sure it begins with a capital letter (in this case, **'M'**). 
+Inside of the `./src` folder, create a new React component file called `Movie.js`. Syntax is important here and conveys that the file is a React component, so make sure it begins with a capital letter (in this case, **'M'**).
 
 
 **src/Movie.js**
@@ -135,7 +135,7 @@ reload." Let's do that!
 
 Open `src/App.js`.
 
-Add our `<Movie></Movie>` component just after the paragraph. Go back to the
+Add our `<Movie />` component just after the paragraph. Go back to the
 app and see if it appears.
 
 <aside class="notes">
@@ -188,7 +188,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Movie></Movie>
+        <Movie />
       </div>
     )
   }
@@ -203,15 +203,15 @@ export default App
 We need our `Movie` component to be more flexible and to pass it data so we can use it to
 display different titles and runtimes. In the `src/App.js` file, add `title`, `hours`, and `minutes` props to the `<Movie>` tag. These values will be passed to the component, where we can elicit their value.  
 
-You can name these properties anything you want, but it's a good practice to be descriptive. 
+You can name these properties anything you want, but it's a good practice to be descriptive.
 
 
 ```js
-<Movie title="The Fellowship of the Ring" hours="2" minutes="58"></Movie>
+<Movie title="The Fellowship of the Ring" hours="2" minutes="58" />
 ```
 
 
-React gathers all of the props we added to the `<Movie>` component and makes them each available through the `this.props` object. This means that, inside the `Movie` component, we can now access the values of props through `this.props.title`, `this.props.hours`, and `this.props.minutes`. 
+React gathers all of the props we added to the `<Movie>` component and makes them each available through the `this.props` object. This means that, inside the `Movie` component, we can now access the values of props through `this.props.title`, `this.props.hours`, and `this.props.minutes`.
 
 In JSX, we use curly braces `{ }` to enumerate the value of something.
 
@@ -252,13 +252,13 @@ Refresh the page and make sure everything works correctly.
 
 Once you have props working for one component, you only need to write two more!
 
-In `src/App.js`, call the `<Movie>` component again with different values for the `title`, `hours`, and `minutes` properties. Display information for the complete trilogy. 
+In `src/App.js`, call the `<Movie>` component again with different values for the `title`, `hours`, and `minutes` properties. Display information for the complete trilogy.
 
 
 ```html
-<Movie title="The Fellowship of the Ring" hours="2" minutes="58"></Movie>
-<Movie title="The Two Towers" hours="2" minutes="59"></Movie>
-<Movie title="The Return of the King" hours="3" minutes="21"></Movie>
+<Movie title="The Fellowship of the Ring" hours="2" minutes="58" />
+<Movie title="The Two Towers" hours="2" minutes="59" />
+<Movie title="The Return of the King" hours="3" minutes="21" />
 ```
 
 **Teaching Tip**
@@ -274,7 +274,7 @@ Open the `src/index.js` file and add the following just above `ReactDOM.render()
 
 ```js
 
-let movies = [
+const movies = [
   {
     title: "The Fellowship of the Ring",
     hours: 2,
@@ -313,13 +313,13 @@ Let's go back to `arc/App.js`, refactor to loop over `this.props.movies`, and cr
 
 ```js
   render() {
-    let allMovies = this.props.movies.map( (movie, index) => 
-        <Movie 
-        	title={movie.title} 
-        	hours={movie.hours} 
-        	minutes={movie.minutes} 
+    const allMovies = this.props.movies.map( (movie, index) =>
+        <Movie
+        	title={movie.title}
+        	hours={movie.hours}
+        	minutes={movie.minutes}
         	key={index}
-        /> 
+        />
      )
     /// Rest of content...
   }
@@ -331,15 +331,15 @@ With `allMovies` now containing an array of JSX elements, we can simply replace 
 
 ```js
  render() {
-   let allMovies = this.props.movies.map( (movie, index) => 
-        <Movie 
-        	title={movie.title} 
-        	hours={movie.hours} 
-        	minutes={movie.minutes} 
+   const allMovies = this.props.movies.map( (movie, index) =>
+        <Movie
+        	title={movie.title}
+        	hours={movie.hours}
+        	minutes={movie.minutes}
         	key={index}
-        /> 
+        />
      )
-     
+
     return (
       <div className="App">
         <div className="App-header">
@@ -354,13 +354,6 @@ With `allMovies` now containing an array of JSX elements, we can simply replace 
     )
   }
 ```
-
-Once you have props working for one component, write two more!
-
-In `src/App.js`, call the `<Movie>` component again with different values for the `title`, `hours`, and `minutes`
-properties. Display information for the complete trilogy! (If you don't know everything about Lord of the Rings off the top of your head, here it is.)
-
-
 
 # Solution
 
@@ -384,7 +377,7 @@ Building and reusing components becomes especially powerful as component complex
     - Options to add the result to a playlist.
     - And all sorts of other things.
 
-Building multiple components may take more time but will allow you to separate concerns and reuse them more efficiently. Testing one small component is much easier than testing an all-encompassing one. 
+Building multiple components may take more time but will allow you to separate concerns and reuse them more efficiently. Testing one small component is much easier than testing an all-encompassing one.
 
 
 ### Internet Dive Point
