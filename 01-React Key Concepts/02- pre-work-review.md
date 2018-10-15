@@ -165,6 +165,8 @@ By the end of this lesson, you'll be able to:
 
 - Show and tell: Show me your blog post (81% on progress bar). Go around the room and see how students did with this exercise. Ask: "What was tough about this?" (not: "Was this tough?"). Address any difficulties the students had.
 
+- Blog solution and starter code are [here](https://git.generalassemb.ly/ed-product-library/React-Exercise-Solutions/tree/master/projects/project-01-jsx).
+
 </aside>
 
 ---
