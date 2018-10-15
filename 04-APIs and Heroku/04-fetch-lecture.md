@@ -60,7 +60,7 @@ The requests we are making are called **AJAX** requests. As you'll come to learn
 
 ---
 
-![Request/Response](assets/request-response_editO1.png)
+![Request/Response](assets/request-response-v2.png)
 
 <aside class="notes">
 
