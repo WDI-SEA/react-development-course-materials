@@ -16,6 +16,13 @@ Let's build an idea board!
 
 - This is a brief interactive lecture that introduces the 6-hour Idea Board Code-Along.
 
+- To run on local, open terminal/command prompt and follow below:
+1. git clone { remote git folder url }
+2. npm install
+3. npm run dev.
+
+This last script should run the server and the react application.
+
 
 **Talking Points**:
 
