@@ -1,12 +1,4 @@
----
-title: React Full-Stack
-type: lesson
-duration: "6:00"
-creator:
-    name: Jamie King
-    city: ATL
-competencies: Full-Stack Applications
----
+
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Code-Along: Idea Board
 
@@ -23,8 +15,6 @@ Let's build an idea board!
 **Teaching Tip**:
 
 - This is a brief interactive lecture that introduces the 6-hour Idea Board Code-Along.
-
-- Note: This code-along may not be appropriate for all students.
 
 
 **Talking Points**:
@@ -80,7 +70,7 @@ Work with classmates around you to:
 
 ---
 
-![you got this](../assets/you-got-this-meme.png)
+![you got this](assets/you-got-this-meme.png)
 
 <aside class="notes">
 
