@@ -10,7 +10,7 @@ Let's build an idea board!
 
 **Teaching Tip**:
 
-- This is a brief interactive lecture that introduces the 6-hour Idea Board Code-Along.
+- This is a brief interactive lecture that introduces the 6-hour Idea Board code-along.
 
 - To run on local, open terminal/command prompt and follow below:
 1. git clone { remote git folder url }
@@ -30,7 +30,7 @@ This last script should run the server and the react application.
 
 ## Idea Board
 
-We are going to build our own Idea Board using `create-react-app` with a pre built backend server.  This allows us to fully understand our application and prevents introducing a bunch of code that we haven't written and don't understand.
+We are going to build our own Idea Board using `create-react-app` with a pre-built backend server.  This allows us to fully understand our application and prevents introducing a bunch of code that we haven't written and don't understand.
 
 </aside>
 
@@ -41,7 +41,7 @@ We are going to build our own Idea Board using `create-react-app` with a pre bui
 <aside class="notes">
 
 **Talking Points**:
-- We will build an app where a user can write out different ideas and save them to a database. This app will have 2 models — Users and Ideas (which will live inside of Users).
+- We will build an app where a user can write out different ideas and save them to a database. This app will have 2 models: Users and Ideas (which will live inside of Users).
 
 
 **Teaching Tips**:
