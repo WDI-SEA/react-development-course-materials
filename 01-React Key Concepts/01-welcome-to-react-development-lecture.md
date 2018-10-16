@@ -433,8 +433,7 @@ Homework:
 
 - Declarative views: They make your code more readable and easier to debug.
 - Virtual DOM: A virtual copy of the original DOM. Manipulating it (over the original DOM) speeds things up.
-- Event handling: No need to worry about incompatible event names and fields.
-// The above sentence is weird. Not sure what it means.
+- Event handling: React's event handlers will handle event names and fields for you so that you don't have to resolve incompatible names.
 - JSX: Markup syntax you'll use for generating strings of HTML that are almost identical to the HTML you'll insert into the webpage.
 - Component-based: In React, everything on the webpage is divided into small components to create a view (or UIs).
 <aside class="notes">
