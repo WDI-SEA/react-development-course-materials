@@ -66,13 +66,7 @@ By the end of this lesson, you'll be able to:
 **Teaching Tips**:
 
 - [Sandbox version of lesson](https://my.generalassemb.ly/activities/477?from=assignment "ES6: Variables and Imports") — Remember to open this in a new tab.
-// There is an error on slide 20/22 in the sandboxed version of the lesson. The code snippet should be something like
-```JavaScript
-export function addTwo(n) {
-  return n + 2;
-}
-```
-but instead is cut and pated from the previous slide.
+
 - Elicit from students what purpose `const` and `let` serve.
 
 - Consider reviewing the [CodePen activity](https://codepen.io/SuperTernary/pen/owQGmy?editors=001) with them.
