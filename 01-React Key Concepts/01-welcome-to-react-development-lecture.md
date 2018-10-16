@@ -181,7 +181,7 @@ Please share:
 
 **Teaching Tips**:
 
-- Feel free to swap these out for your preferred ice breaker questions. The following is an ice breaker activity; you could do that instead of (or in addition to) these questions. 
+- Feel free to swap these out for your preferred ice breaker questions. The following is an ice breaker activity; you could do that instead of (or in addition to) these questions.
 
 </aside>
 
@@ -434,8 +434,9 @@ Homework:
 - Declarative views: They make your code more readable and easier to debug.
 - Virtual DOM: A virtual copy of the original DOM. Manipulating it (over the original DOM) speeds things up.
 - Event handling: No need to worry about incompatible event names and fields.
+// The above sentence is weird. Not sure what it means.
 - JSX: Markup syntax you'll use for generating strings of HTML that are almost identical to the HTML you'll insert into the webpage.
-- Component-based: In React, everything on the webpage is divided into small components to create a view (or UIs). 
+- Component-based: In React, everything on the webpage is divided into small components to create a view (or UIs).
 <aside class="notes">
 
 **Talking Points**:
