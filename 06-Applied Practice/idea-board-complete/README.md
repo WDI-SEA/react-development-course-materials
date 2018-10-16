@@ -80,7 +80,7 @@ Work with classmates around you to:
 
 ---
 
-![you got this](assets/you-got-this-meme.png)
+![you got this](../assets/you-got-this-meme.png)
 
 <aside class="notes">
 
@@ -220,7 +220,7 @@ Create the home page element with a greeting and a `Link` to the LogIn component
 
 ## LogIn
 
-In order to make API calls, we'll use Axios.
+In order to make API calls, we'll use fetch.
 
 ```jsx
   import React, { Component } from 'react'
