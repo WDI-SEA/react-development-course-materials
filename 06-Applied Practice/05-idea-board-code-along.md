@@ -6,10 +6,6 @@
 
 Let's build an idea board!
 
-### Objectives
-*After this lesson, you will be able to:*
-- {Insert React Objectives Here}
-
 <aside class="notes">
 
 **Teaching Tip**:
@@ -26,9 +22,7 @@ This last script should run the server and the react application.
 
 **Talking Points**:
 
-- This code-along guides you in building a mock up Full Stack Application with React.
-
-- A lot of modern JavaScript is focused on knowing the right tools for the job.  Today we will be pulling in everything we've learned about React to build a full stack application.
+- A lot of modern JavaScript is focused on knowing the right tools for the job.  Today we will be pulling in everything we've learned about React to build a full-stack application.
 
 </aside>
 
@@ -36,7 +30,7 @@ This last script should run the server and the react application.
 
 ## Idea Board
 
-We are going to build our own Idea Board using `create-react-app` with a pre built backend server.  This allows us to fully understand our application and prevents introducing a bunch of code that we haven't written and understand.
+We are going to build our own Idea Board using `create-react-app` with a pre built backend server.  This allows us to fully understand our application and prevents introducing a bunch of code that we haven't written and don't understand.
 
 </aside>
 
