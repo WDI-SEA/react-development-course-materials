@@ -6,9 +6,9 @@
 
 It's time to build something you'll be proud to call your own.
 
-This is an open-ended project. There's no set solution that we can provide, but of course we're here to help.
+This is an open-ended project. We can't provide any set solution, but we're always here to help.
 
-You'll be making your own site. This can be a site that you imagine, but feel free to pick an existing website and try to mimic it. Some websites that use React to model yours after are:
+You'll be making your own website. This can be a website you imagine, but feel free to pick an existing website and try to mimic it. Some websites that use React to model yours after are:
   - https://www.airbnb.com/
   - https://citymapper.com/boston
   - https://reddit.com
@@ -29,16 +29,16 @@ Once you have a website with basic functionality that you're satisfied with, loo
 - Don't worry about styling at first. Focus on getting the functionality working.
 - Remember that `state` and `props` are **not** the same.
   - `state` represents the **state** of your user interface component.
-  - `state` can trigger changes in `props`, or `props` can come from parent components.
-- Stick to functional programming techniques whenever possible (e.g., use built-in methods such as `.forEach()` and `.map()` if available).
+  - `state` can trigger changes in `props` and `props` can come from parent components.
+- Stick to functional programming techniques wherever possible (e.g., use built-in methods such as `.forEach()` and `.map()` if available).
 - If you're rendering a list of child components (such as a `ul` -> `li` list), each individual child component needs a unique `key` for React to work with it. This is so React can identify each element uniquely, if necessary.
 
 ### Further Directions
 
 Once you have a website with basic functionality that you're satisfied with, choose at least one of the options below to implement.
 
-* **Option 1:** Learn about React styling. Strengthen your knowledge of React by creating a new React application and recreating the UI, or by applying styling to the project you started in the last exercise.
-* **Option 2:** Learn about and implement React animations and apply them to the blog or the project you built in the last exercise.
+* **Option 1:** Learn about React styling. Create a new React application and recreate the UI, or apply styling to the project you started in the last exercise.
+* **Option 2:** Learn about React animations and apply them to the blog or project you built in the last exercise.
 * **Option 3:** In addition to animations, incorporate Flow — a static type checker — into your application.
 
 ### Deliverables
@@ -51,7 +51,7 @@ Enjoy the challenge!
 
 <aside class="notes">
 
-**Talking point**:
+**Talking Point**:
 - Note: We don't have a database set up, so if you need data, feel free to hard-code a little (just enough to get the idea) or use `fetch` to call an API.
 
 
