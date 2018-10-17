@@ -212,7 +212,7 @@ Create Your Own Web Warrior
 
 ## What Is General Assembly?
 
-- More 20 global campuses across 6 countries.
+- More than 20 global campuses across 6 countries.
 - A thriving alumni community of 50,000+ full- and part-time graduates.
 - Corporate training with 350+ companies, including more than 40 of the Fortune 100.
 - 500,000+ attendees at bootcamps, workshops, and events.
