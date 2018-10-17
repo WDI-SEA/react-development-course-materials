@@ -32,7 +32,7 @@ In this lesson, students will:
 - After each presentation, have all students identify one thing they loved about the presentation and one suggestion or thought about how to improve the project or take it to the next level. Ask them to send these through Slack.
 
 
-**Teaching tips:**
+**Teaching Tips:**
 - Allow students three minutes each to present, less for a larger class.
 - Some students might not want to present and that's absolutely fine. This is just their chance to show off what they've done.
 - Compliment their projects. They've worked hard.
