@@ -41,7 +41,7 @@ Each group will have:
 
 <aside class="notes">
 
-**Teaching tips**:
+**Teaching Tips**:
 
 - Have each group choose a different question to answer so there's no repetition.
 - Circulate while the groups are developing their presentation.
