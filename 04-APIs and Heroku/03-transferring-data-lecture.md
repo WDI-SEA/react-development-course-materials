@@ -11,8 +11,8 @@ After this lesson, you'll be able to:
 
 ## Return Format
 
-![slow to load](./assets/waiting.jpg)<br>
-<sup>Image Credit: [All Things Clipart](http://www.allthingsclipart.com/09/waiting.clipart.htm)<sup>
+Loading...
+
 
 <aside class="notes">
 

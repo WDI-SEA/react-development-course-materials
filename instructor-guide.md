@@ -32,7 +32,7 @@ This guide contains links to a standard set of high quality resources for your u
 Think of this guide as a cookbook. You, as the chef, will use the guidelines provided to craft an amazing meal for your students. But of course, you’ll want to think ahead about the various “dietary restrictions” and preferences of your “diners” as well as the type of “ambience” best suited to the type of experience you want to create.
 
 
-![cookbook](images/cookbook-notes.png)
+![cookbook](images/cookbook-notes-small.png)
 
 
 Adaptations we encourage you to make:
@@ -54,11 +54,12 @@ When in doubt, discuss any planned changes to the curriculum you’d like to mak
 ## Contributors
 General Assembly’s course materials are developed in close collaboration with our global expert network. This guide could not have been possible without the contributions of the following current and former instructors, students and community members:
 
-|   |   |   |   |
-|---|---|---|---|
-| [Joe Keohan](https://generalassemb.ly/instructors/joe-keohan/7866) <br> ![joe](images/joe.jpg)  | [Courtney Hoskins](https://generalassemb.ly/instructors/courtney-hoskins/15044) <br> ![courtney](images/courtney.jpg)  | [Jamie King](https://generalassemb.ly/instructors/jamie-king/11753) <br> ![jamie](images/jamie.jpg)  | [Mike Dang](https://generalassemb.ly/instructors/mike-dang/5451) <br> ![mike](images/mike.JPG)  |
-| [Susi Remondi](https://www.linkedin.com/in/susi-remondi-254415b/) <br> ![susi](images/susi.jpeg)  |[Zoe Lubitz](https://www.linkedin.com/in/zoelubitz/) <br>![zoe](images/zoe.jpeg)    |  [Emily Logan](https://generalassemb.ly/instructors/emily-logan/10453) <br> ![emily](images/emily.jpg) | [Eric Newman](https://www.linkedin.com/in/eric-newman-5895a146/) <br> ![eric](images/eric.png) |
-| [Claire Oliver](https://www.linkedin.com/in/claireoliver/) <br> ![claire](images/claire.jpeg) | [Jeff Boykin](https://www.linkedin.com/in/jeffboykin/) <br> ![jeff](images/jeff.jpeg) |
+|   |   |   |   |   |
+|---|---|---|---|---|
+| [Joe Keohan](https://generalassemb.ly/instructors/joe-keohan/7866) <br> ![joe](images/joe.jpg)  | [Courtney Hoskins](https://generalassemb.ly/instructors/courtney-hoskins/15044) <br> ![courtney](images/courtney.jpg)  | [Jamie King](https://generalassemb.ly/instructors/jamie-king/11753) <br> ![jamie](images/jamie.jpg)  | [Mike Dang](https://generalassemb.ly/instructors/mike-dang/5451) <br> ![mike](images/mike.JPG) | [Sonyl Nagale](https://www.linkedin.com/in/sonyl-nagale-210a634b/) <br> ![sonyl](images/sonyl.jpeg) |
+| [Susi Remondi](https://www.linkedin.com/in/susi-remondi-254415b/) <br> ![susi](images/susi.jpeg)  |[Zoe Lubitz](https://www.linkedin.com/in/zoelubitz/) <br>![zoe](images/zoe.jpeg)    |  [Emily Logan](https://generalassemb.ly/instructors/emily-logan/10453) <br> ![emily](images/emily.jpg) | [Eric Newman](https://www.linkedin.com/in/eric-newman-5895a146/) <br> ![eric](images/eric.png) | [Jon Zachary](https://generalassemb.ly/instructors/jon-zachary/13535) <br> ![jon](images/jon.png)|
+| [Claire Oliver](https://www.linkedin.com/in/claireoliver/) <br> ![claire](images/claire.jpeg) | [Jeff Boykin](https://www.linkedin.com/in/jeffboykin/) <br> ![jeff](images/jeff.jpeg) | [Tom Trasmontero](https://www.linkedin.com/in/thomas-trasmontero/) <br> ![tom](images/tom.jpeg)  
+
 
 ## Course Details
 React Development is a 40-hour course, delivered in either a 1-week full-time or a 10-week part-time (two 2-hour sessions per week) format. Incoming students should have a familiarity with HTML and the Document Object Model (DOM), along with a working knowledge of JavaScript programming and functions, objects, arrays, and classes.

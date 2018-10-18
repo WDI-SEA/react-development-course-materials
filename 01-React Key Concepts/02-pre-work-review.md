@@ -12,7 +12,7 @@
 
 - Students should have completed all lessons prior to the start of the course.
 
-- Review each lesson; how much time you spend on each will vary. Always get a barometer reading of the class. If students seem comfortable with the material in a given lesson, call out a few specific key points and move on. If, however, students seem confused/concerned about a lesson's content, do a deeper review — maybe go through the lesson slide by slide. 
+- Review each lesson; how much time you spend on each will vary. Always get a barometer reading of the class. If students seem comfortable with the material in a given lesson, call out a few specific key points and move on. If, however, students seem confused/concerned about a lesson's content, do a deeper review — maybe go through the lesson slide by slide.
 
 - Links to a sandbox version of each lesson are in this document, so you can easily project the lessons and walk through them. Please do not share out these links.
 
@@ -20,7 +20,7 @@
 
 - If the class is split (one or more students need a deeper review of a given lesson, whereas the rest feel comfortable with the material), recruit the more advanced students to help you with the ones needing a deeper review. You can partner up a student who understands the material with one who is struggling. As an alternative, you may move on, but ask the struggling students to see you in office hours, or direct them to additional tutorials.
 
-- Be sure to spend sufficient time on the blog post exercise in the props lesson. Students must all have their blog code in good order before moving on — that is a dependency for the next lesson. 
+- Be sure to spend sufficient time on the blog post exercise in the props lesson. Students must all have their blog code in good order before moving on — that is a dependency for the next lesson.
 
 </aside>
 
@@ -164,6 +164,8 @@ By the end of this lesson, you'll be able to:
 - Check for understanding of the learning objectives. Call on random students and ask comprehension questions such as: "A component class will just ignore any props it receives that it doesn't use — true or false? Explain your answer." If the student doesn't know, allow others to try and answer.
 
 - Show and tell: Show me your blog post (81% on progress bar). Go around the room and see how students did with this exercise. Ask: "What was tough about this?" (not: "Was this tough?"). Address any difficulties the students had.
+
+- Blog solution and starter code are [here](https://git.generalassemb.ly/ed-product-library/React-Exercise-Solutions/tree/master/projects/project-01-jsx).
 
 </aside>
 

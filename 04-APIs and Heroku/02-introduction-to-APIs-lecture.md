@@ -51,8 +51,8 @@ API stands for "application programming interface."
 
 ## Web APIs
 
-![what is an api?](./assets/What-is-an-API.png)<br>
-<sup> Image Credit: [Signity Solutions](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
+![what is an api?](./assets/What-is-an-API-v2.png)<br>
+<sup> Image Source: [Signity Solutions](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
 
 <aside class="notes">
 
@@ -66,8 +66,8 @@ API stands for "application programming interface."
 
 ## How an API Fits in With SPAs
 
-![](./assets/traditional-page-lifecycle.png)<br>
-<sup>Image Credit: [Zanon.io](https://zanon.io/posts/angularjs-how-to-create-a-spa-crawlable-and-seo-friendly)<sup>
+![](./assets/traditional-page-lifecycle-v2.png)<br>
+<sup>Image Source: [Zanon.io](https://zanon.io/posts/angularjs-how-to-create-a-spa-crawlable-and-seo-friendly)<sup>
 
 <aside class="notes">
 

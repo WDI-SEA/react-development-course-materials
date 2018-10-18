@@ -60,7 +60,7 @@ The requests we are making are called **AJAX** requests. As you'll come to learn
 
 ---
 
-![Request/Response](assets/request-response.png)
+![Request/Response](assets/request-response-v2.png)
 
 <aside class="notes">
 
@@ -397,5 +397,5 @@ render() {
 ### Hast thou not a word of joy?
 -Romeo and Juliet, Act 3, Scene 5
 
-![happy programmer](assets/happy-programmer.jpg)
+
 

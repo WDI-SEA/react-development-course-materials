@@ -26,6 +26,10 @@ This blog looks great so far! Now, our stegosaurus is actually collaborating mor
 
 > Hint: Remember that, whenever you write JavaScript expressions inside of JSX, you need to surround them with single curly braces (`{}`). 
 
+**Teaching Tips**:
+
+- Solution and starter code are [here](https://git.generalassemb.ly/ed-product-library/React-Exercise-Solutions/tree/master/projects/project-02-nested-components).
+
 </aside>
 
 ---

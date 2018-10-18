@@ -10,6 +10,10 @@ Ready to create an app?
 
 - So, we've gone through all of the basics of React. To really hammer it home with practice, let's walk through complete creation of an app. This will be a to-do list, keeping track of everything we need to do for the day (after we finish this!). It's a lot, so we're going to want it to be editable.
 
+**Teaching Tips**:
+
+- Solution is [here](https://git.generalassemb.ly/ed-product-library/React-Exercise-Solutions/tree/master/exercises/to-do-list).
+
 </aside>
 
 ---

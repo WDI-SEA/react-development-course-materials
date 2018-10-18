@@ -9,6 +9,10 @@ Let's implement state in our blog.
 - Let's implement state in our blog by making `body` a mutable value.
 - Remember to switch the running application!
 
+**Teaching Tips**:
+
+- Solution and starter code are [here](https://git.generalassemb.ly/ed-product-library/React-Exercise-Solutions/tree/master/projects/project-03-state).
+
 </aside>
 
 ---

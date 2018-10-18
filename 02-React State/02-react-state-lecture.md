@@ -15,7 +15,7 @@ _By the end of this lesson, you will be able to:_
 ## Trello
 
 
-![Trello Example](images/trello-example.png)
+![Trello Example](images/trello-example-v2.png)
 
 
 
