@@ -1,6 +1,11 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Pre-Work Review
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+
+
+<h1>Pre-Work Review</h1>
 
 ---
+
+##
 
 ![pre-work screen shot](./images/new-react-pre-work-screen-shot.png)
 
@@ -28,7 +33,7 @@
 
 ## Pre-Work Lesson: Welcome to React Development
 
-### Learning Objectives:
+**Learning Objectives**:
 
 By the end of this lesson, you'll be able to:
 
@@ -52,7 +57,7 @@ By the end of this lesson, you'll be able to:
 
 ## Pre-Work Lesson: ES6: Variables and Imports
 
-### Learning Objectives:
+**Learning Objectives**:
 
 By the end of this lesson, you'll be able to:
 
@@ -81,7 +86,7 @@ By the end of this lesson, you'll be able to:
 
 ## Pre-Work Lesson: ES6: Arrow Functions and Objects and Template Literals
 
-### Learning Objectives:
+**Learning Objectives**:
 
 By the end of this lesson, you'll be able to:
 
@@ -109,7 +114,7 @@ By the end of this lesson, you'll be able to:
 
 ## Pre-Work Lesson: Getting Started With React
 
-### Learning Objectives:
+**Learning Objectives**:
 
 By the end of this lesson, you'll be able to:
 
@@ -145,7 +150,7 @@ By the end of this lesson, you'll be able to:
 
 ## Pre-Work Lesson: Props
 
-### Learning Objectives:
+**Learning Objectives**:
 
 By the end of this lesson, you'll be able to:
 
@@ -165,11 +170,11 @@ By the end of this lesson, you'll be able to:
 
 - Show and tell: Show me your blog post (81% on progress bar). Go around the room and see how students did with this exercise. Ask: "What was tough about this?" (not: "Was this tough?"). Address any difficulties the students had.
 
-- Blog solution and starter code are [here](https://git.generalassemb.ly/ed-product-library/React-Exercise-Solutions/tree/master/projects/project-01-jsx).
-
 </aside>
 
 ---
+
+## Questions
 
 ![pre-work screen shot](./images/question-elephant.jpg)
 
@@ -183,3 +188,5 @@ By the end of this lesson, you'll be able to:
 
 
 </aside>
+
+---

@@ -1,5 +1,10 @@
- # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React State: Section Recap 2
- 
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>React State: Section Recap 2</h1>
+
+---
+
+## Serious...
+
 ![react meme](images/react-meme.jpg)
 
 <aside class="notes">
@@ -16,16 +21,16 @@
 
 ---
 
-### Best Practice 1
+## Best Practice 1
 
 - Each component should be in its own file. Don't put multiple components into one JavaScript file.
 
 ---
 
-### Best Practice 2
+## Best Practice 2
 
 - Do not automatically render elements on the DOM *inside* their own component class definitions.
- 
+
 
 <aside class="notes">
 
@@ -40,10 +45,10 @@
 
 ---
 
-### Best Practice 3
+## Best Practice 3
 
-- Remember: State and props are NOT the same thing. 
-  
+- Remember: State and props are NOT the same thing.
+
 <aside class="notes">
 
 **Talking Points:**
@@ -56,7 +61,7 @@
 
 ---
 
-### Best Practice 4
+## Best Practice 4
 
 - Remember: State can only be changed through `this.setState()`.
 
@@ -70,7 +75,7 @@
 
 ---
 
-### Best Practice 5
+## Best Practice 5
 
 - When you are working with components that have no need for state, use a functional component.  
 
@@ -84,7 +89,7 @@
 
 ---
 
-#### Last Thoughts
+## Last Thoughts
 
 Think of a few websites you've seen. Would they benefit from using React?
 

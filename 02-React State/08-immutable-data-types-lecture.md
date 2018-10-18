@@ -1,4 +1,7 @@
-# ![GA Cog Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Immutable Data Types
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Immutable Data Types</h1>
+
+---
 
 ## Learning Objectives
 
@@ -90,8 +93,7 @@ anArray.pop() // new value of anArray is ['oneFish', 'two fish', 'red fish']
 
 ## Immutable Data in React
 
-
-### Don't Do:
+**Don't Do**:
 
 ```javascript
 handleChange = (event) => {
@@ -115,9 +117,9 @@ handleChange = (event) => {
 
 ---
 
-## Immutable Data in React (Cont.)
+## Immutable Data in React
 
-### Do:
+**Do**:
 
 ```javascript
 handleChange = (event) => {
@@ -139,7 +141,7 @@ handleChange = (event) => {
 
 ## Immutable Data and Props
 
-Component props should not (and cannot) be changed within a component. 
+Component props should not (and cannot) be changed within a component.
 
 <aside class="notes">
 
@@ -168,13 +170,13 @@ const newArray = anArray.filter((item, index, originalArray) => index !== origin
 **Talking Point:**
 
 - As mentioned above, `array.pop()` mutates the array. However, you can achieve the same effect without mutating the array.
-The array methods `.map()`, `.filter()`, and `.reduce()` return modified copies of the array and _don't_ mutate the originals. 
+The array methods `.map()`, `.filter()`, and `.reduce()` return modified copies of the array and _don't_ mutate the originals.
 
 </aside>
 
 ---
 
-## Immutable Methods (Cont.)
+## Immutable Methods
 
 ```javascript
 const newObject = Object.assign({}, anObject, { foo: 'barrrrr' })
@@ -208,14 +210,14 @@ The **spread** operator: `...`
 
 ---
 
-### Cloning Arrays Using the Spread Operator
+## Cloning Arrays Using the Spread Operator
 
 ```js
 let original = ["hello", "bonjour", "guten tag"]
 
 let notCloned = original
 
-original === notCloned 
+original === notCloned
 // Evaluates to true.
 
 let cloned = [...original]
@@ -235,7 +237,7 @@ original === cloned
 
 ---
 
-### Pushing Data to an Array Using the Spread Operator
+## Pushing Data to an Array Using the Spread Operator
 
 ```js
 let arrayOne = ["a", "b", "c"]
@@ -259,7 +261,7 @@ let withoutSpread = [arrayOne, arrayTwo]
 
 ---
 
-### Cloning and Adding Data in an Object Using the Spread Operator
+## Cloning and Adding Data in an Object Using the Spread Operator
 
 ```js
 let exampleObject = {
@@ -297,7 +299,7 @@ let lotsOfData = {
 
 ---
 
-### Immutable Libraries
+## Immutable Libraries
 
 
 Immutable.js provides `List`, `Stack`, `Map`, `OrderedMap`, `Set`, `OrderedSet` and `Record` — along with methods for making changes to your data like `set()`, `get()`, `delete()`, `update()`, **etc**.
@@ -320,6 +322,6 @@ Immutable.js provides `List`, `Stack`, `Map`, `OrderedMap`, `Set`, `OrderedSet` 
 
 ---
 
-Additional Resources:
+## Additional Resources:
 
 - [JavaScript Immutable Libraries](https://gist.github.com/jlongster/bce43d9be633da55053f)

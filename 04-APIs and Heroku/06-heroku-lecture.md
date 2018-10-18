@@ -1,4 +1,7 @@
-# ![GA Cog Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Heroku
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Heroku</h1>
+
+---
 
 ## Learning Objectives
 
@@ -10,7 +13,7 @@ After this lesson, you'll be able to:
 
 ---
 
-### Deploying a React App
+## Deploying a React App
 
 ![meme](assets/heroku-meme.jpg)<br>
 <sup>Image source: http://cloudless.studio/articles/29-is-phoenix-deployment-really-that-hard</sup>
@@ -31,7 +34,7 @@ After this lesson, you'll be able to:
 
 ---
 
-### What Is Heroku?
+## What Is Heroku?
 
 ![logo](assets/heroku-logo.png)
 
@@ -53,7 +56,7 @@ https://heroku.com
 
 ---
 
-### The Heroku Command Line Interface
+## The Heroku Command Line Interface
 
 Download and install the Heroku command line interface (CLI):
 
@@ -76,7 +79,7 @@ https://devcenter.heroku.com/articles/heroku-cli
 
 ---
 
-### Log In To Heroku
+## Log In To Heroku
 
 ```bash
 Enter your Heroku credentials.
@@ -95,7 +98,7 @@ Authentication successful.
 
 ---
 
-### Heroku App
+## Heroku App
 
 
 ```bash
@@ -112,7 +115,7 @@ cd $your_app_name_here
 
 ---
 
-### Initialize a Git Repo
+## Initialize a Git Repo
 
 ```
 git init
@@ -128,7 +131,7 @@ git init
 
 ---
 
-### Create a Heroku Application
+## Create a Heroku Application
 
 `create-react-app-buildpack`
 
@@ -149,7 +152,7 @@ heroku create your_app_name_here --buildpack https://github.com/mars/create-reac
 
 ---
 
-### Heroku's Output
+## Heroku's Output
 
 ```sh
 Creating app... done, ⬢ your_app_name_here
@@ -167,7 +170,7 @@ https://your_app_name_here.herokuapp.com/ | https://git.heroku.com/your_app_name
 
 ---
 
-### Add Files and Changes
+## Add Files and Changes
 
 ```sh
 git add -A
@@ -186,7 +189,7 @@ git commit -m "My first React app on Heroku! wow!"
 
 ---
 
-### Push App to Heroku
+## Push App to Heroku
 
 ```
 git push heroku master
@@ -200,7 +203,7 @@ git push heroku master
 
 - After witnessing lots of command line wizardry happen before your eyes, you should see Heroku print out a URL to the console. Copy and paste that URL into your browser, or type `heroku open`. Either way, you'll be taken to your React application.
 
-- Congrats — you've now deployed your React app! 
+- Congrats — you've now deployed your React app!
 
 </aside>
 
@@ -208,7 +211,7 @@ git push heroku master
 
 ## Deploying Your Project Live
 
-### Routing Clean URLs With React Router
+**Routing Clean URLs With React Router**
 
 Example of a default React Router hash-based URL:
 https://example.com/index.html#/users/me/edit
@@ -232,7 +235,7 @@ https://example.com/users/me/edit
 
 ---
 
-### Create a `static.json` File
+## Create a `static.json` File
 
 ```json
 {
@@ -254,7 +257,7 @@ https://example.com/users/me/edit
 
 ---
 
-### Getting Around CORS With Heroku Proxy
+## Getting Around CORS With Heroku Proxy
 
 **What is CORS?**
 
@@ -264,7 +267,7 @@ CORS stands for cross-origin resource sharing.
 
 A CORS proxy is a service that allows developers to access resources from other websites without having to own that website.
 
-![logo](assets/CORS-principle.png)<br>
+<img src="assets/CORS-principle.png" class="responsive" />
 <sup>Image Credit: [Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
 <aside class="notes">
@@ -283,7 +286,7 @@ A CORS proxy is a service that allows developers to access resources from other 
 
 ---
 
-### Configure a CORS proxy
+## Configure a CORS proxy
 
 Use [proxy back-ends from the static site buildpack](https://github.com/heroku/heroku-buildpack-static/blob/master/README.md#proxy-backends).
 

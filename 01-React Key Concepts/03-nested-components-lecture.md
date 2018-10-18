@@ -1,8 +1,12 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Nested Components
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
 
+<h1>Nested Components</h1>
 
-### Learning Objectives:
+---
+
+## Learning Objectives:
 *After this lesson, you will be able to:*
+
 - Diagram nested components.
 - Render components within another component.
 - Pass props to a nested component.
@@ -12,6 +16,7 @@
 ## In Your Blog...
 
 ...a section of your `App.js` `render()` function currently looks like this:
+
 ```html
 <h3>Comments:</h3>
 <p>{this.props.comments[0]}</p>
@@ -38,6 +43,9 @@ Discussion: While you can certainly display more comments with `<p>{this.props.c
 </aside>
 
 ---
+
+## In Your Blog...
+
 
 Next, we'll put comments inside an individual `Post` component. To do this, we can reference a comment using `<Comment />` inside of `Post`'s `render()` method.
 
@@ -77,6 +85,8 @@ Discussion: What have we done?
 
 ---
 
+## In Your Blog...
+
 Now, in `src/App.js`, we need to import our `Comment` component so it's available to the `Post` component class.
 * Change the top of `App.js` to include the new class:
 
@@ -89,6 +99,8 @@ import Comment from './Comment.js';
 ```
 
 ---
+
+## In Your Blog...
 
 `<p>{this.props.comments[0]}</p>`
 
@@ -106,6 +118,8 @@ import Comment from './Comment.js';
 
 ---
 
+## In Your Blog...
+
 ```js
 <Comment body={this.props.comments[0]} />
 ```
@@ -118,7 +132,8 @@ import Comment from './Comment.js';
 
 ---
 
-### What Just Happened?!
+## What Just Happened?!
+
 <aside class="notes">
 
 **Teaching Tips**: See if students can explain it before you move to the talking points.
@@ -130,6 +145,8 @@ import Comment from './Comment.js';
 </aside>
 
 ---
+
+## Nested Components
 
 ![nested components chart](./images/nested_components_chart.jpg)
 
@@ -148,15 +165,13 @@ Check to see that everyone is following along. Remember to ask: "What questions 
 
 ---
 
+## Recap
 
-### Recap
-
-
-##### What We Did
+**What We Did**
 
 `<Comment body={this.props.comments[0]} />` passed just the first object in the `comments` array.
 
-##### What Else Can We Do?
+**What Else Can We Do?**
 
 ![nested components meme](./images/nested-components-we-need-to-go-deeper.jpg)
 
@@ -169,8 +184,8 @@ Check to see that everyone is following along. Remember to ask: "What questions 
 </aside>
 
 ---
-### Mini Code-Along
 
+## Code-Along
 
 ```js
 class Post extends Component {
@@ -184,6 +199,7 @@ class Post extends Component {
   }
 }
 ```
+
 <aside class="notes">
 
 **Talking Points**:
@@ -196,8 +212,10 @@ class Post extends Component {
 
 ---
 
+## Code-Along
 
-We could then call this object inside our `return` statement with `{allComments}`, which would then call all three of those <`Comment />` statements:
+
+We could then call this object inside our `return` JSX with `{allComments}`, which would then call all three of those <`Comment />` statements:
 
 ```html
 <div>
@@ -219,6 +237,8 @@ We could then call this object inside our `return` statement with `{allComments}
 </aside>
 
 ---
+
+## Code-Along
 
 ```js
 class Post extends Component {

@@ -1,4 +1,9 @@
-# ![GA Cog Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Introduction to APIs
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Introduction to APIs</h1>
+
+
+---
+
 
 ## Learning Objectives
 
@@ -7,6 +12,7 @@ After this lesson, you'll be able to:
 - Describe what an API is and why we might use one.
 - Identify common APIs on the web.
 
+---
 
 ## What Does API Stand For?
 
@@ -28,7 +34,8 @@ API stands for "application programming interface."
 
 ## Why Use APIs?
 
-![](./assets/api-diagram.png)<br>
+![](./assets/api-diagram.png)<br/>
+
 <sup> Image Credit: [Anuschka Diderich-Rijnsburger](https://www.slideshare.net/AnuschkaDiderichRijn?utm_campaign=profiletracking&utm_medium=sssite&utm_source=ssslideview) on SlideShare <sup>
 
 <aside class="notes">
@@ -51,8 +58,8 @@ API stands for "application programming interface."
 
 ## Web APIs
 
-![what is an api?](./assets/What-is-an-API-v2.png)<br>
-<sup> Image Source: [Signity Solutions](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
+![what is an api?](./assets/What-is-an-API.png)<br/>
+<sup> Image Credit: [Signity Solutions](http://www.signitysolutions.com/blog/miscellaneous-posts/what-is-an-apis-and-cms/) <sup>
 
 <aside class="notes">
 
@@ -66,8 +73,8 @@ API stands for "application programming interface."
 
 ## How an API Fits in With SPAs
 
-![](./assets/traditional-page-lifecycle-v2.png)<br>
-<sup>Image Source: [Zanon.io](https://zanon.io/posts/angularjs-how-to-create-a-spa-crawlable-and-seo-friendly)<sup>
+![](./assets/traditional-page-lifecycle.png)<br/>
+<sup>Image Credit: [Zanon.io](https://zanon.io/posts/angularjs-how-to-create-a-spa-crawlable-and-seo-friendly)<sup>
 
 <aside class="notes">
 
@@ -133,7 +140,7 @@ API stands for "application programming interface."
 
 ---
 
-### Building on the Shoulders of Giants
+## Building on the Shoulders of Giants
 
 - [Google Translate API](https://cloud.google.com/translate/)
 - [IBM Watson](https://developer.ibm.com/watson/)
@@ -151,7 +158,7 @@ API stands for "application programming interface."
 
 ---
 
-### Turn and Talk: API Exploration
+## Turn and Talk: API Exploration
 
 - [Public APIs](https://github.com/abhishekbanthia/Public-APIs)
 - [A Curated List of APIs](https://medium.com/@benjamin_libor/a-curated-collection-of-over-150-apis-to-build-great-products-fdcfa0f361bc)
@@ -170,7 +177,7 @@ API stands for "application programming interface."
 
 ---
 
-### APIs in the Wild
+## APIs in the Wild
 
 ![Planet of the APIs](./assets/planet-of-the-apis.jpg)
 

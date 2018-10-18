@@ -1,6 +1,12 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Exercise: To-Do List, Part 2
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Exercise: To-Do List, Part 2</h1>
 
-To-dos change. So should our list.
+
+---
+
+## To-dos change.
+
+So should our list.
 
 <aside class="notes">
 
@@ -45,6 +51,8 @@ To-dos change. So should our list.
 
 ---
 
+## Define the Function
+
 First, in `MyList`, we define the function the button will call:
 
 ```js
@@ -55,6 +63,10 @@ clearList = (e) => {
 }
 ```
 
+---
+
+## Add a Button
+
 Then, add a button after the whole `<ul>` list.
 
 **MyList.js**
@@ -64,6 +76,10 @@ Then, add a button after the whole `<ul>` list.
 </ul>
 <button onClick={this.clearList}>Finished the list!</button>
 ```
+
+---
+
+## So Far So Good
 
 This makes our `MyList` component look like this:
 
@@ -113,7 +129,7 @@ export default MyList
 
 ---
 
-### Now, What Will Happen When We Click on the Button?
+## Now, What Will Happen When We Click on the Button?
 
 
 <aside class="notes">
@@ -130,7 +146,7 @@ export default MyList
 
 ---
 
-### Sure-Fire Coding
+## Sure-Fire Coding
 
  ```js
  clearList = () => {
@@ -179,7 +195,7 @@ nothing wrong with how we hooked up the button and helps narrow our focus in cas
 
 ---
 
-## Adding Items (Cont.)
+## Adding Items
 
 * Create `handleChange`, for when we type characters into an input field and change the value of `newItem`.
 
@@ -203,7 +219,7 @@ nothing wrong with how we hooked up the button and helps narrow our focus in cas
 
 ---
 
-## Adding Items (Cont.)
+## Adding Items
 
 ```js
 <form>
@@ -278,7 +294,7 @@ an `action` attribute, the page just navigates to itself and reloads.
 
 ---
 
-### What's Next?
+## What's Next?
 
 Can you figure out how to implement some other new features?
 

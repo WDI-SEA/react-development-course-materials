@@ -1,6 +1,6 @@
 # ![GA Cog Calendar](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Exercise: Build a Calculator
 
-![Calculator Icon](images/calculator.jpg)
+![Calculator Icon](images/calculator.png)
 
 Let's build a calculator — because we can!
 
@@ -11,10 +11,6 @@ Let's build a calculator — because we can!
 - Now it's time for you to check back on everything you've learned. You'll be using React to build a calculator. I'll only be providing minimal instructions — the heavy thinking is on you!
 
 - At first, your calculator will simply add two numbers together when you enter them. For the bonus exercise, you might decide to get more creative.
-
-**Teaching Tips:**
-
-- Solution is [here](https://git.generalassemb.ly/ed-product-library/React-Exercise-Solutions/tree/master/exercises/calculator).
 
 </aside>
 

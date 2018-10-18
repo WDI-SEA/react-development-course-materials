@@ -1,4 +1,7 @@
-# ![GA Cog Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Exercise: To-Do List, Part 1
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Exercise: To-Do List, Part 1</h1>
+
+---
 
 ## Review
 
@@ -10,13 +13,11 @@ Ready to create an app?
 
 - So, we've gone through all of the basics of React. To really hammer it home with practice, let's walk through complete creation of an app. This will be a to-do list, keeping track of everything we need to do for the day (after we finish this!). It's a lot, so we're going to want it to be editable.
 
-**Teaching Tips**:
-
-- Solution is [here](https://git.generalassemb.ly/ed-product-library/React-Exercise-Solutions/tree/master/exercises/to-do-list).
-
 </aside>
 
 ---
+
+## To-Do List
 
 ![finished-list](./images/todo-list-finished.png)
 
@@ -30,7 +31,7 @@ Ready to create an app?
 
 ---
 
-### Let's get started!
+## Let's get started!
 
 
 ```sh
@@ -49,7 +50,7 @@ $ create-react-app todo-list
 
 ---
 
-### Starting the App
+## Starting the App
 
 The tool created a new directory for our app, so let's move into it...
 
@@ -120,6 +121,8 @@ export default MyList
 
 ---
 
+## Next...
+
 ```js
 // In index.js
 import React from 'react';
@@ -140,7 +143,7 @@ ReactDOM.render(
 
 **Talking Points**:
 
-- `index.js` now looks as seen here. 
+- `index.js` now looks as seen here.
 
 - Now, our webpage displays an empty list.
 
@@ -148,7 +151,7 @@ ReactDOM.render(
 
 ---
 
-### Keeping Components Small
+## Keeping Components Small
 
 
 ![list-preview](./images/todo-list-1.png)
@@ -171,7 +174,7 @@ At this point, our app looks as seen here.
 
 ---
 
-### Adding Style
+## Adding Style
 
 Let's pretty it up a bit!
 
@@ -215,6 +218,10 @@ class MyList extends Component {
 export default MyList
 ```
 
+---
+
+## Second, props
+
 ... and in `ListItem.js`:
 
 ```js
@@ -234,7 +241,9 @@ class ListItem extends Component {
 export default ListItem
 ```
 
-App preview:
+---
+
+## App preview:
 
 
 
@@ -278,7 +287,8 @@ let newArray = originalArray.map( (itemInArray, index) => {
 </aside>
 
 ---
-### Example
+
+## Example
 
 ```js
 const phrases = ['ice cream', 'dinosaurs', 'hobbits']
@@ -298,7 +308,7 @@ let excitedPhrases = phrases.map( (phrase, index) => {
 
 ---
 
-### Plan
+## Plan
 
 * In the `MyList` component, have an array of items for the list, uncreatively called `theList`.
 * Create a variable to refer to the new array output by the `map` method, uncreatively but helpfully called `todoItems`.
@@ -307,7 +317,7 @@ let excitedPhrases = phrases.map( (phrase, index) => {
 
 ---
 
-### Implementing the Plan - Part I
+## Implementing the Plan - Part I
 
 
 ```js
@@ -326,7 +336,7 @@ Here is the `map` function call that will do this for us, which we'll put in the
 
 ---
 
-### Implementing the Plan - Part II
+## Implementing the Plan - Part II
 
 ```jsx
 class MyList extends Component {
@@ -361,7 +371,7 @@ class MyList extends Component {
 
 ---
 
-### Implementing the Plan - Part III
+## Implementing the Plan - Part III
 
 
 And the `index.js` file:
@@ -383,7 +393,7 @@ ReactDOM.render(
 
 ---
 
-### Implementing the Plan - Part IV
+## Implementing the Plan - Part IV
 
 And the `ListItem.js`, which hasn't changed:
 ```js
@@ -406,7 +416,7 @@ export default ListItem
 
 ---
 
-### Implementing the Plan - Part IV
+## Implementing the Plan - Part IV
 
 ![list-preview](./images/todo-list-3.png)
 
@@ -415,7 +425,5 @@ export default ListItem
 **Talking Points**:
 
 - This is what we have now.
-
-</aside>
 
 </aside>

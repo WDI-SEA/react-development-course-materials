@@ -1,4 +1,8 @@
-# ![General Assembly Cog Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React State
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+
+<h1>React State</h1>
+
+---
 
 ## Learning Objectives
 
@@ -10,13 +14,12 @@ _By the end of this lesson, you will be able to:_
 - Change the state of a component.
 
 
---- 
+---
 
 ## Trello
 
 
-![Trello Example](images/trello-example-v2.png)
-
+<img src="images/trello-example.png" class="responsive" />
 
 
 <aside class="notes">
@@ -54,7 +57,7 @@ _By the end of this lesson, you will be able to:_
 
 ---
 
-### So Many Questions! 
+## So Many Questions!
 
 - What is state anyway?
 
@@ -76,11 +79,13 @@ _By the end of this lesson, you will be able to:_
 
 ---
 
+## MoodTracker
+
 Create a new file called `src/MoodTracker.js`.
 
 `$ touch src/MoodTracker.js`
 
-![](images/moodtracker-directories.png)
+<img src="images/moodtracker-directories.png" class="responsive" />
 
 <aside class="notes">
 
@@ -97,6 +102,8 @@ Create a new file called `src/MoodTracker.js`.
 </aside>
 
 ---
+
+## MoodTracker
 
 ```jsx
 // ...
@@ -138,7 +145,7 @@ export default App;
 
 ---
 
-### Initial State
+## Initial State
 
 `constructor`
 
@@ -151,6 +158,8 @@ export default App;
 </aside>
 
 ---
+
+## Initial State
 
 
 ```js
@@ -183,7 +192,7 @@ class MoodTracker extends Component {
 
 ---
 
-#### React Components in 2018
+## React Components in 2018
 
 
 ```js
@@ -211,6 +220,8 @@ class MoodTracker extends Component {
 </aside>
 
 ---
+
+## React Components in 2018
 
 ```js
 class MoodTracker extends Component {
@@ -240,6 +251,7 @@ class MoodTracker extends Component {
 
 ---
 
+## MoodTracker
 
 ```html
 <p>You are this happy: {this.state.moodPoints}</p>
@@ -278,14 +290,13 @@ return (
 
 ---
 
-### Changing State
-
-
-
-#### Check for Understanding: Events in JavaScript
+## Changing State
 
 
 <aside class="notes">
+
+* Check for Understanding: Events in JavaScript
+
 
 **Talking Points:**
 
@@ -309,15 +320,15 @@ return (
 
 ---
 
-### Events in React
+## Events in React
 
 Event listeners in React look very similar to adding events through HTML attributes. There are two main differences when working with React's synthetic events:
 
-1. 
+1.
    - `onClick` (React) vs. `onclick` (HTML)
    - `onSubmit` (React) vs. `onsubmit` (HTML)
-   
-2. 
+
+2.
    - `<button onClick={this.doSomething}>Click Me</button>` (React)
    - `<button onclick="doSomething()">Click Me</button>` (HTML)
 
@@ -341,7 +352,7 @@ Additionally, there are _tons_ of events available to React elements.
 
 ---
 
-#### Turn and Talk: Synthetic Events
+## Turn and Talk: Synthetic Events
 
 Check out the [React documentation](https://reactjs.org/docs/events.html#supported-events) on supported events.
 
@@ -365,7 +376,7 @@ With a partner, discuss the following:
 
 ---
 
-#### Code-Along, Continued: Setting State
+## Code-Along, Continued: Setting State
 
 We will create a button that the user can click, which will increase their mood by `1`.
 
@@ -381,12 +392,12 @@ We will create a button that the user can click, which will increase their mood 
 **Teaching Tip:**
 
 - If the class is advanced, this can be a good opportunity to introduce the [`spread`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) operator.
- 
+
 </aside>
 
 ---
 
-
+## IncreaseMood
 
 ```js
 increaseMood = () => {
@@ -413,6 +424,8 @@ increaseMood = () => {
 </aside>
 
 ---
+
+## IncreaseMood
 
 ```js
   render () {
@@ -442,6 +455,8 @@ increaseMood = () => {
 </aside>
 
 ---
+
+## MoodTracker
 
 All together, your `App.js` file now looks like this:
 
@@ -483,7 +498,7 @@ export default Hello;
 
 ---
 
-#### Using React, **We Only Change the Parts of the DOM That Need to Be Changed**
+## Using React, **We Only Change the Parts of the DOM That Need to Be Changed**
 
 
 <aside class="notes">
@@ -504,20 +519,11 @@ export default Hello;
 
 ---
 
-#### Challenge: Count to 10
+## Challenge: Count to 10
 
 After 10 clicks, the user should see the counter reset to `1`.
 
-<<<<<<< HEAD:02-React State/02-react-state.lecture.md
 > If you're interested in reading more in depth about this, here's more on what [should and shouldn't go in state](https://facebook.github.io/react/docs/state-and-lifecycle.html). This link is also in the Further Reading section at the end of the React module.
-=======
-> If you're interested in reading more in depth about this, here is more on what [should & shouldn't go in state](https://facebook.github.io/react/docs/state-and-lifecycle.html). This link is also in the Further Reading page at the end of the this lesson.
->>>>>>> master:02-React State/02-react-state-lecture.md
-
-<details>
-  <summary>
-    Answer:
-  </summary>
 
 ```js
 increaseMood = () => {
@@ -534,6 +540,10 @@ increaseMood = () => {
 };
 ```
 
+---
+
+## Challenge: Count to 10
+
 Or, using ternaries:
 
 ```js
@@ -549,7 +559,7 @@ increaseMood = () => {
 
 ---
 
-### Additional Resources
+## Additional Resources
 
 - [React State vs. Props](http://lucybain.com/blog/2016/react-state-vs-pros/)
 

@@ -1,6 +1,9 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Blog Project: Implement State #
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Blog Project: Implement State</h1>
 
-Let's implement state in our blog.
+---
+
+## Let's implement state in our blog.
 
 <aside class="notes">
 
@@ -9,15 +12,11 @@ Let's implement state in our blog.
 - Let's implement state in our blog by making `body` a mutable value.
 - Remember to switch the running application!
 
-**Teaching Tips**:
-
-- Solution and starter code are [here](https://git.generalassemb.ly/ed-product-library/React-Exercise-Solutions/tree/master/projects/project-03-state).
-
 </aside>
 
 ---
 
-### But First: What Would Happen to State if You Refreshed the Page?
+## But First: What Would Happen to State if You Refreshed the Page?
 
 
 <aside class="notes">
@@ -26,7 +25,7 @@ Let's implement state in our blog.
 
 - In React, state just represents the state of data on our page.
 
-- Something saved to state in React is not automatically saved to a database or to local storage. 
+- Something saved to state in React is not automatically saved to a database or to local storage.
 
 - State is just what's currently on the page. If you refresh the page, then all state is lost and refreshed with the page.
 
@@ -34,9 +33,9 @@ Let's implement state in our blog.
 
 ---
 
-### Steps
+## Steps
 
-1. Set an initial state for our `Post` component. 
+1. Set an initial state for our `Post` component.
 
 2. Modify `Post`'s `render()` method so that it uses the `body` from state, not props.
 
@@ -61,7 +60,7 @@ Let's implement state in our blog.
 </aside>
 
 
---- 
+---
 
 ## Solution
 
@@ -107,3 +106,5 @@ Use a form to take in user input.
 **Talking Point:**
 
 - This is what your solution should look like.
+
+</aside>

@@ -1,6 +1,9 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Underlying Concepts: Section Recap
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Underlying Concepts: Section Recap</h1>
 
+---
 
+##
 
 In this section, we dove deeper into React. Here's what we covered:
 

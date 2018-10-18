@@ -1,6 +1,8 @@
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>React State: Section Recap 1</h1>
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React State: Section Recap 1
 
+---
 
 ## Review
 
@@ -55,6 +57,8 @@ class Post extends Component {
 
 ---
 
+## Data Flow
+
 Let's consider a data flow example.
 
 1. Here's the code that kicks everything off:
@@ -74,6 +78,10 @@ class Post extends Component {
   }
 }
 ```
+
+---
+
+## Data Flow
 
 3. Next, we define a listener in the JSX `<button>` element. This calls the `changeBody()` method `.onClick`. That is defined here:
 
@@ -108,9 +116,9 @@ class Post extends Component {
 
 ---
 
-#### Check Yourself
+## Check Yourself
 
-When you `setState()`, what methods are fired? How are your `props` and `state` handled in the component? 
+When you `setState()`, what methods are fired? How are your `props` and `state` handled in the component?
 
 <aside class="notes">
 

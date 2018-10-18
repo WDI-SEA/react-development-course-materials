@@ -1,7 +1,12 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Imperative and Declarative Programming
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Imperative and Declarative Programming</h1>
+
+---
 
 ## Learning Objectives:
+
 *After this lesson, you will be able to:*
+
 - Create a JavaScript function via declarative programming.
 - Create a JavaScript function via imperative programming.
 - Contrast imperative and declarative programming.
@@ -21,11 +26,8 @@ for every person in the line
 
 **Talking Points**:
 
-<<<<<<< HEAD
 - Imperative and declarative programming are two terms you might encounter as a developer. Most developers begin by writing _imperative_ code. That is to say, most:
-=======
-- Imperative and declarative programming are two terms that you might encounter as a developer. Most developers begin by writing _imperative_ code. That is to say, most developers:
->>>>>>> master
+
 1. Outline what they need to do.
 2. Write it out step by step.
 
@@ -34,6 +36,8 @@ for every person in the line
 </aside>
 
 ---
+
+## Imperative Programming
 
 To explore the imperative way of thinking, let's open [this CodePen](https://codepen.io/SuperTernary/pen/eEVVvg?editors=0010).
 
@@ -82,6 +86,8 @@ for (let i = 0; i < room.length; i++) {
 
 ---
 
+## Declarative Programming
+
 Now, let's break from this approach for just a moment. Below that function in the CodePen (leave the array!), let's try building something in the **declarative** manner.
 
 Now, if we want to perform the same action, we could write our loop like so:
@@ -127,7 +133,7 @@ How was your discount coded? What would be the steps in an **imperative approach
 
 ---
 
-## Practice: Applying a Discount to Items in a Shopping Cart (Cont.)
+## Practice: Applying a Discount to Items in a Shopping Cart
 
 An **imperative** approach might:
 1. Declare an object consisting of the items in the cart with the original prices.
@@ -176,6 +182,9 @@ for (let i = 0; i < items.length; i++) {
 
 ---
 
+## Practice: Applying a Discount to Items in a Shopping Cart
+
+
 Add `console.log(items); console.log(discountedItems);`
 and hit `run` in [this CodePen](https://codepen.io/SuperTernary/pen/brLLRb?editors=0011).
 
@@ -193,6 +202,8 @@ and hit `run` in [this CodePen](https://codepen.io/SuperTernary/pen/brLLRb?edito
 </aside>
 
 ---
+
+## Practice: Applying a Discount to Items in a Shopping Cart
 
 
 ```js
@@ -225,6 +236,7 @@ Declarative and imperative represent two different styles of writing code.
 - Imperative is commonly found in object-oriented programming environments where you focus on a line-by-line execution path, working with objects.
 
 With modern web development's focus on simplicity, some developers have begun leveraging declarative techniques.
+
 - React.js is one framework that uses a declarative approach. Vue.js is another. You'll find that many asynchronous JavaScript techniques rely on declarative programming techniques for ease of readability.
 
 <aside class="notes">
@@ -238,4 +250,3 @@ With modern web development's focus on simplicity, some developers have begun le
 - You will likely encounter both ways of writing code as you continue in your development path, and it is useful to be aware of both!
 
 </aside>
-

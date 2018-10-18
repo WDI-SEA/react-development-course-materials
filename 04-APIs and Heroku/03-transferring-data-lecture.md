@@ -1,4 +1,7 @@
-# ![GA Cog Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Transferring Data
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Transferring Data</h1>
+
+---
 
 ## Learning Objectives
 
@@ -11,8 +14,8 @@ After this lesson, you'll be able to:
 
 ## Return Format
 
-Loading...
-
+![slow to load](./assets/waiting.jpg)<br>
+<sup>Image Credit: [All Things Clipart](http://www.allthingsclipart.com/09/waiting.clipart.htm)<sup>
 
 <aside class="notes">
 
@@ -28,7 +31,7 @@ Loading...
 
 ---
 
-### How APIs Are Read
+## How APIs Are Read
 
 APIs can be read using two major data formats: **JSON** and **XML**.
 
@@ -44,7 +47,7 @@ APIs can be read using two major data formats: **JSON** and **XML**.
 
 ---
 
-#### JSON
+## JSON
 
 ```json
 {
@@ -68,7 +71,7 @@ APIs can be read using two major data formats: **JSON** and **XML**.
 
 ---
 
-#### XML
+## XML
 
 ```html
 <users>
@@ -96,7 +99,7 @@ APIs can be read using two major data formats: **JSON** and **XML**.
 
 ---
 
-#### JSON or XML?
+## JSON or XML?
 
 `https:///api/index.php?output=json` or
 `https:///api/index.php?output=xml`
@@ -111,8 +114,9 @@ APIs can be read using two major data formats: **JSON** and **XML**.
 
 ---
 
-![Marvel API](./assets/marvel-api.png)
+##
 
+![Marvel API](./assets/marvel-api.png)
 
 
 - [Marvel Comics API](http://developer.marvel.com/documentation/getting_started)
@@ -151,7 +155,7 @@ APIs can be read using two major data formats: **JSON** and **XML**.
 
 ---
 
-### Getting an API Key
+## Getting an API Key
 
 
 Giphy API: https://api.giphy.com/
@@ -181,7 +185,7 @@ Giphy API: https://api.giphy.com/
 
 ---
 
-### Important Note
+## Important Note
 
 **Store those keys somewhere private.**
 

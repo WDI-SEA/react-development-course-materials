@@ -1,33 +1,27 @@
-<!--
-title: Welcome to React Development
-type: lesson
-duration: "01:00"
-creator: Brandi Butler
--->
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)Welcome to React Development
+<h1>Welcome to React Development</h1>
 
-![react logo](images/react-logo.png)
+<img src="images/react-logo.png" alt="react logo" class="responsive" />
 
+<aside class="notes">
 
-<!--
-
-## Overview
+* Overview
 This lesson serves as the kick-off for your React Development course. Whether you’re delivering this course online or in person, in a 1-week, accelerated or 10-week, part-time format, take the first hour or so of your time together to start things off on the right foot.
 
 This lesson is designed to introduce yourself and GA and get the students comfortable and excited to learn. After that, there's a brief review of the pre-work.
 
-## Learning Objectives
+* Learning Objectives
 In this lesson, students will:
 - Define class expectations and norms.
 - Understand key concepts introduced in the pre-work.
 
 
-## Duration
+* Duration
 60 minutes
 
 
-## Before Class: Preparation
+* Before Class: Preparation
 - Update the following slides with specific information about you, your class, your city, and your local support team.
 - Take some time to consider your expectations for learners, and be prepared to talk about them.
 - Choose an "ice breaker" to run that will allow learners to get to know one another in a fun, informal, low-stakes way. We have a list of activities [here](https://docs.google.com/presentation/d/1a91IqhzijI_3EqU-trJbZN4vDDSU0rXqgIrqGwsWM7I/edit) for you to choose from (as well as other good slides to copy). If you have some good ones, feel free to share your ideas with us!
@@ -37,17 +31,16 @@ In this lesson, students will:
 
 
 
-## In Class: Materials
+* In Class: Materials
 - Projector
 - Internet connection
--->
-
-
+</aside>
 
 ---
 
 
 ## Agenda
+
 *Here's what we'll cover:*
 
 - Instructional team and classmate introductions.
@@ -231,7 +224,9 @@ Create Your Own Web Warrior
 
 ## What Is General Assembly's Mission?
 
-> "GA was founded on the principle of empowering people to pursue the work they love. Since we opened our first campus in 2011, we have had the privilege of working with students, governments, and the world’s largest companies to create opportunities to radically transform careers and economic prospects." — Jake Schwartz, Founder + CEO, General Assembly
+<h3>"GA was founded on the principle of empowering people to pursue the work they love. Since we opened our first campus in 2011, we have had the privilege of working with students, governments, and the world’s largest companies to create opportunities to radically transform careers and economic prospects."</h3>
+
+ — Jake Schwartz, Founder + CEO, General Assembly
 
 
 <aside class="notes">
@@ -374,9 +369,6 @@ Help us help you!
 
 </aside>
 
-
-
-
 ---
 
 ## Course Materials
@@ -396,19 +388,8 @@ Lecture decks and activity prompts can be downloaded as PDFs. However, you are e
 
 ## Homework
 
-
-Homework:
-
   - Homework isn't graded but serves as good practice.
   - We will review assignments in class the day they're due.
-
-<aside class="notes">
-
-
-
-</aside>
-
-
 
 ---
 
@@ -433,7 +414,7 @@ Homework:
 
 - Declarative views: They make your code more readable and easier to debug.
 - Virtual DOM: A virtual copy of the original DOM. Manipulating it (over the original DOM) speeds things up.
-- Event handling: React's event handlers will handle event names and fields for you so that you don't have to resolve incompatible names.
+- Event handling: No need to worry about incompatible event names and fields.
 - JSX: Markup syntax you'll use for generating strings of HTML that are almost identical to the HTML you'll insert into the webpage.
 - Component-based: In React, everything on the webpage is divided into small components to create a view (or UIs).
 <aside class="notes">
@@ -473,8 +454,9 @@ Other programming languages exist; React isn't great for everything! Avoid using
 
 - If you know of any specific examples, talk about them!
 
+</aside>
 
-
+---
 
 
 ## Q&A and Summary
@@ -491,3 +473,5 @@ What other questions do you have?
 - Mention that, next up, we'll review the pre-work.
 
 </aside>
+
+---

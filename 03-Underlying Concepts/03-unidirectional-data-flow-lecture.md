@@ -1,12 +1,17 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Unidirectional Data Flow
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Unidirectional Data Flow</h1>
+
+---
 
 ## Learning Objectives:
+
 *After this lesson, you will be able to:*
+
 - Define unidirectional flow.
 - Diagram data in a component hierarchy.
 
 
-<aside>
+<aside class="notes">
 
 **Talking Points**:
 
@@ -54,16 +59,17 @@ Let's start with [a video that explains this concept](https://generalassembly.wi
 
 ## The Components
 
-  1. A list component to display the list of fruit. 
+  1. A list component to display the list of fruit.
   2. An input to capture the filter value from the user.
-  
+
  <aside class="notes">
 
 **Talking Points**:
 - This app needs two components:
+
   1. A list component to display the list of fruit. This component needs one piece of data: The array of fruits to display.
   2. An input to capture the filter value from the user. This component needs one piece of data: The current value of the filter.
-  
+
 </aside>
 
 ---
@@ -71,6 +77,7 @@ Let's start with [a video that explains this concept](https://generalassembly.wi
 ## The State
 
 This app needs to keep track of changes in two items:
+
   1. The filtered list of fruits.
   2. The value of the filter.
 
@@ -89,23 +96,25 @@ This app needs to keep track of changes in two items:
 ![basic data flow needed](./assets/fruit-filter-data.png)
 
  <aside class="notes">
- 
+
  **Talking Points**:
- 
+
  - I have two sibling components (components at the same level of the tree/app) that need to be aware of each other's data. Specifically, the list component needs to only show the fruits that match the filter value. Therefore, I need to get data from one sibling to another; something like what's seen here.
- 
+
 </aside>
 
 ---
 
+## Unidirectional Data Flow
+
 ![unidirectional approach](./assets/fruit-list-unidirectional.png)
 
  <aside class="notes">
- 
+
  **Talking Points**:
- 
+
  - How do I achieve this? Using unidirectional data flow, of course! If I create a container component to hold both the filter value and the filtered list, I can hoist the state to the container so it's available to all of the children. It will then be simple to display the state in the child components. The data will flow as seen here.
- 
+
  </aside>
 
  ---
@@ -128,9 +137,9 @@ const FruitFilter = props => (
 ```
 
 <aside class="notes">
- 
+
  **Talking Points**:
- 
+
 - Now that I know the components I need, the state I need, and where everything needs to be, I can start writing some code. First, I'll create the child components. I can use functional components, as they won't need to hold their own state.
 
 
@@ -159,14 +168,16 @@ constructor(props) {
 ```
 
 <aside class="notes">
- 
+
  **Talking Points**:
- 
+
  - My container will be a class with a few methods I'll use to initialize and update the state of the two child components. In the constructor, I'll initialize the state as seen here.
 
 </aside>
 
 ---
+
+## Container Component
 
 ```javascript
 handleFilterChange(event) {
@@ -186,14 +197,16 @@ handleFilterChange(event) {
 ```
 
 <aside class="notes">
- 
+
  **Talking Points**:
- 
+
  - I'll need a method to update the state when the filter value changes. This method will store the filter state and filter the list of fruits to display. I'll pass this change handler to the filter component to react to user input.
 
 </aside>
 
 ---
+
+## Container Component
 
 Finally, render the child components.
 
@@ -207,6 +220,10 @@ render() {
     )
   }
 ```
+
+---
+
+## Container Component
 
 The full container component looks like this:
 
@@ -253,7 +270,7 @@ class FruitContainer extends Component {
 ```
 
 <aside class="notes">
- 
+
  **Talking Points**:
 
 - All of the data is hoisted to the top of the tree in the container, and I pass it to the child components.
@@ -268,9 +285,9 @@ The full code for the fruit filter is
 available in [this CodePen](https://codepen.io/SuperTernary/pen/qjQVZM).
 
 <aside class="notes">
- 
+
  **Talking Points**:
- 
+
  - Once your data is well-structured, it's easier to add features to your
 applications or make changes to them. Because all of our data lives at the top
 of the tree, we can send it where we want. The full code for the fruit filter is
@@ -303,9 +320,9 @@ Review the solution code [here](https://codepen.io/SuperTernary/pen/mMWddo).
 ```
 
 <aside class="notes">
- 
+
  **Talking Points**:
- 
+
 - Here's a solution showing the fruit list with two lists. One list shows fruits
 matching the search term, and below that, the second list shows every other fruit left in
 the list. The solution reuses the `<FruitList>` component to display a list of fruits,
@@ -314,6 +331,8 @@ except it is passed a different list of fruits.
 </aside>
 
 ---
+
+##
 
 Now the app maintains two lists of fruits:
 - `fruitsToDisplay` shows all fruits that match the search
@@ -339,9 +358,9 @@ return {
 ```
 
 <aside class="notes">
- 
+
  **Talking Points**:
- 
+
 
 - Notice that in the constructor the app initializes the value of `unmatchedFruits` to just an empty list. Within `handleFilterChange`, we now need to update that list.
 
@@ -354,12 +373,13 @@ return {
 
 It's important that you think through your applications before you start writing
 code. It's often helpful to sketch out your app and identify:
+
 - The **components** you will need.
 - The **states** you will need.
 - **Where** those states need to live.
 
 <aside class="notes">
- 
+
  **Talking Points**:
 
 - Use the unidirectional data flow pattern; hoist your state toward the top of the

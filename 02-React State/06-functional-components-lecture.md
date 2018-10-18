@@ -1,6 +1,9 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Functional Components
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Functional Components</h1>
 
-### Learning Objectives
+---
+
+## Learning Objectives
 
 *After this lesson, you will be able to:*
 
@@ -11,7 +14,7 @@
 
 ## Components
 
-### Functional Components vs. Presentational Components
+**Functional Components vs. Presentational Components**
 
 <aside class="notes">
 
@@ -25,7 +28,7 @@
 
 ---
 
-### Building a Functional Component
+## Building a Functional Component
 
 As a class, we might have:
 
@@ -63,7 +66,7 @@ const Name = props => (
 
 ---
 
-### When Should You Use Functional Components and When Should You Use Class Components?
+## When Should You Use Functional Components and When Should You Use Class Components?
 
 <aside class="notes">
 
@@ -117,7 +120,7 @@ export default ListItem
 
 ---
 
-### What's Different?
+## What's Different?
 
 
 <aside class="notes">
@@ -136,13 +139,13 @@ export default ListItem
 
 ## You Do: Functional Components in the To-Do List
 
-* Define `const ToDoList` similar to `ListItem`.
-* Import `ListItem` because it will render `ListItems`.
-* Accept props like `ListItem`.
-* Expect there to be something called `toDoItemArray` attached to these props.
-* Use `props.toDoItemArray.map(item, index)` to iterate over each item.
-* Render `<ListItem>` components inside the map.
-* Pass the proper properties (`doThis` and `key`) to the `<ListItem>` component.
+1. Define `const ToDoList` similar to `ListItem`.
+1. Import `ListItem` because it will render `ListItems`.
+1. Accept props like `ListItem`.
+1. Expect there to be something called `toDoItemArray` attached to these props.
+1. Use `props.toDoItemArray.map(item, index)` to iterate over each item.
+1. Render `<ListItem>` components inside the map.
+1. Pass the proper properties (`doThis` and `key`) to the `<ListItem>` component.
 
 
 <aside class="notes">

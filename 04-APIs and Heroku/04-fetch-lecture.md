@@ -1,4 +1,7 @@
-# ![GA Cog Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) `fetch`
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>fetch </h1>
+
+---
 
 ## Learning Objectives
 
@@ -11,7 +14,7 @@
 
 ## Introducing `fetch()`
 
-#### `fetch()` + AJAX requests = the power to build single page applications that do not require refreshes
+**`fetch()` + AJAX requests = the power to build single page applications that do not require refreshes**
 
 
 <aside class="notes">
@@ -39,7 +42,7 @@ The requests we are making are called **AJAX** requests. As you'll come to learn
 
 ---
 
-### AJAX
+## AJAX
 
 | Type of Request | What's It Do? |
 |-----------------|---------------|
@@ -60,7 +63,9 @@ The requests we are making are called **AJAX** requests. As you'll come to learn
 
 ---
 
-![Request/Response](assets/request-response-v2.png)
+##
+
+![Request/Response](assets/request-response.png)
 
 <aside class="notes">
 
@@ -74,7 +79,7 @@ The requests we are making are called **AJAX** requests. As you'll come to learn
 
 ---
 
-### Taking a look at fetch in action
+## Taking a look at fetch in action
 
 ```
   http://api.open-notify.org/astros.json
@@ -129,7 +134,7 @@ The requests we are making are called **AJAX** requests. As you'll come to learn
 
 ---
 
-We can fetch this JSON easily using Javascript.
+## We can fetch this JSON easily using Javascript
 
 How? The skeleton code looks like this:
 
@@ -146,6 +151,10 @@ fetch(url)
   })  
 ```
 
+---
+
+## We can fetch this JSON easily using Javascript
+
 Or, in older JS syntax:
 
 ```js
@@ -160,6 +169,10 @@ fetch(url)
     // If there is any error, you will catch it here
   })  
 ```
+
+---
+
+## We can fetch this JSON easily using Javascript
 
 Let's look at how we would apply this for our astronauts:
 
@@ -177,6 +190,8 @@ fetch(issApi)
 ```
 
 ---
+
+##
 
 Let's break this API call down into a few steps.
 
@@ -308,6 +323,8 @@ export default Home
 
 ---
 
+## The Setup
+
 ```js
 import React, {Component} from 'react';
 
@@ -357,6 +374,8 @@ class Home extends Component {
 
 ---
 
+## Render
+
 ```js
 
 render() {
@@ -390,12 +409,13 @@ render() {
   - This simply checks to see if `fetch()` has completed before `render()` tries to return the movie - otherwise it returns "Loading...".
   - For this especially, it's important that the state is declared in initial state object. This way, the `if` statement does not fail if the `fetch()` hasn't created the state yet.
 
-- You're done! Your `home` page should load a random Shakespeare poem. 
+- You're done! Your `home` page should load a random Shakespeare poem.
 </aside>
 
 ---
-### Hast thou not a word of joy?
+
+## Hast thou not a word of joy?
+
 -Romeo and Juliet, Act 3, Scene 5
 
-
-
+![happy programmer](assets/happy-programmer.jpg)

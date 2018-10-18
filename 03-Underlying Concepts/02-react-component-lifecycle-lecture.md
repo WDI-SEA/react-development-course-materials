@@ -1,4 +1,7 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) The React Component Life Cycle
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>The React Component Life Cycle</h1>
+
+---
 
 ## Learning Objectives:
 
@@ -11,7 +14,7 @@
 
 ## The React Component Life Cycle
 
-The life cycle comprises three main stages: 
+The life cycle comprises three main stages:
 
 1. When the component is being created (known as **mounting**).
 
@@ -30,6 +33,8 @@ The life cycle comprises three main stages:
 </aside>
 
 ---
+
+## The React Component Life Cycle
 
 These methods are called at specific points in the rendering process. You can use them to perform actions based on what's happening on the DOM.
 
@@ -118,6 +123,8 @@ constructor(props) {
 
 ---
 
+## The `constructor()` Method
+
 ```javascript
 constructor(props) {
   super(props)
@@ -139,6 +146,8 @@ constructor(props) {
 </aside>
 
 ---
+
+## The `constructor()` Method
 
 Another common use of the `constructor()` method is to bind class methods.
 
@@ -224,6 +233,9 @@ componentDidMount() {
 
 ---
 
+## The `componentDidMount()` and `componentWillUnmount()` Methods
+
+
 ```javascript
 class FruitTable extends React.component {
 
@@ -307,7 +319,10 @@ class Car extends React.Component {
 }
 ```
 
-Let's break that down:
+---
+
+
+## Let's break that down:
 
 - `constructor()`
 

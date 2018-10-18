@@ -1,4 +1,7 @@
-# ![GA Cog Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Blog Project: Displaying the Weather
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Blog Project: Displaying the Weather</h1>
+
+---
 
 ## Implement the Fetch API
 
@@ -28,7 +31,9 @@
 
 ---
 
-![Solution for Project](assets/dino-blog-weather.png)
+## Solution
+
+<img src="assets/dino-blog-weather.png" class="responsive" />
 
 <aside class="notes">
 
@@ -40,7 +45,7 @@
 
 ---
 
-### Requirements
+## Requirements
 
 On your "About" page, ask the user to input a zip code.
 
@@ -115,7 +120,7 @@ export default About
 
 ---
 
-### Optional
+## Optional
 
 
 <aside class="notes">
@@ -126,3 +131,5 @@ export default About
 **Talking Point**:
 
 - Spend a little time styling the page. Here's some inspiration (don't worry about the lens flare).
+
+</aside>

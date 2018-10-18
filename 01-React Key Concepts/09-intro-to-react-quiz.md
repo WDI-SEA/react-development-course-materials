@@ -1,6 +1,8 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Quiz: Intro to React.js #
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
 
+<h1>Quiz: Intro to React.js</h1>
 
+<aside class="notes">
 **Notes**:
 - The link to the Intro to React.js quiz is [here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json). This is the link you give to students.
 
@@ -214,3 +216,5 @@ _Choices_:
 2. No
 
 _Explanation_: It is! You can pass JavaScript objects into JSX using `{}` curly braces. Just as we can add to the JSX passed in props, we can also add the `allDaisies` variable to the JSX with `{allDaisies}`.
+
+</aside>
