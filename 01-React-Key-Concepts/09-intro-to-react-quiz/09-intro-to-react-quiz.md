@@ -1,6 +1,4 @@
-## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
-
-<h1>Quiz: Intro to React.js</h1>
+# ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) Quiz: Intro to React.js
 
 <aside class="notes">
 **Notes**:
