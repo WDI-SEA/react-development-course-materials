@@ -85,7 +85,7 @@ Work with your classmates to:
 
 ## Getting Started
 
-This code-along guides students in building a React application using `create-react-app`. Estimated class time to complete the code-along is six hours.
+This code-along guides students in building a React application using `create-react-app`. The estimated class time to complete the code-along is six hours.
 
 You can have students start the project in GitHub instead of locally to show an alternative way of getting a project up and running. If you do this, you can start the code-along like so:
 
@@ -128,7 +128,7 @@ Your folder structure should now look like this:
 
 This will create a new React application for us to begin building our board.
 
-Let's start our application. Webpack uses port 3000 when starting an application. Our server will be running on port 3001. To run both servers at the same time, we can start our server in one window and our React app in another. However, we can also use a tool to run both these servers within the same window.
+Let's start our application. Webpack uses port 3000 when starting an application. Our server will be running on port 3001. To run both servers at the same time, we can start our server in one window and our React app in another. However, we can also use a tool to run both servers within the same window.
 
 ## Using `concurrently`
 
@@ -268,7 +268,7 @@ XMLHttpRequest cannot load localhost:3001/api/users. Cross origin requests are o
 This is an example of a CORS (cross-origin resource sharing) error.
 
 ### CORS
-CORS is a mechanism that restricts API calls from another domain outside the domain from which the resource was initially served. This is a layer of protection for servers because it prevents unwanted use of an API.
+CORS is a mechanism that restricts API calls from a domain outside the domain from which the resource was initially served. This is a layer of protection for servers because it prevents unwanted use of an API.
 
 There are several ways to handle CORS requests. For our app, we'll take advantage of the tools provided by `create-react-app`. We can add a proxy server to our React application, which will allow us to make requests that look like they're coming from our current server but actually hit the server we define in `package.json`.
 
@@ -527,7 +527,7 @@ Finally, let's tie this event to an individual idea. We could attach it to a but
 
 ## Check Documentation
 
-Check out the [`SyntheticEvent` documentation](https://reactjs.org/docs/events.html) and find the event that allows us to trigger the update whenever a user leaves an input.
+Check out the [`SyntheticEvent` documentation](https://reactjs.org/docs/events.html) and find the event that allows us to trigger an update whenever a user leaves an input.
 
 > COMMIT
 > DEPLOY
@@ -536,7 +536,7 @@ We did it! We now have an app that updates our ideas in real time. And by using 
 
 ## Deploying the App
 
-Now that we have a basic React app, let's deploy it. This will be similar to how we previously deployed server-rendered apps but with a few additional steps.
+Now that we have a basic React app, let's deploy it. This will be similar to how we previously deployed server-rendered apps, but with a few additional steps.
 
 ### Building a Production React App
 
