@@ -13,7 +13,7 @@ The [Dad Jokes API](https://icanhazdadjoke.com/api) includes an endpoint for [ge
 
 This lab is NOT PART OF THE CORE CURRICULUM. It is optional practice working APIs and the component life-cycle methods in React. 
 
-Assign it to individuals who are caught up with their work and looking for further challenges. Or, do it with the whole class if time permits and you feel that students would benefit from it.
+Assign it to individuals who are caught up with their work and looking for a further challenge. Or, do it with the whole class if time permits and you feel that students would benefit from it.
 
 </aside>
 
@@ -40,7 +40,7 @@ The starter code provided here is based on Create React App.
 
 ## Requirements
 
-Your application should display a large button that, when clicked, fetches a random dad joke from the Dad Jokes API and displays it to the user. It should look as close as possible to the image provided below. You could, as a bonus, have a random dad joke appear when the app loads.
+Your application should display a large button that, when clicked, fetches a random dad joke from the Dad Jokes API and displays it to the user. It should look as similar as possible to the image provided below. You could, as a bonus, have a random dad joke appear when the app loads.
 
 ![Dad Jokes app mock](./assets/dad-jokes.png)
 
