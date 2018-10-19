@@ -4,7 +4,7 @@
 
 ---
 
-Let's build an idea board.
+Let's build an idea board!
 
 <aside class="notes">
 
@@ -30,7 +30,7 @@ Let's build an idea board.
 
 ## Idea Board
 
-We're going to build our own idea board using `create-react-app` with a pre-built back-end server. This allows us to fully understand our application and prevents introducing code we haven't written and don't understand.
+We're going to build our own idea board using `create-react-app` with a pre-built back-end server. This allows us to fully understand our application and prevents us from introducing code we haven't written and don't understand.
 
 </aside>
 
@@ -41,10 +41,12 @@ We're going to build our own idea board using `create-react-app` with a pre-buil
 <aside class="notes">
 
 **Talking Point**:
+
 - We'll build an app where a user can write different ideas and save them to a database. This app will have two models: users and ideas (which will live inside the user model).
 
 
 **Teaching Tip**:
+
 - The image of the solution is provided here so the class can see the end product and get an idea of what they're building.
 
 </aside>
@@ -56,15 +58,16 @@ We're going to build our own idea board using `create-react-app` with a pre-buil
 Work with your classmates to:
 - Write three user stories.
 - Sketch two wireframes.
-- Illustrate what your data model might look like. Think about the API routes you'll need. What components do you think you'll need? What routes should be available to the React app?
+- Illustrate what your data model might look like. Think about the API routes required. What components do you think you'll need? What routes should be available to the React app?
 
 
 <aside class="notes">
 
 **Teaching Tips**:
-- Read through activity directions.
-- Set students off in their groups.
-- Walk around and observe, help out, answer questions, provide input.
+
+- Read through the activity directions.
+- Send students off in their groups.
+- Walk around and observe, help out, answer questions, and provide input.
 
 
 </aside>
@@ -85,13 +88,13 @@ Work with your classmates to:
 
 ## Getting Started
 
-This code-along guides students in building a React application using `create-react-app`. The estimated class time to complete the code-along is six hours.
+This code-along guides students through building a React application using `create-react-app`. The estimated class time required to complete the code-along is six hours.
 
 You can have students start the project in GitHub instead of locally to show an alternative way of getting a project up and running. If you do this, you can start the code-along like so:
 
 - Create a repo on GitHub called `idea-board`. Make sure to include a `README` file.
 
-- After creating the repo, clone it locally into your "class-exercises" folder.
+- After creating the repo, clone it locally into your `class-exercises` folder.
 
 ## Integrate `create-react-app`
 
@@ -104,10 +107,11 @@ cd client
 ```
 
 ## Set up the Server
+
 We'll use a mock server to run our basic React app. Create a copy of the server.
 
 ```
-# copy and paste into the main client folder we just created with create-react-app
+# Copy and paste into the main client folder we just created with create-react-app.
 git clone {github link to server.js} or download from github
 npm install express
 ```
@@ -132,10 +136,10 @@ Let's start our application. Webpack uses port 3000 when starting an application
 
 ## Using `concurrently`
 
-To run both our server and app at the same time, we'll use an `npm` library called [`concurrently`](https://www.npmjs.com/package/concurrently). `concurrently` allows us to run both our API server and Webpack server at the same time.
+To run both our server and our app at the same time, we'll use an `npm` library called [`concurrently`](https://www.npmjs.com/package/concurrently). `concurrently` allows us to run both our API server and our Webpack server simultaneously.
 
 ```bash
-# Inside idea-board directory
+# Inside idea-board directory.
 npm i concurrently
 ```
 
@@ -163,7 +167,7 @@ We can then retrieve the user we created in our seeds. This gives us enough to g
 For our idea board UI, let's start by building a client-side router using `react-router`. We'll also install other dependencies that can be used for styling.
 
 ```bash
-# inside the client directory
+# Inside the client directory.
 npm i react-router-dom styled-components
 ```
 Our app will have three separate views:
@@ -171,7 +175,7 @@ Our app will have three separate views:
   - `LogInPage`
   - `IdeaPage`
 
-Create a `components` folder and then create a basic component for each route. Once these are created, we can add React Router to the `App.js` component.
+Create a `components` folder, as well as a basic component for each route. Once these are created, we can add React Router to the `App.js` component.
 
 ```jsx
   import React, { Component } from 'react';
@@ -201,13 +205,13 @@ Create a `components` folder and then create a basic component for each route. O
 
 ## `Route` Parameters in React Router
 
-We can add `Route` params to our client-side routes. The value defined will be passed in `props`. For example, the above `Route` param will be available as `props.match.params.userId`.
+We can add `Route` parameters to our client-side routes. The value defined will be passed in props. For example, the above `Route` parameter will be available as `props.match.params.userId`.
 
 > COMMIT
 
 ## Creating the Home Page and Login Page Routes
 
-We'll start with the home page. This is the page users see when they first load the app. On this page, we want to encourage a user to visit the login page or ideas page. We'll start making API calls once we build the login page.
+We'll start with the home page. This is the page users see when they first load the app. On this page, we want to encourage a user to visit the login or ideas pages. We'll start making API calls once we build the login page.
 
 ### Home Page
 
@@ -215,7 +219,7 @@ Create the home page with a greeting and a `Link` to the login component. Make s
 
 ### Login Page
 
-To make API calls, we'll use `fetch`.
+To make API calls, we'll use `fetch()`.
 
 ```jsx
   import React, { Component } from 'react';
@@ -268,7 +272,8 @@ XMLHttpRequest cannot load localhost:3001/api/users. Cross origin requests are o
 This is an example of a CORS (cross-origin resource sharing) error.
 
 ### CORS
-CORS is a mechanism that restricts API calls from a domain outside the domain from which the resource was initially served. This is a layer of protection for servers because it prevents unwanted use of an API.
+
+CORS is a mechanism that restricts API calls from a domain outside the one from which the resource was initially served. This acts as a layer of protection for servers, as it prevents unwanted use of an API.
 
 There are several ways to handle CORS requests. For our app, we'll take advantage of the tools provided by `create-react-app`. We can add a proxy server to our React application, which will allow us to make requests that look like they're coming from our current server but actually hit the server we define in `package.json`.
 
@@ -283,7 +288,8 @@ There are several ways to handle CORS requests. For our app, we'll take advantag
 > COMMIT
 
 ## Adding Sign-up
-Now that we can communicate between the server and client, let's expand our `UserController` and give it the ability to `post` a new user.
+
+Now that we can communicate between the server and the client, let's expand our `UserController` and give it the ability to `post` a new user.
 
 Let's add a sign-up form to the login page.
 
@@ -333,9 +339,9 @@ Finally, we need to create a conditional that will handle a redirect after a use
 
 > COMMIT
 
-## Building A Static Idea Board
+## Building a Static Idea Board
 
-Now that we can navigate to `IdeaPage`, we can focus on building a few static views. Let's create some mock data in the initial state and write a starter JSX.
+Now that we can navigate to `IdeaPage`, let's focus on building a few static views. We'll create some mock data in the initial state and write a starter JSX.
 
 ```jsx
   import React, { Component } from 'react';
@@ -399,9 +405,9 @@ We have the static starter code, so let's clean things up and add styling. Take 
 
 ## Bring in User Info
 
-We now have complete static code that's styled and living in small components, with `props` passed down from `IdeaPage` to `IdeaView`. We need to connect the info from our API to the state.
+We now have complete static code that's styled and living in small components, with props passed down from `IdeaPage` to `IdeaView`. Next, we need to connect the info from our API to the state.
 
-Because we're using React Router to create a route that matches `/user/:userId`, we can take advantage of `props` passed down from the library in the form of `props.match.params.userId`. Let's tell React to call our API if the `props` are passed down correctly.
+Because we're using React Router to create a route that matches `/user/:userId`, we can take advantage of props passed down from the library in the form of `props.match.params.userId`. Let's tell React to call our API if the props are passed down correctly.
 
 
 ```js
@@ -423,12 +429,13 @@ Because we're using React Router to create a route that matches `/user/:userId`,
 ...
 ```
 
-As long as our `props` are passed down properly, we should see info coming in from our API.
+As long as our props are passed down properly, we should see info coming in from our API.
 
 > COMMIT
 > DEPLOY
 
 ## Adding a Click Event for a New Idea
+
 Next, let's add a click event to the `New Idea` button.
 
 ```js
@@ -448,7 +455,7 @@ Next, let's add a click event to the `New Idea` button.
 
 ## Write Code to Delete an Idea
 
-We'll write similar code to delete an idea. Work with students to write a custom method and pass it down through `props`.
+We'll write similar code to delete an idea. Work with students to write a custom method and pass it down through props.
 
 Hint: You'll need one argument.
 
@@ -459,9 +466,10 @@ Hint: You'll need one argument.
 > COMMIT
 
 ## Handling Form Changes
+
 Our next task involves updating information and saving it to our server. That means we'll need to work with forms.
 
-Let's focus on creating a `handleChange` event to update our local state in `IdeaView`. We'll use life cycle hooks to update `IdeaView` every time our state changes in the parent component.
+Let's focus on creating a `handleChange` event to update our local state in `IdeaView`. We'll use life-cycle hooks to update `IdeaView` every time our state changes in the parent component.
 
 ```js
 ...
@@ -483,7 +491,7 @@ Let's focus on creating a `handleChange` event to update our local state in `Ide
     // Map through this cloned state and transform the specific idea that has been updated.
     const ideas = newIdeas.map((savedIdea) => {
       if (savedIdea._id === idea._id) {
-        // We're using bracket syntax instead of dot-notation to transform a specific property.
+        // We're using bracket syntax instead of dot notation to transform a specific property.
         // More info on bracket syntax here:
         // https://medium.com/@prufrock123/js-dot-notation-vs-bracket-notation-797c4e34f01d
         savedIdea[event.target.name] = event.target.value
@@ -542,9 +550,9 @@ Now that we have a basic React app, let's deploy it. This will be similar to how
 
 When we develop React apps, we use some extra tools (auto-reloading, error messaging, dev server, and more) that are unnecessary for a production environment. When we're ready to push our app into production, we can use a special script to get a production-ready version of our app.
 
-Within our "client" folder, we can run a command called `npm run build`. This will take all the code we've been running through Webpack and bundle it into a minified build ready for production deployment. This will live inside a "build" directory.
+Within our `client` folder, we can run a command called `npm run build`. This will take all the code we've been running through Webpack and bundle it into a minified build ready for production deployment. This will live inside a `build` directory.
 
-After we build the app, we can test it by running `node server.js`. If our app looks like what we intended, then we can proceed with deploying it.
+After we build the app, we can test it by running `node server.js`. If our app looks as we intended, then we can proceed with deploying it.
 
 Let's update `package.json` to help Heroku understand our app. We'll add a script called `postbuild` that will instruct Heroku to execute the same steps we took to prepare the app manually.
 
@@ -575,12 +583,12 @@ git commit -m "commit message"
 git push heroku master
 ```
 
-The application is now deployed.
+The application is now deployed!
 
 > COMMIT
 > DEPLOY
 
 ## Further Reading
 
-* [How to get `create-react-app` to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
-* [94 examples of full-stack React apps](https://react.rocks/tag/FullStack)
+* [How to Get `create-react-app` to Work With Your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
+* [Ninety-Four Examples of Full-Stack React Apps](https://react.rocks/tag/FullStack)
