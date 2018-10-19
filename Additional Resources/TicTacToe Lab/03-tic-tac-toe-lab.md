@@ -47,9 +47,9 @@ Try it yourself in the solution link above.
 
 ### Hints
 
-Note: In the code, a "move" is also referred to as a "step."
+- In the code, a "move" is also referred to as a "step."
 
-In this repository, there's a file called `hints.rtf` that includes a breakdown (in plain English) of what needs to be done.
+- In this repository, there's a file called `hints.rtf` that includes a breakdown (in plain English) of what needs to be done.
 
 
 ## Solution
@@ -57,6 +57,6 @@ In this repository, there's a file called `hints.rtf` that includes a breakdown 
 Solution code is provided in the `solution` branch of this repository. Please give this your best go before looking! A change list is also provided with a brief explanation.
 
 This project was based off of [this Facebook tutorial](https://facebook.github.io/react/tutorial/tutorial.html
-). Click inside the link to see a thorough step-by-step breakdown of building out this tic-tac-toe app. Note that, in the tutorial, they don't split the components into different files.
+). Click inside the link to see a thorough step-by-step breakdown of building out this tic-tac-toe app. Notice that the tutorial doesn't split the components into different files.
 
-*Note:* The walk-through for this question is also included in this tutorial (near the end), so don't look until you've given it a thorough try!
+**Note:** The walk-through for this question is also included in this tutorial (near the end), so don't look until you've given it a thorough try!
