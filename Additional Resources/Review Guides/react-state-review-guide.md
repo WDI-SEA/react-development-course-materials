@@ -11,7 +11,7 @@ Below, you'll find key terms and definitions, key concepts, key code snippets, a
   * If you aren't doing anything special, you don't need to define a `constructor()` method.
     * It happens automatically for you using the default constructor inherited from the basic class (in our case, the `Component` class).
   * If you have a defined `constructor()` method, the first line of it will always be `super()`.
-    * `super()` means: "When this class is created, you should still perform the default initialization for this class."
+    * `super()` means, "When this class is created, you should still perform the default initialization for this class."
   * Refer to the **Key Code Snippets: Constructor** section below for an example.
 
 * **Map**
@@ -24,7 +24,7 @@ Below, you'll find key terms and definitions, key concepts, key code snippets, a
   * A state is present within a component. It is similar to a prop, but it is used for data that changes over time.
   * Like props, which we access with `this.props.val`, we can access state values using `this.state.val`.
   * Set initial state in the `constructor()` method of a component, creating a name and initial value.
-  * State just represents the state of data on our page. Something saved to state in React is not automatically saved to a database or to local storage. If you refresh the page, all state is lost.
+  * State just represents the state of data on our page. Something saved to state in React is not automatically saved to a database or local storage. If you refresh the page, all state is lost.
   * Refer to the **Key Code Snippets: State** section below for examples.
 
 
@@ -32,20 +32,20 @@ Below, you'll find key terms and definitions, key concepts, key code snippets, a
 ### Key Concepts
 
 * **What Triggers a UI Change**
-  - In a React component, an update in either the state or props will trigger the method cascade that can lead to a render.
+  - In a React component, an update to either state or props will trigger a method cascade that can lead to a render.
   - Our component calculates the difference ("diff") between the current DOM and the virtual DOM node.
   - Then, it figures out how to update the state of the DOM in as few manipulations as possible.
     - It only replaces the current DOM with parts that have changed.
     - This is one of React's core advantages.
 
-- **Do Not**
+- **Do Not...**
   - Automatically render elements on the DOM *inside* of their own component class definitions.
     - In a component class, you should define a `render()` method for that component.
     - That class then is called by `ReactDOM.render()` in **a different place, outside of that class definition** (likely `index.js`).
   - In some tutorials or older code, you may find examples of `ReactDOM.render()` inside of a component, but you should avoid this at all costs; this was an older technique used in past versions of React.
 
 - **Important Reminder**
-  - Remember that state and props are not the same thing.
+  - Remember that state and props are not the same.
     - State represents the _state_ of your user interface component and is changeable based on a user action (e.g., clicking a button to increase mood).
     - Props are passed in to a component and cannot be changed by that component (e.g., the user's name might be passed in to be displayed).
 
@@ -102,7 +102,7 @@ constructor (props) {
   super()
   // Define an initial state.
   this.state = {
-    moodPoints: 1 // initialize this.state.moodPoints to be 1
+    moodPoints: 1 // Initialize this.state.moodPoints to be 1.
   }
 }
 ```
@@ -126,12 +126,13 @@ increaseMood(e) {
 
 ### Further Reading
 
-The links below are optional, but they're great resources.
+The link below is optional, but it's a great resource.
 
 - [Official React Documentation on State and Life Cycle](https://facebook.github.io/react/docs/state-and-lifecycle.html)
   - Specifically, this covers what should and should not go in state.
 
 This is a list of documentation to help you learn more about binding and events:
+
 - [React Form Documentation](https://facebook.github.io/react/docs/forms.html)
 - [A List of Events React Supports](https://facebook.github.io/react/docs/events.html#supported-events)
 - [How to Handle Events](https://facebook.github.io/react/docs/handling-events.html)
