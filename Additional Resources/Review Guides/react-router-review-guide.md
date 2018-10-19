@@ -9,7 +9,7 @@ Below, you'll find key terms and definitions and key code snippets. All cover th
 
 * **Browser history mechanics**
   - Operations designed to track history as users move between different pages.
-  - For example, JavaScript functions `window.history.back()` and `window.history.forward()`.
+  - For example, the JavaScript functions `window.history.back()` and `window.history.forward()`.
   - HTML5 introduced `.pushState()` and `.replaceState()` for single-page applications, called modern browser history mechanics.
 
 * **`exact`**
@@ -35,26 +35,27 @@ Below, you'll find key terms and definitions and key code snippets. All cover th
   - It dynamically loads different components on the same page.
   - It automatically manages browser history when the user navigates between content.
   - You install React Router with `npm install --save react-router-dom`.
-  - React Router is configured using Route components.
+  - React Router is configured using `<Route>` components.
 
-* **Route Components**
+* **`<Route>` components**
   - Components provided by the React Router library.
-  - Each `<Route>`component has two pieces:
+  - Each `<Route>` component has two pieces:
     - `path`: Defines the URL path that leads to the component.
     - `component`: Defines what component users will see when they navigate to the path.
-  - All together, a Route component looks like this: `<Route path="/courses" component={CoursesPage} />`.
+  - All together, a `<Route>` component looks like this: `<Route path="/courses" component={CoursesPage} />`.
 
-* **Single-Page Applications (SPAs)**
+* **Single-page applications (SPAs)**
   - Websites that serve only one web page and then change the content of that page dynamically, without refreshing or sending the user to a separate page.
 
-* **URL Routing**
+* **URL routing**
   - Defines what content is displayed when someone visits a certain URL.
 
 
 ### Key Code Snippets
 
 **A Complete Component File Using `<Route>` and `<Link>`**
-- This assumes the components referenced are correctly imported.
+
+- This assumes the components referenced are correctly imported:
 
 ```js
 class App extends Component {
