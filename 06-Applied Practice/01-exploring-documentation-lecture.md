@@ -78,7 +78,7 @@ There are many recommended places to ask for help within "Community."
 
 
 
-![](assets/facebook-rendering.png)
+![](assets/react-docs-screenshot.png)
 
 Click on "Docs."
 
