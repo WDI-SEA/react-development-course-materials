@@ -4,6 +4,7 @@
 There are no slides associated with this lesson. This document is an instructor resource. It provides a suggested agenda for the project presentation lesson.
 
 ## Learning Objectives
+
 In this lesson, students will:
 - Present their projects.
 - Celebrate what they've learned.
@@ -29,16 +30,14 @@ In this lesson, students will:
 - Send students the link to the presentation slides.
 
 ## Differentiation and Extensions
-- After each presentation, have all students identify one thing they loved about the presentation and one suggestion or thought about how to improve the project or take it to the next level. Ask them to send these through Slack.
+- After each presentation, have all students identify one thing they loved about it and one suggestion or thought about how to improve the project or take it to the next level. Ask them to send these through Slack.
 
 
 **Teaching Tips:**
+
 - Allow students three minutes each to present, less for a larger class.
-- Some students might not want to present and that's absolutely fine. This is just their chance to show off what they've done.
-- Compliment their projects. They've worked hard.
-- After presentations, ask students what their plans are. Give tips, offer suggestions.
-- Encourage the entire class to keep in touch, use each other as a resouce, and to network.
-- Enourage the entire class to stay active in the GA alumni community.
-
-
-
+- Some students might not want to present, and that's absolutely fine. This is just their chance to show off what they've done.
+- Compliment their projects. They've worked hard!
+- After the presentations, ask students what their plans are. Give tips and offer suggestions.
+- Encourage the entire class to keep in touch, use each other as a resource, and network.
+- Encourage the entire class to stay active in the GA alumni community.
