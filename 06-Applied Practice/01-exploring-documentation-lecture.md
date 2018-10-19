@@ -35,7 +35,7 @@ Because React was created by Facebook, it has a large community with a lot of in
 
 Open the [React home page](https://facebook.github.io/react/).
  
-![](assets/facebook-tutorial.png)
+![](assets/react-tutorial-screenshot.png)
 
 
 <aside class="notes">
@@ -58,7 +58,7 @@ Open the [React home page](https://facebook.github.io/react/).
 
 There are many recommended places to ask for help within "Community."
 
-![](assets/facebook-community.png)
+![](assets/discussion-forum-screenshot.png)
 
 <aside class="notes">
 
