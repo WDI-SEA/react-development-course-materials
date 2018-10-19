@@ -33,11 +33,11 @@ Each group will have:
 
 - Describe how to best gather information from a form in React. Be prepared to show code.
 
-- Compare and contrast conditional rendering and the `shouldComponentUpdate()` life cycle method. When would we use one over the other?
+- Compare and contrast conditional rendering and the `shouldComponentUpdate()` life-cycle method. When would we use one over the other?
 
 - Compare and contrast stateful, stateless, and functional components in React. List the pros and cons of each. When would we use one over the other?
 
-- Is there a life cycle method to prevent the initial rendering of a React component? Explain why or why not.
+- Is there a life-cycle method to prevent the initial rendering of a React component? Explain why or why not.
 
 
 <aside class="notes">
