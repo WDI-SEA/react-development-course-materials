@@ -1,7 +1,7 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
 ## Review Guide: APIs, Programming Types, and Heroku
-Below, you'll find key terms, key code snippets, and further reading. All cover the basics of APIs, imperative and declarative programming, and Heroku.
+Below, you'll find key terms and definitions, key code snippets, and further reading. All cover the basics of APIs, imperative and declarative programming, and Heroku.
 
 ### Key Terms and Definitions
 
@@ -12,12 +12,12 @@ Below, you'll find key terms, key code snippets, and further reading. All cover 
   * For example, you can call the ISS API to get a list of all astronauts currently aboard the ISS by sending a request to `http://api.open-notify.org/astros.json`.
   - Not all APIs are open; some require an API key (which isn't always free!). The API call will not work without it.
     - For example, this API call will not work: `http://api.openweathermap.org/data/2.5/weather?zip=60614,us`.
-    - However, if we add a key at the end, this API call will work: `http://api.openweathermap.org/data/2.5/weather?zip=60614,us&appid=052f26926ae9784c2d677ca7bc5dec98`.
+    - However, if we add a key at the end, this call will: `http://api.openweathermap.org/data/2.5/weather?zip=60614,us&appid=052f26926ae9784c2d677ca7bc5dec98`.
 
 * **Declarative programming**
   - As compared to imperative programming.
   - When writing a program, you focus on just one thing: the result.
-  - Any asynchronous JavaScript techniques rely on declarative programming techniques for ease of readability.
+  - Any asynchronous JavaScript techniques rely on declarative programming for ease of readability.
   - React is a JavaScript framework that uses a declarative approach.
   - Refer to the **Key Code Snippets** section for an example.
 
@@ -25,7 +25,7 @@ Below, you'll find key terms, key code snippets, and further reading. All cover 
   - A request to a server — imagine literally requesting to "fetch" data.
   - You call an API in a program using the `fetch()` method.
   - In React, your `fetch()` requests will be made in the `componentDidMount()` method.
-  - Refer to the "Key Code Snippets" section for `fetch()` examples.
+  - Refer to the **Key Code Snippets** section for `fetch()` examples.
 
 * **Heroku**
   - Heroku is a cloud platform that allows developers to quickly deploy applications to the internet.
@@ -33,7 +33,7 @@ Below, you'll find key terms, key code snippets, and further reading. All cover 
 
 * **Imperative programming**
   - As compared to declarative programming.
-  - An approach to programming in which you write every single thing that happens.
+  - An approach to programming in which you write out every single thing that happens.
   - Focuses on the _why_, _how_, _where_, and _when_ of a program.
   - It allows for precise control over your code and line-by-line code execution.
   - Commonly found in object-oriented programming environments.
@@ -58,7 +58,7 @@ Below, you'll find key terms, key code snippets, and further reading. All cover 
 * **XML**
   * Stands for "Extensible Markup Language."
   - While difficult to read, it remains a major format because of legacy usage across the web.
-  - XML uses open tags and close tags, just like HTML. It looks like this:
+  - XML uses opening and closing tags, just like HTML. It looks like this:
 
 ```html
 <users>
@@ -78,7 +78,8 @@ Below, you'll find key terms, key code snippets, and further reading. All cover 
 ### Key Code Snippets
 
 * **`fetch()`**
-**`fetch()` skeleton code**
+
+**`fetch()` Skeleton Code**
 
 ```js
 
@@ -111,17 +112,17 @@ fetch(url)
 let issApi = 'http://api.open-notify.org/astros.json'; /* What API are we calling? We get this URL from the ISS server.*/
 fetch(issApi)     // Call fetch() on that API URL.
   .then((response) => {     // Take the response provided by the server
-    return response.json()  //  and return it with as JSON.
+    return response.json()  //  and return it as JSON.
   }).then((json) => {       // Take that JSON.
     console.log('JSON from the ISS', json)   // Log it to the console.
-  }).catch((ex) => {    // If an error occurs instead of getting information back, catch it.
+  }).catch((ex) => {    // If an error occurs, catch it.
     console.log('An error occurred while parsing!', ex)    // Log the error to the console.
   });
 ```
 
 **Declarative and Imperative Programming**
 
-To do the following pseudocode:
+To execute the following pseudocode:
 
 ```
 ask everyone in the room to line up
@@ -171,13 +172,13 @@ The links below are optional, but they're great resources for you to reinforce a
   - A list of open APIs.
 
 - [JSON View Plugin](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)
-  - A Google Chrome plugin that renders JSON to a more readable format.
+  - A Google Chrome plugin that renders JSON in a more readable format.
 
 
-**Ways to deploy an app and CORS:**
+**Ways to Deploy an App and CORS:**
   - [Heroku Docs](https://blog.heroku.com/deploying-react-with-zero-configuration#new-zero-configuration-experience)
   - [`create-react-app` Docs](https://github.com/facebookincubator/create-react-app)
   - [Heroku Buildpack for `create-react-app`](https://github.com/mars/create-react-app-buildpack#quick-start)
   - [URLs With React Router](https://github.com/mars/create-react-app-buildpack#routing-clean-urls)
-    - So users have clean URLs
+    - So users have clean URLs.
   - [MDN CORS Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
