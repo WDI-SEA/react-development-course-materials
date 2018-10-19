@@ -28,7 +28,7 @@ You can complete the tasks below in any order you'd like.
 
 ## Task
 
-Currently, you can see that there is a checking account in which a user can deposit money. Try it out — it works!
+Currently, there is a checking account in which a user can deposit money. Try it out — it works!
 - Create a "Withdraw" button next to the "Deposit" button.
   - You should not be able to withdraw more than the current balance.
 - Create a savings account — another component of the same class.
@@ -50,7 +50,7 @@ The functionality for withdrawing money is quite similar to the functionality fo
 
 <details>
 <summary>Stuck on limiting negative numbers? Here's a hint:</summary>
-When a function checks if the input is a number (with <code>isNaN</code>), a <code>||</code> condition could be added to make sure the input is greater than zero.
+When a function checks if the input is a number (with <code>isNaN</code>), a <code>||</code> condition could be added to make sure that input is greater than zero.
 </details>
 
 --------
