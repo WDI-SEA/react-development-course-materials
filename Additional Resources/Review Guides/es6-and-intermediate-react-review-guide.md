@@ -73,7 +73,7 @@ Below, you'll find key terms and definitions, key concepts, key code snippets, a
 * **Immutable data types**
   - Something that is **immutable** is something that cannot be changed.
   - State and props are to be treated as immutable; `const` variables are also immutable.
-  - Use immutable methods and libraries to make maintaining immutable data types simple — refer to the **Further Reading** section.
+  - Use immutable methods and libraries to make maintaining immutable data types simple — refer to the **Further Reading** section for more on this.
     - The array methods `.map()`, `filter()`, and `reduce()` return modified copies of the array and don't mutate the originals.
     - ES6's `Object.assign()` is a way to change data in objects that doesn't mutate the originals.
 
@@ -88,7 +88,7 @@ Below, you'll find key terms and definitions, key concepts, key code snippets, a
     price: price,
   };
   ```
-  turns into:
+ Now, this turns into:
   ```js
   const price = 100;
 
@@ -114,7 +114,7 @@ Below, you'll find key terms and definitions, key concepts, key code snippets, a
 
 * **`const` versus `let`**
   - It's best practice to use `const` and `let` rather than `var` whenever possible.
-    - Including defining functions!
+    - This includes when you're defining functions!
     - If the variable's value _will_ or _might_ change (unless you need a global scope) you'll likely declare it as a `let`.
 
 * **When do you use a functional component?**
@@ -122,17 +122,14 @@ Below, you'll find key terms and definitions, key concepts, key code snippets, a
     - Your component to be stateful (That is, if you need the ability to use `setState()` to respond to changes).
     - Life-cycle methods (if you need to do something when the component mounts, receives props, or unmounts).
     - A `ref` (that is, a reference to the DOM element rendered by the component).
-  * And, only if you _don't_ need any of those things:
-    - Use a functional component.
-
+  * Only use a functional component if you _don't_ need any of those things.
 
 ### Key Code Snippets: `const`
 
 - `const` and `let` are new keywords for declaring variables.
 - `const` can't be reassigned.
   - However, this does _not_ mean that a `const` is immutable.
-  - JavaScript assigns by reference.
-  - This means that a variable can't be reassigned entirely, but we *can* change a property of an object or add an item to an array.
+  - JavaScript assigns by reference. This means that a variable can't be reassigned entirely, but we *can* change a property of an object or add an item to an array.
 
 Using `const`, this is **not** correct or doable — **it will throw an error, because a `const` variable cannot be reassigned.**
 ```js
@@ -140,7 +137,7 @@ const hi = 'hello';
 hi = 'goodbye';
 ```
 
-**However**, using `const`, this **is** correct and doable.
+**However**, using `const`, this **is** correct and doable:
 
 ```js
 const anObject = {
@@ -192,20 +189,21 @@ function letTest() {
 ```
 
 
-### Key Code Snippet: Arrow functions
+### Key Code Snippet: Arrow Functions
 
 **Simple Arrow Function Example**
-- In regular JavaScript
+
+- In regular JavaScript:
 ```js
 function multiply(x, y) {
   return x * y;
 }
 ```
 
-- Same function using ES6 arrow syntax. Differences:
-  - Declare the function as a variable: `var multiply`.
-  - Pass in the parameters (here, `x`, and `y`) after an equals sign.
-  - Put the arrow function symbol `=>`.
+- The same function using ES6 arrow syntax. Differences include that you:
+  - Declare the function as a variable, `var multiply`.
+  - Pass in the parameters (here, `x`, and `y`) after an `=` sign.
+  - Put the arrow function symbol (`=>`).
   - Put the actual function definition.
 
 ```js
@@ -234,15 +232,15 @@ The links below are optional, but they're great resources.
 - [Side Effect Definition](https://en.wikipedia.org/wiki/Side_effect_(computer_science))
   - These should be avoided in the `constructor()`, so server requests shouldn't be made there. The accepted answer on this [Stack Overflow question](http://stackoverflow.com/questions/41612200/in-react-js-should-i-make-my-initial-network-request-in-componentwillmount-or-co), provided by a member of the React team at Facebook, gives more detail.
 - [`window.setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
-- [Recursion Definition](https://en.wikipedia.org/wiki/Recursion_(computer_science)
+- [Recursion Definition](https://en.wikipedia.org/wiki/Recursion_(computer_science))
   - This is good to know, as that's what `incrementSpeed` is.
 - [Non-Official Immutable Libraries](https://gist.github.com/jlongster/bce43d9be633da55053f)
 - [Official Immutable.js From Facebook](https://facebook.github.io/immutable-js/)
   - One of several mature JavaScript libraries that provide immutable data types and/or immutable methods that can make maintaining immutable data types simple.
-  - This provides immutable data types like `List`, `Stack`, `Map`, `OrderedMap`, `Set`, `OrderedSet`, and `Record` — and methods for making changes to your data like `set`, `get`, `delete`, and `update`.
+  - This provides immutable data types, like `List`, `Stack`, `Map`, `OrderedMap`, `Set`, `OrderedSet`, and `Record`, and methods for making changes to your data, like `set`, `get`, `delete`, and `update`.
   - Just use the types and methods provided, and the library takes care of immutability for you.
 
-#### Some of the Features From ES6 and Beyond We Did _Not_ Cover, if You'd Like to Read About ES6 Further:
+#### Some of the Features From ES6 and Beyond We Did _Not_ Cover, If You'd Like to Read More:
 
 - [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 - [Async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)/[Await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
