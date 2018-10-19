@@ -12,21 +12,22 @@ Create a compelling presentation that:
 
 ## Overview
 Each group will have:
-- 15 minutes to research the question.
-- 10 minutes to structure a presentation.
-- 5 minutes to present.
+- Fifteen minutes to research the question.
+- Ten minutes to structure a presentation.
+- Five minutes to present.
 
 **Note:** All group members must participate in the presentation.
 
 
 ## Question Bank
+
 - What is a controlled component in React? How is it different from regular HTML forms?
 
-- What is an uncontrolled component in React? Why would we use it instead of a controlled one?
+- What is an uncontrolled component in React? Why would we use one instead of a controlled component?
 
 - What is a synthetic event and how does it compare to regular DOM events?
 
-- What is a `ref`? List the pros and cons of using it.
+- What is a `ref`? List the pros and cons of using one.
 
 - Describe one-way and two-way data binding. Which model does React use? Explain and compare to other popular front-end frameworks.
 
@@ -44,7 +45,7 @@ Each group will have:
 **Teaching Tips**:
 
 - Have each group choose a different question to answer so there's no repetition.
-- Circulate while the groups are developing their presentation.
+- Circulate while the groups are developing their presentations.
 - Time the presentations so the activity moves along (each should be no longer than five minutes).
 
 
