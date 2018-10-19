@@ -42,13 +42,13 @@ Open the [React home page](https://facebook.github.io/react/).
 
 **Talking Point**:
 
-- Click "Tutorial" at the top. This is a tutorial to walk you through learning React. It's the tic-tac-toe game that you'll do later in this unit.
+- Click "Tutorial" at the top. This is a tutorial to walk you through learning React. It's the tic-tac-toe game that you'll work through later in this unit.
 
 **Teaching Tips:**
 
 - Direct students to open the React home page.
 
-- If that last exercise was a little confusing, it might be worth pausing this lesson to run through the tutorial and reinforce what we've learned so far.
+- If that last exercise was a little confusing, it might be worth pausing this lesson to run through the tutorial and reinforce what students have learned so far.
 
 </aside>
 
@@ -64,9 +64,9 @@ There are many recommended places to ask for help within "Community."
 
 **Talking Points**:
 
-- Here are recommended places to ask for help. However, make sure you try your best to find the answer first. Many frameworks don't have such a large community, so being able to find the answer on your own is crucial. Also, while a problem might seem dire, the solution may well be a single command or short explanation found in the documentation.
+- Here are some recommended places to ask for help. However, make sure you try your best to find the answer first. Many frameworks don't have such a large community, so being able to find an answer on your own is crucial. Also, while a problem might seem dire, its solution may well be a single command or short explanation found in the documentation.
 
-- That said, looking through questions that have been asked previously is a great place for research. If you're having a problem, chances are high that someone else once had that same problem.
+- That said, looking through questions that have been asked previously is also a great research practice. If you're having a problem, chances are high that someone else has had it, too.
 
 
 </aside>
@@ -93,8 +93,8 @@ The navigation bar contains:
 **Talking Points**:
 
 - Let's dive in. Click on "Docs."
-- On the right is a navigation bar containing a "Getting Started" guide, main concepts, advanced guides, and an API reference (as well as how to contribute, which you could do some day).
-- Under "Main Concepts," click on "Rendering Elements." Read through the page, paying attention to the examples. Hopefully, this is all review and relatively straightforward.
+- On the right is a navigation bar containing a "Getting Started" guide, main concepts, advanced guides, and an API reference (as well as how to contribute to the documentation, which you could do some day).
+- Under "Main Concepts," click "Rendering Elements." Read through the page, paying attention to the examples. Hopefully, this is all review and relatively straightforward.
 - Congratulations! You've read a page of React.js documentation.
 
 </aside>
@@ -103,19 +103,19 @@ The navigation bar contains:
 
 ## Documentation Exercise: Conditional Rendering
 
-Now let's apply something new.
+Next, let's apply something new.
 
 ![](assets/facebook-conditional.png)
 
 
 Step 1: In the search bar at the top, look for "Conditional Rendering" and read through the page. 
 
-Step 2: Referring to the documentation on conditional rendering, finish [this CodePen application](https://codepen.io/SuperTernary/pen/wrooQP) so there's only a single list displayed at any time, with a corresponding button that changes between "Show matching fruits" and "Show unmatching fruits."
-  - The two functions creating the buttons have been made for you, below the class declaration.
-  - The `return()` method in the `render()` method is accurate, as well as the `handleFilterChange()` method. No modifications are needed in either `handleFilterChange()` or `return()`.
+Step 2: Referring to the documentation on conditional rendering, finish [this CodePen application](https://codepen.io/SuperTernary/pen/wrooQP) so there's only a single list displayed at any time with a corresponding button that changes between "Show matching fruits" and "Show unmatching fruits."
+  - The two functions creating the buttons are included for you below the class declaration.
+  - The `return()` method in the `render()` method is accurate, as is the `handleFilterChange()` method. No modifications are needed in either `handleFilterChange()` or `return()`.
   
 
-Here are screenshots of the two different states of the app:
+Here are screenshots of the app's two different states:
 ![](assets/fruit-final.png)
 
 
@@ -124,15 +124,17 @@ When you have it, check your solution against [this CodePen](https://codepen.io/
 <aside class="notes">
 
 **Talking Points**:
+
 - Now let's apply something new. In the search bar at the top, look for "Conditional Rendering."
 - Read through the page.
 - Then, look at this CodePen application — it's the fruit filter from before. Currently, it only lists the matching fruits. However, it has functions to make the list for unmatching ones.
-- Referring to the documentation on conditional rendering, finish this application so there's only a single list displayed at any time, with a corresponding button that changes between "Show matching fruits" and "Show unmatching fruits."
-  - The two functions creating the buttons have been made for you, below the class declaration.
-  - The `return()` method in the `render()` method is accurate, as well as the `handleFilterChange()` method. No modifications are needed in either `handleFilterChange()` or `return()`.
+- Referring to the documentation on conditional rendering, finish this application so there's only a single list displayed at any time with a corresponding button that changes between "Show matching fruits" and "Show unmatching fruits."
+  - The two functions creating the buttons are included for you below the class declaration.
+  - The `return()` method in the `render()` method is accurate, as is the `handleFilterChange()` method. No modifications are needed in either `handleFilterChange()` or `return()`.
   
 **Teaching Tip**:
-- Provide [this CodePen](https://codepen.io/SuperTernary/pen/qPqqQE?editors=0010) for students who need support. There's a comment everywhere they need to make a modification.
+
+- Provide [this CodePen](https://codepen.io/SuperTernary/pen/qPqqQE?editors=0010) for students who need support. There are comments everywhere they need to make modifications.
 
   
 </aside>
