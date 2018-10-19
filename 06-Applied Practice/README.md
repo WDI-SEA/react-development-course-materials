@@ -21,4 +21,4 @@ This is Unit 6 of the complete React Development course. It includes the followi
 Notes: 
 - Lesson 5 is a brief slideshow that introduces students to the code-along activity.
 - Lesson 6 is the code-along script for the instructor (not student-facing).
-- Lesson 6 is a code-along that requires approximately six hours to complete, so plan accordingly. For 10-week deliveries, the activity will take up three full classes.
+- Lesson 6 is a code-along that requires approximately six hours to complete, so plan accordingly. For 10-week deliveries, the activity will take up three full class sessions.
