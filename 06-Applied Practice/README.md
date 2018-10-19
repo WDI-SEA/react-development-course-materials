@@ -10,15 +10,12 @@ This is Unit 6 of the complete React Development course. It includes the followi
 
 4) **React ATM Application**: Lab
 
-5) **Idea Board Introduction**: Interactive lecture
+5) **Idea Board**: Code-along
 
-6) **Idea Board**: Code-along
+6) **Final Project**: Prompt for students
 
-7) **Final Project**: Prompt for students
-
-8) **Project Presentations**: Info for instructors about class presentations
+7) **Project Presentations**: Info for instructors about class presentations
 
 Notes: 
-- Lesson 5 is a brief slideshow that introduces students to the code-along activity.
-- Lesson 6 is the code-along script for the instructor (not student-facing).
-- Lesson 6 is a code-along that requires approximately six hours to complete, so plan accordingly. For 10-week deliveries, the activity will take up three full class sessions.
+- Item 5 is the code-along script for the instructor (except for the introductory slides, not student-facing).
+- Item 5 is a code-along that requires approximately six hours to complete, so plan accordingly. For 10-week deliveries, the activity will take up three full class sessions.
