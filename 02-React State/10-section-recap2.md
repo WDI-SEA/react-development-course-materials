@@ -10,7 +10,7 @@
 
 **Talking Points**:
 
-- Don't worry! While there's a lot to see at first, React is a pretty straightforward framework to use. You can create user interface components that extend from `React.Component`. These have a built-in life cycle that accepts data and can trigger automatic re-rendering whenever that data is updating. In a React component, an update in either the state or props will trigger the method cascade that can lead to a `render()`.
+- Don't worry! While there's a lot to see at first, React is a pretty straightforward framework to use. You can create user interface components that extend from `Component`. These have a built-in life cycle that accepts data and can trigger automatic re-rendering whenever that data is updating. In a React component, an update in either the state or props will trigger the method cascade that can lead to a `render()`.
 
 </aside>
 
@@ -25,7 +25,7 @@
 ### Best Practice 2
 
 - Do not automatically render elements on the DOM *inside* their own component class definitions.
- 
+
 
 <aside class="notes">
 
@@ -42,8 +42,8 @@
 
 ### Best Practice 3
 
-- Remember: State and props are NOT the same thing. 
-  
+- Remember: State and props are NOT the same thing.
+
 <aside class="notes">
 
 **Talking Points:**
@@ -72,13 +72,15 @@
 
 ### Best Practice 5
 
-- When you are working with components that have no need for state, use a functional component.  
+- When you are working with components that have no need for state, use a functional component.
 
 <aside class="notes">
 
 **Talking Point:**
 
 - This style of component writing still allows you to receive props, but doesn't come with the bloat of state and life-cycle methods.
+
+- Remember to pass the props as an argument to the functional component.
 
 </aside>
 

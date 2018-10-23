@@ -75,13 +75,6 @@ _By the end of this lesson, you will be able to:_
 - As state has the ability to be changed, it is not quite as straightforward as props. However, once you get the hang of it, you'll be able to build really interactive apps!
 
 ---
-
-Create a new file called `src/MoodTracker.js`.
-
-`$ touch src/MoodTracker.js`
-
-![](images/moodtracker-directories.png)
-
 <aside class="notes">
 
 **Talking Points:**
@@ -93,6 +86,8 @@ Create a new file called `src/MoodTracker.js`.
 - `$ touch src/MoodTracker.js`
 
 - Your directory structure should now look something like what's shown here.
+
+![](images/moodtracker-directories.png)
 
 </aside>
 
@@ -154,21 +149,25 @@ export default App;
 
 
 ```js
+import React, { Component } from 'react';
+
 class MoodTracker extends Component {
   // What should happen when the component is first created?
   constructor() {
     // Make call to parent class' (Component) constructor.
     super();
     this.state = {
-      // Your info here
+    // Your info here
     };
   }
 
   // What should the component render?
   render() {
-    //  ....
+  //  ....
   }
 }
+
+export default MoodTracker;
 ```
 
 <aside class="notes">
@@ -183,10 +182,12 @@ class MoodTracker extends Component {
 
 ---
 
-#### React Components in 2018
+#### React Components in React v16+
 
 
 ```js
+import React, { Component } from 'react';
+
 class MoodTracker extends Component {
   // What should the state be when the component is created?
   state = {
@@ -198,15 +199,17 @@ class MoodTracker extends Component {
     //  ....
   }
 }
+
+export default MoodTracker;
 ```
 
 <aside class="notes">
 
 **Talking Points**:
 
-- Even though you may see the `constructor` syntax used in some online resources, the best practices for how to write the initial state for components has changed in recent years. Instead, we can create a component and directly define the starting state without ever having to use a constructor.
+- Even though you may see the `constructor` syntax used in some online resources, the best practices for how to write the initial state for components has changed in recent years. Instead, we can create a component and directly define the starting state without ever having to use a constructor as of React 16.
 
-- Much cleaner, right? Throughout the course, we're going to use this newer way to define state, but you may run into the `constructor` syntax during your own research.
+- Much cleaner, right? Throughout the course, we're going to use this newer way to define state, but you may run into the `constructor` syntax during your own research as this was the way it was done prior to the release of React version 16.
 
 </aside>
 
@@ -234,8 +237,6 @@ class MoodTracker extends Component {
 
 - We'll start our state with just one key-value pair. The key or label will be `moodPoints`, and the initial value for the `moodPoints` key will be `1`.
 
-- At the top of the `MoodTracker` class in your `src/MoodTracker.js` file, add the `constructor()` function.
-
 </aside>
 
 ---
@@ -262,11 +263,28 @@ return (
 
 **Talking Points**:
 
-- Next, let's make sure we display that information to the user. In your `render()` method, we'll let the user know how many mood points they have by adding in the line seen here.
+- Next, let's make sure we display that information to the user. In your `MoodTracker.js` `render()` method, we'll let the user know how many mood points they have by adding in the line seen here.
 
 - Note how similar this looks to using props. All React components include both `this.props` and `this.state`.
 
-- All together, the code inside `render()` for our `App.js` can now look as seen here.
+- All together, the code inside `render()` for our `MoodTracker.js` can now look as seen here.
+
+```js
+class MoodTracker extends Component {
+  // Define an initial state.
+  state = {
+    moodPoints: 1 // initialize this.state.moodPoints to be 1
+  };
+
+  // What should the component render?
+  render() {
+    <div>
+      <p>On a scale of 1-10</p>
+      <p>You are this happy: {this.state.moodPoints}</p>
+    </div>
+  }
+}
+```
 
 **Teaching Tips:**
 
@@ -311,21 +329,6 @@ return (
 
 ### Events in React
 
-Event listeners in React look very similar to adding events through HTML attributes. There are two main differences when working with React's synthetic events:
-
-1. 
-   - `onClick` (React) vs. `onclick` (HTML)
-   - `onSubmit` (React) vs. `onsubmit` (HTML)
-   
-2. 
-   - `<button onClick={this.doSomething}>Click Me</button>` (React)
-   - `<button onclick="doSomething()">Click Me</button>` (HTML)
-
-Additionally, there are _tons_ of events available to React elements.
-
-
-<aside class="notes">
-
 **Talking Points:**
 
 - Event listeners in React look very similar to adding events through HTML attributes. There are two main differences when working with React's synthetic events:
@@ -336,6 +339,10 @@ Additionally, there are _tons_ of events available to React elements.
 - 2. In JSX, you pass the actual function in as the handler, rather than a string:
    - `<button onClick={this.doSomething}>Click Me</button>` (React)
    - `<button onclick="doSomething()">Click Me</button>` (HTML)
+
+Additionally, there are _tons_ of events available to React elements.
+
+<aside class="notes">
 
 </aside>
 
@@ -381,7 +388,7 @@ We will create a button that the user can click, which will increase their mood 
 **Teaching Tip:**
 
 - If the class is advanced, this can be a good opportunity to introduce the [`spread`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) operator.
- 
+
 </aside>
 
 ---
@@ -404,7 +411,7 @@ increaseMood = () => {
 
 - Instead, when we want to update a value in React, we will use a method called `this.setState()`. This method helps React update only certain parts of the DOM, resulting in a much faster website!
 
-- First, we will create a method to increase the mood. Under the `Hello` constructor, above the `render()` method, add the method seen here.
+- First, we will create a method to increase the mood. Above the `render()` method, add the method seen here.
 
 - ES6 update: We are going to be using arrow functions often in React. Check out [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) for more info.
 
@@ -415,16 +422,15 @@ increaseMood = () => {
 ---
 
 ```js
-  render () {
-    // Remember: This can only return one top-level element.
+render () {
+  // Remember: This can only return one top-level element.
 
-    return (
-      <div>
-        <p>You are this happy: {this.state.moodPoints}</p>
-        <button onClick={this.increaseMood}>Cheer up!</button>
-      </div>
-    )
-  }
+  return (
+    <div>
+      <p>You are this happy: {this.state.moodPoints}</p>
+      <button onClick={this.increaseMood}>Cheer up!</button>
+    </div>
+  )
 }
 ```
 
@@ -447,13 +453,12 @@ All together, your `App.js` file now looks like this:
 
 ```js
 // Bring in React and Component from React.
-
 import React, { Component } from "react";
 
 // Define our MoodTracker component.
 class MoodTracker extends Component {
   state = {
-    moodPoints: 1 // Initialize this.state.moodPoints to be 0.
+    moodPoints: 0 // Initialize this.state.moodPoints to be 0.
   };
 
   // Increase moodPoints by 1 in this.state.
@@ -469,6 +474,7 @@ class MoodTracker extends Component {
 
     return (
       <div>
+        <p>On a scale of 1-10</p>
         <p>You are this happy: {this.state.moodPoints}</p>
         <button onClick={this.increaseMood}>Cheer up!</button>
       </div>
@@ -476,7 +482,7 @@ class MoodTracker extends Component {
   }
 }
 
-export default Hello;
+export default MoodTracker;
 ```
 
 > Check it out! If you browse to `http://localhost:3000`, your button now changes the state whenever it is clicked.
@@ -496,7 +502,7 @@ export default Hello;
 
 - This has implications for performance.
 
-- We do not re-render the entire component like we have been doing so far.
+- We do not re-render the entire App like we have been doing so far.
 
 - This is one of React's core advantages.
 
@@ -508,11 +514,7 @@ export default Hello;
 
 After 10 clicks, the user should see the counter reset to `1`.
 
-<<<<<<< HEAD:02-React State/02-react-state.lecture.md
-> If you're interested in reading more in depth about this, here's more on what [should and shouldn't go in state](https://facebook.github.io/react/docs/state-and-lifecycle.html). This link is also in the Further Reading section at the end of the React module.
-=======
-> If you're interested in reading more in depth about this, here is more on what [should & shouldn't go in state](https://facebook.github.io/react/docs/state-and-lifecycle.html). This link is also in the Further Reading page at the end of the this lesson.
->>>>>>> master:02-React State/02-react-state-lecture.md
+> If you're interested in reading more in depth about this, here is more on what [should & shouldn't go in state](https://facebook.github.io/react/docs/state-and-lifecycle.html). This link is also in the Further Reading page at the end of this lesson.
 
 <details>
   <summary>
@@ -538,7 +540,7 @@ Or, using ternaries:
 
 ```js
 increaseMood = () => {
-  let newMoodPoints = this.state.moodPoints ? 0 : this.state.moodPoints + 1;
+  let newMoodPoints = this.state.moodPoints >= 10 ? 0 : this.state.moodPoints + 1;
   this.setState({
     moodPoints: newMoodPoints
   });

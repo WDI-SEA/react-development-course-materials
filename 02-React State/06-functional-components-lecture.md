@@ -30,7 +30,7 @@
 As a class, we might have:
 
 ```javascript
-class Name extends React.Component {
+class Name extends Component {
   render() {
     return (
       <div>
@@ -44,7 +44,7 @@ class Name extends React.Component {
 But, with ES6, we now have:
 
 ```javascript
-const Name = props => (
+const Name = (props) => (
   <div>
     Name: {props.firstName} {props.lastName}
   </div>
@@ -57,7 +57,7 @@ const Name = props => (
 
 - Rather than create them as classes, you can write them as functions. A React functional component takes the `props` object as its argument and returns JSX. Here's a very simple example.
 
-- The whole declaration of `class`, `extends`, `React.component`, etc. — it's all been replaced. We now just have the component name, an input for the props, and what is returned. Simplicity at its finest!
+- The whole declaration of `class`, `extends`, `Component`, etc. — it's all been replaced. We now just have the component name, an input for the props, and what is returned. Simplicity at its finest!
 
 </aside>
 
@@ -89,7 +89,7 @@ const ListItem = props => (
   </div>
 )
 
-export default ListItem
+export default ListItem;
 
 
 ```
@@ -153,7 +153,6 @@ export default ListItem
 `const ListItem` functional component above and have the properties listed here.
 
 - The syntax needed to get the mapping to work can be tricky. Notice that it must
-be surrounded in curly braces, like the fruit list example that uses `.map()`
-to generate a table.
+be surrounded in curly braces.
 
 </aside>
