@@ -160,7 +160,7 @@ We can now run the `npm run dev` command and our application will start on both 
 
 If we check our route at `localhost:3001/api/users`, we should get a JSON object back. We can get this JSON object by using `res.json` instead of `.render` or `.send`.
 
-We can then retrieve the user we created in our seeds. This gives us enough to get started on building the UI for our idea board.
+We can then retrieve the user that we previously created. This gives us enough to get started on building the UI for our idea board.
 
 ## Scaffolding for the Idea Board UI
 
