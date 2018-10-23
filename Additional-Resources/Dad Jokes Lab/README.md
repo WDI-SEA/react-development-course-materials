@@ -11,9 +11,9 @@ The [Dad Jokes API](https://icanhazdadjoke.com/api) includes an endpoint for [ge
 
 **Teaching Tip**:
 
-This lab is NOT PART OF THE CORE CURRICULUM. It is an optional lab for practicing working APIs and the component lifecycle methods in React. 
+This lab is NOT PART OF THE CORE CURRICULUM. It is optional practice working APIs and the component life-cycle methods in React. 
 
-Assign it to individuals who are caught up with their work and are looking for further challenges. Or do it with the whole class if time permits and you feel the students would benefit from it.
+Assign it to individuals who are caught up with their work and looking for a further challenge. Or, do it with the whole class if time permits and you feel that students would benefit from it.
 
 </aside>
 
@@ -21,9 +21,11 @@ Assign it to individuals who are caught up with their work and are looking for f
 
 ## Prerequisites
 
--   React and React Components
--   State and Props
--   The Component Lifecycle Methods
+Students should be familiar with: 
+
+-   React and React components
+-   State and props
+-   The component life-cycle methods
 -   Working with an API
 
 ## Instructions
@@ -38,7 +40,7 @@ The starter code provided here is based on Create React App.
 
 ## Requirements
 
-Your application should display a large button that, when clicked, fetches a random dad joke from the dad jokes API and displays it to the user. It should look as close to the image provided below. You could, as a bonus, have a random dad joke appear when the app loads.
+Your application should display a large button that, when clicked, fetches a random dad joke from the Dad Jokes API and displays it to the user. It should look as similar as possible to the image provided below. You could, as a bonus, have a random dad joke appear when the app loads.
 
 ![Dad Jokes app mock](./assets/dad-jokes.png)
 
@@ -48,9 +50,9 @@ Build a queue that stores the 10 most recently retrieved dad jokes! Additionally
 
 You should have:
 
-* One button to get a new joke (append to queue). If there are >10 jokes in the queue, drop the oldest one.
+* One button to get a new joke (append to queue). If there are 10+ jokes in the queue, drop the oldest one.
 * One button to advance to the next joke.
-* One button to move to the previous joke.
+* One button to revert to the previous joke.
 
 ## [License](LICENSE)
 

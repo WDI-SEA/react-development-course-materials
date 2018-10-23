@@ -14,29 +14,29 @@ This review guide covers:
 #### [React State](unit-2-react-review-guide.md)
 This review guide covers:
 - Constructors
-- `map`
+- `.map()`
 - State
 
 
 #### [ES6 and Intermediate React](es6-and-intermediate-react-review-guide.md)
 This review guide covers:
 - ES6
-  - (`const`, `let`, arrow functions, object literal, template literal, imports & modules)
-- Component lifecycle methods
-- Functional Components
-- Immutable Data Types
-- Unidirectional Flow
+  - (`const`, `let`, arrow functions, object literal, template literal, imports and modules)
+- Component life-cycle methods
+- Functional components
+- Immutable data types
+- Unidirectional flow
 
 
 #### [React Router](react-router-review-guide.md)
 This review guide covers:
 - Browser history mechanics
 - React Router
-- Single Page Applications
+- Single-page applications
 
 
-#### [APIs, Heroku, Programming Types](apis-heroku-programming-types-review-guide.md)
+#### [APIs, Heroku, and Programming Types](apis-heroku-programming-types-review-guide.md)
 This review guide covers:
 - APIs and `fetch()`
-- Declarative vs imperative programming
+- Declarative versus imperative programming
 - Heroku

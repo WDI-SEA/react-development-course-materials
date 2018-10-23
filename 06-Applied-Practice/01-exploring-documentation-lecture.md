@@ -1,10 +1,10 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Exploring Documentation
 
 
-### Learning Objectives
-*After this lesson, you will be able to:*
-- Comprehend React documentation
-- Apply concepts in the React documentation
+## Learning Objectives
+After this lesson, you'll be able to:
+- Understand React documentation.
+- Apply concepts in the React documentation.
 
 
 ## Documentation
@@ -16,13 +16,13 @@
 <aside class="notes">
 
 
-**Talking Points**
+**Talking Points**:
 
-- When you don't know how to do something in programming, a great place to check is the documentation. That's what we'll be doing this lesson - finding the answers in documentation.
+- When you don't know how to do something in programming, a great place to check is the documentation. That's what we'll be doing in this lesson — finding the answers in documentation.
 
-- Some frameworks have documentation that's very dense and difficult to parse, but others are much more straightforward. Luckily, React.js is one of the more well written ones!
+- Some frameworks have documentation that's dense and difficult to parse, while others are more straightforward. Luckily, the React.js documentation is one of the more well-written ones.
 
-- You're going to be looking at the React documentation to practice learning on your own. This lesson doesn't have a lot of answers in it, because the hope is that you'll be able to find them yourself! We'll be here to point you in the right direction.
+- You'll be looking at the React documentation to practice learning on your own. This lesson doesn't have a lot of answers because the hope is that you'll be able to find them yourself. We'll be here to point you in the right direction.
 
 
 </aside>
@@ -31,39 +31,42 @@
 
 ## Looking at the React Website
 
-Since React was created by Facebook, it has a large community with a lot of information.
+Because React was created by Facebook, it has a large community with a lot of information.
 
-Open the [React homepage](https://facebook.github.io/react/)
-  - 
-![](assets/facebook-tutorial.png)
+Open the [React home page](https://facebook.github.io/react/).
+ 
+![](assets/react-tutorial-screenshot.png)
 
 
 <aside class="notes">
 
-**Talking Points**
+**Talking Point**:
 
-- "Since React was created by Facebook, it has a large community with a lot of information." **Teaching tip:** Direct students to open the [React homepage](https://facebook.github.io/react/). 
+- Click "Tutorial" at the top. This is a tutorial to walk you through learning React. It's the tic-tac-toe game that you'll work through later in this unit.
 
-- "Click "Tutorial" at the top. This is a tutorial created by Facebook to walk you through learning React - it's the tic tac toe game that you will do later in this unit.
+**Teaching Tips:**
 
-**Teaching tip:** If that last exercise was a little confusing, it might be worth pausing this lesson to run through the Facebook tutorial and reinforce what we've learned so far.
+- Direct students to open the React home page.
 
-</aside>  
+- If that last exercise was a little confusing, it might be worth pausing this lesson to run through the tutorial and reinforce what students have learned so far.
 
+</aside>
 
-### The React community
+----
 
-There are many recomended places to ask for help within "Community".
+## The React Community
 
-![](assets/facebook-community.png)
+There are many recommended places to ask for help within "Community."
+
+![](assets/discussion-forum-screenshot.png)
 
 <aside class="notes">
 
-**Talking Points**
+**Talking Points**:
 
-Here are many recommended places to ask for help. However, make sure that you try your best to find the answer first! Many frameworks don't have such a large community, so being able to find the answer on your own is crucial. As well, while a problem might seem dire, the solution might be a single command or short explanation found in the documentation.
+- Here are some recommended places to ask for help. However, make sure you try your best to find the answer first. Many frameworks don't have such a large community, so being able to find an answer on your own is crucial. Also, while a problem might seem dire, its solution may well be a single command or short explanation found in the documentation.
 
-That said, looking through questions that have been asked previously is a great place for research. If you're having a problem, chances are high that someone else once had that same problem.
+- That said, looking through questions that have been asked previously is also a great research practice. If you're having a problem, chances are high that someone else has had it, too.
 
 
 </aside>
@@ -71,64 +74,67 @@ That said, looking through questions that have been asked previously is a great 
 
 ----
 
-### The React documentation
+## The React Documentation
 
 
 
-![](assets/facebook-rendering.png)
+![](assets/react-docs-screenshot.png)
 
-Click "Docs"
+Click on "Docs."
 
-Nav Bar: 
-- Quick start guide
-- Advanced guides 
-- References 
-- Rendering Elements
+The navigation bar contains:
+- A "Getting Started" guide.
+- Main concepts.
+- Advanced guides. 
+- An API reference.
 
 <aside class="notes">
 
-**Talking Points** 
+**Talking Points**:
 
-- Now, let's dive in. Click "Docs".
-- In the left sidebar is a nav bar containing a quick start guide, advanced guides, and references (as well as how to contribute, which you could do some day!).
-- In the left sidebar, click "Rendering Elements." Read through the page, paying attention to the examples. Hopefully, this is all review and relatively straightforward.
+- Let's dive in. Click on "Docs."
+- On the right is a navigation bar containing a "Getting Started" guide, main concepts, advanced guides, and an API reference (as well as how to contribute to the documentation, which you could do some day).
+- Under "Main Concepts," click "Rendering Elements." Read through the page, paying attention to the examples. Hopefully, this is all review and relatively straightforward.
 - Congratulations! You've read a page of React.js documentation.
 
 </aside>
 
 ---- 
 
-### Documentation Exercise: Conditional Rendering
+## Documentation Exercise: Conditional Rendering
 
-Now, let's apply something new. In the search bar at the top, look for "Conditional Rendering".
+Next, let's apply something new.
 
 ![](assets/facebook-conditional.png)
 
 
 Step 1: In the search bar at the top, look for "Conditional Rendering" and read through the page. 
 
-Step 2: Referring to the Conditional Rendering documentation, finish this [this CodePen application](https://codepen.io/SuperTernary/pen/wrooQP) so there's only a single list displayed at any time, with a corresponding button changes between "Show matching fruits" and "Show unmatching fruits".
-  - The two functions creating the buttons have been made for you, below the class declaration.
-  - The `return` method in the `render` methodis accurate; as well as the `handleFilterChange()` method - no modifications are needed in either `handleFilterChange()` or the `return`.[this CodePen](https://codepen.io/SuperTernary/pen/wrooQP)
+Step 2: Referring to the documentation on conditional rendering, finish [this CodePen application](https://codepen.io/SuperTernary/pen/wrooQP) so there's only a single list displayed at any time with a corresponding button that changes between "Show matching fruits" and "Show unmatching fruits."
+  - The two functions creating the buttons are included for you below the class declaration.
+  - The `return()` method in the `render()` method is accurate, as is the `handleFilterChange()` method. No modifications are needed in either `handleFilterChange()` or `return()`.
   
 
-Here are screenshots of the two different states of the app:
+Here are screenshots of the app's two different states:
 ![](assets/fruit-final.png)
 
 
-When you have it, check your solution against** [this CodePen](https://codepen.io/SuperTernary/pen/XeNNEG?editors=0010)
+When you have it, check your solution against [this CodePen](https://codepen.io/SuperTernary/pen/XeNNEG?editors=0010).
 
 <aside class="notes">
 
-**Talking Points** 
-- Now, let's apply something new. In the search bar at the top, look for "Conditional Rendering".
+**Talking Points**:
+
+- Now let's apply something new. In the search bar at the top, look for "Conditional Rendering."
 - Read through the page.
-- Then, look at [this CodePen](https://codepen.io/SuperTernary/pen/wrooQP). It's the fruit filter from before; currently, it only lists the matching fruits (however, it has the functions to make the list for the unmatching ones).
-- Referring to the Conditional Rendering documentation, finish this application so there's only a single list displayed at any time, with a corresponding button changes between "Show matching fruits" and "Show unmatching fruits".
-  - The two functions creating the buttons have been made for you, below the class declaration.
-  - The `return` method in the `render` methodis accurate; as well as the `handleFilterChange()` method - no modifications are needed in either `handleFilterChange()` or the `return`.
+- Then, look at this CodePen application — it's the fruit filter from before. Currently, it only lists the matching fruits. However, it has functions to make the list for unmatching ones.
+- Referring to the documentation on conditional rendering, finish this application so there's only a single list displayed at any time with a corresponding button that changes between "Show matching fruits" and "Show unmatching fruits."
+  - The two functions creating the buttons are included for you below the class declaration.
+  - The `return()` method in the `render()` method is accurate, as is the `handleFilterChange()` method. No modifications are needed in either `handleFilterChange()` or `return()`.
   
-- Teaching tip: provide this this CodePen](https://codepen.io/SuperTernary/pen/qPqqQE?editors=0010)for students who need support (There is a comment everywhere they. need to make a modification)
+**Teaching Tip**:
+
+- Provide [this CodePen](https://codepen.io/SuperTernary/pen/qPqqQE?editors=0010) for students who need support. There are comments everywhere they need to make modifications.
 
   
 </aside>
