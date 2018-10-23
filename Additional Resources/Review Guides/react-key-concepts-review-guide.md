@@ -116,7 +116,7 @@ class App extends Component {
 - Each component should be contained in its own file.
   - Don't put multiple components into one JavaScript file.
 - Do not automatically render an element on the DOM *inside* of its own component class definition.
-  - If you look through your files, you'll see in your component classes that you define a `render()` method for that component, which is great.
+  - If you look through your files, you'll see in your component classes that you define a `render()` method for that component, which is useful for all components.
   - That class is then called by `ReactDOM.render()` in **a different place, outside of that class definition** (likely `index.js`).
   - In some tutorials or older code, you may find examples of `ReactDOM.render()` inside of a component.
   - You should **avoid** this at all costs; this was an older technique used in past versions of React.
