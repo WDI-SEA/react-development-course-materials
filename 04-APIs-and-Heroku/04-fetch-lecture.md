@@ -56,7 +56,7 @@ After this lesson, you'll be able to:
 
 ##
 
-![Request/Response](assets/request-response.png)
+![Request/Response](assets/request-response-v3.png)
 
 <aside class="notes">
 
