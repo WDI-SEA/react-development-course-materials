@@ -101,7 +101,7 @@ class MyList extends Component {
   }
 }
 
-export default MyList
+export default MyList;
 ```
 
 
@@ -111,7 +111,7 @@ export default MyList
 
 - Let's change the name of the component in `App.js` to something more meaningful, like `MyList`. Also change the name of the file from `App.js` to `MyList.js`, as best practices include keeping the file name the same as the component it contains as often as possible.
 
-- Then, we'll change the contents of the HTML to have a header and the start of a list.
+- Then, we'll change the contents of the JSX to have a header and the start of a list.
 
 - This looks like it does here.
 
@@ -130,7 +130,7 @@ import ReactDOM from 'react-dom';
 import MyList from './MyList';
 import './index.css';
 
-var toDos = ["Buy ice cream.", "Eat ice cream.", "Go to the gym."]
+const toDos = ["Buy ice cream.", "Eat ice cream.", "Go to the gym."];
 
 ReactDOM.render(
   <MyList theList={toDos} />,
@@ -162,13 +162,13 @@ ReactDOM.render(
 
 - We've learned that we should make new files for each component and that different functionalities should be split into different components.
 
-- Now, let's make a component for `ListItem`s. This component can simply render `<li>Make the list!</li>` so that we are starting with something in this list.
+- Now, let's make a component for `ListItem`. This component can simply render `<li>Make the list!</li>` so that we are starting with something in this list.
 
 - Remember to use an `export` statement at the end of the new file to make the code in this file available elsewhere in our application.
 
 - Don't forget to import your `ListItem` component into `MyList.js`. Then, include the component in what `MyList` renders with `<ListItem />` under the existing header (in place of the existing list item)!
 
-At this point, our app looks as it is shown here.
+At this point, our app looks as it is shown below.
 
 </aside>
 
@@ -194,6 +194,20 @@ Let's make it look better!
 ---
 
 ## 2. Add Props.
+
+<aside class="notes">
+
+**Talking Points:**
+
+- This is a great start — we've already nested components (`ListItem` inside of `MyList`). Now, let's add some props to make this useful and check off that current list item!
+
+- Let's first pass a prop into `ListItem` from `MyList`. We'll call the prop something simple, like `todoItem`. I'm pretty hungry; I'll pass in a value of "buy ice cream."
+
+- Then, in `ListItem`, we'll add a list item that uses the `todoItem` prop instead of the existing hard-coded text.
+
+- Our app now looks as it is shown here.
+
+</aside>
 
 Now, in `MyList.js`, we have:
 
@@ -249,30 +263,16 @@ export default ListItem
 
 ![list-preview](./images/todo-list-2.png)
 
-<aside class="notes">
-
-**Talking Points:**
-
-- This is a great start — we've already nested components (`ListItem` inside of `MyList`). Now, let's add some props to make this useful and check off that current list item!
-
-- Let's first pass a prop into `ListItem` from `MyList`. We'll call the prop something simple, like `todoItem`. I'm pretty hungry; I'll pass in a value of "buy ice cream."
-
-- Then, in `ListItem`, we'll add a list item that uses the `todoItem` prop instead of the existing hard-coded text.
-
-- Our app now looks as it is shown here.
-
-</aside>
-
 ---
 
 ## 3. Render Different Items in an Array
 
 
 ```js
-let newArray = originalArray.map( (itemInArray, index) => {
+const newArray = originalArray.map( (itemInArray) => {
   // Do some stuff.
   // ...
-  return transformedItem
+  return transformedItem;
 })
 ```
 
@@ -282,7 +282,7 @@ let newArray = originalArray.map( (itemInArray, index) => {
 
 - If we want to make this a truly extensible list, we could create an array of items, pass them into props through the `ListItem` component, and then render each item. Let's do that now.
 
-- Borrowing from an earlier bonus exercise, the easiest way to do this is by using the `.map()` function. A map is like a `for` loop. With `.map()`, you make a new variable and iterate through each item in an array. It looks as seen here.
+- Borrowing from an earlier bonus exercise, the easiest way to do this is by using the `.map()` function. A map is like a `for` loop. With `.map()`, you make a new variable and iterate through each item in an array. `.map()` will then return a new instance of the array. It looks as seen here.
 
 </aside>
 
@@ -291,9 +291,9 @@ let newArray = originalArray.map( (itemInArray, index) => {
 ## Example
 
 ```js
-const phrases = ['ice cream', 'dinosaurs', 'hobbits']
-let excitedPhrases = phrases.map( (phrase, index) => {
-  return newPhrase = phrase + '!'
+const phrases = ['ice cream', 'dinosaurs', 'hobbits'];
+const excitedPhrases = phrases.map( (phrase) => {
+  return phrase + '!';
 })
 // excitedPhrases is ["ice cream!", "dinosaurs!", "hobbits!"]
 ```
@@ -321,7 +321,7 @@ let excitedPhrases = phrases.map( (phrase, index) => {
 
 
 ```js
-let todoItems = this.props.theList.map( (item, index) => (
+const todoItems = this.props.theList.map( (item, index) => (
   <ListItem todoItem={item} key={index} />
 ))
 ```
@@ -331,6 +331,10 @@ let todoItems = this.props.theList.map( (item, index) => (
 **Talking Point:**
 
 Here is the `.map()` function call that will do this for us, which we'll put in the `MyList` component.
+
+Note that `.map()` also has can pass a second argument we can use, which is the index of the item in the array.
+
+`key={index}` describe the importance of the key tag and how React uses it to make pages load faster.
 
 </aside>
 
@@ -343,7 +347,7 @@ class MyList extends Component {
 
   render() {
 
-    let todoItems = this.props.theList.map( (item, index) => (
+    const todoItems = this.props.theList.map( (item, index) => (
       <ListItem todoItem={item} key={index} />
     ))
 
@@ -382,7 +386,7 @@ import ReactDOM from 'react-dom';
 import MyList from './MyList';
 import './index.css';
 
-var toDos = ["Buy ice cream.", "Eat ice cream.", "Go to the gym."]
+const toDos = ["Buy ice cream.", "Eat ice cream.", "Go to the gym."];
 
 ReactDOM.render(
   <MyList theList={toDos} />,
@@ -410,7 +414,7 @@ class ListItem extends Component {
   }
 }
 
-export default ListItem
+export default ListItem;
 
 ```
 

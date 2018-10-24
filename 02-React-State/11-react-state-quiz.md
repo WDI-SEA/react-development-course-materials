@@ -13,7 +13,7 @@
 ### Questions:
 - Answers marked with asterisks are correct.
 
-_Prompt_: Where does `constructor()` go, and when do you need it?
+_Prompt_: In older version of React, where does `constructor()` go, and when do you need it?
 
 
 _Choices_:
@@ -71,13 +71,13 @@ _Choices_:
 
 1. You can't have a `state` with the same name as the component.
 2. `State` is set with `this.state`, not just state. *
-3. `Statev is set with colons, not equal signs. It should be `compliment: "You're so awesome!"`. *
+3. `State is set with colons, not equal signs. It should be `compliment: "You're so awesome!". *
 4. Constructors need to begin with a call to `super()`. *
 5. All of the above.
 
 _Correct response_: Correct! `State` is set with `this.state`, and the name-value pair is separated with a colon, not an equals sign. Lastly, all constructors need to start with a call to `super()` to initialize the default class before modifying it.
 
-_Incorrect response_: Not quite. `State` is set with `this.state`, and the name-value pair is separated with a colon, not an equals sign. Lastly, all constructors need to start with a call to `super()` to initialize the default class before modifying it.
+_Incorrect response_: Not quite.  A state can have the same name as the component class.
 
 ----------------------------------
 
@@ -111,9 +111,9 @@ _Choices_:
 4. `State` is called by JSX with `{this.lava}`, so the second `<h3>` statement needs to change.
 5. `State` is called by JSX with `{state.lava}`, so the first `<h3>` statement needs to change.
 
-_Correct response_: `States's` need to be declared before they can be used, so there needs to be a `constructor()` method initializing `lava`. Additionally, you call `state` with `this.state.Name` and set state with `this.setState()`.
+_Correct response_: States need to be declared before they can be used, so there needs to be a `constructor()` method initializing `lava`. Additionally, you call `state` with `this.state.Name` and set state with `this.setState()`.  This code will also error out as react needs a parent tag to render, a solution would be to wrap the h3 tag inside a div tag.
 
-_Incorrect response_: Not quite. `States's` need to be declared before they can be used, so there needs to be a `constructor()` method initializing `lava`. Additionally, you call state with `this.state.Name` and set `state` with `this.setState()`.
+_Incorrect response_: Not quite.
 
 -----------------------------------
 
@@ -137,17 +137,17 @@ _Choices_:
 3. `.map()` is like a `for` loop. With `.map()`, you make a new variable and use it to iterate through each item in an array. *
 4. `.map()` is like a `while` loop. With `.map()`, you make a new variable and use it to iterate through each item until you break the loop.
 
-_Explanation_: Right! We use `.map()` to iterate over an array, like a `for` loop, and perform an action on each item, usually saving this into a new variable.
+_Explanation_: Right! We use `.map()` to iterate over an array, like a `for` loop, and perform an action on each item returning a new array, usually saving this into a new variable.
 
 -----------------------------------
 
 _Prompt_: Is the following syntax for `.map()` correct?
 
 ```js
-const drinks = ['tea', 'espresso', 'milkshake']
+const drinks = ['tea', 'espresso', 'milkshake'];
 
-let myDrinks = drinks.map( (soda, index) => {
-  return newDrink = 'I love' + soda
+const myDrinks = drinks.map( (soda, index) => {
+  return 'I love' + soda;
 })
 ```
 
@@ -166,8 +166,8 @@ _Prompt_: Is the following syntax for `.map()` correct if the array is a prop na
 
 ```js
 
-let Bears = this.prop.Bear.map( (bearType, index) => {
-  return cuteBear = 'I love' + bearType
+const Bears = this.prop.Bear.map( (bearType, index) => {
+  return 'I love' + bearType;
 })
 ```
 

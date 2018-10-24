@@ -24,7 +24,7 @@ So should our list.
 
 **Talking Points:**
 
-- Remember, in a React component, state is just another object, like props. The biggest difference is that state can be changed. (Remember, however, to always change it through the method `setState()`.) The exception is setting the initial state, which is only done once — when initializing a React component. In order to pass items to the `ToDoList` component and make them mutable, we'll need to set the state of our `MyList`.
+- Remember, in a React component, state is just another object, like props. The biggest difference is that state can be changed (Remember, however, to always change it through the method `setState()`). The exception is setting the initial state, which is only done once on the intial render — when initializing a React component. In order to pass items to the `ToDoList` component and make them mutable, we'll need to set the state of our `MyList`.
 
 - This is going to require a lot of refactoring! We're going to be swapping out places where we started using props and replacing them with our changeable state.
 
@@ -56,10 +56,10 @@ So should our list.
 First, in `MyList`, we define the function the button will call:
 
 ```js
-clearList = (e) => {
+clearList = () => {
   this.setState({
     toDoItemArray: []
-  })
+  });
 }
 ```
 
@@ -89,18 +89,17 @@ This makes our `MyList` component look like this:
 class MyList extends Component {
 
   state = {
-      toDoItemArray: ["Buy ice cream.", "Eat ice cream.", "Go to the gym."]
+      toDoItemArray: ["Buy ice cream.", "Eat ice cream.", "Go to the gym."];
   }
 
   clearList = () => {
     this.setState({
       toDoItemArray: []
-    })
+    });
   }
 
   render() {
-
-    let todoItems = this.state.toDoItemArray.map( (item, index) => (
+    const todoItems = this.state.toDoItemArray.map( (item, index) => (
       <ListItem doThis={item} key={index} />
     ))
 
@@ -116,7 +115,7 @@ class MyList extends Component {
   }
 }
 
-export default MyList
+export default MyList;
 ```
 
 <aside class="notes">
@@ -137,7 +136,7 @@ export default MyList
 **Talking Points:**
 
 - Now, when we click on the button, the following will occur:
-    - `this.setState()` will set the state, `toDoItemArray`, to be empty: `{toDoItemArray: []}`.
+    - `this.setState()` will set the state, `toDoItemArray`, to be an empty array: `{toDoItemArray: []}`.
     - The `render()` function for `MyList` will be called and re-render the component.
     - We'll feel good about ourselves for going to the gym, even if we ate ice cream first.
 
@@ -148,16 +147,16 @@ export default MyList
 
 ## Sure-Fire Coding
 
- ```js
- clearList = () => {
-   console.log("Clearing list!")
-   this.setState({
-     toDoItemArray: []
-   })
- }
- ```
+```js
+clearList = () => {
+  console.log("Clearing list!");
+  this.setState({
+    toDoItemArray: []
+  });
+}
+```
 
- > Another great way to debug this feature is to use the React Developer Tools. Select the React tab and click on the `MyList` component. Now, you can utilize `$r.clearList()` in the JS console to directly call the method.
+> Another great way to debug this feature is to use the React Developer Tools. Select the React tab and click on the `MyList` component. Now, you can utilize `$r.clearList()` in the JS console to directly call the method.
 
 <aside class="notes">
 
@@ -224,9 +223,9 @@ nothing wrong with how we hooked up the button and helps narrow our focus in cas
 ```js
 <form>
   <input type="text"
-   placeholder="Type an item here."
-   onChange={this.handleChange}
-   value={this.state.newItem}
+    placeholder="Type an item here."
+    onChange={this.handleChange}
+    value={this.state.newItem}
   />
   <button onClick={this.addItem}>Add it!</button>
 </form>
@@ -238,9 +237,9 @@ nothing wrong with how we hooked up the button and helps narrow our focus in cas
 
 - Lastly, we'll need to add a form to our `render()` method.
 
-- We can use `onChange` on the `input` field to trigger an event when the text in the box is changed.  
+- We can use `onChange` on the `input` field to trigger an event when the text in the box is changed.
 
-- Any function called when an event occurs (like functions that happen `onClick`, `onSubmit`, or `onChange`) can accept an argument. This argument, typically denoted as `e`, is the event itself. We then pass this into `newItemChange` and `addItem`.
+- Any function called when an event occurs (like functions that happen `onClick`, `onSubmit`, or `onChange`) can accept an argument. This argument, typically denoted as `e` or `event`, is the synthetic event object itself. We then pass this into `newItemChange` and `addItem`.
 
 **Teaching Tip:**
 
@@ -253,9 +252,9 @@ nothing wrong with how we hooked up the button and helps narrow our focus in cas
 ## Debugging Adding Items
 
 ```js
-addItem(event) {
+addItem(e) {
   // Prevent the event from running the default "submit" event.
-  event.preventDefault()
+  e.preventDefault();
 
   // Then, the rest of your code.
   // ...
@@ -288,7 +287,7 @@ form and it triggers a `submit` event. `submit` events make the page reload or
 an `action` attribute, the page just navigates to itself and reloads.
 
     - Make sure your `addItem()` function accepts an `e` event parameter and calls
-`.preventDefault` to stop the `submit` event from firing.
+`.preventDefault()` to stop the `submit` event from firing.
 
 </aside>
 

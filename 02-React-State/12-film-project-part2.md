@@ -68,19 +68,19 @@ If you check your browser, these subheadings should appear in the left column.
 
 ```html
 <div className="film-list">
-    <h1 className="section-title">FILMS</h1>
-    <div className="film-list-filters">
-        <div className="film-list-filter">
-            ALL
-            <span className="section-count">{this.props.films.length}</span>
-        </div>
-        <div className="film-list-filter">
-            FAVES
-            <span className="section-count">0</span>
-        </div>
+  <h1 className="section-title">FILMS</h1>
+  <div className="film-list-filters">
+    <div className="film-list-filter">
+      ALL
+      <span className="section-count">{this.props.films.length}</span>
     </div>
+    <div className="film-list-filter">
+      FAVES
+      <span className="section-count">0</span>
+    </div>
+  </div>
 
-    {allFilms}
+  {allFilms}
 </div>
 ```
 
@@ -161,6 +161,7 @@ This will be required for each event handler defined on any of your class-based 
 this.handleClick = this.handleClick.bind(this);
 ```
 
+Alternatively you can use the new fat arrow syntax `=>` when creating the function to bind the context of `this`;
 
 #### Step 3: Set the initial state.
 
@@ -196,7 +197,7 @@ You need to make the following happen:
 
 <details>
   <summary>Hint: A more advanced and succinct way to write this function could be:</summary>
-  <code>const isFave = (this.state.isFave) ? 'remove_from_queue' : 'add_to_queue'</code>
+  <code>const isFave = this.state.isFave ? 'remove_from_queue' : 'add_to_queue';</code>
 
 This is called a ternary statement.
 
@@ -218,7 +219,7 @@ Currently, you have the "ALL" and "FAVE" headings, but all films are always show
 
 By default, a user will be viewing the entire list of movies.
 
-In the `FilmListing` component, set `this.state` to an object with a key of `filter` and a value of `all`. This will set up the component's initial state.
+In the `FilmListing` component, set `state` to an object with a key of `filter` and a value of `all`. This will set up the component's initial state.
 
 
 #### Step 2: Set the state in your event handler.
@@ -236,10 +237,10 @@ You now want the `className` attribute on each `.film-list-filter` `div` to dyna
 
 <details>
   <summary>Hint: One way to do this could be by adding a line similar to this (that's different for each <code>div</code>) into the <code>className</code> parameter.</summary>
-  
+
 This line in particular checks if the `filter` state is currently `'all'`; if it is, it sets the value to `is-active`. If it isn't, it does nothing.
 <br>
- `{this.state.filter === 'all' ? 'is-active' : ''}`
+  `{this.state.filter === 'all' ? 'is-active' : ''}`
 </details>
 
 <details>

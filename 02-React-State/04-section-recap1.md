@@ -8,16 +8,15 @@
 
 ```js
 class Post extends Component {
-
   state = {
     body: "Check out this body property!"
   }
 
   changeBody = () => {
-    let newBody = prompt("What should the new body be?")
+    const newBody = prompt("What should the new body be?");
     this.setState({
       body: newBody
-    })
+    });
   }
 
   render() {
@@ -79,11 +78,7 @@ class Post extends Component {
 }
 ```
 
----
-
-## Data Flow
-
-3. Next, we define a listener in the JSX `<button>` element. This calls the `changeBody()` method `.onClick`. That is defined here:
+3. Next, we define a listener in the JSX `<button>` element. This calls the `changeBody()` method using the `.onClick` synthetic event. That is defined here:
 
 ```js
   <button onClick={this.changeBody}>
@@ -95,10 +90,10 @@ class Post extends Component {
 
   ```js
   changeBody = () => {
-    let newBody = prompt("What should the new body be?")
+    const newBody = prompt("What should the new body be?")
     this.setState({
       body: newBody
-    })
+    });
   }
   ```
 

@@ -19,7 +19,7 @@ Let's build a calculator — because we can!
 
 ### Set Up
 
-`create-react-app`
+`create-react-app calculator` 
 
 ### Step 1
 
@@ -51,12 +51,6 @@ Let's build a calculator — because we can!
 
 ### Step 2
 
-- What state attributes will you need to track? 
-
-- With what values should those state items start? 
-
-- Where is that state displayed in the browser?
-
 <aside class="notes">
 
 **Talking Points:**
@@ -65,7 +59,7 @@ Let's build a calculator — because we can!
 need to track? With what values should those state items start? Where is that
 state displayed in the browser?
 
-- Hint: You will only need one element in your state: `state`.
+- Hint: You will only need one element in your `state`.
 
 </aside>
 
@@ -84,26 +78,6 @@ class Calculator extends Component {
   // ...
 }
 ```
-
-<details>
-
-  <summary>More Info About <code>.bind()`</code></summary>
-
-  You must explicitly `.bind()` functions with `this` in order for `this` to remain the same inside of that function. If you're having trouble calling functions off `this`, like `this.setState()`, take time to consider why this is necessary. See if that leads you to using the documentation to see how to do it.
-
-```js
-// This binding is necessary to make this work in the callback.
-this.handleClick = this.handleClick.bind(this);
-```
-
-Revisit the To-Do List project to see how we previously reacted to changing input text.
-
-  <details>
-    <summary>Hint: Where should the event binding go?</summary>
-    In the same component as it's being used — in fact, right on the input.
-  </details>
-</details>
-
 
 <aside class="notes">
 
@@ -131,7 +105,7 @@ Time to create a new method.
 <details>
 
 <summary>Hint: Where should this method go?</summary>
-In the same component as it's being used — between the constructor and <code>render()</code>.
+In the same component as it's being used — above the <code>render()</code>.
 </details>
 
 > Thought: How will you handle inputs that aren't numbers?

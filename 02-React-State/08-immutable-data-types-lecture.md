@@ -41,15 +41,15 @@ anObject.foo = 'barrrrrrr';
 
 **Talking Points:**
 
-- Something that is **immutable** is something that cannot be changed. In JavaScript, objects and arrays are mutable — they _can_ be changed. Seen here is a simple example of object mutation. (Note that I declare the object as a `const`, but it is still mutated.)
+- Something that is **immutable** is something that cannot be changed. In JavaScript, objects and arrays are mutable — they _can_ be changed. Seen here is a simple example of object mutation. (Note that I declare the object as a `const`, but it is still mutated)
 
-- In the example above, I changed `anObject`'s value — I mutated it. This happens because JavaScript assigns objects to variables by **reference**. Changing their properties does not change their reference, and so they are mutated.
+- In the example above, I changed `anObject`'s value — I mutated it. This happens because JavaScript assigns objects to variables by **reference**. Changing their properties does not change their reference, and so they are mutated.  Explain the concept of pass by value vs. pass by reference.
 
 **Teaching Tips:**
 
 - Spend some time breaking down the word mutable (mutate) versus immutable. The jargon can sometimes be jarring for students, but relating it to more commonly used language can demystify the terms.
 
-- Make sure to emphasize that the concept of immutability only applies to reference data types. This is irrelevant to primitive data types such as strings and numbers.
+- Make sure to emphasize that the concept of immutability only applies to object data types. This is irrelevant to primitive data types such as strings and numbers.
 
 </aside>
 
@@ -66,7 +66,7 @@ anArray.pop() // new value of anArray is ['oneFish', 'two fish', 'red fish']
 
 **Talking Points:**
 
-- Arrays are also a reference data type, meaning they can be mutated.
+- Arrays are also an object data type, meaning they can be mutated.
 
 - Here is an example of mutating an array.
 
@@ -97,7 +97,7 @@ anArray.pop() // new value of anArray is ['oneFish', 'two fish', 'red fish']
 
 ```javascript
 handleChange = (event) => {
-  this.state.myPieceOfState = event.target.value
+  this.state.myPieceOfState = event.target.value;
 }
 ```
 
@@ -125,7 +125,7 @@ handleChange = (event) => {
 handleChange = (event) => {
   this.setState({
     myPieceOfState: event.target.value
-  })
+  });
 }
 ```
 
@@ -162,7 +162,7 @@ Component props should not (and cannot) be changed within a component.
 To `pop()` an array without mutating it, you could do this:
 
 ```javascript
-const newArray = anArray.filter((item, index, originalArray) => index !== originalArray.length -1)
+const newArray = anArray.filter((item, index, originalArray) => index !== originalArray.length - 1);
 ```
 
 <aside class="notes">
@@ -170,7 +170,7 @@ const newArray = anArray.filter((item, index, originalArray) => index !== origin
 **Talking Point:**
 
 - As mentioned above, `array.pop()` mutates the array. However, you can achieve the same effect without mutating the array.
-The array methods `.map()`, `.filter()`, and `.reduce()` return modified copies of the array and _don't_ mutate the originals.
+- The array methods `.map()`, `.filter()`, and `.reduce()` return new modified copies of the array and _don't_ mutate the originals.
 
 </aside>
 
@@ -213,16 +213,16 @@ The **spread** operator: `...`
 ## Cloning Arrays Using the Spread Operator
 
 ```js
-let original = ["hello", "bonjour", "guten tag"]
+const original = ["hello", "bonjour", "guten tag"];
 
-let notCloned = original
+const notCloned = original;
 
-original === notCloned
+original === notCloned;
 // Evaluates to true.
 
-let cloned = [...original]
+const cloned = [...original];
 
-original === cloned
+original === cloned;
 // Evaluates to false.
 
 ```
@@ -240,13 +240,13 @@ original === cloned
 ## Pushing Data to an Array Using the Spread Operator
 
 ```js
-let arrayOne = ["a", "b", "c"]
-let arrayTwo = [1, 2, 3]
+const arrayOne = ["a", "b", "c"];
+const arrayTwo = [1, 2, 3];
 
-let newArray = [...arrayOne, ...arrayTwo, "More Data!"]
+const newArray = [...arrayOne, ...arrayTwo, "More Data!"];
 // newArray equals ["a", "b", "c", 1, 2, 3, "More Data"]
 
-let withoutSpread = [arrayOne, arrayTwo]
+const withoutSpread = [arrayOne, arrayTwo];
 // withoutSpread equals [["a", "b", "c"], [1, 2, 3]]
 
 ```
@@ -264,24 +264,24 @@ let withoutSpread = [arrayOne, arrayTwo]
 ## Cloning and Adding Data in an Object Using the Spread Operator
 
 ```js
-let exampleObject = {
+const exampleObject = {
   name: "Jim",
   hometown: "Atlanta"
 }
 
-let clonedObject = {
+const clonedObject = {
   ...exampleObject,
   favoriteFood: "Pizza"
 }
 
 // Cloned object now contains name, hometown, AND favoriteFood.
 
-let moreData = {
+const moreData = {
   specialty: "React",
   laptop: "Macbook Pro"
 }
 
-let lotsOfData = {
+const lotsOfData = {
   ...clonedObject,
   ...moreData
 }
@@ -294,6 +294,8 @@ let lotsOfData = {
 **Talking Point:**
 
 - The spread operator also works for objects! By using the `...` operator, we can create a new object and copy the values for an existing piece of data into it. You can also use spread multiple times to combine your objects together!
+
+- Note that this is a shallow copy and not a deep copy.  The spread operator will copy one level deep.
 
 </aside>
 
