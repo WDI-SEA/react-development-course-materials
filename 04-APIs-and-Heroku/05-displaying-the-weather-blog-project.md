@@ -122,10 +122,11 @@ export default About
 
 ## Optional
 
+![alt](assets/weather.png)
+
 
 <aside class="notes">
 
-![alt](assets/weather.png)
 
 
 **Talking Point**:
