@@ -89,7 +89,7 @@ class Post extends Component {
     const newBody = prompt("What should the new body be?")
     this.setState({
       body: newBody
-    })
+    });
   }
   ```
 

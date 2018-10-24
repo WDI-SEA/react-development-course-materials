@@ -77,6 +77,8 @@ _By the end of this lesson, you will be able to:_
 ---
 <aside class="notes">
 
+<img src="images/moodtracker-directories.png" class="responsive" />
+
 **Talking Points:**
 
 - Let's modify our earlier "Hello, World!" application to include a new `MoodTracker` component. Our `MoodTracker` will display a mood, and eventually a user will click a button to indicate on a scale of 1–10 how strongly they are feeling that mood.
@@ -86,8 +88,6 @@ _By the end of this lesson, you will be able to:_
 - `$ touch src/MoodTracker.js`
 
 - Your directory structure should now look something like what's shown here.
-
-![](images/moodtracker-directories.png)
 
 </aside>
 
@@ -344,6 +344,17 @@ Additionally, there are _tons_ of events available to React elements.
 
 <aside class="notes">
 
+**Talking Points:**
+
+- Event listeners in React look very similar to adding events through HTML attributes. There are two main differences when working with React's synthetic events:
+
+- 1. React events are named using camelCase instead of lowercase:
+   - `onClick` (React) vs. `onclick` (HTML)
+   - `onSubmit` (React) vs. `onsubmit` (HTML)
+- 2. In JSX, you pass the actual function in as the handler, rather than a string:
+   - `<button onClick={this.doSomething}>Click Me</button>` (React)
+   - `<button onclick="doSomething()">Click Me</button>` (HTML)
+
 </aside>
 
 ---
@@ -502,7 +513,7 @@ export default MoodTracker;
 
 - This has implications for performance.
 
-- We do not re-render the entire App like we have been doing so far.
+- We do not re-render the entire application like we have been doing so far.
 
 - This is one of React's core advantages.
 

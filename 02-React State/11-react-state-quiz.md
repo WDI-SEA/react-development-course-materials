@@ -111,7 +111,7 @@ _Choices_:
 4. `State` is called by JSX with `{this.lava}`, so the second `<h3>` statement needs to change.
 5. `State` is called by JSX with `{state.lava}`, so the first `<h3>` statement needs to change.
 
-_Correct response_: `States's` need to be declared before they can be used, so there needs to be a `constructor()` method initializing `lava`. Additionally, you call `state` with `this.state.Name` and set state with `this.setState()`.  This code will also error out as react needs a parent tag to render, a solution would be to wrap the h3 tag inside a div tag.
+_Correct response_: States need to be declared before they can be used, so there needs to be a `constructor()` method initializing `lava`. Additionally, you call `state` with `this.state.Name` and set state with `this.setState()`.  This code will also error out as react needs a parent tag to render, a solution would be to wrap the h3 tag inside a div tag.
 
 _Incorrect response_: Not quite.
 
