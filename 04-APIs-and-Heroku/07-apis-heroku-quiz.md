@@ -1,13 +1,16 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Quiz: APIs, Heroku, and Imperative and Declarative Programming
 
 **Notes**:
-- The link to the APIs, Heroku, and imperative and declarative programming quiz is [here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-5/U5L5.json). This is the link you give to students.
 
-- Approximate time to complete quiz: 20 minutes
+- Reminder that the quizzes are delivered on the myGA platform. Students should log in to their myGA accounts and access the React Practice learning path (not the Pre-Work learning path).
 
-- Approximate time to discuss or review quiz: 20 minutes
+- Approximate time to complete quiz: 20 min
 
-- At the end of the quiz, you can share [this review guide](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/Review%20Guides/react-key-concepts-review-guide.md). It's also linked for students on the myGA platform at the end of the quiz.
+- Approximate time for discuss/review quiz: 20 min
+
+- At the end of the quiz, you can share [this review guide](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional-Resources/Review%20Guides/apis-heroku-programming-types-review-guide.md). 
+
+- Here is a link to the quiz for your reference. Please do not share this link with students. [Intro to React Quiz](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/quiz-apis-imperative-and-declarative-programming-and-heroku-821.json) It's also linked for students on the myGA platform at the end of the quiz.
 
 ## Questions
 - Answers with asterisks are correct.
