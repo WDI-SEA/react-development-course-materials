@@ -1,7 +1,9 @@
 # ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) Quiz: Intro to React.js
 
 <aside class="notes">
+
 **Notes**:
+
 - The link to the Intro to React.js quiz is [here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json). This is the link you give to students.
 
 - Approximate time to complete quiz: 20 min
