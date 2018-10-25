@@ -1,13 +1,16 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Quiz: React Router #
 
 **Notes**:
-- [The link to the React Router Quiz is here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-4/unit4-quiz.json). This is the link you give to students.
 
-- Approximate Time To Complete Quiz: 20 min
+- Reminder that the quizzes are delivered on the myGA platform. Students should log in to their myGA accounts and access the React Practice learning path (not the Pre-Work learning path).
 
-- Approximate Time To Discuss/Review Quiz: 20 min
+- Approximate time to complete quiz: 20 min
 
-- At the end of the quiz, you can share [this review guide](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/Review%20Guides/react-key-concepts-review-guide.md). It is also linked for students on the myGA platform at the end of quiz.
+- Approximate time for discuss/review quiz: 20 min
+
+- At the end of the quiz, you can share [this review guide](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional-Resources/Review%20Guides/react-router-review-guide.md). 
+
+- Here is a link to the quiz for your reference. Please do not share this link with students. [React Router Quiz](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/quiz-react-router-3505.json) It's also linked for students on the myGA platform at the end of the quiz.
 
 ### Questions:
 - Answers with an asterisk are correct.
