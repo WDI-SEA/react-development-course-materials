@@ -4,7 +4,7 @@
 
 **Notes**:
 
-- The link to the Intro to React.js quiz is [here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json). This is the link you give to students.
+- Reminder that the quizzes are delivered on the myGA platform. Students should log in to their myGA accounts and access the React Practice learning path (not the Pre-Work learning path).
 
 - Approximate time to complete quiz: 20 min
 
