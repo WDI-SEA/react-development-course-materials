@@ -4,13 +4,15 @@
 
 **Notes**:
 
-- The link to the Intro to React.js quiz is [here](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json). This is the link you give to students.
+- Reminder that the quizzes are delivered on the myGA platform. Students should log in to their myGA accounts and access the React Practice learning path (not the Pre-Work learning path).
 
 - Approximate time to complete quiz: 20 min
 
 - Approximate time for discuss/review quiz: 20 min
 
 - At the end of the quiz, you can share [this review guide](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/Review%20Guides/react-key-concepts-review-guide.md). It is also linked for students on the myGA platform at the end of quiz.
+
+- Here is a link to the quiz for your reference. Please do not share this link with students. [Intro to React Quiz](https://my.generalassemb.ly/preview?lessonURL=https://create-api.generalassemb.ly/lessons/657/versions/801/preview)
 
 ### Questions:
 - Answers with an asterisk are correct.
