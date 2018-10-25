@@ -119,13 +119,13 @@ Optional topics you may consider adding on to extend learning (provided your stu
  
   - These are sets of auto-graded questions delivered on the myGA platform. 
   - Quizzes generally take about 20 minutes to complete and another 10-20 to review.
-  - Note that quizzes are NOT a part of the pre-work. Students do not have to log in to their myGA account to take a quiz. You simply slack them the URL. 
+  - Note that quizzes are NOT a part of the pre-work; they are in a separate learning path. Students will have two tiles on their dashboard — one with all the pre-work lessons (to be completed prior to the start of the course) and one with all the quizzes (to be completed as you assign them throughout the course). As with the pre-work, students will have to log in to their myGA account to access the quizzes.  
   - Feedback is provided after each question. 
-  - Scores are not recorded. The quizzes are just for review and practice.
-  - Students may retake a quiz simply by refreshing or by navigating back to the URL at any time.
-  - Students will likely figure out that they can access the JSON file with all the quiz answers by removing the quiz URL from the file path. For example, they could change https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json **to** https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json. Because the quizzes are just practice, this shouldn't be a big issue. Encourage students to challenege themselves and try to answer all questions without first referencing the answers.
+  - The quizzes are just for review and practice — not important course assessments. 
+  - Students should note that once the take a quiz, they can't retake it. They WILL be able to access it and review it however.
+  
 
-  - [Quiz Example](https://ga-instruction-sandbox.herokuapp.com/?lessonURL=https://ga-instruction.s3.amazonaws.com/json/REACT/unit-1/U1L5.json)
+  - [Quiz Example - Do not share this link](https://my.generalassemb.ly/preview?lessonURL=https://create-api.generalassemb.ly/lessons/657/versions/801/preview)
 
 
 
