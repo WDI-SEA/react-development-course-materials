@@ -179,7 +179,7 @@ The schedules for each (linked below) are provided as examples only. Feel free t
 ## Appendix: Materials and Resources
 - All lesson materials, homeworks and projects outlined in the Suggested Pacing Guide are in this repo.
 - Standard GA-produced pre-work materials can be accessed on [myGA](https://accounts.generalassemb.ly/users/sign_in). 
-- Practice quizzes (most units have 1) can also be accessed on  [myGA](https://accounts.generalassemb.ly/users/sign_in). 
+- Practice quizzes (most units have one) can also be accessed on  [myGA](https://accounts.generalassemb.ly/users/sign_in). 
 - Labs (in which students fork a repo with existing code and add features to it) are in the Additional Resources folder in this repo.
 - Tips and templates for instructors are available on the [GA Instructor Blog](http://assemblyrequired.ga.co).
 - For help and support, join the GA Instructors Slack Community and post your questions in #SLACKCHANNEL.
