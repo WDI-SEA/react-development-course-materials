@@ -178,13 +178,8 @@ The schedules for each (linked below) are provided as examples only. Feel free t
 
 ## Appendix: Materials and Resources
 - All lesson materials, homeworks and projects outlined in the Suggested Pacing Guide are in this repo.
-- Standard GA-produced pre-work materials can be accessed on myGA. The pre-work lessons are:
-  - [Welcome to React Development](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/welcome-to-react-development-3124.json)
-  - [ES6: Variables and Imports](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/es6-variables-and-imports-3146.json) 
-  - [ES6: Arrow Functions and Object and Template Literals](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/es6-arrow-functions-and-object-and-template-literals-3140.json)
-  - [Getting Started With React](https://admin.generalassemb.ly/create/lessons/653/versions)
-  - [Props](https://admin.generalassemb.ly/create/lessons/654/versions)
-
+- Standard GA-produced pre-work materials can be accessed on [myGA](https://accounts.generalassemb.ly/users/sign_in). 
+- Practice quizzes (most units have 1) can also be accessed on  [myGA](https://accounts.generalassemb.ly/users/sign_in). 
 - Labs (in which students fork a repo with existing code and add features to it) are in the Additional Resources folder in this repo.
 - Tips and templates for instructors are available on the [GA Instructor Blog](http://assemblyrequired.ga.co).
 - For help and support, join the GA Instructors Slack Community and post your questions in #SLACKCHANNEL.
