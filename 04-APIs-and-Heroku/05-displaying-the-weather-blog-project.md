@@ -5,7 +5,7 @@
 
 ## Implement the Fetch API
 
- ![logo](assets/open-weather-map-logo.png)
+![logo](assets/open-weather-map-logo.png)
 
 **Resources**:
 
@@ -69,13 +69,13 @@ import React, { Component } from 'react';
 
 class About extends Component {
 
-  this.state = {
-     // Your required states here
+  state = {
+    // Your required states here
   }
 
   handleChange = (event) => {
-    this.setState({zipcode: event.target.value})
-    console.log('Your zip code is' + this.state.zipcode)
+    this.setState({zipcode: event.target.value});
+    console.log('Your zip code is' + this.state.zipcode);
   }
 
   handleSubmit = (event) => {
@@ -102,7 +102,7 @@ class About extends Component {
 }
 
 
-export default About
+export default About;
 
 ```
 

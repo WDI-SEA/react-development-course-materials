@@ -54,7 +54,7 @@ Now that you have the API key to call for movie details, let's begin making that
 In your `App.js` `handleDetailsClick()` method, add the following `const` right above your `setState()`:
 
 ```JavaScript
-const url = `https://api.themoviedb.org/3/movie/${film.id}?api_key=${TMDB.api_key}&append_to_response=videos,images&language=en`
+const url = `https://api.themoviedb.org/3/movie/${film.id}?api_key=${TMDB.api_key}&append_to_response=videos,images&language=en`;
 ```
 
 This is the URL to which you'll send your request to get detailed information about each film. You're passing the `film.id` and the `TMDB.api_key` as query string parameters.
@@ -71,11 +71,12 @@ Now that you have the API key and URL set up, fetch the API underneath the new U
 ```JavaScript
 const url = `https://api.themoviedb.org/3/movie/${film.id}?api_key=${TMDB.api_key}&append_to_response=videos,images&language=en`
 
-fetch(url).then(response => {
-  response.json().then(data => {
-    console.log(data) // Take a look at what you get back.
-  })
-})
+fetch(url)
+  .then((response) => {
+    return response.json();
+  }).then((data) => {
+    console.log(data); // Take a look at what you get back.
+  });
 ```
 
 Try clicking a movie row in your browser — the data should appear in the console.
@@ -85,10 +86,10 @@ Try clicking a movie row in your browser — the data should appear in the conso
 Set your `current` state to the object you get back from TMDb. Move the `setState()` call into the API call.
 
 ```JavaScript
-response.json().then(data => {
-  console.log(data)
-  this.setState({current: data})
-})
+  .then(data => {
+    console.log(data);
+    this.setState({current: data});
+  });
 ```
 
 Now you have the API call to get information about your chosen movie.
@@ -130,8 +131,8 @@ You're almost finished! Next, you'll render the film details you're receiving fr
 Above the `return()`, add the following `const` definitions for fetching backdrop and posters:
 
 ```js
-const backdropUrl = `https://image.tmdb.org/t/p/w1280/${props.film.backdrop_path}`
-const posterUrl = `https://image.tmdb.org/t/p/w780/${props.film.poster_path}`
+const backdropUrl = `https://image.tmdb.org/t/p/w1280/${props.film.backdrop_path}`;
+const posterUrl = `https://image.tmdb.org/t/p/w780/${props.film.poster_path}`;
 ```
 
 #### Step 2: Render the empty case for `FilmDetails`.

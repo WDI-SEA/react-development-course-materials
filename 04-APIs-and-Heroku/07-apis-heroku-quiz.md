@@ -30,15 +30,15 @@
 **Prompt**: Where should this code go?
 
 ```js
-let poemApi = 'http://api.open-notify.org/astros.json'
+const poemApi = 'http://api.open-notify.org/astros.json';
 fetch(poemApi)
   .then((response) => {
-    return response.json()
+    return response.json();
   }).then((json) => {
-      base.setState({ shakeSpeare: json.poem })
+      this.setState({ shakeSpeare: json.poem });
   }).catch((ex) => {
-    console.log('An error occurred while parsing!', ex)
-  })
+    console.log('An error occurred while parsing!', ex);
+  });
 }
 ```
 
@@ -66,13 +66,14 @@ fetch(poemApi)
 
 ```js
 // Ask everyone in the room to line up.
-let room = ['Miguel', 'Katie', 'Susana', 'Shakira']
+const room = ['Miguel', 'Katie', 'Susana', 'Shakira'];
 // For every person in the line...
 for (let i = 0; i < room.length; i++) {
 // Ask each person to come to the front of the room.
-  let person = room[i]
+  const person = room[i];
   // Ask each person to speak their name.
-  console.log("Imperative way: " + person) }
+  console.log("My name is:" + person);
+};
 ```
 
 Is this imperative or declarative programming?
@@ -108,15 +109,15 @@ Is this imperative or declarative programming?
 
 ```js
 // fetch an album
-let spotifyAPI = 'https://api.spotify.com/v1/albums/4aawyAB9vmqN3uQ7FjRGTy'
+const spotifyAPI = 'https://api.spotify.com/v1/albums/4aawyAB9vmqN3uQ7FjRGTy';
 fetch(spotifyAPI)
   .then((response) => {
-    return response.json()
+    return response.json();
   }).then((json) => {
-      base.setState({ music: json.album })
+      this.setState({ music: json.album });
   }).catch((ex) => {
-    console.log('An error occurred while parsing!', ex)
-  })
+    console.log('An error occurred while parsing!', ex);
+  });
 }
 ```
 

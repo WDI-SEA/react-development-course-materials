@@ -81,31 +81,31 @@ After this lesson, you'll be able to:
 
 
 ```json
-{  
-   "number":5,
-   "people":[  
-      {  
-         "craft":"ISS",
-         "name":"Oleg Novitskiy"
-      },
-      {  
-         "craft":"ISS",
-         "name":"Thomas Pesquet"
-      },
-      {  
-         "craft":"ISS",
-         "name":"Peggy Whitson"
-      },
-      {  
-         "craft":"ISS",
-         "name":"Fyodor Yurchikhin"
-      },
-      {  
-         "craft":"ISS",
-         "name":"Jack Fischer"
-      }
-   ],
-   "message":"success"
+{
+  "number":5,
+  "people":[
+    {
+      "craft":"ISS",
+      "name":"Oleg Novitskiy"
+    },
+    {
+      "craft":"ISS",
+      "name":"Thomas Pesquet"
+    },
+    {
+      "craft":"ISS",
+      "name":"Peggy Whitson"
+    },
+    {
+      "craft":"ISS",
+      "name":"Fyodor Yurchikhin"
+    },
+    {
+      "craft":"ISS",
+      "name":"Jack Fischer"
+    }
+  ],
+  "message":"success"
 }
 ```
 
@@ -132,14 +132,14 @@ How? The skeleton code looks like this:
 ```js
 fetch(url)
   .then((response) => {
-    return response.json()
+    return response.json();
   })
   .then((json) => {
-    // Here, you get the JSON data to modify or display as you please.  
+    // Here, you get the JSON data to modify or display as you please.
   })
   .catch((ex) => {
     // If there is any error, you will catch it here.
-  })  
+  });
 ```
 
 ---
@@ -151,14 +151,14 @@ Or, in older JS syntax:
 ```js
 fetch(url)
   .then(function (response) {
-    return response.json()
+    return response.json();
   })
   .then(function (json) {
-    // Here, you get the JSON data to modify or display as you please.  
+    // Here, you get the JSON data to modify or display as you please.
   })
   .catch(function(ex) {
     // If there is any error, you will catch it here.
-  })  
+  });
 ```
 
 ---
@@ -172,12 +172,12 @@ Let's look at how we would apply this for our astronauts:
 const issApi = 'http://api.open-notify.org/astros.json';
 fetch(issApi)
   .then((response) => {
-    return response.json()
+    return response.json();
   }).then((json) => {
-    console.log('JSON from the ISS', json)
+    console.log('JSON from the ISS', json);
   }).catch((ex) => {
-    console.log('An error occurred while parsing!', ex)
-  })
+    console.log('An error occurred while parsing!', ex);
+  });
 ```
 
 ---
@@ -186,10 +186,9 @@ Let's break down this API call into a few steps.
 
 - `const issApi = 'http://api.open-notify.org/astros.json'`: First, we define our API URL from which to fetch.
 
-- `fetch(issApi)`: We call `fetch()` on that API URL.
+- `fetch(issApi)`: We call `fetch()` on that API URL.  By default, fetch will use a `GET` request.
 
-- `.then((response) => {
-   return response.json()`: We take the response when the server provides it. We return `response.json()`.
+- `.then((response) => { return response.json()`: We take the response when the server provides it. We return `response.json()`.  Note that the server response is a `string` and we are converting it into a json data.
 
 - `.then((json) => { console.log('JSON from the ISS', json)`: We take that `json` and `console.log` it.
 
@@ -256,7 +255,6 @@ http://ShakeItSpeare.com/api/poem
 import React, {Component} from 'react';
 
 class Home extends Component {
-
   componentDidMount() {
   	/* nothing here... yet! */
   }
@@ -271,7 +269,7 @@ class Home extends Component {
 }
 
 
-export default Home
+export default Home;
 ```
 
 <aside class="notes">
@@ -318,35 +316,31 @@ export default Home
 import React, {Component} from 'react';
 
 class Home extends Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      shakeSpeare: ""
-    }
+  state = {
+    shakeSpeare: ""
   }
 
   componentDidMount() {
     // fetch a poem
-    let poemApi = 'http://ShakeItSpeare.com/api/poem';
+    const poemApi = 'http://ShakeItSpeare.com/api/poem';
     fetch(poemApi)
       .then((response) => {
-        return response.json()
+        return response.json();
       }).then((json) => {
           this.setState({ shakeSpeare: json.poem });
       }).catch((ex) => {
         console.log('An error occurred while parsing!', ex)
-      })
+      });
   }
 
   render() {
-    let poetry = this.state.shakeSpeare;
+    const poetry = this.state.shakeSpeare;
     return (
       <div>
         <h1>My favorite Shakespeare poem:</h1>
         {poetry}
       </div>
-     )
+    )
   }
 }
 ```
@@ -370,12 +364,7 @@ class Home extends Component {
 render() {
   let poetry = this.state.shakeSpeare;
   if (!this.state.shakeSpeare){
-    return (
-      <div>
-        <h1>My favorite Shakespeare poem:</h1>
-        Loading...
-      </div>
-    )
+    poetry = 'Loading...';
   }
 
   return (
@@ -397,6 +386,7 @@ render() {
 - Add an `if` statement under `render()`.
   - This simply checks to see if `fetch()` has completed before `render()` tries to return the poem. Otherwise, it returns "Loading...".
   - For this especially, it's important that the state is declared in initial state object. This way, the `if` statement does not fail if the `fetch()` hasn't yet created the state.
+  - Note the change const to let when declaring `poetry` variable as the string will change after the `fetch()` is completed.
 
 - You're done! Your `Home` page should now load a random Shakespeare poem.
 </aside>
