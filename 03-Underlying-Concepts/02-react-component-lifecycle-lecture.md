@@ -119,7 +119,7 @@ constructor(props) {
 
 - In a class constructor, you must call `super()` before you do anything else. So, a React component `constructor()` in its most basic form looks as is shown here.
 
-- Even though you may see the constructor syntax used in some online resources, the best practices for how to write the initial state for components has changed in recent years. Instead, we can create a component and directly define the starting state without ever having to use a constructor as of React 16.  The following will be a detailed guide of the older syntax as it will be likely that legacy React application might still use this syntax.  Being familiar with both is important.
+- Even though you may see the constructor syntax used in some online resources, the best practices for how to write the initial state for components have changed in recent years. Instead, we can create a component and directly define the starting state without ever having to use a constructor as of React 16. The following will be a detailed guide of the older syntax as it will be likely that legacy React application might still use this syntax. Being familiar with both syntaxes is important.
 
 </aside>
 
@@ -159,9 +159,9 @@ state = {
 
 **Talking Points**:
 
-- Calling state this way is best practice for new React project.  React will automatically set the state and handle the constructor behind the scene.
+- Calling state this way is best practice for new React project. React will automatically set the state and handle the constructor behind the scene.
 
-- Note that constructor is no longer used.  To get access to props passed down from the parent, you can access it through `this.props`.  Another thing React does behind the scene to make cleaner code!
+- Note that constructor is no longer used. To get access to props passed down from the parent, you can access it through `this.props`.  Another thing React does behind the scene to make cleaner code!
 
 </aside>
 
@@ -176,7 +176,7 @@ For example, we could set:
 this.myFunctionName = this.myFunctionName.bind(this)
 ```
 
-In JavaScript classes, methods aren't bound by default. So, if you pass a component's method to a child component _without_ binding it, its context will be bounded to the child and not the parent.  Causing it to not behave the way you intended.
+In JavaScript classes, methods aren't bound by default. So, if you pass a component's method to a child component _without_ binding it, its context will be bound to the child and not the parent, causing it to behave in a way other than how you intended.
 
 Here's an example:
 
@@ -234,7 +234,7 @@ class FruitTable extends Component {
 
 **Talking Points**:
 
-- Using the new arrow function, we can bind the `this` context during the method definition.  It will behave the same way as described above with the `constructor()` and `bind()`.
+- Using the new arrow function, we can bind the `this` context during the method definition. It will behave the same way as described above with the `constructor()` and `bind()`.
 
 </aside>
 
@@ -247,14 +247,14 @@ class FruitTable extends Component {
 
 `getSnapshotBeforeUpdate()` is invoked right before the most recently rendered output is committed (e.g., to the DOM).
 
-This method exists for *rare* use cases in which the state depends on changes in props over time (`getDerivedStateFromProps()`) or if you need to handle something such as scroll position before an update (`getSnapshotBeforeUpdate()`).  Explore other lifecycle methods before using these.
+_Note:_: These methods exists for *rare* use cases in which the state depends on changes in props over time (`getDerivedStateFromProps()`) or if you need to handle something such as scroll position before an update (`getSnapshotBeforeUpdate()`). It's a best practice to explore other lifecycle methods before using these.
 
 
 <aside class="notes">
 
 **Talking Points**:
 
-- This method is not as commonly used and can make your code overly verbose and your components overly complicated.
+- These methods are not as commonly used and can make your code overly verbose and your components overly complicated.
 - Alternatives: If you want to perform a supplementary effect in response to props, use `componenentDidUpdate()`, which we will discuss later.
 - Alternatives: Discuss memoization helpers for re-computing data when a prop changes.
 - Alternatives: To reset its state on prop change, make the component fully controlled or uncontrolled with a key instead of using this method.
@@ -303,7 +303,7 @@ class FruitTable extends Component {
 
 **Talking Points**:
 
-- Another common use for `componentDidMount()` is to bind event listeners to your component. You can then remove the event listeners in `componentWillUnmount()`, which is the only method in the last part of the component life cycle (when the component is being removed from the DOM). In the example seen on this slide, we bind and unbind an event listener for a drag-drop component.  Note that memory issues will arise when using event listeners without unbinding them after use!
+- Another common use for `componentDidMount()` is to bind event listeners to your component. You can then remove the event listeners in `componentWillUnmount()`, which is the only method in the last part of the component life cycle (when the component is being removed from the DOM). In the example seen on this slide, we bind and unbind an event listener for a drag-drop component. sNote that memory issues will arise when using event listeners without unbinding them after use!
 
 - You may call `setState()` immediately in `componentDidMount()`. It will trigger an extra rendering but will happen before the browser updates the screen.
 
@@ -447,7 +447,7 @@ shouldComponentUpdate(nextProps, nextState)
 **Talking Points**:
 
 - In the vast majority of cases, you should rely on the default behavior to re-render on every state change and will not need to invoke `shouldComponentUpdate()`.
-- `shouldComponentUpdate()` only exists as a performance optimization, and you shouldn't rely on it to “prevent” a re-rendering.
+- `shouldComponentUpdate()` only exists as a performance optimization, and you shouldn't rely on it to "prevent" a re-rendering.
 
 
 </aside>
