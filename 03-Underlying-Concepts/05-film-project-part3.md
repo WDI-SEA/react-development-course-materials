@@ -19,7 +19,7 @@ Your `App` component will be the main place where states are set. From here, the
 
 #### Step 1: Add a Constructor to `App.js`
 
-In `App.js`, start by creating a constructor. Your constructor should accept a `props` argument and should call `super(props)`.
+In `App.js`, start by creating a state decleration.
 
 #### Step 2: Initialize the State Object
 
@@ -46,12 +46,12 @@ This isn't possible right now, because you're currently handling the favorite to
 
 Let's fix this:
 
-#### Step 1: Remove the State Setter in the `fave` Constructor
+#### Step 1: Remove the State Setter in the `fave`
 
-Take the `isFave` state out of the `fave` constructor.
+Take the `isFave` state out of the `fave` component.
 
 
-#### Step 2: Replace `setState` in `handleClick()` handler
+#### Step 2: Replace `setState` in `handleClick` handler
 
 Because you're no longer holding the state in the `Fave` component, you no longer want to set the `isFave` state in the `handleClick()` event handler.
 
@@ -62,15 +62,15 @@ Change `handleClick()` as follows:
 ```js
 # /src/Fave.js
 
-handleClick(e) {
-  e.stopPropagation()
-  console.log('Handling Fave click!')
+handleClick = (e) => {
+  e.stopPropagation();
+  console.log('Handling Fave click!');
 
   // Add this line. You'll call the function passed through props.
-  this.props.onFaveToggle()
+  this.props.onFaveToggle();
 
   // Delete the `setState` line. You no longer track state here.
-  // this.setState({isFave: !this.state.isFave})
+  // this.setState({isFave: !this.state.isFave});
 }
 ```
 
@@ -94,12 +94,14 @@ In the `App` component, create a `handleFaveToggle()` function. It doesn't need 
 
 #### Step 5: Bind the Handler to the Component
 
-As you saw previously, you need to bind your custom component methods to ensure `this` refers to the component within the body of the method.
+As you saw previously, you need to bind your custom component methods to ensure `this` refers to the component within the body of the method.  Here we use arrow syntax.
 
-Add the following to the `App` component's constructor:
+Add the following to the `App` component:
 
 ```js
-this.handleFaveToggle = this.handleFaveToggle.bind(this)
+handleFaveToggle = () => {
+  // do stuff here
+}
 ```
 
 #### Step 6: Clone the `faves` State
@@ -159,13 +161,13 @@ In the `FilmListing` component's `render()` method, add the `onFaveToggle` varia
 ```js
 const allFilms = this.props.films.map((film) => {
   return (
-  <FilmRow
-  film={film}
-  key={film.id}
-  onFaveToggle={() => this.props.onFaveToggle(film)}
-  />
-)
-})
+    <FilmRow
+    film={film}
+    key={film.id}
+    onFaveToggle={() => this.props.onFaveToggle(film)}
+    />
+  )
+});
 ```
 
 

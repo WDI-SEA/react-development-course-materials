@@ -119,6 +119,8 @@ constructor(props) {
 
 - In a class constructor, you must call `super()` before you do anything else. So, a React component `constructor()` in its most basic form looks as is shown here.
 
+- Even though you may see the constructor syntax used in some online resources, the best practices for how to write the initial state for components has changed in recent years. Instead, we can create a component and directly define the starting state without ever having to use a constructor as of React 16.  The following will be a detailed guide of the older syntax as it will be likely that legacy React application might still use this syntax.  Being familiar with both is important.
+
 </aside>
 
 ---
@@ -145,6 +147,24 @@ constructor(props) {
 
 </aside>
 
+## React v16
+
+```javascript
+state = {
+    fruits: this.props.fruits
+  }
+```
+
+<aside class="notes">
+
+**Talking Points**:
+
+- Calling state this way is best practice for new React project.  React will automatically set the state and handle the constructor behind the scene.
+
+- Note that constructor is no longer used.  To get access to props passed down from the parent, you can access it through `this.props`.  Another thing React does behind the scene to make cleaner code!
+
+</aside>
+
 ---
 
 ## The `constructor()` Method
@@ -156,17 +176,18 @@ For example, we could set:
 this.myFunctionName = this.myFunctionName.bind(this)
 ```
 
-In JavaScript classes, methods aren't bound by default. So, if you pass a component's method to a child component _without_ binding it, it can lose its context and not behave the way you intended. Here's an example:
+In JavaScript classes, methods aren't bound by default. So, if you pass a component's method to a child component _without_ binding it, its context will be bounded to the child and not the parent.  Causing it to not behave the way you intended.
+
+Here's an example:
 
 ```javascript
-class FruitTable extends React.Component {
-
+class FruitTable extends Component {
   constructor(props) {
     super(props)
     this.state = {
       fruits: props.fruits
-    }
-    this.addFruit = this.addFruit.bind(this)
+    };
+    this.addFruit = this.addFruit.bind(this);
   }
 
   addFruit(fruit) {
@@ -192,6 +213,31 @@ class FruitTable extends React.Component {
 
 </aside>
 
+## React v16
+
+```javascript
+class FruitTable extends Component {
+  state = {
+      fruits: props.fruits
+    }
+  }
+
+  addFruit = (fruit) => {
+    this.setState(prevState => ({
+      fruits: prevState.fruits.concat(fruit)
+    }))
+  }
+}
+```
+
+<aside class="notes">
+
+**Talking Points**:
+
+- Using the new arrow function, we can bind the `this` context during the method definition.  It will behave the same way as described above with the `constructor()` and `bind()`.
+
+</aside>
+
 ---
 
 ## The `static getDerivedStateFromProps()` and `getSnapshotBeforeUpdate()` Methods
@@ -201,7 +247,7 @@ class FruitTable extends React.Component {
 
 `getSnapshotBeforeUpdate()` is invoked right before the most recently rendered output is committed (e.g., to the DOM).
 
-This method exists for *rare* use cases in which the state depends on changes in props over time (`getDerivedStateFromProps()`) or if you need to handle something such as scroll position before an update (`getSnapshotBeforeUpdate()`).
+This method exists for *rare* use cases in which the state depends on changes in props over time (`getDerivedStateFromProps()`) or if you need to handle something such as scroll position before an update (`getSnapshotBeforeUpdate()`).  Explore other lifecycle methods before using these.
 
 
 <aside class="notes">
@@ -227,7 +273,7 @@ In the following example, we fetch data from the server, then set the state of t
 componentDidMount() {
   fetch(`http://api.com/${this.props.id}`)
     .then(response => response.json())
-    .then(data => this.setState(prevState => ({ data })))
+    .then(data => this.setState(prevState => ({ data })));
 }
 ```
 
@@ -237,8 +283,7 @@ componentDidMount() {
 
 
 ```javascript
-class FruitTable extends React.component {
-
+class FruitTable extends Component {
   componentDidMount() {
     document.addEventListener('dragover', this.handleDragStart)
   }
@@ -247,11 +292,9 @@ class FruitTable extends React.component {
     document.removeEventListener('dragover', this.handleDragStart)
   }
 
-  handleDragStart(e) {
+  handleDragStart = (e) => {
     e.preventDefault()
-    this.setState(prevState => ({
-      dragging: true
-    }))
+    this.setState({ dragging: true});
   }
 }
 ```
@@ -260,9 +303,9 @@ class FruitTable extends React.component {
 
 **Talking Points**:
 
-- Another common use for `componentDidMount()` is to bind event listeners to your component. You can then remove the event listeners in `componentWillUnmount()`, which is the only method in the last part of the component life cycle (when the component is being removed from the DOM). In the example seen on this slide, we bind and unbind an event listener for a drag-drop component.
+- Another common use for `componentDidMount()` is to bind event listeners to your component. You can then remove the event listeners in `componentWillUnmount()`, which is the only method in the last part of the component life cycle (when the component is being removed from the DOM). In the example seen on this slide, we bind and unbind an event listener for a drag-drop component.  Note that memory issues will arise when using event listeners without unbinding them after use!
 
--You may call `setState()` immediately in `componentDidMount()`. It will trigger an extra rendering but will happen before the browser updates the screen.
+- You may call `setState()` immediately in `componentDidMount()`. It will trigger an extra rendering but will happen before the browser updates the screen.
 
 </aside>
 
@@ -277,7 +320,7 @@ This is the one method that every React class component **must** have. It is cal
 The following component renders a single `prop` and a single `state` key: A car model and a speed. Once this component is mounted, its `speed` state will increase by `1` every second. You can try it out yourself in [this CodePen](https://codepen.io/SuperTernary/pen/zzMPGp).
 
 ```javascript
-class Car extends React.Component {
+class Car extends Component {
 
   constructor(props) {
     super(props)
@@ -285,27 +328,27 @@ class Car extends React.Component {
     // Sets initial state to either the speed prop, or 0 if the speed prop
     // is not passed to the component.
     this.state = {
-      speed: props.speed || 0
+      speed: this.props.speed || 0
     }
 
     // Binds this.incrementSpeed to class.
     // This way, when it's used as a callback for setTimeout,
     // `this` refers to the Car class.
-    this.incrementSpeed = this.incrementSpeed.bind(this)
+    this.incrementSpeed = this.incrementSpeed.bind(this);
   }
 
   componentDidMount() {
     // Calls this.incrementSpeed after one second.
-    window.setTimeout(this.incrementSpeed, 1000)
+    window.setTimeout(this.incrementSpeed, 1000);
   }
 
   incrementSpeed() {
     // Sets the speed state to one unit higher than it was previously.
-    this.setState(prevState => ({ speed: prevState.speed + 1 }))
+    this.setState(prevState => ({ speed: prevState.speed + 1 }));
 
     // Recursive method.
     // Increases speed by 1 again after one second.
-    window.setTimeout(this.incrementSpeed, 1000)
+    window.setTimeout(this.incrementSpeed, 1000);
   }
 
   render() {
@@ -318,7 +361,6 @@ class Car extends React.Component {
 
 }
 ```
-
 ---
 
 
@@ -343,9 +385,45 @@ Use [`window.setTimeout`](https://developer.mozilla.org/en-US/docs/Web/API/Windo
 
 <aside class="notes">
 
+## React v16
+
+```javascript
+class Car extends Component {
+  // Sets initial state to either the speed prop, or 0 if the speed prop
+  // is not passed to the component.
+  state = {
+    speed: props.speed || 0
+  }
+
+  componentDidMount() {
+    // Calls this.incrementSpeed after one second.
+    window.setTimeout(this.incrementSpeed, 1000);
+  }
+
+  // Binds this.incrementSpeed to class using the arrow syntax.
+  // This way, when it's used as a callback for setTimeout,
+  // `this` refers to the Car class.
+  incrementSpeed = () => {
+    // Sets the speed state to one unit higher than it was previously.
+    this.setState(prevState => ({ speed: prevState.speed + 1 }));
+
+    // Recursive method.
+    // Increases speed by 1 again after one second.
+    window.setTimeout(this.incrementSpeed, 1000);
+  }
+
+  render() {
+    return (
+      <div>
+        This {this.props.model} is going {this.state.speed} miles per hour!
+      </div>
+    )
+  }
+}
+```
+
 **Talking Points**:
 
-- `render()` will not be invoked if `shouldComponentUpdate()` returns `false`.
 - You should never set `state` in `render()` — `render()` should only react to changes in state or props, not create those changes.
 - `render()` should be a "pure" function. It does not modify component state, it returns the same result every time it’s invoked, and it does not directly interact with the browser.
 
@@ -369,7 +447,7 @@ shouldComponentUpdate(nextProps, nextState)
 **Talking Points**:
 
 - In the vast majority of cases, you should rely on the default behavior to re-render on every state change and will not need to invoke `shouldComponentUpdate()`.
-- `shouldComponentUpdate()` only exists as a performance optimization, and you shouldn't rely on it to “prevent” a rendering.
+- `shouldComponentUpdate()` only exists as a performance optimization, and you shouldn't rely on it to “prevent” a re-rendering.
 
 
 </aside>
