@@ -94,7 +94,7 @@ In the `App` component, create a `handleFaveToggle()` function. It doesn't need 
 
 #### Step 5: Bind the Handler to the Component
 
-As you saw previously, you need to bind your custom component methods to ensure `this` refers to the component within the body of the method.  Here we use arrow syntax.
+As you saw previously, you need to bind your custom component methods to ensure `this` refers to the component within the body of the method. Here we use arrow syntax.
 
 Add the following to the `App` component:
 
