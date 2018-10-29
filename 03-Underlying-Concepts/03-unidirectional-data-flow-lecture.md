@@ -62,7 +62,7 @@ Let's start with [a video that explains this concept](https://generalassembly.wi
   1. A list component to display the list of fruit.
   2. An input to capture the filter value from the user.
 
- <aside class="notes">
+<aside class="notes">
 
 **Talking Points**:
 - This app needs two components:
@@ -81,7 +81,7 @@ This app needs to keep track of changes in two items:
   1. The filtered list of fruits.
   2. The value of the filter.
 
- <aside class="notes">
+<aside class="notes">
 
 **Talking Points**:
 
@@ -95,11 +95,11 @@ This app needs to keep track of changes in two items:
 
 ![basic data flow needed](./assets/fruit-filter-data.png)
 
- <aside class="notes">
+<aside class="notes">
 
  **Talking Points**:
 
- - I have two sibling components (components at the same level of the tree/app) that need to be aware of each other's data. Specifically, the list component needs to only show the fruits that match the filter value. Therefore, I need to get data from one sibling to another; something like what's seen here.
+- I have two sibling components (components at the same level of the tree/app) that need to be aware of each other's data. Specifically, the list component needs to only show the fruits that match the filter value. Therefore, I need to get data from one sibling to another; something like what's seen here.
 
 </aside>
 
@@ -109,30 +109,30 @@ This app needs to keep track of changes in two items:
 
 ![unidirectional approach](./assets/fruit-list-unidirectional.png)
 
- <aside class="notes">
+<aside class="notes">
 
  **Talking Points**:
 
- - How do I achieve this? Using unidirectional data flow, of course! If I create a container component to hold both the filter value and the filtered list, I can hoist the state to the container so it's available to all of the children. It will then be simple to display the state in the child components. The data will flow as seen here.
+- How do I achieve this? Using unidirectional data flow, of course! If I create a container component to hold both the filter value and the filtered list, I can hoist the state to the container so it's available to all of the children. It will then be simple to display the state in the child components. The data will flow as seen here.
 
- </aside>
+</aside>
 
- ---
+---
 
 ## Child Components
 
 ```javascript
-const FruitList = props => (
+const FruitList = (props) => (
   <ul>
-     {props.fruits.map(fruit => <li>{fruit}</li>)}
+    {props.fruits.map(fruit => <li>{fruit}</li>)}
   </ul>
 )
 
-const FruitFilter = props => (
+const FruitFilter = (props) => (
   <div>
     <label htmlFor="fruit-filter">Filter these Fruits: </label>
     <input type="text" value={props.value} onChange={props.onChange} name="fruit-filter" />
-   </div>
+  </div>
 )
 ```
 
@@ -156,22 +156,19 @@ const FruitFilter = props => (
 
 
 ```javascript
-constructor(props) {
-    super(props);
-    this.state = {
-      // Initialize the fruit list to the full list passed in props.
-      fruitsToDisplay: props.fruits,
-      // Initialize the filter value to an empty string.
-      filterValue: ''
-    }
-  }
+state = {
+  // Initialize the fruit list to the full list passed in props.
+  fruitsToDisplay: this.props.fruits,
+  // Initialize the filter value to an empty string.
+  filterValue: ''
+}
 ```
 
 <aside class="notes">
 
  **Talking Points**:
 
- - My container will be a class with a few methods I'll use to initialize and update the state of the two child components. In the constructor, I'll initialize the state as seen here.
+- My container will be a class with a few methods I'll use to initialize and update the state of the two child components. In the constructor, I'll initialize the state as seen here.
 
 </aside>
 
@@ -180,19 +177,19 @@ constructor(props) {
 ## Container Component
 
 ```javascript
-handleFilterChange(event) {
-  event.preventDefault()
-  const filterValue = event.target.value
+handleFilterChange = (event) => {
+  event.preventDefault();
+  const filterValue = event.target.value;
   this.setState((prevState, props) => {
     // Remove fruits that don't contain the filter value.
     const filteredFruitList = props.fruits.filter(fruit =>
-      fruit.toLocaleLowerCase().includes(filterValue.toLocaleLowerCase()))
+      fruit.toLocaleLowerCase().includes(filterValue.toLocaleLowerCase()));
     // Return new state with the filtered fruit list and the new value of the filter.
     return {
       fruitsToDisplay: filteredFruitList,
       filterValue
     }
-  })
+  });
 }
 ```
 
@@ -200,7 +197,7 @@ handleFilterChange(event) {
 
  **Talking Points**:
 
- - I'll need a method to update the state when the filter value changes. This method will store the filter state and filter the list of fruits to display. I'll pass this change handler to the filter component to react to user input.
+- I'll need a method to update the state when the filter value changes. This method will store the filter state and filter the list of fruits to display. I'll pass this change handler to the filter component to react to user input.
 
 </aside>
 
@@ -229,32 +226,26 @@ The full container component looks like this:
 
 ```javascript
 class FruitContainer extends Component {
-
-  constructor(props) {
-    super(props)
-    this.state = {
-      // Initialize the fruit list to the full list passed in props.
-      fruitsToDisplay: props.fruits,
-      // Initialize the filter value to an empty string.
-      filterValue: ''
-    };
-    // JavaScript cleanup: Bind the context of our filterChange event handler (to have "this" to the context and handler we want).
-    this.handleFilterChange = this.handleFilterChange.bind(this)
+  state = {
+    // Initialize the fruit list to the full list passed in props.
+    fruitsToDisplay: this.props.fruits,
+    // Initialize the filter value to an empty string.
+    filterValue: ''
   }
 
-  handleFilterChange(event) {
-    event.preventDefault()
+  handleFilterChange = (event) => {
+    event.preventDefault();
     const filterValue = event.target.value;
     this.setState((prevState, props) => {
       // Remove fruits that don't contain the filter value.
       const filteredFruitList = props.fruits.filter(fruit =>
-        fruit.toLocaleLowerCase().includes(filterValue.toLocaleLowerCase()))
+        fruit.toLocaleLowerCase().includes(filterValue.toLocaleLowerCase()));
       // Return new state with the filtered fruit list and the new value of the filter.
       return {
         fruitsToDisplay: filteredFruitList,
         filterValue,
       }
-    })
+    });
   }
 
   render() {
@@ -288,7 +279,7 @@ available in [this CodePen](https://codepen.io/SuperTernary/pen/qjQVZM).
 
  **Talking Points**:
 
- - Once your data is well-structured, it's easier to add features to your
+- Once your data is well-structured, it's easier to add features to your
 applications or make changes to them. Because all of our data lives at the top
 of the tree, we can send it where we want. The full code for the fruit filter is
 available in [this CodePen](https://codepen.io/SuperTernary/pen/qjQVZM).
@@ -311,11 +302,11 @@ Review the solution code [here](https://codepen.io/SuperTernary/pen/mMWddo).
 
 ```html
 <div>
- <FruitFilter value={this.state.filterValue} onChange={this.handleFilterChange} />
- <p>Matching fruits:</p>
- <FruitList fruits={this.state.fruitsToDisplay} />
- <p>Unmatched fruits:</p>
- <FruitList fruits={this.state.unmatchedFruits} />
+  <FruitFilter value={this.state.filterValue} onChange={this.handleFilterChange} />
+  <p>Matching fruits:</p>
+  <FruitList fruits={this.state.fruitsToDisplay} />
+  <p>Unmatched fruits:</p>
+  <FruitList fruits={this.state.unmatchedFruits} />
 </div>
 ```
 
@@ -348,12 +339,12 @@ const filteredFruitList = props.fruits.filter(fruit =>
   fruit.toLocaleLowerCase().includes(filterValue.toLocaleLowerCase()))
 // Perform the opposite logic to create a list of fruits that don't match.
 const unmatchedFruits = props.fruits.filter(fruit =>
- !fruit.toLocaleLowerCase().includes(filterValue.toLocaleLowerCase()))
+  !fruit.toLocaleLowerCase().includes(filterValue.toLocaleLowerCase()))
 // Return new state with the filtered fruit list and the new value of the filter.
 return {
- fruitsToDisplay: filteredFruitList,
- unmatchedFruits: unmatchedFruits,
- filterValue,
+  fruitsToDisplay: filteredFruitList,
+  unmatchedFruits: unmatchedFruits,
+  filterValue,
 }
 ```
 
@@ -362,7 +353,7 @@ return {
  **Talking Points**:
 
 
-- Notice that in the constructor the app initializes the value of `unmatchedFruits` to just an empty list. Within `handleFilterChange`, we now need to update that list.
+- Notice that in the state declaration the app initializes the value of `unmatchedFruits` to just an empty list. Within `handleFilterChange`, we now need to update that list.
 
 
 </aside>

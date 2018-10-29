@@ -44,26 +44,26 @@ To explore the imperative way of thinking, let's open [this CodePen](https://cod
 - We could write that out in JavaScript by creating an array of those people.
 
 ```js
-let room = ['Superman', 'Black Panther', 'Wonder Woman', 'Iron Man']
+const room = ['Superman', 'Black Panther', 'Wonder Woman', 'Iron Man'];
 ```
 
 - Next, we could loop through them and assign each active speaker to a variable named `person`.
 
 ```js
-let room = ['Superman', 'Black Panther', 'Wonder Woman', 'Iron Man']
+const room = ['Superman', 'Black Panther', 'Wonder Woman', 'Iron Man'];
 
 for (let i = 0; i < room.length; i++) {
-  let person = room[i]
+  const person = room[i];
 }
 ```
 
 - Finally, we have them speak their name — or in our case, we'll just `console.log()` their name out as represented by the `person` variable.
 
 ```js
-let room = ['Superman', 'Black Panther', 'Wonder Woman', 'Iron Man']
+const room = ['Superman', 'Black Panther', 'Wonder Woman', 'Iron Man'];
 
 for (let i = 0; i < room.length; i++) {
-  let person = room[i]
+  const person = room[i]
   console.log("Imperative way: " + person)
 }
 ```
@@ -144,7 +144,7 @@ And this would be explicitly coded line by line, like this:
 ```js
 // Imperative approach.
 // Oh, boy! Zelda games! On sale! I need them!
-let items = [
+const items = [
   {
     title: 'Breath of the Wild',
     price: 49.99
@@ -160,7 +160,7 @@ let items = [
 ];
 
 // Calculate the discount of 50% off.
-let discountedItems = [];
+const discountedItems = [];
 // Loop on through.
 for (let i = 0; i < items.length; i++) {
   // Create a new item, update the sale price thanks to the coupon, and push into the discountedItems array.
@@ -207,11 +207,11 @@ and hit `run` in [this CodePen](https://codepen.io/SuperTernary/pen/brLLRb?edito
 
 
 ```js
-let discountedItems = items.map((item) => {
+const discountedItems = items.map((item) => {
   return {
     title: item.title,
     price: item.price * 0.5
-  }
+  };
 })
 ```
 
@@ -221,7 +221,7 @@ let discountedItems = items.map((item) => {
 
 - This is fairly clean code, but we could write it more succinctly using a **declarative** style. We'll use the array's built-in `.map()` method to accomplish the same thing. We'll focus on _what_ we want (just the updated values) and we'll let `.map()` take care of the _how_.
 
-- Try it! This goes right after the `items` array declaration, replacing all o the calculation code (the `for` loop and the `discountedItems` array before that).
+- Try it! This goes right after the `items` array declaration, replacing all of the calculation code (the `for` loop and the `discountedItems` array before that).
 
 - Using the declarative approach, we declare that we intend to `.map()` through an array and create a newly updated version of it.
 

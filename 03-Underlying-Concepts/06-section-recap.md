@@ -13,7 +13,7 @@ In this section, we dove deeper into React. Here's what we covered:
 
 React class components have life-cycle methods that are invoked at certain stages of their "lives" on the DOM. Some of the life-cycle methods you'll use frequently include:
 
-  - `constructor()`: Initializes state, binds methods.
+  - `constructor()`: Initializes state, binds methods. _Note that the newer syntax does not require a constructor, but it's important to learn to understand legacy code you might encounter._
   - `componentDidMount()`: Makes AJAX requests, gets DOM refs, binds event listeners, sets `state` if necessary.
   - `componentWillUnmount()`: Unbinds event listeners, performs other clean-up.
   - `componentDidUpdate()`: Updates `state` based on changes in components.

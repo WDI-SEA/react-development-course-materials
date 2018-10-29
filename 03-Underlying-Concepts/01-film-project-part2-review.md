@@ -9,5 +9,5 @@ These are instructor notes to help guide a review discussion of [Film Project, P
 
 - Events: Are all of the click events firing and changing the UI? Have they stopped propagation?
 - State: Have they successfully added state? Does the state change and update the UI when needed?
-- Do students understand binding? Are all of their `this` calls working accordingly?
+- Do students understand unidirectional binding? Are all of their `this` calls working accordingly?
 - Talk through any sticking points. Were there any common places where students were "stuck"?
