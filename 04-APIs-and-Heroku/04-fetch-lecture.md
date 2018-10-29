@@ -386,7 +386,7 @@ render() {
 - Add an `if` statement under `render()`.
   - This simply checks to see if `fetch()` has completed before `render()` tries to return the poem. Otherwise, it returns "Loading...".
   - For this especially, it's important that the state is declared in initial state object. This way, the `if` statement does not fail if the `fetch()` hasn't yet created the state.
-  - Note the change const to let when declaring `poetry` variable as the string will change after the `fetch()` is completed;
+  - Note the change const to let when declaring `poetry` variable as the string will change after the `fetch()` is completed.
 
 - You're done! Your `Home` page should now load a random Shakespeare poem.
 </aside>
