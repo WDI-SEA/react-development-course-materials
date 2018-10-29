@@ -133,7 +133,7 @@ git init
 
 ## Create a Heroku Application
 
-`create-react-app-buildpack`
+create-react-app-buildpack
 
 
 ```sh
@@ -268,7 +268,7 @@ CORS stands for cross-origin resource sharing.
 A CORS proxy is a service that allows developers to access resources from other websites without having to own that website.
 
 <img src="assets/CORS-principle.png" class="responsive" />
-<sup>Image Credit: [Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+<sup>Image Credit: [Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)</sup>
 
 <aside class="notes">
 
@@ -276,9 +276,12 @@ A CORS proxy is a service that allows developers to access resources from other 
 
 - Maybe you want to embed an image of a cat that you found on `https://acatwebsite.com/` (this is just a sample URL). However, the owners of that website might want to make sure that their cat images can **only** be accessed through a browser and not, for example, a JavaScript `POST` call.
 
+
 - Limiting who can access your web server is important in web security. Otherwise, someone could write code that runs on `https://acatwebsite.com/` and changes all of its content to be images of dogs.
 
+
 - [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) stands for cross-origin resource sharing. CORS is a web standard that websites use to make sure that those accessing them (like you trying to get a cat picture) are safe.
+
 
 - When you try to go to a website where only one side is using CORS on the back-end, you'll get an error saying that you aren't allowed to access the resource.
 
