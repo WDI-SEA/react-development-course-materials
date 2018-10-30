@@ -54,11 +54,15 @@ Task:
 ## One solution
 
 ```js
-<Route path="/blog" component={
-    () => (<Blog title={post.title}
-              author={post.author}
-              body={post.body}
-              comments={post.comments} />
+<Route
+  path="/blog"
+  component={ () => (
+    <Blog
+      title={post.title}
+      author={post.author}
+      body={post.body}
+      comments={post.comments}
+    />
 )}/>
 ```
 
@@ -79,11 +83,15 @@ Source: [Tyler Mcginnis](https://tylermcginnis.com/react-router-pass-props-to-co
 ## A Better Solution
 
 ```js
-<Route path="/blog" render={
-    () => (<Blog title={post.title}
-              author={post.author}
-              body={post.body}
-              comments={post.comments} />
+<Route
+  path="/blog"
+  render={ () => (
+    <Blog
+      title={post.title}
+      author={post.author}
+      body={post.body}
+      comments={post.comments}
+    />
 )}/>
 ```
 
