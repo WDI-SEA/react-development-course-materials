@@ -48,7 +48,7 @@ class App extends Component {
           <Route path="/contact" component={Contact} />
         </div>
       </Router>
-    )
+    );
   }
 }
 ```
@@ -155,11 +155,11 @@ class App extends Component {
           <Route path="/contact" component={Contact} />
         </div>
       </Router>
-    )
+    );
   }
 }
 
-export default App
+export default App;
 ```
 
 <aside class="notes">
@@ -215,7 +215,7 @@ Let's intentionally make an error.
 
 <aside class="notes">
 
-**Talking Points**  
+**Talking Points**
 
 * Delete the `exact` keyword off the Home route then navigate to the `/procedures` page and the `/contact` page again and see how the components are displayed.
 
@@ -256,7 +256,7 @@ We'll add one `<Link>`
 
 <aside class="notes">
 
-**Talking Points**  
+**Talking Points**
 
 * Great, now our site is up and running! We can manually type in URLs and see the
 different pages. Although... users never really type URLs, do they? We should probably have links at the top of the page so we can just click on things. We could build this ourselves, but we don't have to! Remember that `Link` component we imported from React Router? Just like links in HTML, we can wrap `<Link>` tags around whatever text that we want to display to the user to click on.
@@ -339,11 +339,11 @@ class App extends Component {
           <Route path="/contact" component={Contact} />
         </div>
       </Router>
-    )
+    );
   }
 }
 
-export default App
+export default App;
 ```
 
 <aside class="notes">

@@ -34,7 +34,7 @@ After this lesson, you'll be able to:
 Because React was created by Facebook, it has a large community with a lot of information.
 
 Open the [React home page](https://facebook.github.io/react/).
- 
+
 ![](assets/react-tutorial-screenshot.png)
 
 
@@ -85,7 +85,7 @@ Click on "Docs."
 The navigation bar contains:
 - A "Getting Started" guide.
 - Main concepts.
-- Advanced guides. 
+- Advanced guides.
 - An API reference.
 
 <aside class="notes">
@@ -99,7 +99,7 @@ The navigation bar contains:
 
 </aside>
 
----- 
+----
 
 ## Documentation Exercise: Conditional Rendering
 
@@ -108,12 +108,12 @@ Next, let's apply something new.
 ![](assets/facebook-conditional.png)
 
 
-Step 1: In the search bar at the top, look for "Conditional Rendering" and read through the page. 
+Step 1: In the search bar at the top, look for "Conditional Rendering" and read through the page.
 
 Step 2: Referring to the documentation on conditional rendering, finish [this CodePen application](https://codepen.io/SuperTernary/pen/wrooQP) so there's only a single list displayed at any time with a corresponding button that changes between "Show matching fruits" and "Show unmatching fruits."
   - The two functions creating the buttons are included for you below the class declaration.
   - The `return()` method in the `render()` method is accurate, as is the `handleFilterChange()` method. No modifications are needed in either `handleFilterChange()` or `return()`.
-  
+
 
 Here are screenshots of the app's two different states:
 ![](assets/fruit-final.png)
@@ -131,10 +131,10 @@ When you have it, check your solution against [this CodePen](https://codepen.io/
 - Referring to the documentation on conditional rendering, finish this application so there's only a single list displayed at any time with a corresponding button that changes between "Show matching fruits" and "Show unmatching fruits."
   - The two functions creating the buttons are included for you below the class declaration.
   - The `return()` method in the `render()` method is accurate, as is the `handleFilterChange()` method. No modifications are needed in either `handleFilterChange()` or `return()`.
-  
+
 **Teaching Tip**:
 
 - Provide [this CodePen](https://codepen.io/SuperTernary/pen/qPqqQE?editors=0010) for students who need support. There are comments everywhere they need to make modifications.
 
-  
+
 </aside>

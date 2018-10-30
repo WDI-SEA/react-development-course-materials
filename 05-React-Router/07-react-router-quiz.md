@@ -53,7 +53,7 @@ _Choices_:
 4. The component associated with the route will only be shown if users are at exactly that URL path *
 
 
-_Explanation_: `<Link>` creates `<a>` tags for you, navigating to the path you specify.
+_Explanation_: `exact` disables the partial matching of the current url.  The path has to have an EXACT match.
 
 
 -----------------------------------
@@ -64,12 +64,12 @@ _Prompt_:  What's wrong with this code? Choose all that apply.
 class App extends Component {
   render() {
     return (
-        <div>
-          <Route path="/" component={Panda} />
-          <Route path="/crocodile" component={Crocodile} />
-          <Route path="/kangaroo" component={Kangaroo} />
-        </div>
-    )
+      <div>
+        <Route path="/" component={Panda} />
+        <Route path="/crocodile" component={Crocodile} />
+        <Route path="/kangaroo" component={Kangaroo} />
+      </div>
+    );
   }
 }
 ```
@@ -99,15 +99,15 @@ What's wrong with this code? Choose all that apply.
 ```
 
 
-_Correct Response_: Right! The `nav` keyword doesn't belong here - the `<Link>`s would instead be wrapped by a `<nav>` element.
+_Correct Response_: Right! The `nav` keyword doesn't belong here - the `<Link>` would instead be wrapped by a `<nav>` element.
 
-_Incorrect Response_: Not quite. The `nav` keyword doesn't belong here - the `<Link>`s would instead be wrapped by a `<nav>` element.
+_Incorrect Response_: Not quite. The `nav` keyword doesn't belong here - the `<Link>` would instead be wrapped by a `<nav>` element.
 
 
 _Choices_:
 
 1. The root path needs the `exact` keyword.
-2. The `nav` keyword doesn't belong here - the `<Link>`s would instead be wrapped by a `<nav>` element. *
+2. The `nav` keyword doesn't belong here - the `<Link>` would instead be wrapped by a `<nav>` element. *
 3. The value of each `to` attribute needs to be the component.
 4. The declaration is correct.
 
@@ -123,16 +123,18 @@ _Choices_:
 3. Inside the component class `render` method, above the `return()` method
 4. Inside the component class declaration, inside the `<Router>` component *
 
-_Explanation_: The `<Link>` components are part of `<Router>` and rendered on the screen, and therefore they go inside the component class declaration, inside the `<Router>` component.
+_Explanation_: The `<Link>` components are part of `<Router>` and rendered on the screen, and therefore they go inside the component class declaration, inside the `<Router>` component or any children component.
 
 ----------------------------------
 
 _Prompt_: Is this how you can pass props to a component within `<Route>`?
 
 ```html
-<Route path="/games" component={
-    () => (<Game title={title}
-              publisher={publisher} />
+<Route
+  path="/games"
+  component={ () => (
+    <Game title={title}
+      publisher={publisher} />
 )}/>
 ```
 

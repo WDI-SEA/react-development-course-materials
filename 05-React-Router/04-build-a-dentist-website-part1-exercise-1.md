@@ -154,11 +154,11 @@ class App extends Component {
           Welcome to my dentist website.
         </p>
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;
 ```
 <aside class="notes">
 
@@ -185,11 +185,6 @@ of the content for our site set up.
   have content written directly inside our `App` component. We don't
   need that written inside `App` any longer, because we just moved it all to the
   new `Home` component.
-
----
-
-##
-
 7. Instead, we need to call our new component. Put `<Home></Home>` inside the `<div>` in the `App` component. This tells the
   `App` component to render the `Home` component right there inside the div.
   > Note: We have been using `<Home />` to call components. `<Home></Home>` is just a different syntax we're showing you so that if you see it elsewhere, you're familiar with it.
@@ -226,10 +221,10 @@ class App extends Component {
       <div>
         <Home></Home>
       </div>
-    )
+    );
   }
 }
-export default App
+export default App;
 ```
 
 ---
@@ -249,11 +244,11 @@ class Home extends Component {
           Welcome to my dentist website.
         </p>
       </div>
-    )
+    );
   }
 }
 
-export default Home
+export default Home;
 ```
 
 <aside class="notes">
@@ -321,11 +316,11 @@ class App extends Component {
         <Procedures></Procedures>
         <Contact></Contact>
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;
 ```
 
 > Check yourself! You should see all of content for each of the pages all stacked on top of each
