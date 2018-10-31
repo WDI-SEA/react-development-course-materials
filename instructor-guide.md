@@ -84,7 +84,7 @@ The high-level learning objectives for this course are:
 
 Students cannot graduate unless they demonstrate mastery of the above learning objectives before the end of the course. Mastery is measured through assessment: homeworks, in-class activities, and final projects.
 
-[The official course syllabus](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/ReactDevelopmentSyllabi_180907.pdf) outlines what must be covered in the course.
+[The official course syllabus](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional-Resources/ReactDevelopmentSyllabi_180907.pdf) outlines what must be covered in the course.
 
 Optional topics you may consider adding on to extend learning (provided your students are ready) include:
 - [React Native](https://facebook.github.io/react-native/)
