@@ -273,7 +273,7 @@ class FruitContainer extends Component {
 ## Try It: Also Display the Fruits That Do _Not_ Match the Filter
 
 The full code for the fruit filter is
-available in [this CodePen](https://codepen.io/SuperTernary/pen/qjQVZM).
+available in [this CodePen](https://codepen.io/tomtrasmontero/pen/WaqOmm?editors=0010).
 
 <aside class="notes">
 
@@ -282,7 +282,7 @@ available in [this CodePen](https://codepen.io/SuperTernary/pen/qjQVZM).
 - Once your data is well-structured, it's easier to add features to your
 applications or make changes to them. Because all of our data lives at the top
 of the tree, we can send it where we want. The full code for the fruit filter is
-available in [this CodePen](https://codepen.io/SuperTernary/pen/qjQVZM).
+available in [this CodePen](https://codepen.io/tomtrasmontero/pen/WaqOmm?editors=0010).
 
 - Fork the CodePen; you're going to add a feature.
 
@@ -297,7 +297,7 @@ available in [this CodePen](https://codepen.io/SuperTernary/pen/qjQVZM).
 
 ## Solution: Unmatching Filter
 
-Review the solution code [here](https://codepen.io/SuperTernary/pen/mMWddo).
+Review the solution code [here](https://codepen.io/tomtrasmontero/pen/yRdXmL?editors=1010).
 
 
 ```html

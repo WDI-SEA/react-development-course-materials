@@ -110,7 +110,7 @@ Next, let's apply something new.
 
 Step 1: In the search bar at the top, look for "Conditional Rendering" and read through the page.
 
-Step 2: Referring to the documentation on conditional rendering, finish [this CodePen application](https://codepen.io/SuperTernary/pen/wrooQP) so there's only a single list displayed at any time with a corresponding button that changes between "Show matching fruits" and "Show unmatching fruits."
+Step 2: Referring to the documentation on conditional rendering, finish [this CodePen application](https://codepen.io/tomtrasmontero/pen/oarwEB?editors=0010) so there's only a single list displayed at any time with a corresponding button that changes between "Show matching fruits" and "Show unmatching fruits."
   - The two functions creating the buttons are included for you below the class declaration.
   - The `return()` method in the `render()` method is accurate, as is the `handleFilterChange()` method. No modifications are needed in either `handleFilterChange()` or `return()`.
 
@@ -119,7 +119,7 @@ Here are screenshots of the app's two different states:
 ![](assets/fruit-final.png)
 
 
-When you have it, check your solution against [this CodePen](https://codepen.io/SuperTernary/pen/XeNNEG?editors=0010).
+When you have it, check your solution against [this CodePen](https://codepen.io/tomtrasmontero/pen/YJoQVZ?editors=0010).
 
 <aside class="notes">
 
@@ -134,7 +134,7 @@ When you have it, check your solution against [this CodePen](https://codepen.io/
 
 **Teaching Tip**:
 
-- Provide [this CodePen](https://codepen.io/SuperTernary/pen/qPqqQE?editors=0010) for students who need support. There are comments everywhere they need to make modifications.
+- Provide [this CodePen](https://codepen.io/tomtrasmontero/pen/BqgZrV?editors=0010) for students who need support. There are comments everywhere they need to make modifications.
 
 
 </aside>
