@@ -1,23 +1,30 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Exercise: Exploring Documentation
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Exercise: Exploring Documentation</h1>
 
-
+---
 
 ## Task
+
 In small groups, choose one of the following questions to research in the React.js documentation.
 
 Create a compelling presentation that:
+
 - Answers the question.
 - Provides examples to the audience through learning materials, diagrams, and more.
 - Is interactive (bonus).
 
+---
+
 ## Overview
 Each group will have:
+
 - Fifteen minutes to research the question.
 - Ten minutes to structure a presentation.
 - Five minutes to present.
 
 **Note:** All group members must participate in the presentation.
 
+---
 
 ## Question Bank
 
@@ -50,5 +57,3 @@ Each group will have:
 
 
 </aside>
-
-
