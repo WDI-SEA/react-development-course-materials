@@ -1,6 +1,13 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Final Project
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Final Project</h1>
+
+---
+
+##
 
 ![final project meme](./assets/meme-final-project.jpg)
+
+---
 
 ## Project Overview
 
@@ -9,6 +16,7 @@ It's time to build something you'll be proud to call your own.
 This is an open-ended project. We can't provide any set solution, but we're always here to help.
 
 You'll be making your own website. This can be a website you imagine, but feel free to pick an existing website and try to mimic it. Some sites that use React that you can model yours after are:
+
   - https://www.airbnb.com/
   - https://citymapper.com/boston
   - https://reddit.com
@@ -17,14 +25,17 @@ You'll be making your own website. This can be a website you imagine, but feel f
 
 Once you have a website with basic functionality that you're satisfied with, look at the "Further Directions" section and choose at least one of the options to implement.
 
-### Requirements
+---
+
+## Requirements
 
 * Utilize both nested components and state.
 * Use React Router and include a nav bar.
 * Use ES6 syntax; don't forget about functional components.
 
+---
 
-### Suggestions and Hints
+## Suggestions and Hints
 
 - Don't worry about styling at first. Focus on getting the functionality working.
 - Remember that state and props are **not** the same.
@@ -33,7 +44,9 @@ Once you have a website with basic functionality that you're satisfied with, loo
 - Stick to functional programming techniques wherever possible (e.g., use built-in methods such as `.forEach()` and `.map()` if available).
 - If you're rendering a list of child components (such as a `ul` -> `li` list), each individual child component needs a unique key for React to work with it. This is so React can identify each element uniquely, if necessary, and help with optimizing by easily identifying virtual DOM objects through unique keys.
 
-### Further Directions
+---
+
+## Further Directions
 
 Once you have a website with basic functionality that you're satisfied with, choose at least one of the options below to implement.
 
@@ -41,7 +54,9 @@ Once you have a website with basic functionality that you're satisfied with, cho
 * **Option 2:** Learn about React animations and apply them to the blog or project you built in the last exercise.
 * **Option 3:** In addition to animations, incorporate Flow — a static type checker — into your application.
 
-### Deliverables
+---
+
+## Deliverables
 
 When you're satisfied with your web application and have implemented at least one of the further options, host it on Heroku. Share the link and your repository with your instructor.
 
@@ -58,11 +73,11 @@ Enjoy the challenge!
 
 </aside>
 
+---
+
 ## Evaluation
 
 Your project will be evaluated based on the rubric below.
-
-### Rubric
 
 | Score | Expectations |
 | ----- | ---------------------------------------------------- |
