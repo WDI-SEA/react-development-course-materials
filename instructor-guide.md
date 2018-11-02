@@ -100,7 +100,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - These are lectures that you present to the students. Some have mini code-alongs or exercises baked in. You will also find assets such as videos, charts, and discussion prompts in these lesson decks. **Talking Points** and **Teaching Tips** can be found in the presenter notes (not student-facing). Note that if a student downloads a PDF of these decks, they will not get the presenter notes. Students should be encouraged to take their own notes as they participate in the lecture.
   
   - Also note that slide content is sparse - each slide displays just a code snippet, an image, a chart, a bulletpoint list. You get to explain the content and expand upon it. There are plenty of notes in the presenter-note field to guide you.
-  - [Interactive Lecture Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/03-nested-components-lecture.md)
+  - [Interactive Lecture Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React-Key-Concepts/03-nested-components-lecture.md)
   
   
   
@@ -125,7 +125,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - Students should note that once the take a quiz, they can't retake it. They WILL be able to access it and review it however.
   
 
-  - [Quiz Example - Do not share this link](https://my.generalassemb.ly/preview?lessonURL=https://create-api.generalassemb.ly/lessons/657/versions/801/preview)
+  - [Quiz Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/02-React-State/11-react-state-quiz.md)
 
 
 
@@ -138,7 +138,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
 
   - These are coding challeneges that students do in class with you. You do it on your laptop and project it on the screen; students follow along on their laptops. The slide decks with the code-along activities provide you with a few slides to project on screen and introduce the topic — like a mini lecture. The rest of the code-along deck is a run-through of the code-along; it's for instructor reference only. 
   - There are two designated code-alongs in this course: The Lord of the Rings Code-Along in Unit 1 (approximate time to complete is 30 minutes), and the Idea Board code-along in Unit 6 (approximate time to complete is 60 minutes).
-  - [Code-Along Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/06-lotr-code-along.md)
+  - [Code-Along Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React-Key-Concepts/06-lotr-code-along/06-lotr-code-along.md)
   
   
   
@@ -149,7 +149,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - They come at the end of course and assume that the primary course learning objectives have already been covered. They do not have much in the way of textual guidance - students will be very much on their own.
   - You can have students work on these individually or in groups. As they work, you should circulate around the room, providing hints and guidance as needed. Be sure to do a thorough review of the solution when finished.
   - There is an additional lab (Dad Jokes Lab) that is not a part of the core cirriculum. It is included as a resource in case you have some extra time to fill or you have students who are caught up and looking for an additional challenge. Pre-requisitives for the Dad Jokes Lab are: React and React Components, State and Props, The Component Lifecycle, and Working with an API.
-  - [Lab Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/ATM%20Lab/README.md)
+  - [Lab Example](https://git.generalassemb.ly/react-development/react-development-course-materials/tree/master/Additional-Resources/ATM%20Lab)
   
 
 
@@ -162,7 +162,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
     - Blog Project: This project starts in the [Props pre-work lesson](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/props-3145.json) and continues through Unit 2. 
     - Film project: This one works well as homework. Though we suggest that you at least introduce and begin each phase in class. Let students finish each part at home. Be sure to review the solution for each phase at the next class meeting.
     - Final Project: For this project students build their own website over the course of an entire day (1-week delivery) or a week (10-week delivery). It is very open-ended. Encourage students to start thinking about a topic and focus early on in the course.
-       - [Final Project Prompt and Rubric](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/06-Applied%20Practice/07-final-project-prompt.md)
+       - [Final Project Prompt and Rubric](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/06-Applied-Practice/06-final-project-prompt.md)
   
 ## Suggested Pacing Guide
 
