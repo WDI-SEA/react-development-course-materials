@@ -1,8 +1,9 @@
-
-
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Code-Along: Idea Board
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Code-Along: Idea Board</h1>
 
 ---
+
+##
 
 Let's build an idea board!
 
@@ -36,6 +37,8 @@ We're going to build our own idea board using `create-react-app` with a pre-buil
 
 ---
 
+##
+
 ![idea board](https://slack-imgs.com/?c=1&url=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*SMKZC-Ej73wFOmqNT-JQ7Q.gif)
 
 <aside class="notes">
@@ -56,6 +59,7 @@ We're going to build our own idea board using `create-react-app` with a pre-buil
 ## Data Model Brainstorm
 
 Work with your classmates to:
+
 - Write three user stories.
 - Sketch two wireframes.
 - Illustrate what your data model might look like. Think about the API routes required. What components do you think you'll need? What routes should be available to the React app?
@@ -73,6 +77,8 @@ Work with your classmates to:
 </aside>
 
 ---
+
+##
 
 ![you got this](assets/you-got-this-meme.png)
 
@@ -96,6 +102,8 @@ You can have students start the project in GitHub instead of locally to show an 
 
 - After creating the repo, clone it locally into your `class-exercises` folder.
 
+---
+
 ## Integrate `create-react-app`
 
 Before we start building our models and controllers, let's first connect our server to React. Use `create-react-app` to get your UI up and running.
@@ -105,6 +113,8 @@ Before we start building our models and controllers, let's first connect our ser
 create-react-app client
 cd client
 ```
+
+---
 
 ## Set up the Server
 
@@ -132,7 +142,13 @@ Your folder structure should now look like this:
 
 This will create a new React application for us to begin building our board.
 
+---
+
+## Set up the Server
+
 Let's start our application. Webpack uses port 3000 when starting an application. Our server will be running on port 3001. To run both servers at the same time, we can start our server in one window and our React app in another. However, we can also use a tool to run both servers within the same window.
+
+---
 
 ## Using `concurrently`
 
@@ -158,9 +174,15 @@ We can now run the `npm run dev` command and our application will start on both 
 
 > COMMIT
 
+---
+
+##
+
 If we check our route at `localhost:3001/api/users`, we should get a JSON object back. We can get this JSON object by using `res.json` instead of `.render` or `.send`.
 
 We can then retrieve the user that we previously created. This gives us enough to get started on building the UI for our idea board.
+
+---
 
 ## Scaffolding for the Idea Board UI
 
@@ -202,6 +224,7 @@ Create a `components` folder, as well as a basic component for each route. Once 
 
   export default App
 ```
+---
 
 ## `Route` Parameters in React Router
 
@@ -209,15 +232,21 @@ We can add `Route` parameters to our client-side routes. The value defined will 
 
 > COMMIT
 
+---
+
 ## Creating the Home Page and Login Page Routes
 
 We'll start with the home page. This is the page users see when they first load the app. On this page, we want to encourage a user to visit the login or ideas pages. We'll start making API calls once we build the login page.
 
-### Home Page
+---
+
+## Home Page
 
 Create the home page with a greeting and a `Link` to the login component. Make sure to also add a `Link` back to the home page on the login page.
 
-### Login Page
+---
+
+## Login Page
 
 To make API calls, we'll use `fetch()`.
 
@@ -271,7 +300,9 @@ XMLHttpRequest cannot load localhost:3001/api/users. Cross origin requests are o
 
 This is an example of a CORS (cross-origin resource sharing) error.
 
-### CORS
+---
+
+## CORS
 
 CORS is a mechanism that restricts API calls from a domain outside the one from which the resource was initially served. This acts as a layer of protection for servers, as it prevents unwanted use of an API.
 
@@ -286,6 +317,8 @@ There are several ways to handle CORS requests. For our app, we'll take advantag
 **Note**: When you add this proxy, you have to restart your server. The automatic refresh won't pick up on the proxy addition.
 
 > COMMIT
+
+---
 
 ## Adding Sign-up
 
@@ -338,6 +371,8 @@ Let's add a sign-up form to the login page.
 Finally, we need to create a conditional that will handle a redirect after a user is successfully saved.
 
 > COMMIT
+
+---
 
 ## Building a Static Idea Board
 
@@ -395,6 +430,8 @@ Now that we can navigate to `IdeaPage`, let's focus on building a few static vie
   export default IdeaView
 ```
 
+---
+
 ## Add Styling
 
 We have the static starter code, so let's clean things up and add styling. Take the code above and refactor it into smaller components. Then, use `styled-components` to add some styling to the page. As a reminder, we ideally want our app to look like this:
@@ -402,6 +439,8 @@ We have the static starter code, so let's clean things up and add styling. Take 
 ![idea board](https://slack-imgs.com/?c=1&url=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*SMKZC-Ej73wFOmqNT-JQ7Q.gif)
 
 > COMMIT
+
+---
 
 ## Bring in User Info
 
@@ -434,6 +473,8 @@ As long as our props are passed down properly, we should see info coming in from
 > COMMIT
 > DEPLOY
 
+---
+
 ## Adding a Click Event for a New Idea
 
 Next, let's add a click event to the `New Idea` button.
@@ -453,6 +494,8 @@ Next, let's add a click event to the `New Idea` button.
   <button onClick={this.createIdea}>New Idea</button>
 ```
 
+---
+
 ## Write Code to Delete an Idea
 
 We'll write similar code to delete an idea. Work with students to write a custom method and pass it down through props.
@@ -460,10 +503,12 @@ We'll write similar code to delete an idea. Work with students to write a custom
 Hint: You'll need one argument.
 
 ```js
-  deleteIdea = (idea) => {//Your code here}
+  deleteIdea = (idea) => { /*Your code here*/ }
 ```
 
 > COMMIT
+
+---
 
 ## Handling Form Changes
 
@@ -503,10 +548,17 @@ Let's focus on creating a `handleChange` event to update our local state in `Ide
 ...
 ```
 
+---
+
+##
+
+
 ```js
 <input onChange={(e) => handleChange(idea, e)}
   type="text" name="title" value={idea.title}/>
 ```
+
+---
 
 ## Triggering an Update
 
@@ -533,6 +585,8 @@ We'll add a method to trigger the patch and update the local state. This is simi
 
 Finally, let's tie this event to an individual idea. We could attach it to a button and add the usual `onClick` event, but let's try something different.
 
+---
+
 ## Check Documentation
 
 Check out the [`SyntheticEvent` documentation](https://reactjs.org/docs/events.html) and find the event that allows us to trigger an update whenever a user leaves an input.
@@ -542,11 +596,15 @@ Check out the [`SyntheticEvent` documentation](https://reactjs.org/docs/events.h
 
 We did it! We now have an app that updates our ideas in real time. And by using React, we built it in a scalable and easy-to-read way.
 
+---
+
 ## Deploying the App
 
 Now that we have a basic React app, let's deploy it. This will be similar to how we previously deployed server-rendered apps, but with a few additional steps.
 
-### Building a Production React App
+---
+
+## Building a Production React App
 
 When we develop React apps, we use some extra tools (auto-reloading, error messaging, dev server, and more) that are unnecessary for a production environment. When we're ready to push our app into production, we can use a special script to get a production-ready version of our app.
 
@@ -587,6 +645,8 @@ The application is now deployed!
 
 > COMMIT
 > DEPLOY
+
+---
 
 ## Further Reading
 
