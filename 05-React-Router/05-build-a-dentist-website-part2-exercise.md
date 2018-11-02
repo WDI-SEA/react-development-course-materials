@@ -76,6 +76,11 @@ wrap the routes with a `<div>`, the page will appear blank, and you'll have to
 open your JavaScript console to see that there's an error being logged to the
 console. Like so -
 
+
+---
+
+##
+
 ![A Router may only have one child element.](assets/router-requires-only-one-child.png)
 
 
