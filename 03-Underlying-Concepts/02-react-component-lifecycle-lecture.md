@@ -422,6 +422,7 @@ class Car extends Component {
 }
 ```
 
+<aside class="notes">
 **Talking Points**:
 
 - You should never set `state` in `render()` — `render()` should only react to changes in state or props, not create those changes.
@@ -492,8 +493,8 @@ componentDidUpdate(prevProps) {
 
 React class components have life-cycle methods that are invoked at certain stages of their "lives" on the DOM. Some of the life-cycle methods you'll use frequently include:
 
-    - `constructor()`: Initializes state, binds methods.
-    - `componentDidMount()`: Makes AJAX requests, gets DOM refs, binds event listeners, sets `state` if necessary.
-    - `componentWillUnmount()`: Unbinds event listeners, performs other clean-up.
-    - `componentDidUpdate()`: Updates `state` based on changes in components.
-    - `render()`: Returns markup/UI.
+- `constructor()`: Initializes state, binds methods.
+- `componentDidMount()`: Makes AJAX requests, gets DOM refs, binds event listeners, sets `state` if necessary.
+- `componentWillUnmount()`: Unbinds event listeners, performs other clean-up.
+- `componentDidUpdate()`: Updates `state` based on changes in components.
+- `render()`: Returns markup/UI.
