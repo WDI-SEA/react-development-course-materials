@@ -111,7 +111,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - Exercises generally take about 30 minutes to complete.
   - Exercises are the most flexible of the activity types! Use them as solo work, partner work, or group work. Do them in class or assign them as homework. You can even do them as code-alongs. 
 
-  - [Exercise Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React%20Key%20Concepts/07-creating-newsfeed-component-exercise.md)
+  - [Exercise Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/02-React-State/05-to-do-list-part1-exercise.md)
 
 
 ![quiz icon](images/quiz-icon.png) **Quizzes**:
