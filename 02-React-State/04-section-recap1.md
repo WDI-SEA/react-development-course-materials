@@ -78,6 +78,12 @@ class Post extends Component {
 }
 ```
 
+---
+
+## Data Flow
+
+
+
 3. Next, we define a listener in the JSX `<button>` element. This calls the `changeBody()` method using the `.onClick` synthetic event. That is defined here:
 
 ```js
@@ -88,14 +94,14 @@ class Post extends Component {
 
 4. When the button is clicked, the `changeBody()` method is called.
 
-  ```js
-  changeBody = () => {
-    const newBody = prompt("What should the new body be?")
-    this.setState({
-      body: newBody
-    });
-  }
-  ```
+```js
+changeBody = () => {
+  const newBody = prompt("What should the new body be?")
+  this.setState({
+    body: newBody
+  });
+}
+```
 
 <aside class="notes">
 
