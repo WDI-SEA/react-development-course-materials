@@ -1,48 +1,39 @@
 import React, { Component } from 'react';
 
 export default class Account extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      balance: 0
-    }
-
-    this.handleDepositClick = this.handleDepositClick.bind(this)
-    this.handleWithdrawalClick = this.handleWithdrawalClick.bind(this)
+  state = {
+    balance: 0,
+    value: ''
   }
 
-  handleDepositClick(e) {
+  handleDepositClick = (e) => {
     e.preventDefault();
-    if (isNaN(this.refs.amount.value) || this.refs.amount.value < 0) {
-      console.log("Not a number");
-    }
-    else {
-      let amount = +this.refs.amount.value;
-      let newBalance = this.state.balance + amount;
-      this.setState({
-        balance: newBalance
-      })
-      this.refs.amount.value = '';
-    }
+    const newBalance = this.state.balance + parseInt(this.state.value, 10);
+    this.setState({
+      balance: newBalance,
+      value: ''
+    });
   }
 
-  handleWithdrawalClick(e) {
+  handleWithdrawalClick = (e) => {
     e.preventDefault()
-    if (isNaN(this.refs.amount.value) || this.refs.amount.value < 0) {
+    if (isNaN(this.state.value) || this.state.value < 0) {
       console.log("Not a number");
     }
     else {
-      let amount = +this.refs.amount.value;
+      const amount = +this.state.value;
       let newBalance = this.state.balance - amount;
       if (newBalance < 0) {
-        newBalance = 0
+        newBalance = 0;
       }
       this.setState({
         balance: newBalance
-      })
-      this.refs.amount.value = '';
+      });
     }
+  }
+
+  onChangeHandler = (e) => {
+    this.setState({ value: e.target.value });
   }
 
   render() {
@@ -55,7 +46,7 @@ export default class Account extends Component {
       <div className="account">
         <h2>{this.props.name}</h2>
         <div className={balanceClass}>${this.state.balance}</div>
-        <input type="text" placeholder="enter an amount" ref="amount" />
+        <input type="number" placeholder="enter an amount" value={this.state.value} onChange={this.onChangeHandler}/>
         <input type="button" value="Deposit" onClick={this.handleDepositClick} />
         <input type="button" value="Withdraw" onClick={this.handleWithdrawalClick} />
       </div>

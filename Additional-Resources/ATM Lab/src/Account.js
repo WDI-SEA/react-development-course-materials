@@ -1,28 +1,28 @@
 import React, { Component } from 'react';
 
 export default class Account extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      balance: 0
-    }
-
-    this.handleDepositClick = this.handleDepositClick.bind(this)
+  state = {
+    balance: 0,
+    value: ''
   }
 
-  handleDepositClick(e) {
+  handleDepositClick = (e) => {
     e.preventDefault();
-    if (isNaN(this.refs.amount.value)) {
-      console.log("Not a number");
-    }
-    else {
-      let amount = +this.refs.amount.value;
-      let newBalance = this.state.balance + amount;
+    console.log(isNaN(parseInt(e.target.value, 10)));
+    if (isNaN(e.target.value)) {
+      this.setState({value: ''});
+    } else {
+      const newBalance = this.state.balance + parseInt(this.state.value, 10);
       this.setState({
-        balance: newBalance
-      })
-      this.refs.amount.value = '';
+        balance: newBalance,
+        value: ''
+      });
+    }
+  }
+
+  onChangeHandler = (e) => {
+    if (e.target.value >= 0) {
+      this.setState({ value: e.target.value });
     }
   }
 
@@ -36,7 +36,7 @@ export default class Account extends Component {
       <div className="account">
         <h2>{this.props.name}</h2>
         <div className={balanceClass}>${this.state.balance}</div>
-        <input type="text" placeholder="enter an amount" ref="amount" />
+        <input type="number" placeholder="enter an amount" value={this.state.value} onChange={this.onChangeHandler}/>
         <input type="button" value="Deposit" onClick={this.handleDepositClick} />
       </div>
     )

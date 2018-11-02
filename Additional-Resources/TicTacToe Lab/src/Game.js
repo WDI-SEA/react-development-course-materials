@@ -1,23 +1,18 @@
 import React, { Component } from 'react';
 import Board from './Board';
-import logo from './logo.svg';
 import './Game.css';
 
-class Game extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      history: [
-        {
-          squares: Array(9).fill(null)
-        }
-      ],
+class Game extends Component {
+  state = {
+    history: [
+      {
+        squares: Array(9).fill(null)
+      }
+    ],
+    xIsNext: true
+  };
 
-      xIsNext: true
-    };
-  }
-
-  handleClick(i) {
+  handleClick = (i) => {
     const history = this.state.history;
     const current = history[history.length - 1];
     const squares = current.squares.slice();
@@ -31,7 +26,7 @@ class Game extends React.Component {
           squares: squares
         }
       ]),
-   //   stepNumber: history.length,
+      // stepNumber: history.length,
       xIsNext: !this.state.xIsNext
     });
   }
@@ -62,9 +57,9 @@ class Game extends React.Component {
     return (
       <div>
       <h1>Let's play a game!</h1>
-      
+
       <div className="game">
-        
+
         <div className="game-board">
           <Board
             squares={current.squares}
