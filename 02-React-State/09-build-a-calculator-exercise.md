@@ -1,4 +1,9 @@
-# ![GA Cog Calendar](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Exercise: Build a Calculator
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Exercise: Build a Calculator</h1>
+
+---
+
+##
 
 ![Calculator Icon](images/calculator.png)
 
@@ -16,12 +21,13 @@ Let's build a calculator — because we can!
 
 ---
 
+## Set Up
 
-### Set Up
+`create-react-app calculator`
 
-`create-react-app calculator` 
+---
 
-### Step 1
+## Step 1
 
 ```html
 <div className="container">
@@ -49,11 +55,7 @@ Let's build a calculator — because we can!
 
 ---
 
-### Step 2
-
-<aside class="notes">
-
-**Talking Points:**
+## Step 2
 
 - Set up the initial state of your component. What state attributes will you
 need to track? With what values should those state items start? Where is that
@@ -61,11 +63,9 @@ state displayed in the browser?
 
 - Hint: You will only need one element in your `state`.
 
-</aside>
-
 ---
 
-### Step 3
+## Step 3
 
 ```js
 class Calculator extends Component {
@@ -98,7 +98,7 @@ change. Consider: Should it be a `click` event? A `submit` event? Something else
 
 </aside>
 
-### Step 4
+## Step 4
 
 Time to create a new method.
 
@@ -122,7 +122,7 @@ your form, add them together, and set part of the state to the new `sum`.
 
 ---
 
-### Step 5
+## Step 5
 
 Et, voilà!
 
@@ -135,7 +135,7 @@ component. Make sure you have a place in your JSX that displays the result.
 
 ---
 
-### Bonus
+## Bonus
 
 - Make the calculator work with any of the four basic arithmetic operations
   (+, -, \*, /). How will this change your state and your JSX?
