@@ -1,11 +1,17 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Exploring Documentation
+## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
+<h1>Exploring Documentation</h1>
 
+
+---
 
 ## Learning Objectives
+
 After this lesson, you'll be able to:
+
 - Understand React documentation.
 - Apply concepts in the React documentation.
 
+---
 
 ## Documentation
 
@@ -27,7 +33,7 @@ After this lesson, you'll be able to:
 
 </aside>
 
-----
+---
 
 ## Looking at the React Website
 
@@ -52,7 +58,7 @@ Open the [React home page](https://facebook.github.io/react/).
 
 </aside>
 
-----
+---
 
 ## The React Community
 
@@ -72,17 +78,20 @@ There are many recommended places to ask for help within "Community."
 </aside>
 
 
-----
+---
 
 ## The React Documentation
 
-
-
 ![](assets/react-docs-screenshot.png)
+
+---
+
+## The React Documentation
 
 Click on "Docs."
 
 The navigation bar contains:
+
 - A "Getting Started" guide.
 - Main concepts.
 - Advanced guides.
@@ -99,7 +108,7 @@ The navigation bar contains:
 
 </aside>
 
-----
+---
 
 ## Documentation Exercise: Conditional Rendering
 
@@ -110,16 +119,11 @@ Next, let's apply something new.
 
 Step 1: In the search bar at the top, look for "Conditional Rendering" and read through the page.
 
-Step 2: Referring to the documentation on conditional rendering, finish [this CodePen application](https://codepen.io/tomtrasmontero/pen/oarwEB?editors=0010) so there's only a single list displayed at any time with a corresponding button that changes between "Show matching fruits" and "Show unmatching fruits."
+Step 2: Referring to the documentation on conditional rendering, finish [this CodePen application](https://codepen.io/SuperTernary/pen/wrooQP) so there's only a single list displayed at any time with a corresponding button that changes between "Show matching fruits" and "Show unmatching fruits."
   - The two functions creating the buttons are included for you below the class declaration.
   - The `return()` method in the `render()` method is accurate, as is the `handleFilterChange()` method. No modifications are needed in either `handleFilterChange()` or `return()`.
 
-
-Here are screenshots of the app's two different states:
-![](assets/fruit-final.png)
-
-
-When you have it, check your solution against [this CodePen](https://codepen.io/tomtrasmontero/pen/YJoQVZ?editors=0010).
+When you have it, check your solution against [this CodePen](https://codepen.io/SuperTernary/pen/XeNNEG?editors=0010).
 
 <aside class="notes">
 
@@ -134,7 +138,7 @@ When you have it, check your solution against [this CodePen](https://codepen.io/
 
 **Teaching Tip**:
 
-- Provide [this CodePen](https://codepen.io/tomtrasmontero/pen/BqgZrV?editors=0010) for students who need support. There are comments everywhere they need to make modifications.
+- Provide [this CodePen](https://codepen.io/SuperTernary/pen/qPqqQE?editors=0010) for students who need support. There are comments everywhere they need to make modifications.
 
 
 </aside>
