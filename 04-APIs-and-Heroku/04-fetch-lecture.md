@@ -182,6 +182,8 @@ fetch(issApi)
 
 ---
 
+##
+
 Let's break down this API call into a few steps.
 
 - `const issApi = 'http://api.open-notify.org/astros.json'`: First, we define our API URL from which to fetch.
@@ -249,7 +251,7 @@ http://ShakeItSpeare.com/api/poem
 
 ---
 
-### Fetching Shakespeare in a React Component
+## Fetching Shakespeare in a React Component
 
 ```js
 import React, {Component} from 'react';
@@ -290,7 +292,7 @@ export default Home;
 
 ---
 
-### Making the API Call
+## Making the API Call
 
 - Fill in the `componentDidMount()` method with a call to the API.
 - Save the poem in a state called `poem`.
@@ -392,7 +394,8 @@ render() {
 </aside>
 
 ---
-### Hast Thou Not a Word of Joy?
+
+## Hast Thou Not a Word of Joy?
 — Romeo and Juliet, Act 3, Scene 5
 
 ![happy programmer](assets/happy-programmer.jpg)
