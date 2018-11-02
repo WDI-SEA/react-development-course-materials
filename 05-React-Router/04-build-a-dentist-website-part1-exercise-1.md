@@ -1,7 +1,6 @@
 ## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
 <h1>Exercise: Build a Dentist Website, Part 1</h1>
 
-<img src="assets/react-router-dentist.png" class="responsive" />
 
 
 <aside class="notes">
@@ -15,6 +14,12 @@
 
 
 </aside>
+
+---
+
+##
+
+<img src="assets/react-router-dentist.png" class="responsive" />
 
 ---
 
@@ -185,6 +190,13 @@ of the content for our site set up.
   have content written directly inside our `App` component. We don't
   need that written inside `App` any longer, because we just moved it all to the
   new `Home` component.
+
+
+---
+
+## Creating Our Homepage Component
+
+
 7. Instead, we need to call our new component. Put `<Home></Home>` inside the `<div>` in the `App` component. This tells the
   `App` component to render the `Home` component right there inside the div.
   > Note: We have been using `<Home />` to call components. `<Home></Home>` is just a different syntax we're showing you so that if you see it elsewhere, you're familiar with it.
@@ -193,6 +205,8 @@ of the content for our site set up.
   error, which should look like this:
 
 ![Home not defined](assets/home-not-defined-error.png)
+
+
 
 <aside class="notes">
 
