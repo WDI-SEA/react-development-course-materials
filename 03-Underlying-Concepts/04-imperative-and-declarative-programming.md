@@ -39,7 +39,7 @@ for every person in the line
 
 ## Imperative Programming
 
-To explore the imperative way of thinking, let's open [this CodePen](https://codepen.io/tomtrasmontero/pen/mzZmrd?editors=0010).
+To explore the imperative way of thinking, let's open [this CodePen](https://codepen.io/SuperTernary/pen/eEVVvg?editors=0010).
 
 - We could write that out in JavaScript by creating an array of those people.
 
@@ -57,6 +57,10 @@ for (let i = 0; i < room.length; i++) {
 }
 ```
 
+---
+
+## Imperative Programming
+
 - Finally, we have them speak their name — or in our case, we'll just `console.log()` their name out as represented by the `person` variable.
 
 ```js
@@ -72,7 +76,7 @@ for (let i = 0; i < room.length; i++) {
 
 **Teaching Tips**:
 
-- For convenience, slack this [CodePen URL](https://codepen.io/tomtrasmontero/pen/mzZmrd?editors=0010) to students.
+- For convenience, slack this [CodePen URL](https://codepen.io/SuperTernary/pen/eEVVvg?editors=0010) to students.
 
 **Talking Points**:
 
@@ -83,6 +87,7 @@ for (let i = 0; i < room.length; i++) {
 - Imperative programming focuses on the _why_, _how_, _where_, and _when_ your code executes. It allows precise control over your code and allows for line-by-line code execution; you're writing every single thing that happens.
 
 </aside>
+
 
 ---
 
@@ -186,13 +191,13 @@ for (let i = 0; i < items.length; i++) {
 
 
 Add `console.log(items); console.log(discountedItems);`
-and hit `run` in [this CodePen](https://codepen.io/tomtrasmontero/pen/YJoVpm?editors=0011).
+and hit `run` in [this CodePen](https://codepen.io/SuperTernary/pen/brLLRb?editors=0011).
 
 <aside class="notes">
 
 **Teaching Tip**:
 
-- For convenience, slack this [CodePen URL](https://codepen.io/tomtrasmontero/pen/YJoVpm?editors=0011) to students.
+- For convenience, slack this [CodePen URL](https://codepen.io/SuperTernary/pen/brLLRb?editors=0011) to students.
 
 **Talking Points**:
 
