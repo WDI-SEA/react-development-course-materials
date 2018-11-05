@@ -10,7 +10,7 @@
 
 - Approximate time for discuss/review quiz: 20 min
 
-- At the end of the quiz, you can share [this review guide](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional%20Resources/Review%20Guides/react-key-concepts-review-guide.md). It is also linked for students on the myGA platform at the end of quiz.
+- At the end of the quiz, you can share [this review guide](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional-Resources/Review%20Guides/react-key-concepts-review-guide.md). 
 
 - Here is a link to the quiz for your reference. Please do not share this link with students. [Intro to React Quiz](https://my.generalassemb.ly/preview?lessonURL=https://create-api.generalassemb.ly/lessons/657/versions/801/preview)
 
