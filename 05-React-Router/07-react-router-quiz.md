@@ -10,7 +10,7 @@
 
 - At the end of the quiz, you can share [this review guide](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional-Resources/Review%20Guides/react-router-review-guide.md). 
 
-- Here is a link to the quiz for your reference. Please do not share this link with students. [React Router Quiz](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/quiz-react-router-3505.json) It's also linked for students on the myGA platform at the end of the quiz.
+- Here is a link to the quiz for your reference. Please do not share this link with students. [React Router Quiz](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/quiz-react-router-3505.json).
 
 ### Questions:
 - Answers with an asterisk are correct.
