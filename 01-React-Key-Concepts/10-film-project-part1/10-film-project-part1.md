@@ -2,7 +2,7 @@
 
 ## Your Mission (If You Choose to Accept It...)
 
-...is to build a film app that will feature a list of all of the recent popular movies. A user can scroll through the titles, click one for more details, and save it to their favorites. 
+...is to build a film app that will feature a list of all of the recent popular movies. A user can scroll through the titles, click one for more details, and save it to their favorites.
 
 Note, this is just the first phase of this project; the app won't be completed until a future lesson. For today, the plan is to identify the overall application structure, then create the individual components that support that structure. You'll pass films as props to each component and ultimately use iteration to render one component for each film. At the end of this exercise, you will have the app seen here:
 
@@ -14,7 +14,7 @@ Note, this is just the first phase of this project; the app won't be completed 
 
 ### Ready?
 
-OK. Start by forking and cloning the `react-film` repo.
+OK. Start by [forking and cloning](https://git.generalassemb.ly/ga-wdi-exercises/react-film) the `react-film` repo.
 
 **Important**: After each step that follows, check your application to see how it looks before moving on. It's good practice to be sure your app is working correctly before adding new functionality.
 
@@ -125,4 +125,3 @@ You'll also have to extract the year from the `release_date` property. To do thi
 Here's the final step for today!
 
 Because the poster requires you to create the URL first, move those elements to their own component. This could be reusable later. **Don't forget to** pass the film as a prop to the new `FilmPoster` component.
-
