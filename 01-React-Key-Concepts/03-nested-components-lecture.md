@@ -243,7 +243,7 @@ We could then call this object inside our `return` JSX with `{allComments}`, whi
 ```js
 class Post extends Component {
   render() {
-    let allComments = this.props.comments.map( comment, index =>
+    let allComments = this.props.comments.map( (comment, index) =>
         <Comment body={comment} key={index}/>
      )
     /// rest of content .....
