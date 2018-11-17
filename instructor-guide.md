@@ -4,11 +4,11 @@
 
 ![react on a computer screen](./images/react-icon.png)
 
-> This document is the source of all knowledge for the course. 
+> This document is the source of all knowledge for the course.
 ----
 
 ## Overview
-This course introduces students to the basics of the React JavaScript library. In every unit, students engage in hands-on, project-based learning. 
+This course introduces students to the basics of the React JavaScript library. In every unit, students engage in hands-on, project-based learning.
 
 React Development students will:
 
@@ -93,37 +93,37 @@ Optional topics you may consider adding on to extend learning (provided your stu
 
 ### Types of Activities in the React Development Course:
 
-![lecture icon](images/lecture-icon.png) **Interactive Lectures**: 
+![lecture icon](images/lecture-icon.png) **Interactive Lectures**:
 
 
 
   - These are lectures that you present to the students. Some have mini code-alongs or exercises baked in. You will also find assets such as videos, charts, and discussion prompts in these lesson decks. **Talking Points** and **Teaching Tips** can be found in the presenter notes (not student-facing). Note that if a student downloads a PDF of these decks, they will not get the presenter notes. Students should be encouraged to take their own notes as they participate in the lecture.
-  
+
   - Also note that slide content is sparse - each slide displays just a code snippet, an image, a chart, a bulletpoint list. You get to explain the content and expand upon it. There are plenty of notes in the presenter-note field to guide you.
   - [Interactive Lecture Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React-Key-Concepts/03-nested-components-lecture.md)
-  
-  
-  
+
+
+
 ![exercise icon](images/exercise-icon.png) **Exercises**:
- 
- 
+
+
   - These are brief coding challenges with student-facing instructions. There are hints and some suggested talking points in the presenter notes (not student facing). Read these over carefully and decide how much info you will provide to the students prior to their starting the exercise.
   - Exercises generally take about 30 minutes to complete.
-  - Exercises are the most flexible of the activity types! Use them as solo work, partner work, or group work. Do them in class or assign them as homework. You can even do them as code-alongs. 
+  - Exercises are the most flexible of the activity types! Use them as solo work, partner work, or group work. Do them in class or assign them as homework. You can even do them as code-alongs.
 
   - [Exercise Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/02-React-State/05-to-do-list-part1-exercise.md)
 
 
 ![quiz icon](images/quiz-icon.png) **Quizzes**:
- 
- 
-  - These are sets of auto-graded questions delivered on the myGA platform. 
+
+
+  - These are sets of auto-graded questions delivered on the myGA platform.
   - Quizzes generally take about 20 minutes to complete and another 10-20 to review.
   - Note that quizzes are NOT a part of the pre-work; they are in a separate learning path. Students will have two tiles on their dashboard — one with all the pre-work lessons (to be completed prior to the start of the course) and one with all the quizzes (to be completed as you assign them throughout the course). As with the pre-work, students will have to log in to their myGA account to access the quizzes.  
-  - Feedback is provided after each question. 
-  - The quizzes are just for review and practice — not important course assessments. 
+  - Feedback is provided after each question.
+  - The quizzes are just for review and practice — not important course assessments.
   - Students should note that once the take a quiz, they can't retake it. They WILL be able to access it and review it however.
-  
+
 
   - [Quiz Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/02-React-State/11-react-state-quiz.md)
 
@@ -131,17 +131,17 @@ Optional topics you may consider adding on to extend learning (provided your stu
 
 
 
-  
-  
-  
+
+
+
 ![code-along icon](images/code-along-icon.png) **Code-alongs**:
 
-  - These are coding challeneges that students do in class with you. You do it on your laptop and project it on the screen; students follow along on their laptops. The slide decks with the code-along activities provide you with a few slides to project on screen and introduce the topic — like a mini lecture. The rest of the code-along deck is a run-through of the code-along; it's for instructor reference only. 
+  - These are coding challeneges that students do in class with you. You do it on your laptop and project it on the screen; students follow along on their laptops. The slide decks with the code-along activities provide you with a few slides to project on screen and introduce the topic — like a mini lecture. The rest of the code-along deck is a run-through of the code-along; it's for instructor reference only.
   - There are two designated code-alongs in this course: The Lord of the Rings Code-Along in Unit 1 (approximate time to complete is 30 minutes), and the Idea Board code-along in Unit 6 (approximate time to complete is 60 minutes).
   - [Code-Along Example](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React-Key-Concepts/06-lotr-code-along/06-lotr-code-along.md)
-  
-  
-  
+
+
+
 ![lab icon](images/lab-icon.png) **Labs**:
 
   - The core curriculum has two labs (ATM and TicTacToe), in which students fork a repo with existing code and add features to it.
@@ -150,7 +150,7 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - You can have students work on these individually or in groups. As they work, you should circulate around the room, providing hints and guidance as needed. Be sure to do a thorough review of the solution when finished.
   - There is an additional lab (Dad Jokes Lab) that is not a part of the core cirriculum. It is included as a resource in case you have some extra time to fill or you have students who are caught up and looking for an additional challenge. Pre-requisitives for the Dad Jokes Lab are: React and React Components, State and Props, The Component Lifecycle, and Working with an API.
   - [Lab Example](https://git.generalassemb.ly/react-development/react-development-course-materials/tree/master/Additional-Resources/ATM%20Lab)
-  
+
 
 
 
@@ -159,17 +159,17 @@ Optional topics you may consider adding on to extend learning (provided your stu
   - These are website-building challenges that are done in phases over two or more lessons. Each phase builds upon the next until a final product is assembled.
   - Individual project prompts (to build out one phase or feature of a given project) can be delivered like an exercise. In some cases, it is suggested that they be assigned as homework.
   - There are three projects in this course:
-    - Blog Project: This project starts in the [Props pre-work lesson](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/props-3145.json) and continues through Unit 2. 
+    - Blog Project: This project starts in the [Props pre-work lesson](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/props-3145.json) and continues through Unit 2.
     - Film project: This one works well as homework. Though we suggest that you at least introduce and begin each phase in class. Let students finish each part at home. Be sure to review the solution for each phase at the next class meeting.
     - Final Project: For this project students build their own website over the course of an entire day (1-week delivery) or a week (10-week delivery). It is very open-ended. Encourage students to start thinking about a topic and focus early on in the course.
        - [Final Project Prompt and Rubric](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/06-Applied-Practice/06-final-project-prompt.md)
-  
+
 ## Suggested Pacing Guide
 
 ### Course Format
 This course may be taught online or in-person, in a 10-week or 1-week format.
 
-The schedules for each (linked below) are provided as examples only. Feel free to create the right pace of lessons and activities for your students in order to ensure the required learning objectives are met. 
+The schedules for each (linked below) are provided as examples only. Feel free to create the right pace of lessons and activities for your students in order to ensure the required learning objectives are met.
 
 [Pacing Guide](https://docs.google.com/document/d/1VogHvxIbx784mAeS83yI7GNECLYv6WNCGGUe2C5A6W8/edit#)
 
@@ -178,8 +178,9 @@ The schedules for each (linked below) are provided as examples only. Feel free t
 
 ## Appendix: Materials and Resources
 - All lesson materials, homeworks and projects outlined in the Suggested Pacing Guide are in this repo.
-- Standard GA-produced pre-work materials can be accessed on [myGA](https://accounts.generalassemb.ly/users/sign_in). 
-- Practice quizzes (most units have one) can also be accessed on  [myGA](https://accounts.generalassemb.ly/users/sign_in). 
+- All Slides are [here](http://s3.amazonaws.com/react-ga/index.html).
+- Standard GA-produced pre-work materials can be accessed on [myGA](https://accounts.generalassemb.ly/users/sign_in).
+- Practice quizzes (most units have one) can also be accessed on  [myGA](https://accounts.generalassemb.ly/users/sign_in).
 - Labs (in which students fork a repo with existing code and add features to it) are in the Additional Resources folder in this repo.
 - Tips and templates for instructors are available on the [GA Instructor Blog](http://assemblyrequired.ga.co).
 - For help and support, join the GA Instructors Slack Community and post your questions in #SLACKCHANNEL.
