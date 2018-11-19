@@ -3,6 +3,6 @@
 --------
 
 
-Direct students to the README file in this [repository](https://git.generalassemb.ly/react-development/react-development-course-materials/tree/master/Additional%20Resources/ATM%20Lab).
+Direct students to the README file in this [repository](https://git.generalassemb.ly/react-development/react-development-course-materials/tree/master/Additional-Resources/ATM%20Lab).
 
 
