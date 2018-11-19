@@ -163,7 +163,7 @@ ReactDOM.render(
 _Choices_:
 
 1. The `Store` component call needs to end with `/>`, not just `>`. *
-2. The prop name and variable name need to match: `buy_me={groceryList.milk}` needs to be `buy_me={groceryList.important}`. *
+2. The prop variable names need to match the `groceryList` names: `buy_me={groceryList.milk}` needs to be `buy_me={groceryList.important}`. *
 3. The `var groceryList` declaration needs to be inside the `render()` method.
 4. When passing the props into `Store`, the syntax is `this.groceryList.important` and `this.groceryList.spices`.
 
