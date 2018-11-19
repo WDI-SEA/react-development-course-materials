@@ -14,7 +14,7 @@
 
 ## Components
 
-**Functional Components vs. Presentational Components**
+**Functional Components as Presentational Components**
 
 <aside class="notes">
 
