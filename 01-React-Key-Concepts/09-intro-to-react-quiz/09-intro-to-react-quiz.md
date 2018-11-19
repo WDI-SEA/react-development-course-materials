@@ -12,7 +12,7 @@
 
 - At the end of the quiz, you can share [this review guide](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional-Resources/Review%20Guides/react-key-concepts-review-guide.md). 
 
-- Here is a link to the quiz for your reference. Please do not share this link with students. [Intro to React Quiz](https://my.generalassemb.ly/preview?lessonURL=https://create-api.generalassemb.ly/lessons/657/versions/801/preview)
+- Here is a link to the quiz for your reference. Please do not share this link with students. [Intro to React Quiz](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/quiz-intro-to-react-js-3744.json)
 
 ### Questions:
 - Answers with an asterisk are correct.
