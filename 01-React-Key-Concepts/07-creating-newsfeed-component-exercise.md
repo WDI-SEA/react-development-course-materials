@@ -29,3 +29,7 @@ Perform the following to complete the lab:
 - Populate those objects based on those values assigned in the HTML.
 - Create a `NewsFeed` component and pass it the `newsFeedData` array as `props`.
 - The `NewsFeed` component will then render three `articles` based on properties of the objects in the `newsFeedData` array.
+
+<aside class="notes">
+  Solution: https://codepen.io/GAmarketing/pen/WYjmgx
+</aside>
