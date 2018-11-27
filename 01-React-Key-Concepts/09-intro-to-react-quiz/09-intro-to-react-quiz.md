@@ -10,7 +10,7 @@
 
 - Approximate time for discuss/review quiz: 20 min
 
-- At the end of the quiz, you can share [this review guide](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional-Resources/Review%20Guides/react-key-concepts-review-guide.md). 
+- At the end of the quiz, you can share [this review guide](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional-Resources/Review%20Guides/react-key-concepts-review-guide.md).
 
 - Here is a link to the quiz for your reference. Please do not share this link with students. [Intro to React Quiz](https://my.generalassemb.ly/preview?lessonURL=https://ga-create-api.s3.amazonaws.com/quiz-intro-to-react-js-3744.json)
 
@@ -141,7 +141,7 @@ _Prompt_: Take a look at the following React file. Choose the reason(s) it won't
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Store from './Store.js';
+import Store from './Store';
 
 var groceryList = {
   important: "milk",
@@ -163,12 +163,12 @@ ReactDOM.render(
 _Choices_:
 
 1. The `Store` component call needs to end with `/>`, not just `>`. *
-2. The prop name and variable name need to match: `buy_me` needs to be `milk` and `me_too` needs to be `spices`.
+2. The prop variable names need to match the `groceryList` names: `buy_me={groceryList.milk}` needs to be `buy_me={groceryList.important}`. *
 3. The `var groceryList` declaration needs to be inside the `render()` method.
 4. When passing the props into `Store`, the syntax is `this.groceryList.important` and `this.groceryList.spices`.
 
 
-_Explanation_: This code is very close to correct. The only thing missing is that the component needs to end with `/>` to close the tag. Without adding the props, it would look like `<Store />`.
+_Explanation_: The component needs to end with `/>` to close the tag. Without adding the props, it would look like `<Store>`, which is not closed. Secondly. `groceryList.milk` does not exist; `milk` is the value of `important`.
 
 
 ----------------------------------
@@ -192,7 +192,7 @@ _Prompt_: Assuming that the `Flowers` component is being passed all necessary pr
 
 ```js
 import React, { Component } from 'react';
-import Daisy from './Daisy.js';
+import Daisy from './Daisy';
 
 class Flowers extends Component {
   render() {
