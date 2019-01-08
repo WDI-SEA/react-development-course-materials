@@ -337,6 +337,7 @@ The schedules below are  provided as examples only. Feel free to create the righ
       <td class="s2" rowspan="4"></td>
       <td class="s5" dir="ltr"><a target="\_blank" href="https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React-Key-Concepts/01-welcome-to-react-development-lecture.md">Welcome to GA and Your React
           Course - Interactive Lecture</a></td>
+          <td rowspan="4"></td>
     <tr style='height:20px;'>
       <td class="s5" dir="ltr"><a target="\_blank" href="https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/01-React-Key-Concepts/02-pre-work-review.md">Pre-work Review - Discussion</a></td>
     </tr>
