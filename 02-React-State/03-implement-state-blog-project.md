@@ -71,6 +71,7 @@
 **Talking Point:**
 
 - This is what your solution should look like.
+- Code: https://git.generalassemb.ly/ed-product-library/React-Exercise-Solutions/tree/master/projects/project-03-state
 
 </aside>
 
