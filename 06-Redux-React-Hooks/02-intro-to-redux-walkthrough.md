@@ -1,5 +1,5 @@
 ## ![](https://s3.amazonaws.com/python-ga/images/GA_Cog_Medium_White_RGB.png) {.separator}
-<h1>Code-Along: Redux</h1>
+<h1>Code-Along: Implementing Redux and Troubleshooting using Redux DevTools.</h1>
 
 ---
 

@@ -76,7 +76,7 @@ _One central store holds the entire state of the application._ Every component c
 
 * **Store:** The store simply _stores the application state_.
 
-(I will create graphic for here too...)
+![logo](assets/with-without-redux.png)
 
 <aside class="notes">
 
@@ -99,6 +99,8 @@ _One central store holds the entire state of the application._ Every component c
 * **Provides easy troubleshooting and debugging**
 
 * **It's easy to test!**
+
+* **Redux has a large supporting community**
 
 * Additionally Redux can persist the app's state to local storage, or even restore it after a refresh.
 
