@@ -7,11 +7,15 @@
 
 Let's implement some Redux!
 
+First, let's install [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en).
+
 <aside class="notes">
 
 **Teaching Tips**:
 
 - This is a code along to help reinforce the concepts of Redux.
+
+- First thing - Have students install Redux DevTools. Help remind them of the importance of DevTools.
 
 - To run on local, open your terminal or command prompt and follow the commands below:
 1. `git clone { remote git folder url }`
