@@ -72,7 +72,7 @@ Though it's tricky to grasp at first, Redux is actually pretty simple.
 
 _One central store holds the entire state of the application._ Every component can access state without passing down props from one component to another.
 
-# How you ask?!
+### How you ask?!
 
 * **Actions:** Actions are _events_. They are the only way you can send information from your app to your Redux Store. This data can sent is typically based on UI events, API calls, and/or event handlers.
 
