@@ -112,7 +112,7 @@ _One central store holds the entire state of the application._ Every component c
 
 **Talking Points**:
 
-Keep in mind these are longer talking points to expand on the above benefits.
+Keep in mind these are longer talking points to expand on the above benefits. Be sure to read these and fully understand them before class.
 
 * In Redux, the state is always predictable. If the same state and action are passed to a reducer, the same result is always produced as reducers are pure functions. The state is also immutable and is never changed. This makes it possible to implement arduous tasks like infinite undo and redo. It is also possible to implement time travel that is, the ability to move back and forth among the previous states and view the results in real-time.
 
@@ -125,6 +125,8 @@ Keep in mind these are longer talking points to expand on the above benefits.
 * With it, you can handle the initial render of the app by sending the state of an app to the server along with its response to the server request. The required components are then rendered in HTML and sent to the clients.
 
 * Ask an individual why it would be helpful to manipulate local storage.
+
+Next you'll be implementing Redux in a code along. This will help students further grasp the Redux concepts.
 
 </aside>
 
