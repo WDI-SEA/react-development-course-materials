@@ -42,6 +42,7 @@ There are lots of sources all over the web for React and Redux. Here's a list of
 
 * **Core Concepts**
   * FullStackReact [An Introduction to Hooks in React](https://www.fullstackreact.com/articles/an-introduction-to-hooks-in-react/)
+  * Upmostly [React Hooks: A Simple Introduction](https://medium.com/@upmostly/react-hooks-a-simple-introduction-aa3b319b6a12)
 
 ### Redux
 
