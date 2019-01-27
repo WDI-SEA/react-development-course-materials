@@ -46,7 +46,9 @@ As we've learned, React is pretty good at state management without any additiona
 *  As your application becomes larger, it becomes increasingly difficult and confusing to manage state across multiple shared components.
 *  Keep in mind, components are reusable so you might be using these components across several pages or screens within your app.
 
-Imagine multiple components, that all need to talk to each other, but for different reasons. You might have a hard time understanding where state should live. In a perfect world, component data should be isolated to that particular component. Now consider sibling components (will insert an example/graphic) and how you would share that data.
+Imagine multiple components, that all need to talk to each other, but for different reasons. You might have a hard time understanding where state should live. In a perfect world, component data should be isolated to that particular component. Now consider sibling components and how you would share that data.
+
+![logo](assets/with-without-redux.png)
 
 As you've learned so far, to share data among siblings, a state has to live in the parent component. The method for updating this state is provided by this parent component and passed as props to these sibling components.
 
@@ -76,7 +78,7 @@ _One central store holds the entire state of the application._ Every component c
 
 * **Store:** The store simply _stores the application state_.
 
-![logo](assets/with-without-redux.png)
+![logo](assets/basic-redux-flow.png)
 
 <aside class="notes">
 
