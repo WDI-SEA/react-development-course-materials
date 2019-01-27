@@ -58,6 +58,7 @@ There are lots of sources all over the web for React and Redux. Here's a list of
   * alligator.io [Connecting React to Redux](https://alligator.io/react/react-redux/)
   * FreeCodeCamp [How to model the behavior of Redux apps using statecharts](https://medium.freecodecamp.org/how-to-model-the-behavior-of-redux-apps-using-statecharts-5e342aad8f66)
   * FreeCodeCamp [These are the concepts you should know in React.js (after you learn the basics)](https://medium.freecodecamp.org/these-are-the-concepts-you-should-know-in-react-js-after-you-learn-the-basics-ee1d2f4b8030)
+  * Smashing Magazine [Redux · An Introduction](https://www.smashingmagazine.com/2016/06/an-introduction-to-redux/)
 
 * **Redux DevTools**
   * alligator.io [Redux DevTools](https://alligator.io/angular/ngrx-store-redux-devtools/)
