@@ -49,6 +49,7 @@ There are lots of sources all over the web for React and Redux. Here's a list of
 * **Cheat Sheet**
   * Devhints Redux [cheat sheet](https://devhints.io/redux)
   * Devhints Awesome Redux [cheat sheet](https://devhints.io/awesome-redux)
+  * LogRocket [React Redux Connect Tutorial — When and How to Use It](https://blog.logrocket.com/react-redux-connect-when-and-how-to-use-it-f2a1edab2013)
   * LogRocket [Why use Redux? Reasons with clear examples](https://blog.logrocket.com/why-use-redux-reasons-with-clear-examples-d21bffd5835)
   * [Redux Github](https://github.com/reduxjs/redux)
   * The Web Tub [Managing your React state with Redux](https://medium.com/the-web-tub/managing-your-react-state-with-redux-affab72de4b1)
