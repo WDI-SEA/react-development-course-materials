@@ -7,7 +7,9 @@
 
 Let's implement some Redux!
 
-First, let's install [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en).
+For this project, make sure you're using Chrome.
+
+First, let's install the Chrome Extension, [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en).
 
 <aside class="notes">
 
