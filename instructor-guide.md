@@ -80,6 +80,7 @@ The high-level learning objectives for this course are:
 - Build multipage web applications using the popular React Router package.
 - Create a custom, functioning web application.
 - Embed an application programming interface (API) in a React application.
+- Implement Redux
 - Host a React application on Heroku to share with the world.
 
 Students cannot graduate unless they demonstrate mastery of the above learning objectives before the end of the course. Mastery is measured through assessment: homeworks, in-class activities, and final projects.
@@ -87,8 +88,8 @@ Students cannot graduate unless they demonstrate mastery of the above learning o
 [The official course syllabus](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional-Resources/ReactDevelopmentSyllabi_180907.pdf) outlines what must be covered in the course.
 
 Optional topics you may consider adding on to extend learning (provided your students are ready) include:
+- [React Hooks]()
 - [React Native](https://facebook.github.io/react-native/)
-- [Redux](https://redux.js.org/basics/usagewithreact)
 
 
 ### Types of Activities in the React Development Course:
