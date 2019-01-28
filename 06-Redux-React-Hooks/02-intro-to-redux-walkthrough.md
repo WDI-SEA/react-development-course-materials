@@ -20,6 +20,7 @@ First, let's install the Chrome Extension, [Redux DevTools](https://chrome.googl
 - First thing - Have students install Redux DevTools. Help remind them of the importance of DevTools.
 
 - To run on local, open your terminal or command prompt and follow the commands below:
+
 1. `git clone { remote git folder url }`
 2. `npm install`
 3. `npm run dev`
@@ -44,5 +45,3 @@ We're going to implement Redux together using some starter code.
 ---
 
 ## Further Reading
-
-=
