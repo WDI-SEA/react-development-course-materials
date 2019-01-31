@@ -17,6 +17,7 @@ There are lots of sources all over the web for React and Redux. Here's a list of
   * CodeMentor [React Components Best Practices](https://www.codementor.io/faizanhaider/react-components-best-practices-9xcbq5uwe)
   * FrontendArmory [How to pass data to props.children](https://frontarm.com/articles/passing-data-props-children/)
   * Hackernoon [Principles of Component API (Prop) Design](https://hackernoon.com/principles-of-component-api-prop-design-bb20cd58da54)
+  * [2018 React Conf Video](https://youtu.be/dpw9EHDh2bM)
   * [React Github](https://reactjs.org/)
   * Software Engineering Daily [React and GraphQL at the NYTimes](https://softwareengineeringdaily.com/2018/10/22/react-and-graphql-at-the-nytimes/)
 

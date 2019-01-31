@@ -38,7 +38,7 @@ _Explanation_: Reducers are _pure functions_ that take the current state of an a
 
 -----------------------------------
 
-_Prompt_:
+_Prompt_: 
 
 1. True
 2. False
