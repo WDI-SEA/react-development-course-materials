@@ -16,11 +16,17 @@
 
 If you're keeping up with React, you've probably noticed that React Hooks are brand new and all the rage.
 
-Hooks has been introduced to address a primary complaint of React developers - separation of concern.
+Hooks has been introduced to address a primary complaint of React developers - separation of concern. Essentially, Hooks allow us to use state without writing a class component.
 
-Model - Data
+As we previously discussed, `React.js` has two types of components, class based components and functional components. Historically class components have done the heavy lifting. To keep track of state, we have to have a class component. We also need class components for lifecycle events, APIs, and more. By comparison function components are there to display the UI and state.
+
+React Hooks provides all functionality that class based components previously provided.
+
+If this is blowing your mind, not to fear! Even Dan Abramov of the Facebook team admitted that it's a difficult concept to grasp until you're in the code.
+
+<!-- Model - Data
 View - What the User Sees
-Controller - Responds to an event
+Controller - Responds to an event -->
 
 React, on it's own, does not have an answer for this. Redux, Flux, MobX all currently address these concerns.
 
@@ -84,3 +90,5 @@ Hooks tend to minify better than equal code using classes.
 ---
 
 Hooks are not yet meant to replace Redux, Flux, MobX or any state management alternative.
+
+At this time, Facebook has different on opinions as to whether React Developers should rewrite all of their code in Hooks. But, they are asking for feedback while it is in Alpha to better understand what additional needs Hooks can address and if they're simply missing anything. 
