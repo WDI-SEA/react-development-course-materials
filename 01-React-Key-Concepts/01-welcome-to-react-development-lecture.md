@@ -309,29 +309,6 @@ Now, let's talk about the course.
 
 </aside>
 
-
----
-
-## Computer Setup
-
-In this course, you'll need:
-
-- A Mac, PC, or Linux machine.
-- Access to the internet.
-- Slack.
-
-*WiFi: GA-GUEST*
-*pw: yellowpencil*
-
-<aside class="notes">
-
-**Teaching Tips**:
-
-- Make sure all students are set up on Slack and connected to the network.
-- Change the WiFi information if needed!
-
-</aside>
-
 ---
 
 ## Office Hours
@@ -440,24 +417,6 @@ Lecture decks and activity prompts can be downloaded as PDFs. However, you are e
 </aside>
 
 ---
-
-## When NOT to Use React
-
-Other programming languages exist; React isn't great for everything! Avoid using React with:
-
-- Devices with limited hardware capabilities.
-- Webpage widgets such as Botsplash Chat that are installed on third-party websites.
-
-<aside class="notes">
-
-**Talking Points**:
-
-- If you know of any specific examples, talk about them!
-
-</aside>
-
----
-
 
 ## Q&A and Summary
 
