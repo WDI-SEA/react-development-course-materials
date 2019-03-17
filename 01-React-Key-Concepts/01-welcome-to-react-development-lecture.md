@@ -22,22 +22,15 @@ In this lesson, students will:
 
 
 * Before Class: Preparation
-- Update the following slides with specific information about you, your class, your city, and your local support team.
 - Take some time to consider your expectations for learners, and be prepared to talk about them.
 - Choose an "ice breaker" to run that will allow learners to get to know one another in a fun, informal, low-stakes way. We have a list of activities [here](https://docs.google.com/presentation/d/1a91IqhzijI_3EqU-trJbZN4vDDSU0rXqgIrqGwsWM7I/edit) for you to choose from (as well as other good slides to copy). If you have some good ones, feel free to share your ideas with us!
 - Before class, review completion data to understand how far your learners have progressed through the myGA pre-work.
 -- If most of your learners have completed the pre-work, you should be able to breeze through this lesson very quickly.
 -- If most of your learners have not completed all of the pre-work, you might want to spend more time on this lesson and reduce your timings for the rest of the lessons in Unit 1.
 
-
-
-* In Class: Materials
-- Projector
-- Internet connection
 </aside>
 
 ---
-
 
 ## Agenda
 
@@ -45,9 +38,8 @@ In this lesson, students will:
 
 - Instructional team and classmate introductions.
 - About General Assembly.
-- Course structure.
+- Course and classroom structure.
 - The final project.
-- Key concepts from the myGA pre-work.
 
 
 <aside class="notes">
@@ -55,7 +47,6 @@ In this lesson, students will:
 **Talking Points**:
 
 - Welcome!
-- What questions do you have about the agenda for this lesson?
 
 </aside>
 
@@ -101,7 +92,6 @@ In this lesson, students will:
 
 </aside>
 
-
 ---
 
 ## Front Lines
@@ -141,24 +131,128 @@ Come here to talk to Front Lines and they will help you out.
 
 ---
 
-
 ## Classroom Culture
 
-Let’s all agree to:
+*Remote Classroom Culture and Norms*
 
-- Treat each other with respect.
-- Avoid bringing distractions into class.
-- {Add more…}
+_Think about the last time you were in a classroom environment_ - remember the classroom rules that were on the wall? Some rules that you were told to follow may have been, “Do not talk until called on.” “Raise your hand if you have a question.” “Respect everyone.”
+
+Instead of making rules for the classroom environment, *we have norms that we expect everyone to respect and adhere to*. We call them norms as we have identified these practices as most effective for ensuring that learning happens in our remote classrooms, and they emphasize the collaborative nature of our courses.
 
 <aside class="notes">
 
 **Talking Points**:
 
-- Add any rules you'd like to here.
+- Stereotypical classroom vs remote
+- Norms
 
 </aside>
 
 ---
+## Classroom Culture
+
+Four Key Norms for a Successful Remote Class
+
+_Environment_ - Consider where you learn best
+
+Think about how you learn best:
+*  Do you like noise or silence?
+*  Does movement distract you, or does it help you focus on the task at hand?
+
+Learning takes attention, and be sure that *your full attention is focused on your class when you are there.*
+
+_Video Practices_ - How you can most effectively participate in class.
+
+*  *Always keeping your video on and your microphone muted is a great way to feel present in a group* without disrupting the experience for your peers.
+*  If you would like to chime in or ask a question, you can (and should!) come off mic!
+*  If you need to step away from your computer for a few minutes, or you are eating a delicious bowl of salad, direct message your instructor and turn your video off. Don’t forget to come back!
+
+<aside class="notes">
+
+**Talking Points**:
+
+Environment: The great thing about learning remotely is that you can be where you are most comfortable … but that can also be the worst thing. Your family knocks at the door to get your attention, your doorbell rings, your dog wants to go for a walk… you get the idea.
+
+Video Practices: Remember - these videos are recorded and posted!
+
+</aside>
+
+---
+
+## Classroom Culture
+
+*Four Key Norms for a Successful Remote Class*
+
+_Professionalism_ - Maintain a professional demeanor
+
+_Think about the last time you were in a classroom environment - how did you interact with your peers?_
+
+Learning in your own space is very comfortable, and at times, it is easy to forget that you are on camera and in class!
+
+*The same classroom norms apply:* speak to each other respectfully, avoiding profanity. Be sure your attire is appropriate for a classroom setting, and the location you are in does not have any images or paraphernalia that others may find disrespectful.
+
+_Community_ - Participate! We learn through doing!
+
+*Participate!*
+
+Come off mic to ask questions, actively engage in the breakout rooms - we learn through doing!
+
+This is what sets our remote classroom apart from similar institutions  - *it is an interactive experience.*
+
+<aside class="notes">
+
+**Talking Points**:
+
+</aside>
+
+---
+
+## Classroom Culture
+
+Building Community through Breakout Rooms - Yeah, we're not that big of a class!
+
+- Typically we would be using breakout rooms. Since this is such a small class, we're going to all work together in one small group!
+- At GA, we use collaborative work to create a community of learners in our remote environment. Unlike group work, which has a “divide and conquer” mentality and less direct interaction, focusing solely on the end goal, collaborative work requires learners to work together directly, and focuses both on the process and the end goal.
+
+<aside class="notes">
+
+**Talking Points**:
+
+</aside>
+
+---
+
+## Classroom Culture
+
+- Plagiarism (passing someone else's off as your own) will only result in you getting job that you're unqualified for and will get fired from
+	- How do I know?
+		- What is it?
+			- copying another student's code
+			- copying another student's code and altering it to look like yours
+			- copying a solution to a homework question, lab, or project that you found online
+			- copying a solution to a homework question, lab, or project that you found online and altering it to look like yours
+		- What is it not?
+			- finding syntax online that will help you build the solution that you came up with
+			- asking another student to debug your code or help you work with your own solution.  Note, this is not "what did you get for question 1?"
+		- How to stay safe
+			- Come up with your own idea about how to solve the problem and find syntax online to help you create it
+			- Do not try to find the answer to how to solve the problem online or get it from another student
+			- If you use a chunk of code that is more than a few lines long, even if you alter it, cite it with a comment in your code.  Give either a link to the site or the student that gave it to you.  If what you're citing is the majority of your solution, it's probably plagiarized
+	- Your employers will quickly discover that you don't know what you say you know
+	- If you feel you can't complete the work, come to your instructors and we can figure out a way for you to turn in something meaningful.  There is always a solution
+	- You can usually receive a partial refund or continue in another course if withdrawing for family/external issues.  Not for plagiarism.  Come to us before doing anything extreme
+	- Even if you succeed in making us believe you are responsible for plagiarized work, ultimately, when you graduate, you will have only a meaningless certificate and none of the knowledge to back it up
+
+  **What it is not**
+  - researching algorithms or approaches to similar problems
+
+  <aside class="notes">
+
+  **Talking Points**:
+
+  </aside>
+
+  ---
 
 
 ## More Great People: You! Meet Your Classmates
@@ -166,38 +260,15 @@ Let’s all agree to:
 Please share:
 
 - Your name.
-- Why you’re taking this course.
-- Your favorite website or app.
-- Three things that were on your bedroom wall when you were a teenager.
+- Why you’re taking this course and what you want to get out of it. Anything specific you want to build or learn?
+- What's your development background?
+- What’s your favorite place you’ve ever visited?
 
 <aside class="notes">
 
 **Teaching Tips**:
 
-- Feel free to swap these out for your preferred ice breaker questions. The following is an ice breaker activity; you could do that instead of (or in addition to) these questions.
-
-</aside>
-
----
-
-## Ice Breaker
-
-Create Your Own Web Warrior
-
-![pre-work screen shot](./images/web-warrior.png)
-
-- You have five minutes to create your coder alter ego: https://www.marvelhq.com/create-your-own-super-hero.
-
-- When you are finished, share your avatar with a partner. Why did you make your particular choices? What is your superpower when it comes to web development? What is your Kryptonite?
-
-
-<aside class="notes">
-
-**Teaching Tip**:
-
-- Feel free to swap this out for your preferred ice breaker activity. You can use the ice breaker questions on the previous slide instead of (or in addition to) this activity.
-
-- Alternate ice breaker: Have students make their own meme (https://imgflip.com/memegenerator) that captures how they feel about taking this class. Then, have them share and present their memes.
+- The following is an ice breaker activity; you could do that instead of (or in addition to) these questions.
 
 </aside>
 
@@ -240,58 +311,6 @@ Create Your Own Web Warrior
 
 ---
 
-## Student Experience
-
-Come work on campus!
-
-We’re open:
-
-- {8am - 10pm, Monday to Friday}
-- {10am - 6pm, Saturday and Sunday}
-
-
-<aside class="notes">
-
-**Teaching Tips**:
-
-- If this is the 6-day, full-time format, delete this slide; students won't need to take advantage of this.
-
-</aside>
-
-
----
-
-## Map of the Campus
-
-{If possible; otherwise, remove this slide.}
-
-<aside class="notes">
-
-**Talking Points**:
-
-- Point out restrooms, Front Lines, the classroom, the kitchen, and where they could come work (if that slide is left in).
-
-</aside>
-
----
-
-## Snack Calendar
-
-There’s a lot of work ahead, and you’re going to need fuel.
-
-{Link to snack calendar.}
-
-<aside class="notes">
-
-**Teaching Tips**:
-
-- Remove this slide if there are no snacks available.
-
-</aside>
-
-
----
-
 ## Moving On to Course Specifics...
 
 OK, we know that GA is cool!
@@ -309,34 +328,14 @@ Now, let's talk about the course.
 
 </aside>
 
----
-
-## Office Hours
-
-Help us help you!
-
-{Mondays / Wednesdays}:
-{5:30pm - 6:30pm}
-
-
-<aside class="notes">
-
-**Teaching Tips**:
-
-- You won't have these in the 6-day delivery! (Delete this slide if so.)
-
-</aside>
 
 ---
-
-
 
 ## How to Get a Certificate of Completion
 
-1. Complete 80% of the homework.
-2. Don’t miss more than three classes.
-3. Complete the final project.
-
+1. Attend all classes on time.
+2. Meet expectations on all projects on time.
+3. Complete your final project.
 
 <aside class="notes">
 
@@ -350,14 +349,18 @@ Help us help you!
 
 ## Course Materials
 
-Lecture decks and activity prompts can be downloaded as PDFs. However, you are encouraged to take your own notes throughout the course.
+- Slack
+- Zoom
+- NPM/Node
+- Git/Github
+- Create React App
 
 <aside class="notes">
 
 **Teaching Tips**:
 
-- Modify the slide as needed to suit your preferences for material sharing.
-- If you're using Heroku, you can set up a landing page with links to materials you will share out.
+- Ask students if they have all tools installed or had any trouble accessing them.
+- Fist of 5 on how familiar students are with all the above.
 
 </aside>
 
@@ -365,54 +368,55 @@ Lecture decks and activity prompts can be downloaded as PDFs. However, you are e
 
 ## Homework
 
-  - Homework isn't graded but serves as good practice.
-  - We will review assignments in class the day they're due.
+- Homework isn't graded by a score, or even by pass or fail. It's based on completion.
+- An hour before class all homework should be submitted via Github
 
 ---
 
 ## Your Final Project
 
 - Each day, you’ll build skills in React and understand different ways in which you can use it to build applications.
-- At the end of {Day 4 or the ninth week}, you’ll choose a final project focus.
-- On {Day 5 or the 10th week}, you’ll build an application in React in class based on your project focus area.
-- At the end of {Day 5 or the 10th week}, you’ll demo your project for the class.
+
+This is an open-ended project. We can't provide any set solution, but we're always here to help.
+
+You'll be making your own website. This can be a website you imagine, but feel free to pick an existing website and try to mimic it. Some sites that use React that you can model yours after are:
+
+  - https://www.airbnb.com/
+  - https://citymapper.com/boston
+  - https://reddit.com
+  - https://www.instagram.com/
+  - https://www.nytimes.com/
+
+Once you have a website with basic functionality that you're satisfied with, look at the "Further Directions" section and choose at least one of the options to implement.
 
 <aside class="notes">
 
 
 **Teaching Tips**:
 
-- Explain details of the final project, {updating this slide to reflect your own expectations if needed}.
+- Explain details of the final project
 - Encourage students to be thinking throughout the course about what they want to build.
 </aside>
 
 ---
-## Some Key Features of React
 
-- Declarative views: They make your code more readable and easier to debug.
-- Virtual DOM: A virtual copy of the original DOM. Manipulating it (over the original DOM) speeds things up.
-- Event handling: No need to worry about incompatible event names and fields.
-- JSX: Markup syntax you'll use for generating strings of HTML that are almost identical to the HTML you'll insert into the webpage.
-- Component-based: In React, everything on the webpage is divided into small components to create a view (or UIs).
-<aside class="notes">
+## Before We Begin
 
-**Talking Points**:
+Let's discuss...
 
-- On this and all following slides, don't just read the text; add in your own experience and thoughts.
-
-</aside>
-
----
-
-## When to Use React
-
-- If your project involves many components with different, often-changing states (e.g., active/inactive navigation items, accordion sections expanded/collapsed, dynamic inputs, buttons active/disabled, user login and access permissions).
+- If you have to miss class
+- Zoom
+- Slack
+  - Attendance thread
+  - 1:1
+  - Emoji Responses
+- Course Materials
+- Project Submissions
 
 <aside class="notes">
 
-**Talking Points**:
 
-- If you know of any specific examples, talk about them!
+**Teaching Tips**:
 
 </aside>
 
@@ -421,8 +425,6 @@ Lecture decks and activity prompts can be downloaded as PDFs. However, you are e
 ## Q&A and Summary
 
 What other questions do you have?
-
-
 
 <aside class="notes">
 
