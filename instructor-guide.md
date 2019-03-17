@@ -58,7 +58,7 @@ General Assembly’s course materials are developed in close collaboration with 
 |---|---|---|---|---|
 | [Joe Keohan](https://generalassemb.ly/instructors/joe-keohan/7866) <br> ![joe](images/joe.jpg)  | [Courtney Hoskins](https://generalassemb.ly/instructors/courtney-hoskins/15044) <br> ![courtney](images/courtney.jpg)  | [Jamie King](https://generalassemb.ly/instructors/jamie-king/11753) <br> ![jamie](images/jamie.jpg)  | [Mike Dang](https://generalassemb.ly/instructors/mike-dang/5451) <br> ![mike](images/mike.JPG) | [Sonyl Nagale](https://www.linkedin.com/in/sonyl-nagale-210a634b/) <br> ![sonyl](images/sonyl.jpeg) |
 | [Susi Remondi](https://www.linkedin.com/in/susi-remondi-254415b/) <br> ![susi](images/susi.jpeg)  |[Zoe Lubitz](https://www.linkedin.com/in/zoelubitz/) <br>![zoe](images/zoe.jpeg)    |  [Emily Logan](https://generalassemb.ly/instructors/emily-logan/10453) <br> ![emily](images/emily.jpg) | [Eric Newman](https://www.linkedin.com/in/eric-newman-5895a146/) <br> ![eric](images/eric.png) | [Jon Zachary](https://generalassemb.ly/instructors/jon-zachary/13535) <br> ![jon](images/jon.png)|
-| [Claire Oliver](https://www.linkedin.com/in/claireoliver/) <br> ![claire](images/claire.jpeg) | [Jeff Boykin](https://www.linkedin.com/in/jeffboykin/) <br> ![jeff](images/jeff.jpeg) | [Tom Trasmontero](https://www.linkedin.com/in/thomas-trasmontero/) <br> ![tom](images/tom.jpeg)  
+| [Claire Oliver](https://www.linkedin.com/in/claireoliver/) <br> ![claire](images/claire.jpeg) | [Jeff Boykin](https://www.linkedin.com/in/jeffboykin/) <br> ![jeff](images/jeff.jpeg) | [Tom Trasmontero](https://www.linkedin.com/in/thomas-trasmontero/) <br> ![tom](images/tom.jpeg)  | [Holly Girouard](https://generalassemb.ly/instructors/holly-elizabeth-girouard/19024)<br> [holly](images/holly.jpg)
 
 
 ## Course Details
@@ -80,6 +80,7 @@ The high-level learning objectives for this course are:
 - Build multipage web applications using the popular React Router package.
 - Create a custom, functioning web application.
 - Embed an application programming interface (API) in a React application.
+- Implement Redux
 - Host a React application on Heroku to share with the world.
 
 Students cannot graduate unless they demonstrate mastery of the above learning objectives before the end of the course. Mastery is measured through assessment: homeworks, in-class activities, and final projects.
@@ -87,8 +88,8 @@ Students cannot graduate unless they demonstrate mastery of the above learning o
 [The official course syllabus](https://git.generalassemb.ly/react-development/react-development-course-materials/blob/master/Additional-Resources/ReactDevelopmentSyllabi_180907.pdf) outlines what must be covered in the course.
 
 Optional topics you may consider adding on to extend learning (provided your students are ready) include:
+- [React Hooks]()
 - [React Native](https://facebook.github.io/react-native/)
-- [Redux](https://redux.js.org/basics/usagewithreact)
 
 
 ### Types of Activities in the React Development Course:
